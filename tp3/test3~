@@ -1,0 +1,1 @@
+begin bool bool1; begin int en1, int ent2, bool2;bool2 <- ent1 < ent2 end end

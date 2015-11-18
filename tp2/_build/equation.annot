@@ -1,0 +1,9037 @@
+"equation.ml" 8 104 154 "equation.ml" 8 104 161
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "equation.ml" 8 104 171 "equation.ml" 8 104 175
+)
+"equation.ml" 8 104 164 "equation.ml" 8 104 171
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"equation.ml" 8 104 120 "equation.ml" 8 104 176
+call(
+  stack
+)
+"equation.ml" 10 178 228 "equation.ml" 10 178 235
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "equation.ml" 10 178 245 "equation.ml" 10 178 249
+)
+"equation.ml" 10 178 238 "equation.ml" 10 178 245
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"equation.ml" 10 178 194 "equation.ml" 10 178 250
+call(
+  stack
+)
+"equation.ml" 32 613 621 "equation.ml" 32 613 631
+type(
+  (var -> bool) -> (var -> Grammar.VTSet.t) -> bexpr -> bool
+)
+ident(
+  def eval_bexpr "equation.ml" 32 613 613 "equation.ml" 1 0 -1
+)
+"equation.ml" 32 613 632 "equation.ml" 32 613 634
+type(
+  var -> bool
+)
+ident(
+  def vb "equation.ml" 32 613 635 "equation.ml" 42 1043 1057
+)
+"equation.ml" 32 613 635 "equation.ml" 32 613 637
+type(
+  var -> Grammar.VTSet.t
+)
+ident(
+  def vs "equation.ml" 32 613 638 "equation.ml" 42 1043 1057
+)
+"equation.ml" 32 613 638 "equation.ml" 32 613 639
+type(
+  bexpr
+)
+ident(
+  def e "equation.ml" 33 643 644 "equation.ml" 42 1043 1057
+)
+"equation.ml" 33 643 652 "equation.ml" 33 643 663
+type(
+  bexpr -> bool
+)
+ident(
+  def xeval_bexpr "equation.ml" 33 643 644 "equation.ml" 42 1043 1057
+)
+"equation.ml" 34 675 684 "equation.ml" 34 675 685
+type(
+  var
+)
+ident(
+  def v "equation.ml" 34 675 689 "equation.ml" 34 675 693
+)
+"equation.ml" 34 675 679 "equation.ml" 34 675 685
+type(
+  bexpr
+)
+"equation.ml" 34 675 689 "equation.ml" 34 675 691
+type(
+  var -> bool
+)
+ident(
+  int_ref vb "equation.ml" 32 613 632 "equation.ml" 32 613 634
+)
+"equation.ml" 34 675 692 "equation.ml" 34 675 693
+type(
+  var
+)
+ident(
+  int_ref v "equation.ml" 34 675 684 "equation.ml" 34 675 685
+)
+"equation.ml" 34 675 689 "equation.ml" 34 675 693
+call(
+  tail
+)
+type(
+  bool
+)
+"equation.ml" 35 694 703 "equation.ml" 35 694 704
+type(
+  bool
+)
+ident(
+  def b "equation.ml" 35 694 708 "equation.ml" 35 694 709
+)
+"equation.ml" 35 694 698 "equation.ml" 35 694 704
+type(
+  bexpr
+)
+"equation.ml" 35 694 708 "equation.ml" 35 694 709
+type(
+  bool
+)
+ident(
+  int_ref b "equation.ml" 35 694 703 "equation.ml" 35 694 704
+)
+"equation.ml" 36 710 718 "equation.ml" 36 710 720
+type(
+  bexpr
+)
+ident(
+  def e1 "equation.ml" 36 710 728 "equation.ml" 36 710 764
+)
+"equation.ml" 36 710 721 "equation.ml" 36 710 723
+type(
+  bexpr
+)
+ident(
+  def e2 "equation.ml" 36 710 728 "equation.ml" 36 710 764
+)
+"equation.ml" 36 710 714 "equation.ml" 36 710 724
+type(
+  bexpr
+)
+"equation.ml" 36 710 729 "equation.ml" 36 710 740
+type(
+  bexpr -> bool
+)
+ident(
+  int_ref xeval_bexpr "equation.ml" 33 643 652 "equation.ml" 33 643 663
+)
+"equation.ml" 36 710 741 "equation.ml" 36 710 743
+type(
+  bexpr
+)
+ident(
+  int_ref e1 "equation.ml" 36 710 718 "equation.ml" 36 710 720
+)
+"equation.ml" 36 710 728 "equation.ml" 36 710 744
+call(
+  stack
+)
+type(
+  bool
+)
+"equation.ml" 36 710 745 "equation.ml" 36 710 747
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"equation.ml" 36 710 749 "equation.ml" 36 710 760
+type(
+  bexpr -> bool
+)
+ident(
+  int_ref xeval_bexpr "equation.ml" 33 643 652 "equation.ml" 33 643 663
+)
+"equation.ml" 36 710 761 "equation.ml" 36 710 763
+type(
+  bexpr
+)
+ident(
+  int_ref e2 "equation.ml" 36 710 721 "equation.ml" 36 710 723
+)
+"equation.ml" 36 710 748 "equation.ml" 36 710 764
+call(
+  tail
+)
+type(
+  bool
+)
+"equation.ml" 36 710 728 "equation.ml" 36 710 764
+type(
+  bool
+)
+"equation.ml" 37 765 772 "equation.ml" 37 765 774
+type(
+  bexpr
+)
+ident(
+  def e1 "equation.ml" 37 765 783 "equation.ml" 37 765 819
+)
+"equation.ml" 37 765 775 "equation.ml" 37 765 777
+type(
+  bexpr
+)
+ident(
+  def e2 "equation.ml" 37 765 783 "equation.ml" 37 765 819
+)
+"equation.ml" 37 765 769 "equation.ml" 37 765 778
+type(
+  bexpr
+)
+"equation.ml" 37 765 784 "equation.ml" 37 765 795
+type(
+  bexpr -> bool
+)
+ident(
+  int_ref xeval_bexpr "equation.ml" 33 643 652 "equation.ml" 33 643 663
+)
+"equation.ml" 37 765 796 "equation.ml" 37 765 798
+type(
+  bexpr
+)
+ident(
+  int_ref e1 "equation.ml" 37 765 772 "equation.ml" 37 765 774
+)
+"equation.ml" 37 765 783 "equation.ml" 37 765 799
+call(
+  stack
+)
+type(
+  bool
+)
+"equation.ml" 37 765 800 "equation.ml" 37 765 802
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"equation.ml" 37 765 804 "equation.ml" 37 765 815
+type(
+  bexpr -> bool
+)
+ident(
+  int_ref xeval_bexpr "equation.ml" 33 643 652 "equation.ml" 33 643 663
+)
+"equation.ml" 37 765 816 "equation.ml" 37 765 818
+type(
+  bexpr
+)
+ident(
+  int_ref e2 "equation.ml" 37 765 775 "equation.ml" 37 765 777
+)
+"equation.ml" 37 765 803 "equation.ml" 37 765 819
+call(
+  tail
+)
+type(
+  bool
+)
+"equation.ml" 37 765 783 "equation.ml" 37 765 819
+type(
+  bool
+)
+"equation.ml" 38 820 832 "equation.ml" 38 820 834
+type(
+  bexpr
+)
+ident(
+  def e1 "equation.ml" 38 820 842 "equation.ml" 38 820 884
+)
+"equation.ml" 38 820 835 "equation.ml" 38 820 837
+type(
+  bexpr
+)
+ident(
+  def e2 "equation.ml" 38 820 842 "equation.ml" 38 820 884
+)
+"equation.ml" 38 820 824 "equation.ml" 38 820 838
+type(
+  bexpr
+)
+"equation.ml" 38 820 843 "equation.ml" 38 820 846
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"equation.ml" 38 820 848 "equation.ml" 38 820 859
+type(
+  bexpr -> bool
+)
+ident(
+  int_ref xeval_bexpr "equation.ml" 33 643 652 "equation.ml" 33 643 663
+)
+"equation.ml" 38 820 860 "equation.ml" 38 820 862
+type(
+  bexpr
+)
+ident(
+  int_ref e1 "equation.ml" 38 820 832 "equation.ml" 38 820 834
+)
+"equation.ml" 38 820 847 "equation.ml" 38 820 863
+call(
+  stack
+)
+type(
+  bool
+)
+"equation.ml" 38 820 842 "equation.ml" 38 820 864
+type(
+  bool
+)
+"equation.ml" 38 820 865 "equation.ml" 38 820 867
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"equation.ml" 38 820 869 "equation.ml" 38 820 880
+type(
+  bexpr -> bool
+)
+ident(
+  int_ref xeval_bexpr "equation.ml" 33 643 652 "equation.ml" 33 643 663
+)
+"equation.ml" 38 820 881 "equation.ml" 38 820 883
+type(
+  bexpr
+)
+ident(
+  int_ref e2 "equation.ml" 38 820 835 "equation.ml" 38 820 837
+)
+"equation.ml" 38 820 868 "equation.ml" 38 820 884
+call(
+  tail
+)
+type(
+  bool
+)
+"equation.ml" 38 820 842 "equation.ml" 38 820 884
+type(
+  bool
+)
+"equation.ml" 39 885 897 "equation.ml" 39 885 898
+type(
+  sexpr
+)
+ident(
+  def e "equation.ml" 39 885 902 "equation.ml" 39 885 937
+)
+"equation.ml" 39 885 889 "equation.ml" 39 885 898
+type(
+  bexpr
+)
+"equation.ml" 39 885 902 "equation.ml" 39 885 916
+type(
+  Grammar.VTSet.t -> bool
+)
+ident(
+  ext_ref Grammar.VTSet.is_empty
+)
+"equation.ml" 39 885 918 "equation.ml" 39 885 928
+type(
+  (var -> bool) -> (var -> Grammar.VTSet.t) -> sexpr -> Grammar.VTSet.t
+)
+ident(
+  int_ref eval_sexpr "equation.ml" 44 1060 1065 "equation.ml" 44 1060 1075
+)
+"equation.ml" 39 885 929 "equation.ml" 39 885 931
+type(
+  var -> bool
+)
+ident(
+  int_ref vb "equation.ml" 32 613 632 "equation.ml" 32 613 634
+)
+"equation.ml" 39 885 932 "equation.ml" 39 885 934
+type(
+  var -> Grammar.VTSet.t
+)
+ident(
+  int_ref vs "equation.ml" 32 613 635 "equation.ml" 32 613 637
+)
+"equation.ml" 39 885 935 "equation.ml" 39 885 936
+type(
+  sexpr
+)
+ident(
+  int_ref e "equation.ml" 39 885 897 "equation.ml" 39 885 898
+)
+"equation.ml" 39 885 917 "equation.ml" 39 885 937
+call(
+  stack
+)
+type(
+  Grammar.VTSet.t
+)
+"equation.ml" 39 885 902 "equation.ml" 39 885 937
+call(
+  tail
+)
+type(
+  bool
+)
+"equation.ml" 40 938 953 "equation.ml" 40 938 954
+type(
+  bexpr list
+)
+ident(
+  def l "equation.ml" 41 958 961 "equation.ml" 41 958 1039
+)
+"equation.ml" 40 938 942 "equation.ml" 40 938 954
+type(
+  bexpr
+)
+"equation.ml" 41 958 962 "equation.ml" 41 958 976
+type(
+  (int -> bexpr -> int) -> int -> bexpr list -> int
+)
+ident(
+  ext_ref List.fold_left
+)
+"equation.ml" 41 958 982 "equation.ml" 41 958 985
+type(
+  int
+)
+ident(
+  def acc "equation.ml" 41 958 986 "equation.ml" 41 958 1029
+)
+"equation.ml" 41 958 986 "equation.ml" 41 958 987
+type(
+  bexpr
+)
+ident(
+  def e "equation.ml" 41 958 991 "equation.ml" 41 958 1029
+)
+"equation.ml" 41 958 994 "equation.ml" 41 958 1005
+type(
+  bexpr -> bool
+)
+ident(
+  int_ref xeval_bexpr "equation.ml" 33 643 652 "equation.ml" 33 643 663
+)
+"equation.ml" 41 958 1006 "equation.ml" 41 958 1007
+type(
+  bexpr
+)
+ident(
+  int_ref e "equation.ml" 41 958 986 "equation.ml" 41 958 987
+)
+"equation.ml" 41 958 994 "equation.ml" 41 958 1007
+call(
+  stack
+)
+type(
+  bool
+)
+"equation.ml" 41 958 1013 "equation.ml" 41 958 1016
+type(
+  int
+)
+ident(
+  int_ref acc "equation.ml" 41 958 982 "equation.ml" 41 958 985
+)
+"equation.ml" 41 958 1017 "equation.ml" 41 958 1018
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"equation.ml" 41 958 1019 "equation.ml" 41 958 1020
+type(
+  int
+)
+"equation.ml" 41 958 1013 "equation.ml" 41 958 1020
+type(
+  int
+)
+"equation.ml" 41 958 1026 "equation.ml" 41 958 1029
+type(
+  int
+)
+ident(
+  int_ref acc "equation.ml" 41 958 982 "equation.ml" 41 958 985
+)
+"equation.ml" 41 958 991 "equation.ml" 41 958 1029
+type(
+  int
+)
+"equation.ml" 41 958 977 "equation.ml" 41 958 1030
+type(
+  int -> bexpr -> int
+)
+"equation.ml" 41 958 1031 "equation.ml" 41 958 1032
+type(
+  int
+)
+"equation.ml" 41 958 1033 "equation.ml" 41 958 1034
+type(
+  bexpr list
+)
+ident(
+  int_ref l "equation.ml" 40 938 953 "equation.ml" 40 938 954
+)
+"equation.ml" 41 958 962 "equation.ml" 41 958 1034
+call(
+  stack
+)
+type(
+  int
+)
+"equation.ml" 41 958 1035 "equation.ml" 41 958 1036
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"equation.ml" 41 958 1037 "equation.ml" 41 958 1038
+type(
+  int
+)
+"equation.ml" 41 958 961 "equation.ml" 41 958 1039
+type(
+  bool
+)
+"equation.ml" 33 643 666 "equation.ml" 41 958 1039
+type(
+  bexpr -> bool
+)
+"equation.ml" 42 1043 1044 "equation.ml" 42 1043 1055
+type(
+  bexpr -> bool
+)
+ident(
+  int_ref xeval_bexpr "equation.ml" 33 643 652 "equation.ml" 33 643 663
+)
+"equation.ml" 42 1043 1056 "equation.ml" 42 1043 1057
+type(
+  bexpr
+)
+ident(
+  int_ref e "equation.ml" 32 613 638 "equation.ml" 32 613 639
+)
+"equation.ml" 42 1043 1044 "equation.ml" 42 1043 1057
+call(
+  tail
+)
+type(
+  bool
+)
+"equation.ml" 33 643 644 "equation.ml" 42 1043 1057
+type(
+  bool
+)
+"equation.ml" 44 1060 1065 "equation.ml" 44 1060 1075
+type(
+  (var -> bool) -> (var -> Grammar.VTSet.t) -> sexpr -> Grammar.VTSet.t
+)
+ident(
+  def eval_sexpr "equation.ml" 32 613 613 "equation.ml" 1 0 -1
+)
+"equation.ml" 44 1060 1076 "equation.ml" 44 1060 1078
+type(
+  var -> bool
+)
+ident(
+  def vb "equation.ml" 44 1060 1079 "equation.ml" 51 1408 1422
+)
+"equation.ml" 44 1060 1079 "equation.ml" 44 1060 1081
+type(
+  var -> Grammar.VTSet.t
+)
+ident(
+  def vs "equation.ml" 44 1060 1082 "equation.ml" 51 1408 1422
+)
+"equation.ml" 44 1060 1082 "equation.ml" 44 1060 1083
+type(
+  sexpr
+)
+ident(
+  def e "equation.ml" 45 1086 1087 "equation.ml" 51 1408 1422
+)
+"equation.ml" 45 1086 1095 "equation.ml" 45 1086 1106
+type(
+  sexpr -> Grammar.VTSet.t
+)
+ident(
+  def xeval_sexpr "equation.ml" 45 1086 1087 "equation.ml" 51 1408 1422
+)
+"equation.ml" 46 1118 1128 "equation.ml" 46 1118 1129
+type(
+  var
+)
+ident(
+  def v "equation.ml" 46 1118 1139 "equation.ml" 46 1118 1143
+)
+"equation.ml" 46 1118 1122 "equation.ml" 46 1118 1129
+type(
+  sexpr
+)
+"equation.ml" 46 1118 1139 "equation.ml" 46 1118 1141
+type(
+  var -> Grammar.VTSet.t
+)
+ident(
+  int_ref vs "equation.ml" 44 1060 1079 "equation.ml" 44 1060 1081
+)
+"equation.ml" 46 1118 1142 "equation.ml" 46 1118 1143
+type(
+  var
+)
+ident(
+  int_ref v "equation.ml" 46 1118 1128 "equation.ml" 46 1118 1129
+)
+"equation.ml" 46 1118 1139 "equation.ml" 46 1118 1143
+call(
+  tail
+)
+type(
+  Grammar.VTSet.t
+)
+"equation.ml" 47 1144 1152 "equation.ml" 47 1144 1153
+type(
+  Grammar.VTSet.t
+)
+ident(
+  def s "equation.ml" 47 1144 1165 "equation.ml" 47 1144 1166
+)
+"equation.ml" 47 1144 1148 "equation.ml" 47 1144 1153
+type(
+  sexpr
+)
+"equation.ml" 47 1144 1165 "equation.ml" 47 1144 1166
+type(
+  Grammar.VTSet.t
+)
+ident(
+  int_ref s "equation.ml" 47 1144 1152 "equation.ml" 47 1144 1153
+)
+"equation.ml" 48 1167 1177 "equation.ml" 48 1167 1179
+type(
+  sexpr
+)
+ident(
+  def e1 "equation.ml" 48 1167 1187 "equation.ml" 48 1167 1242
+)
+"equation.ml" 48 1167 1180 "equation.ml" 48 1167 1182
+type(
+  sexpr
+)
+ident(
+  def e2 "equation.ml" 48 1167 1187 "equation.ml" 48 1167 1242
+)
+"equation.ml" 48 1167 1171 "equation.ml" 48 1167 1183
+type(
+  sexpr
+)
+"equation.ml" 48 1167 1187 "equation.ml" 48 1167 1198
+type(
+  Grammar.VTSet.t -> Grammar.VTSet.t -> Grammar.VTSet.t
+)
+ident(
+  ext_ref Grammar.VTSet.union
+)
+"equation.ml" 48 1167 1200 "equation.ml" 48 1167 1210
+type(
+  (var -> bool) -> (var -> Grammar.VTSet.t) -> sexpr -> Grammar.VTSet.t
+)
+ident(
+  int_ref eval_sexpr "equation.ml" 44 1060 1065 "equation.ml" 44 1060 1075
+)
+"equation.ml" 48 1167 1211 "equation.ml" 48 1167 1213
+type(
+  var -> bool
+)
+ident(
+  int_ref vb "equation.ml" 44 1060 1076 "equation.ml" 44 1060 1078
+)
+"equation.ml" 48 1167 1214 "equation.ml" 48 1167 1216
+type(
+  var -> Grammar.VTSet.t
+)
+ident(
+  int_ref vs "equation.ml" 44 1060 1079 "equation.ml" 44 1060 1081
+)
+"equation.ml" 48 1167 1217 "equation.ml" 48 1167 1219
+type(
+  sexpr
+)
+ident(
+  int_ref e1 "equation.ml" 48 1167 1177 "equation.ml" 48 1167 1179
+)
+"equation.ml" 48 1167 1199 "equation.ml" 48 1167 1220
+call(
+  stack
+)
+type(
+  Grammar.VTSet.t
+)
+"equation.ml" 48 1167 1222 "equation.ml" 48 1167 1232
+type(
+  (var -> bool) -> (var -> Grammar.VTSet.t) -> sexpr -> Grammar.VTSet.t
+)
+ident(
+  int_ref eval_sexpr "equation.ml" 44 1060 1065 "equation.ml" 44 1060 1075
+)
+"equation.ml" 48 1167 1233 "equation.ml" 48 1167 1235
+type(
+  var -> bool
+)
+ident(
+  int_ref vb "equation.ml" 44 1060 1076 "equation.ml" 44 1060 1078
+)
+"equation.ml" 48 1167 1236 "equation.ml" 48 1167 1238
+type(
+  var -> Grammar.VTSet.t
+)
+ident(
+  int_ref vs "equation.ml" 44 1060 1079 "equation.ml" 44 1060 1081
+)
+"equation.ml" 48 1167 1239 "equation.ml" 48 1167 1241
+type(
+  sexpr
+)
+ident(
+  int_ref e2 "equation.ml" 48 1167 1180 "equation.ml" 48 1167 1182
+)
+"equation.ml" 48 1167 1221 "equation.ml" 48 1167 1242
+call(
+  stack
+)
+type(
+  Grammar.VTSet.t
+)
+"equation.ml" 48 1167 1187 "equation.ml" 48 1167 1242
+call(
+  tail
+)
+type(
+  Grammar.VTSet.t
+)
+"equation.ml" 49 1243 1253 "equation.ml" 49 1243 1255
+type(
+  sexpr
+)
+ident(
+  def e1 "equation.ml" 49 1243 1263 "equation.ml" 49 1243 1318
+)
+"equation.ml" 49 1243 1256 "equation.ml" 49 1243 1258
+type(
+  sexpr
+)
+ident(
+  def e2 "equation.ml" 49 1243 1263 "equation.ml" 49 1243 1318
+)
+"equation.ml" 49 1243 1247 "equation.ml" 49 1243 1259
+type(
+  sexpr
+)
+"equation.ml" 49 1243 1263 "equation.ml" 49 1243 1274
+type(
+  Grammar.VTSet.t -> Grammar.VTSet.t -> Grammar.VTSet.t
+)
+ident(
+  ext_ref Grammar.VTSet.inter
+)
+"equation.ml" 49 1243 1276 "equation.ml" 49 1243 1286
+type(
+  (var -> bool) -> (var -> Grammar.VTSet.t) -> sexpr -> Grammar.VTSet.t
+)
+ident(
+  int_ref eval_sexpr "equation.ml" 44 1060 1065 "equation.ml" 44 1060 1075
+)
+"equation.ml" 49 1243 1287 "equation.ml" 49 1243 1289
+type(
+  var -> bool
+)
+ident(
+  int_ref vb "equation.ml" 44 1060 1076 "equation.ml" 44 1060 1078
+)
+"equation.ml" 49 1243 1290 "equation.ml" 49 1243 1292
+type(
+  var -> Grammar.VTSet.t
+)
+ident(
+  int_ref vs "equation.ml" 44 1060 1079 "equation.ml" 44 1060 1081
+)
+"equation.ml" 49 1243 1293 "equation.ml" 49 1243 1295
+type(
+  sexpr
+)
+ident(
+  int_ref e1 "equation.ml" 49 1243 1253 "equation.ml" 49 1243 1255
+)
+"equation.ml" 49 1243 1275 "equation.ml" 49 1243 1296
+call(
+  stack
+)
+type(
+  Grammar.VTSet.t
+)
+"equation.ml" 49 1243 1298 "equation.ml" 49 1243 1308
+type(
+  (var -> bool) -> (var -> Grammar.VTSet.t) -> sexpr -> Grammar.VTSet.t
+)
+ident(
+  int_ref eval_sexpr "equation.ml" 44 1060 1065 "equation.ml" 44 1060 1075
+)
+"equation.ml" 49 1243 1309 "equation.ml" 49 1243 1311
+type(
+  var -> bool
+)
+ident(
+  int_ref vb "equation.ml" 44 1060 1076 "equation.ml" 44 1060 1078
+)
+"equation.ml" 49 1243 1312 "equation.ml" 49 1243 1314
+type(
+  var -> Grammar.VTSet.t
+)
+ident(
+  int_ref vs "equation.ml" 44 1060 1079 "equation.ml" 44 1060 1081
+)
+"equation.ml" 49 1243 1315 "equation.ml" 49 1243 1317
+type(
+  sexpr
+)
+ident(
+  int_ref e2 "equation.ml" 49 1243 1256 "equation.ml" 49 1243 1258
+)
+"equation.ml" 49 1243 1297 "equation.ml" 49 1243 1318
+call(
+  stack
+)
+type(
+  Grammar.VTSet.t
+)
+"equation.ml" 49 1243 1263 "equation.ml" 49 1243 1318
+call(
+  tail
+)
+type(
+  Grammar.VTSet.t
+)
+"equation.ml" 50 1319 1328 "equation.ml" 50 1319 1330
+type(
+  bexpr
+)
+ident(
+  def eb "equation.ml" 50 1319 1339 "equation.ml" 50 1319 1403
+)
+"equation.ml" 50 1319 1331 "equation.ml" 50 1319 1333
+type(
+  sexpr
+)
+ident(
+  def es "equation.ml" 50 1319 1339 "equation.ml" 50 1319 1403
+)
+"equation.ml" 50 1319 1323 "equation.ml" 50 1319 1334
+type(
+  sexpr
+)
+"equation.ml" 50 1319 1342 "equation.ml" 50 1319 1352
+type(
+  (var -> bool) -> (var -> Grammar.VTSet.t) -> bexpr -> bool
+)
+ident(
+  int_ref eval_bexpr "equation.ml" 32 613 621 "equation.ml" 32 613 631
+)
+"equation.ml" 50 1319 1353 "equation.ml" 50 1319 1355
+type(
+  var -> bool
+)
+ident(
+  int_ref vb "equation.ml" 44 1060 1076 "equation.ml" 44 1060 1078
+)
+"equation.ml" 50 1319 1356 "equation.ml" 50 1319 1358
+type(
+  var -> Grammar.VTSet.t
+)
+ident(
+  int_ref vs "equation.ml" 44 1060 1079 "equation.ml" 44 1060 1081
+)
+"equation.ml" 50 1319 1359 "equation.ml" 50 1319 1361
+type(
+  bexpr
+)
+ident(
+  int_ref eb "equation.ml" 50 1319 1328 "equation.ml" 50 1319 1330
+)
+"equation.ml" 50 1319 1342 "equation.ml" 50 1319 1361
+call(
+  stack
+)
+type(
+  bool
+)
+"equation.ml" 50 1319 1367 "equation.ml" 50 1319 1377
+type(
+  (var -> bool) -> (var -> Grammar.VTSet.t) -> sexpr -> Grammar.VTSet.t
+)
+ident(
+  int_ref eval_sexpr "equation.ml" 44 1060 1065 "equation.ml" 44 1060 1075
+)
+"equation.ml" 50 1319 1378 "equation.ml" 50 1319 1380
+type(
+  var -> bool
+)
+ident(
+  int_ref vb "equation.ml" 44 1060 1076 "equation.ml" 44 1060 1078
+)
+"equation.ml" 50 1319 1381 "equation.ml" 50 1319 1383
+type(
+  var -> Grammar.VTSet.t
+)
+ident(
+  int_ref vs "equation.ml" 44 1060 1079 "equation.ml" 44 1060 1081
+)
+"equation.ml" 50 1319 1384 "equation.ml" 50 1319 1386
+type(
+  sexpr
+)
+ident(
+  int_ref es "equation.ml" 50 1319 1331 "equation.ml" 50 1319 1333
+)
+"equation.ml" 50 1319 1367 "equation.ml" 50 1319 1386
+call(
+  tail
+)
+type(
+  Grammar.VTSet.t
+)
+"equation.ml" 50 1319 1392 "equation.ml" 50 1319 1403
+type(
+  Grammar.VTSet.t
+)
+ident(
+  ext_ref Grammar.VTSet.empty
+)
+"equation.ml" 50 1319 1339 "equation.ml" 50 1319 1403
+type(
+  Grammar.VTSet.t
+)
+"equation.ml" 45 1086 1109 "equation.ml" 50 1319 1403
+type(
+  sexpr -> Grammar.VTSet.t
+)
+"equation.ml" 51 1408 1409 "equation.ml" 51 1408 1420
+type(
+  sexpr -> Grammar.VTSet.t
+)
+ident(
+  int_ref xeval_sexpr "equation.ml" 45 1086 1095 "equation.ml" 45 1086 1106
+)
+"equation.ml" 51 1408 1421 "equation.ml" 51 1408 1422
+type(
+  sexpr
+)
+ident(
+  int_ref e "equation.ml" 44 1060 1082 "equation.ml" 44 1060 1083
+)
+"equation.ml" 51 1408 1409 "equation.ml" 51 1408 1422
+call(
+  tail
+)
+type(
+  Grammar.VTSet.t
+)
+"equation.ml" 45 1086 1087 "equation.ml" 51 1408 1422
+type(
+  Grammar.VTSet.t
+)
+"equation.ml" 53 1424 1428 "equation.ml" 53 1424 1433
+type(
+  bexpr -> bexpr -> bexpr
+)
+ident(
+  def mkand "equation.ml" 59 1573 1573 "equation.ml" 1 0 -1
+)
+"equation.ml" 53 1424 1434 "equation.ml" 53 1424 1435
+type(
+  bexpr
+)
+ident(
+  def e "equation.ml" 53 1424 1436 "equation.ml" 57 1549 1571
+)
+"equation.ml" 53 1424 1436 "equation.ml" 53 1424 1438
+type(
+  bexpr
+)
+ident(
+  def e' "equation.ml" 54 1441 1442 "equation.ml" 57 1549 1571
+)
+"equation.ml" 54 1441 1448 "equation.ml" 54 1441 1449
+type(
+  bexpr
+)
+ident(
+  int_ref e "equation.ml" 53 1424 1434 "equation.ml" 53 1424 1435
+)
+"equation.ml" 54 1441 1451 "equation.ml" 54 1441 1453
+type(
+  bexpr
+)
+ident(
+  int_ref e' "equation.ml" 53 1424 1436 "equation.ml" 53 1424 1438
+)
+"equation.ml" 54 1441 1448 "equation.ml" 54 1441 1453
+type(
+  bexpr * bexpr
+)
+"equation.ml" 55 1459 1467 "equation.ml" 55 1459 1472
+type(
+  bool
+)
+"equation.ml" 55 1459 1462 "equation.ml" 55 1459 1472
+type(
+  bexpr
+)
+"equation.ml" 55 1459 1475 "equation.ml" 55 1459 1476
+type(
+  bexpr
+)
+"equation.ml" 55 1459 1462 "equation.ml" 55 1459 1476
+type(
+  bexpr * bexpr
+)
+"equation.ml" 55 1459 1479 "equation.ml" 55 1459 1480
+type(
+  bexpr
+)
+"equation.ml" 55 1459 1488 "equation.ml" 55 1459 1493
+type(
+  bool
+)
+"equation.ml" 55 1459 1483 "equation.ml" 55 1459 1493
+type(
+  bexpr
+)
+"equation.ml" 55 1459 1479 "equation.ml" 55 1459 1493
+type(
+  bexpr * bexpr
+)
+"equation.ml" 55 1459 1462 "equation.ml" 55 1459 1493
+type(
+  bexpr * bexpr
+)
+"equation.ml" 55 1459 1502 "equation.ml" 55 1459 1507
+type(
+  bool
+)
+"equation.ml" 55 1459 1497 "equation.ml" 55 1459 1507
+type(
+  bexpr
+)
+"equation.ml" 56 1508 1516 "equation.ml" 56 1508 1520
+type(
+  bool
+)
+"equation.ml" 56 1508 1511 "equation.ml" 56 1508 1520
+type(
+  bexpr
+)
+"equation.ml" 56 1508 1524 "equation.ml" 56 1508 1525
+type(
+  bexpr
+)
+ident(
+  def x "equation.ml" 56 1508 1547 "equation.ml" 56 1508 1548
+)
+"equation.ml" 56 1508 1511 "equation.ml" 56 1508 1525
+type(
+  bexpr * bexpr
+)
+"equation.ml" 56 1508 1528 "equation.ml" 56 1508 1529
+type(
+  bexpr
+)
+ident(
+  def x "equation.ml" 56 1508 1547 "equation.ml" 56 1508 1548
+)
+"equation.ml" 56 1508 1537 "equation.ml" 56 1508 1541
+type(
+  bool
+)
+"equation.ml" 56 1508 1532 "equation.ml" 56 1508 1541
+type(
+  bexpr
+)
+"equation.ml" 56 1508 1528 "equation.ml" 56 1508 1541
+type(
+  bexpr * bexpr
+)
+"equation.ml" 56 1508 1511 "equation.ml" 56 1508 1541
+type(
+  bexpr * bexpr
+)
+"equation.ml" 56 1508 1547 "equation.ml" 56 1508 1548
+type(
+  bexpr
+)
+ident(
+  int_ref x "equation.ml" 56 1508 1524 "equation.ml" 56 1508 1525
+)
+"equation.ml" 57 1549 1553 "equation.ml" 57 1549 1554
+type(
+  bexpr
+)
+"equation.ml" 57 1549 1557 "equation.ml" 57 1549 1558
+type(
+  bexpr
+)
+"equation.ml" 57 1549 1553 "equation.ml" 57 1549 1558
+type(
+  bexpr * bexpr
+)
+"equation.ml" 57 1549 1566 "equation.ml" 57 1549 1567
+type(
+  bexpr
+)
+ident(
+  int_ref e "equation.ml" 53 1424 1434 "equation.ml" 53 1424 1435
+)
+"equation.ml" 57 1549 1568 "equation.ml" 57 1549 1570
+type(
+  bexpr
+)
+ident(
+  int_ref e' "equation.ml" 53 1424 1436 "equation.ml" 53 1424 1438
+)
+"equation.ml" 57 1549 1562 "equation.ml" 57 1549 1571
+type(
+  bexpr
+)
+"equation.ml" 54 1441 1442 "equation.ml" 57 1549 1571
+type(
+  bexpr
+)
+"equation.ml" 59 1573 1577 "equation.ml" 59 1573 1581
+type(
+  bexpr -> bexpr -> bexpr
+)
+ident(
+  def mkor "equation.ml" 65 1717 1717 "equation.ml" 1 0 -1
+)
+"equation.ml" 59 1573 1582 "equation.ml" 59 1573 1583
+type(
+  bexpr
+)
+ident(
+  def e "equation.ml" 59 1573 1584 "equation.ml" 63 1694 1715
+)
+"equation.ml" 59 1573 1584 "equation.ml" 59 1573 1586
+type(
+  bexpr
+)
+ident(
+  def e' "equation.ml" 60 1590 1591 "equation.ml" 63 1694 1715
+)
+"equation.ml" 60 1590 1597 "equation.ml" 60 1590 1598
+type(
+  bexpr
+)
+ident(
+  int_ref e "equation.ml" 59 1573 1582 "equation.ml" 59 1573 1583
+)
+"equation.ml" 60 1590 1600 "equation.ml" 60 1590 1602
+type(
+  bexpr
+)
+ident(
+  int_ref e' "equation.ml" 59 1573 1584 "equation.ml" 59 1573 1586
+)
+"equation.ml" 60 1590 1597 "equation.ml" 60 1590 1602
+type(
+  bexpr * bexpr
+)
+"equation.ml" 61 1608 1616 "equation.ml" 61 1608 1620
+type(
+  bool
+)
+"equation.ml" 61 1608 1611 "equation.ml" 61 1608 1620
+type(
+  bexpr
+)
+"equation.ml" 61 1608 1623 "equation.ml" 61 1608 1624
+type(
+  bexpr
+)
+"equation.ml" 61 1608 1611 "equation.ml" 61 1608 1624
+type(
+  bexpr * bexpr
+)
+"equation.ml" 61 1608 1627 "equation.ml" 61 1608 1628
+type(
+  bexpr
+)
+"equation.ml" 61 1608 1636 "equation.ml" 61 1608 1640
+type(
+  bool
+)
+"equation.ml" 61 1608 1631 "equation.ml" 61 1608 1640
+type(
+  bexpr
+)
+"equation.ml" 61 1608 1627 "equation.ml" 61 1608 1640
+type(
+  bexpr * bexpr
+)
+"equation.ml" 61 1608 1611 "equation.ml" 61 1608 1640
+type(
+  bexpr * bexpr
+)
+"equation.ml" 61 1608 1649 "equation.ml" 61 1608 1653
+type(
+  bool
+)
+"equation.ml" 61 1608 1644 "equation.ml" 61 1608 1653
+type(
+  bexpr
+)
+"equation.ml" 62 1654 1662 "equation.ml" 62 1654 1667
+type(
+  bool
+)
+"equation.ml" 62 1654 1657 "equation.ml" 62 1654 1667
+type(
+  bexpr
+)
+"equation.ml" 62 1654 1670 "equation.ml" 62 1654 1671
+type(
+  bexpr
+)
+ident(
+  def x "equation.ml" 62 1654 1692 "equation.ml" 62 1654 1693
+)
+"equation.ml" 62 1654 1657 "equation.ml" 62 1654 1671
+type(
+  bexpr * bexpr
+)
+"equation.ml" 62 1654 1674 "equation.ml" 62 1654 1675
+type(
+  bexpr
+)
+ident(
+  def x "equation.ml" 62 1654 1692 "equation.ml" 62 1654 1693
+)
+"equation.ml" 62 1654 1683 "equation.ml" 62 1654 1688
+type(
+  bool
+)
+"equation.ml" 62 1654 1678 "equation.ml" 62 1654 1688
+type(
+  bexpr
+)
+"equation.ml" 62 1654 1674 "equation.ml" 62 1654 1688
+type(
+  bexpr * bexpr
+)
+"equation.ml" 62 1654 1657 "equation.ml" 62 1654 1688
+type(
+  bexpr * bexpr
+)
+"equation.ml" 62 1654 1692 "equation.ml" 62 1654 1693
+type(
+  bexpr
+)
+ident(
+  int_ref x "equation.ml" 62 1654 1670 "equation.ml" 62 1654 1671
+)
+"equation.ml" 63 1694 1698 "equation.ml" 63 1694 1699
+type(
+  bexpr
+)
+"equation.ml" 63 1694 1702 "equation.ml" 63 1694 1703
+type(
+  bexpr
+)
+"equation.ml" 63 1694 1698 "equation.ml" 63 1694 1703
+type(
+  bexpr * bexpr
+)
+"equation.ml" 63 1694 1710 "equation.ml" 63 1694 1711
+type(
+  bexpr
+)
+ident(
+  int_ref e "equation.ml" 59 1573 1582 "equation.ml" 59 1573 1583
+)
+"equation.ml" 63 1694 1712 "equation.ml" 63 1694 1714
+type(
+  bexpr
+)
+ident(
+  int_ref e' "equation.ml" 59 1573 1584 "equation.ml" 59 1573 1586
+)
+"equation.ml" 63 1694 1707 "equation.ml" 63 1694 1715
+type(
+  bexpr
+)
+"equation.ml" 60 1590 1591 "equation.ml" 63 1694 1715
+type(
+  bexpr
+)
+"equation.ml" 65 1717 1721 "equation.ml" 65 1717 1727
+type(
+  bexpr -> bexpr -> bexpr
+)
+ident(
+  def mkimpl "equation.ml" 71 1829 1829 "equation.ml" 1 0 -1
+)
+"equation.ml" 65 1717 1728 "equation.ml" 65 1717 1729
+type(
+  bexpr
+)
+ident(
+  def e "equation.ml" 65 1717 1730 "equation.ml" 69 1797 1827
+)
+"equation.ml" 65 1717 1730 "equation.ml" 65 1717 1732
+type(
+  bexpr
+)
+ident(
+  def e' "equation.ml" 66 1735 1736 "equation.ml" 69 1797 1827
+)
+"equation.ml" 66 1735 1742 "equation.ml" 66 1735 1743
+type(
+  bexpr
+)
+ident(
+  int_ref e "equation.ml" 65 1717 1728 "equation.ml" 65 1717 1729
+)
+"equation.ml" 67 1750 1758 "equation.ml" 67 1750 1762
+type(
+  bool
+)
+"equation.ml" 67 1750 1753 "equation.ml" 67 1750 1762
+type(
+  bexpr
+)
+"equation.ml" 67 1750 1767 "equation.ml" 67 1750 1769
+type(
+  bexpr
+)
+ident(
+  int_ref e' "equation.ml" 65 1717 1730 "equation.ml" 65 1717 1732
+)
+"equation.ml" 68 1770 1778 "equation.ml" 68 1770 1783
+type(
+  bool
+)
+"equation.ml" 68 1770 1773 "equation.ml" 68 1770 1783
+type(
+  bexpr
+)
+"equation.ml" 68 1770 1792 "equation.ml" 68 1770 1796
+type(
+  bool
+)
+"equation.ml" 68 1770 1787 "equation.ml" 68 1770 1796
+type(
+  bexpr
+)
+"equation.ml" 69 1797 1800 "equation.ml" 69 1797 1801
+type(
+  bexpr
+)
+"equation.ml" 69 1797 1822 "equation.ml" 69 1797 1823
+type(
+  bexpr
+)
+ident(
+  int_ref e "equation.ml" 65 1717 1728 "equation.ml" 65 1717 1729
+)
+"equation.ml" 69 1797 1824 "equation.ml" 69 1797 1826
+type(
+  bexpr
+)
+ident(
+  int_ref e' "equation.ml" 65 1717 1730 "equation.ml" 65 1717 1732
+)
+"equation.ml" 69 1797 1814 "equation.ml" 69 1797 1827
+type(
+  bexpr
+)
+"equation.ml" 66 1735 1736 "equation.ml" 69 1797 1827
+type(
+  bexpr
+)
+"equation.ml" 71 1829 1833 "equation.ml" 71 1829 1839
+type(
+  bexpr list -> bexpr
+)
+ident(
+  def mkuniq "equation.ml" 84 2164 2164 "equation.ml" 1 0 -1
+)
+"equation.ml" 71 1829 1840 "equation.ml" 71 1829 1841
+type(
+  bexpr list
+)
+ident(
+  def l "equation.ml" 72 1844 1845 "equation.ml" 81 2140 2159
+)
+"equation.ml" 72 1844 1849 "equation.ml" 72 1844 1855
+type(
+  bexpr -> bool
+)
+ident(
+  def isTrue "equation.ml" 73 1877 1878 "equation.ml" 81 2140 2159
+)
+"equation.ml" 72 1844 1856 "equation.ml" 72 1844 1857
+type(
+  bexpr
+)
+ident(
+  def e "equation.ml" 72 1844 1860 "equation.ml" 72 1844 1873
+)
+"equation.ml" 72 1844 1860 "equation.ml" 72 1844 1861
+type(
+  bexpr
+)
+ident(
+  int_ref e "equation.ml" 72 1844 1856 "equation.ml" 72 1844 1857
+)
+"equation.ml" 72 1844 1862 "equation.ml" 72 1844 1863
+type(
+  bexpr -> bexpr -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"equation.ml" 72 1844 1869 "equation.ml" 72 1844 1873
+type(
+  bool
+)
+"equation.ml" 72 1844 1864 "equation.ml" 72 1844 1873
+type(
+  bexpr
+)
+"equation.ml" 72 1844 1860 "equation.ml" 72 1844 1873
+type(
+  bool
+)
+"equation.ml" 73 1877 1882 "equation.ml" 73 1877 1892
+type(
+  bexpr -> bool
+)
+ident(
+  def notIsFalse "equation.ml" 74 1921 1922 "equation.ml" 81 2140 2159
+)
+"equation.ml" 73 1877 1893 "equation.ml" 73 1877 1894
+type(
+  bexpr
+)
+ident(
+  def e "equation.ml" 73 1877 1897 "equation.ml" 73 1877 1917
+)
+"equation.ml" 73 1877 1897 "equation.ml" 73 1877 1900
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"equation.ml" 73 1877 1902 "equation.ml" 73 1877 1903
+type(
+  bexpr
+)
+ident(
+  int_ref e "equation.ml" 73 1877 1893 "equation.ml" 73 1877 1894
+)
+"equation.ml" 73 1877 1904 "equation.ml" 73 1877 1905
+type(
+  bexpr -> bexpr -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"equation.ml" 73 1877 1911 "equation.ml" 73 1877 1916
+type(
+  bool
+)
+"equation.ml" 73 1877 1906 "equation.ml" 73 1877 1916
+type(
+  bexpr
+)
+"equation.ml" 73 1877 1901 "equation.ml" 73 1877 1917
+type(
+  bool
+)
+"equation.ml" 73 1877 1897 "equation.ml" 73 1877 1917
+type(
+  bool
+)
+"equation.ml" 74 1921 1926 "equation.ml" 74 1921 1927
+type(
+  bexpr list
+)
+ident(
+  def l "equation.ml" 75 1958 1959 "equation.ml" 81 2140 2159
+)
+"equation.ml" 74 1921 1930 "equation.ml" 74 1921 1941
+type(
+  (bexpr -> bool) -> bexpr list -> bexpr list
+)
+ident(
+  ext_ref List.filter
+)
+"equation.ml" 74 1921 1942 "equation.ml" 74 1921 1952
+type(
+  bexpr -> bool
+)
+ident(
+  int_ref notIsFalse "equation.ml" 73 1877 1882 "equation.ml" 73 1877 1892
+)
+"equation.ml" 74 1921 1953 "equation.ml" 74 1921 1954
+type(
+  bexpr list
+)
+ident(
+  int_ref l "equation.ml" 71 1829 1840 "equation.ml" 71 1829 1841
+)
+"equation.ml" 74 1921 1930 "equation.ml" 74 1921 1954
+call(
+  stack
+)
+type(
+  bexpr list
+)
+"equation.ml" 75 1958 1965 "equation.ml" 75 1958 1966
+type(
+  bexpr list
+)
+ident(
+  int_ref l "equation.ml" 74 1921 1926 "equation.ml" 74 1921 1927
+)
+"equation.ml" 76 1972 1975 "equation.ml" 76 1972 1977
+type(
+  bexpr list
+)
+"equation.ml" 76 1972 1986 "equation.ml" 76 1972 1991
+type(
+  bool
+)
+"equation.ml" 76 1972 1981 "equation.ml" 76 1972 1991
+type(
+  bexpr
+)
+"equation.ml" 77 1992 2001 "equation.ml" 77 1992 2005
+type(
+  bool
+)
+"equation.ml" 77 1992 1996 "equation.ml" 77 1992 2005
+type(
+  bexpr
+)
+"equation.ml" 77 1992 1995 "equation.ml" 77 1992 2006
+type(
+  bexpr list
+)
+"equation.ml" 77 1992 2015 "equation.ml" 77 1992 2019
+type(
+  bool
+)
+"equation.ml" 77 1992 2010 "equation.ml" 77 1992 2019
+type(
+  bexpr
+)
+"equation.ml" 78 2020 2023 "equation.ml" 78 2020 2024
+type(
+  bexpr list
+)
+"equation.ml" 79 2030 2036 "equation.ml" 79 2030 2038
+type(
+  int
+)
+ident(
+  def nb "equation.ml" 80 2112 2114 "equation.ml" 81 2140 2159
+)
+"equation.ml" 79 2030 2041 "equation.ml" 79 2030 2055
+type(
+  (int -> bexpr -> int) -> int -> bexpr list -> int
+)
+ident(
+  ext_ref List.fold_left
+)
+"equation.ml" 79 2030 2061 "equation.ml" 79 2030 2064
+type(
+  int
+)
+ident(
+  def acc "equation.ml" 79 2030 2065 "equation.ml" 79 2030 2103
+)
+"equation.ml" 79 2030 2065 "equation.ml" 79 2030 2066
+type(
+  bexpr
+)
+ident(
+  def e "equation.ml" 79 2030 2070 "equation.ml" 79 2030 2103
+)
+"equation.ml" 79 2030 2073 "equation.ml" 79 2030 2079
+type(
+  bexpr -> bool
+)
+ident(
+  int_ref isTrue "equation.ml" 72 1844 1849 "equation.ml" 72 1844 1855
+)
+"equation.ml" 79 2030 2080 "equation.ml" 79 2030 2081
+type(
+  bexpr
+)
+ident(
+  int_ref e "equation.ml" 79 2030 2065 "equation.ml" 79 2030 2066
+)
+"equation.ml" 79 2030 2073 "equation.ml" 79 2030 2081
+call(
+  stack
+)
+type(
+  bool
+)
+"equation.ml" 79 2030 2087 "equation.ml" 79 2030 2090
+type(
+  int
+)
+ident(
+  int_ref acc "equation.ml" 79 2030 2061 "equation.ml" 79 2030 2064
+)
+"equation.ml" 79 2030 2091 "equation.ml" 79 2030 2092
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"equation.ml" 79 2030 2093 "equation.ml" 79 2030 2094
+type(
+  int
+)
+"equation.ml" 79 2030 2087 "equation.ml" 79 2030 2094
+type(
+  int
+)
+"equation.ml" 79 2030 2100 "equation.ml" 79 2030 2103
+type(
+  int
+)
+ident(
+  int_ref acc "equation.ml" 79 2030 2061 "equation.ml" 79 2030 2064
+)
+"equation.ml" 79 2030 2070 "equation.ml" 79 2030 2103
+type(
+  int
+)
+"equation.ml" 79 2030 2056 "equation.ml" 79 2030 2104
+type(
+  int -> bexpr -> int
+)
+"equation.ml" 79 2030 2105 "equation.ml" 79 2030 2106
+type(
+  int
+)
+"equation.ml" 79 2030 2107 "equation.ml" 79 2030 2108
+type(
+  bexpr list
+)
+ident(
+  int_ref l "equation.ml" 74 1921 1926 "equation.ml" 74 1921 1927
+)
+"equation.ml" 79 2030 2041 "equation.ml" 79 2030 2108
+call(
+  stack
+)
+type(
+  int
+)
+"equation.ml" 80 2112 2117 "equation.ml" 80 2112 2119
+type(
+  int
+)
+ident(
+  int_ref nb "equation.ml" 79 2030 2036 "equation.ml" 79 2030 2038
+)
+"equation.ml" 80 2112 2120 "equation.ml" 80 2112 2121
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"equation.ml" 80 2112 2122 "equation.ml" 80 2112 2123
+type(
+  int
+)
+"equation.ml" 80 2112 2117 "equation.ml" 80 2112 2123
+type(
+  bool
+)
+"equation.ml" 80 2112 2134 "equation.ml" 80 2112 2139
+type(
+  bool
+)
+"equation.ml" 80 2112 2129 "equation.ml" 80 2112 2139
+type(
+  bexpr
+)
+"equation.ml" 81 2140 2158 "equation.ml" 81 2140 2159
+type(
+  bexpr list
+)
+ident(
+  int_ref l "equation.ml" 74 1921 1926 "equation.ml" 74 1921 1927
+)
+"equation.ml" 81 2140 2147 "equation.ml" 81 2140 2159
+type(
+  bexpr
+)
+"equation.ml" 80 2112 2114 "equation.ml" 81 2140 2159
+type(
+  bexpr
+)
+"equation.ml" 79 2030 2032 "equation.ml" 81 2140 2159
+type(
+  bexpr
+)
+"equation.ml" 75 1958 1959 "equation.ml" 81 2140 2159
+type(
+  bexpr
+)
+"equation.ml" 74 1921 1922 "equation.ml" 81 2140 2159
+type(
+  bexpr
+)
+"equation.ml" 73 1877 1878 "equation.ml" 81 2140 2159
+type(
+  bexpr
+)
+"equation.ml" 72 1844 1845 "equation.ml" 81 2140 2159
+type(
+  bexpr
+)
+"equation.ml" 84 2164 2168 "equation.ml" 84 2164 2174
+type(
+  sexpr -> sexpr -> sexpr
+)
+ident(
+  def sunion "equation.ml" 90 2329 2329 "equation.ml" 1 0 -1
+)
+"equation.ml" 84 2164 2175 "equation.ml" 84 2164 2177
+type(
+  sexpr
+)
+ident(
+  def e1 "equation.ml" 84 2164 2178 "equation.ml" 88 2300 2327
+)
+"equation.ml" 84 2164 2178 "equation.ml" 84 2164 2180
+type(
+  sexpr
+)
+ident(
+  def e2 "equation.ml" 85 2183 2184 "equation.ml" 88 2300 2327
+)
+"equation.ml" 85 2183 2190 "equation.ml" 85 2183 2192
+type(
+  sexpr
+)
+ident(
+  int_ref e1 "equation.ml" 84 2164 2175 "equation.ml" 84 2164 2177
+)
+"equation.ml" 85 2183 2194 "equation.ml" 85 2183 2196
+type(
+  sexpr
+)
+ident(
+  int_ref e2 "equation.ml" 84 2164 2178 "equation.ml" 84 2164 2180
+)
+"equation.ml" 85 2183 2190 "equation.ml" 85 2183 2196
+type(
+  sexpr * sexpr
+)
+"equation.ml" 86 2202 2209 "equation.ml" 86 2202 2211
+type(
+  Grammar.VTSet.t
+)
+ident(
+  def s1 "equation.ml" 86 2202 2224 "equation.ml" 86 2202 2247
+)
+"equation.ml" 86 2202 2205 "equation.ml" 86 2202 2211
+type(
+  sexpr
+)
+"equation.ml" 86 2202 2218 "equation.ml" 86 2202 2220
+type(
+  Grammar.VTSet.t
+)
+ident(
+  def s2 "equation.ml" 86 2202 2224 "equation.ml" 86 2202 2247
+)
+"equation.ml" 86 2202 2214 "equation.ml" 86 2202 2220
+type(
+  sexpr
+)
+"equation.ml" 86 2202 2205 "equation.ml" 86 2202 2220
+type(
+  sexpr * sexpr
+)
+"equation.ml" 86 2202 2229 "equation.ml" 86 2202 2240
+type(
+  Grammar.VTSet.t -> Grammar.VTSet.t -> Grammar.VTSet.t
+)
+ident(
+  ext_ref Grammar.VTSet.union
+)
+"equation.ml" 86 2202 2241 "equation.ml" 86 2202 2243
+type(
+  Grammar.VTSet.t
+)
+ident(
+  int_ref s1 "equation.ml" 86 2202 2209 "equation.ml" 86 2202 2211
+)
+"equation.ml" 86 2202 2244 "equation.ml" 86 2202 2246
+type(
+  Grammar.VTSet.t
+)
+ident(
+  int_ref s2 "equation.ml" 86 2202 2218 "equation.ml" 86 2202 2220
+)
+"equation.ml" 86 2202 2228 "equation.ml" 86 2202 2247
+call(
+  stack
+)
+type(
+  Grammar.VTSet.t
+)
+"equation.ml" 86 2202 2224 "equation.ml" 86 2202 2247
+type(
+  sexpr
+)
+"equation.ml" 87 2248 2255 "equation.ml" 87 2248 2256
+type(
+  Grammar.VTSet.t
+)
+ident(
+  def s "equation.ml" 87 2248 2273 "equation.ml" 87 2248 2299
+)
+"equation.ml" 87 2248 2251 "equation.ml" 87 2248 2256
+type(
+  sexpr
+)
+"equation.ml" 87 2248 2259 "equation.ml" 87 2248 2260
+type(
+  sexpr
+)
+ident(
+  def x "equation.ml" 87 2248 2273 "equation.ml" 87 2248 2299
+)
+"equation.ml" 87 2248 2251 "equation.ml" 87 2248 2260
+type(
+  sexpr * sexpr
+)
+"equation.ml" 87 2248 2263 "equation.ml" 87 2248 2264
+type(
+  sexpr
+)
+ident(
+  def x "equation.ml" 87 2248 2273 "equation.ml" 87 2248 2299
+)
+"equation.ml" 87 2248 2271 "equation.ml" 87 2248 2272
+type(
+  Grammar.VTSet.t
+)
+ident(
+  def s "equation.ml" 87 2248 2273 "equation.ml" 87 2248 2299
+)
+"equation.ml" 87 2248 2267 "equation.ml" 87 2248 2272
+type(
+  sexpr
+)
+"equation.ml" 87 2248 2263 "equation.ml" 87 2248 2272
+type(
+  sexpr * sexpr
+)
+"equation.ml" 87 2248 2251 "equation.ml" 87 2248 2272
+type(
+  sexpr * sexpr
+)
+"equation.ml" 87 2248 2278 "equation.ml" 87 2248 2292
+type(
+  Grammar.VTSet.t -> bool
+)
+ident(
+  ext_ref Grammar.VTSet.is_empty
+)
+"equation.ml" 87 2248 2293 "equation.ml" 87 2248 2294
+type(
+  Grammar.VTSet.t
+)
+ident(
+  int_ref s "equation.ml" 87 2248 2255 "equation.ml" 87 2248 2256
+)
+"equation.ml" 87 2248 2278 "equation.ml" 87 2248 2294
+call(
+  stack
+)
+type(
+  bool
+)
+"equation.ml" 87 2248 2298 "equation.ml" 87 2248 2299
+type(
+  sexpr
+)
+ident(
+  int_ref x "equation.ml" 87 2248 2259 "equation.ml" 87 2248 2260
+)
+"equation.ml" 88 2300 2304 "equation.ml" 88 2300 2305
+type(
+  sexpr
+)
+"equation.ml" 88 2300 2310 "equation.ml" 88 2300 2311
+type(
+  sexpr
+)
+"equation.ml" 88 2300 2304 "equation.ml" 88 2300 2311
+type(
+  sexpr * sexpr
+)
+"equation.ml" 88 2300 2321 "equation.ml" 88 2300 2323
+type(
+  sexpr
+)
+ident(
+  int_ref e1 "equation.ml" 84 2164 2175 "equation.ml" 84 2164 2177
+)
+"equation.ml" 88 2300 2324 "equation.ml" 88 2300 2326
+type(
+  sexpr
+)
+ident(
+  int_ref e2 "equation.ml" 84 2164 2178 "equation.ml" 84 2164 2180
+)
+"equation.ml" 88 2300 2315 "equation.ml" 88 2300 2327
+type(
+  sexpr
+)
+"equation.ml" 85 2183 2184 "equation.ml" 88 2300 2327
+type(
+  sexpr
+)
+"equation.ml" 90 2329 2333 "equation.ml" 90 2329 2339
+type(
+  sexpr -> sexpr -> sexpr
+)
+ident(
+  def sinter "equation.ml" 96 2510 2510 "equation.ml" 1 0 -1
+)
+"equation.ml" 90 2329 2340 "equation.ml" 90 2329 2342
+type(
+  sexpr
+)
+ident(
+  def e1 "equation.ml" 90 2329 2343 "equation.ml" 94 2479 2508
+)
+"equation.ml" 90 2329 2343 "equation.ml" 90 2329 2345
+type(
+  sexpr
+)
+ident(
+  def e2 "equation.ml" 91 2348 2349 "equation.ml" 94 2479 2508
+)
+"equation.ml" 91 2348 2355 "equation.ml" 91 2348 2357
+type(
+  sexpr
+)
+ident(
+  int_ref e1 "equation.ml" 90 2329 2340 "equation.ml" 90 2329 2342
+)
+"equation.ml" 91 2348 2359 "equation.ml" 91 2348 2361
+type(
+  sexpr
+)
+ident(
+  int_ref e2 "equation.ml" 90 2329 2343 "equation.ml" 90 2329 2345
+)
+"equation.ml" 91 2348 2355 "equation.ml" 91 2348 2361
+type(
+  sexpr * sexpr
+)
+"equation.ml" 92 2367 2374 "equation.ml" 92 2367 2376
+type(
+  Grammar.VTSet.t
+)
+ident(
+  def s1 "equation.ml" 92 2367 2389 "equation.ml" 92 2367 2412
+)
+"equation.ml" 92 2367 2370 "equation.ml" 92 2367 2376
+type(
+  sexpr
+)
+"equation.ml" 92 2367 2383 "equation.ml" 92 2367 2385
+type(
+  Grammar.VTSet.t
+)
+ident(
+  def s2 "equation.ml" 92 2367 2389 "equation.ml" 92 2367 2412
+)
+"equation.ml" 92 2367 2379 "equation.ml" 92 2367 2385
+type(
+  sexpr
+)
+"equation.ml" 92 2367 2370 "equation.ml" 92 2367 2385
+type(
+  sexpr * sexpr
+)
+"equation.ml" 92 2367 2394 "equation.ml" 92 2367 2405
+type(
+  Grammar.VTSet.t -> Grammar.VTSet.t -> Grammar.VTSet.t
+)
+ident(
+  ext_ref Grammar.VTSet.inter
+)
+"equation.ml" 92 2367 2406 "equation.ml" 92 2367 2408
+type(
+  Grammar.VTSet.t
+)
+ident(
+  int_ref s1 "equation.ml" 92 2367 2374 "equation.ml" 92 2367 2376
+)
+"equation.ml" 92 2367 2409 "equation.ml" 92 2367 2411
+type(
+  Grammar.VTSet.t
+)
+ident(
+  int_ref s2 "equation.ml" 92 2367 2383 "equation.ml" 92 2367 2385
+)
+"equation.ml" 92 2367 2393 "equation.ml" 92 2367 2412
+call(
+  stack
+)
+type(
+  Grammar.VTSet.t
+)
+"equation.ml" 92 2367 2389 "equation.ml" 92 2367 2412
+type(
+  sexpr
+)
+"equation.ml" 93 2413 2420 "equation.ml" 93 2413 2421
+type(
+  Grammar.VTSet.t
+)
+ident(
+  def s "equation.ml" 93 2413 2438 "equation.ml" 93 2413 2478
+)
+"equation.ml" 93 2413 2416 "equation.ml" 93 2413 2421
+type(
+  sexpr
+)
+"equation.ml" 93 2413 2424 "equation.ml" 93 2413 2425
+type(
+  sexpr
+)
+"equation.ml" 93 2413 2416 "equation.ml" 93 2413 2425
+type(
+  sexpr * sexpr
+)
+"equation.ml" 93 2413 2428 "equation.ml" 93 2413 2429
+type(
+  sexpr
+)
+"equation.ml" 93 2413 2436 "equation.ml" 93 2413 2437
+type(
+  Grammar.VTSet.t
+)
+ident(
+  def s "equation.ml" 93 2413 2438 "equation.ml" 93 2413 2478
+)
+"equation.ml" 93 2413 2432 "equation.ml" 93 2413 2437
+type(
+  sexpr
+)
+"equation.ml" 93 2413 2428 "equation.ml" 93 2413 2437
+type(
+  sexpr * sexpr
+)
+"equation.ml" 93 2413 2416 "equation.ml" 93 2413 2437
+type(
+  sexpr * sexpr
+)
+"equation.ml" 93 2413 2443 "equation.ml" 93 2413 2457
+type(
+  Grammar.VTSet.t -> bool
+)
+ident(
+  ext_ref Grammar.VTSet.is_empty
+)
+"equation.ml" 93 2413 2458 "equation.ml" 93 2413 2459
+type(
+  Grammar.VTSet.t
+)
+ident(
+  int_ref s "equation.ml" 93 2413 2420 "equation.ml" 93 2413 2421
+)
+"equation.ml" 93 2413 2443 "equation.ml" 93 2413 2459
+call(
+  stack
+)
+type(
+  bool
+)
+"equation.ml" 93 2413 2467 "equation.ml" 93 2413 2478
+type(
+  Grammar.VTSet.t
+)
+ident(
+  ext_ref Grammar.VTSet.empty
+)
+"equation.ml" 93 2413 2463 "equation.ml" 93 2413 2478
+type(
+  sexpr
+)
+"equation.ml" 94 2479 2483 "equation.ml" 94 2479 2484
+type(
+  sexpr
+)
+"equation.ml" 94 2479 2489 "equation.ml" 94 2479 2490
+type(
+  sexpr
+)
+"equation.ml" 94 2479 2483 "equation.ml" 94 2479 2490
+type(
+  sexpr * sexpr
+)
+"equation.ml" 94 2479 2502 "equation.ml" 94 2479 2504
+type(
+  sexpr
+)
+ident(
+  int_ref e1 "equation.ml" 90 2329 2340 "equation.ml" 90 2329 2342
+)
+"equation.ml" 94 2479 2505 "equation.ml" 94 2479 2507
+type(
+  sexpr
+)
+ident(
+  int_ref e2 "equation.ml" 90 2329 2343 "equation.ml" 90 2329 2345
+)
+"equation.ml" 94 2479 2496 "equation.ml" 94 2479 2508
+type(
+  sexpr
+)
+"equation.ml" 91 2348 2349 "equation.ml" 94 2479 2508
+type(
+  sexpr
+)
+"equation.ml" 96 2510 2514 "equation.ml" 96 2510 2519
+type(
+  bexpr -> sexpr -> sexpr
+)
+ident(
+  def scond "equation.ml" 103 2631 2631 "equation.ml" 1 0 -1
+)
+"equation.ml" 96 2510 2520 "equation.ml" 96 2510 2522
+type(
+  bexpr
+)
+ident(
+  def e1 "equation.ml" 96 2510 2523 "equation.ml" 100 2596 2624
+)
+"equation.ml" 96 2510 2523 "equation.ml" 96 2510 2525
+type(
+  sexpr
+)
+ident(
+  def e2 "equation.ml" 97 2528 2529 "equation.ml" 100 2596 2624
+)
+"equation.ml" 97 2528 2535 "equation.ml" 97 2528 2537
+type(
+  bexpr
+)
+ident(
+  int_ref e1 "equation.ml" 96 2510 2520 "equation.ml" 96 2510 2522
+)
+"equation.ml" 98 2543 2551 "equation.ml" 98 2543 2555
+type(
+  bool
+)
+"equation.ml" 98 2543 2546 "equation.ml" 98 2543 2555
+type(
+  bexpr
+)
+"equation.ml" 98 2543 2560 "equation.ml" 98 2543 2562
+type(
+  sexpr
+)
+ident(
+  int_ref e2 "equation.ml" 96 2510 2523 "equation.ml" 96 2510 2525
+)
+"equation.ml" 99 2563 2571 "equation.ml" 99 2563 2576
+type(
+  bool
+)
+"equation.ml" 99 2563 2566 "equation.ml" 99 2563 2576
+type(
+  bexpr
+)
+"equation.ml" 99 2563 2584 "equation.ml" 99 2563 2595
+type(
+  Grammar.VTSet.t
+)
+ident(
+  ext_ref Grammar.VTSet.empty
+)
+"equation.ml" 99 2563 2580 "equation.ml" 99 2563 2595
+type(
+  sexpr
+)
+"equation.ml" 100 2596 2600 "equation.ml" 100 2596 2601
+type(
+  bexpr
+)
+"equation.ml" 100 2596 2618 "equation.ml" 100 2596 2620
+type(
+  bexpr
+)
+ident(
+  int_ref e1 "equation.ml" 96 2510 2520 "equation.ml" 96 2510 2522
+)
+"equation.ml" 100 2596 2621 "equation.ml" 100 2596 2623
+type(
+  sexpr
+)
+ident(
+  int_ref e2 "equation.ml" 96 2510 2523 "equation.ml" 96 2510 2525
+)
+"equation.ml" 100 2596 2613 "equation.ml" 100 2596 2624
+type(
+  sexpr
+)
+"equation.ml" 97 2528 2529 "equation.ml" 100 2596 2624
+type(
+  sexpr
+)
+"equation.ml" 103 2631 2635 "equation.ml" 103 2631 2642
+type(
+  sexpr -> bexpr
+)
+ident(
+  def mkempty "equation.ml" 107 2740 2740 "equation.ml" 1 0 -1
+)
+"equation.ml" 104 2654 2661 "equation.ml" 104 2654 2662
+type(
+  Grammar.VTSet.t
+)
+ident(
+  def s "equation.ml" 104 2654 2666 "equation.ml" 104 2654 2716
+)
+"equation.ml" 104 2654 2657 "equation.ml" 104 2654 2662
+type(
+  sexpr
+)
+"equation.ml" 104 2654 2669 "equation.ml" 104 2654 2683
+type(
+  Grammar.VTSet.t -> bool
+)
+ident(
+  ext_ref Grammar.VTSet.is_empty
+)
+"equation.ml" 104 2654 2684 "equation.ml" 104 2654 2685
+type(
+  Grammar.VTSet.t
+)
+ident(
+  int_ref s "equation.ml" 104 2654 2661 "equation.ml" 104 2654 2662
+)
+"equation.ml" 104 2654 2669 "equation.ml" 104 2654 2685
+call(
+  stack
+)
+type(
+  bool
+)
+"equation.ml" 104 2654 2696 "equation.ml" 104 2654 2700
+type(
+  bool
+)
+"equation.ml" 104 2654 2691 "equation.ml" 104 2654 2700
+type(
+  bexpr
+)
+"equation.ml" 104 2654 2711 "equation.ml" 104 2654 2716
+type(
+  bool
+)
+"equation.ml" 104 2654 2706 "equation.ml" 104 2654 2716
+type(
+  bexpr
+)
+"equation.ml" 104 2654 2666 "equation.ml" 104 2654 2716
+type(
+  bexpr
+)
+"equation.ml" 105 2717 2722 "equation.ml" 105 2717 2723
+type(
+  sexpr
+)
+ident(
+  def e "equation.ml" 105 2717 2729 "equation.ml" 105 2717 2738
+)
+"equation.ml" 105 2717 2737 "equation.ml" 105 2717 2738
+type(
+  sexpr
+)
+ident(
+  int_ref e "equation.ml" 105 2717 2722 "equation.ml" 105 2717 2723
+)
+"equation.ml" 105 2717 2729 "equation.ml" 105 2717 2738
+type(
+  bexpr
+)
+"equation.ml" 103 2631 2645 "equation.ml" 105 2717 2738
+type(
+  sexpr -> bexpr
+)
+"equation.ml" 107 2740 2744 "equation.ml" 107 2740 2749
+type(
+  (var -> bexpr) -> var -> bexpr
+)
+ident(
+  def sbvar "equation.ml" 112 2812 2812 "equation.ml" 1 0 -1
+)
+"equation.ml" 107 2740 2750 "equation.ml" 107 2740 2752
+type(
+  var -> bexpr
+)
+ident(
+  def bv "equation.ml" 107 2740 2753 "equation.ml" 110 2794 2810
+)
+"equation.ml" 107 2740 2753 "equation.ml" 107 2740 2754
+type(
+  var
+)
+ident(
+  def v "equation.ml" 108 2757 2758 "equation.ml" 110 2794 2810
+)
+"equation.ml" 108 2757 2764 "equation.ml" 108 2757 2766
+type(
+  var -> bexpr
+)
+ident(
+  int_ref bv "equation.ml" 107 2740 2750 "equation.ml" 107 2740 2752
+)
+"equation.ml" 108 2757 2767 "equation.ml" 108 2757 2768
+type(
+  var
+)
+ident(
+  int_ref v "equation.ml" 107 2740 2753 "equation.ml" 107 2740 2754
+)
+"equation.ml" 108 2757 2764 "equation.ml" 108 2757 2768
+call(
+  stack
+)
+type(
+  bexpr
+)
+"equation.ml" 109 2774 2782 "equation.ml" 109 2774 2783
+type(
+  bool
+)
+ident(
+  def b "equation.ml" 109 2774 2787 "equation.ml" 109 2774 2793
+)
+"equation.ml" 109 2774 2777 "equation.ml" 109 2774 2783
+type(
+  bexpr
+)
+"equation.ml" 109 2774 2792 "equation.ml" 109 2774 2793
+type(
+  bool
+)
+ident(
+  int_ref b "equation.ml" 109 2774 2782 "equation.ml" 109 2774 2783
+)
+"equation.ml" 109 2774 2787 "equation.ml" 109 2774 2793
+type(
+  bexpr
+)
+"equation.ml" 110 2794 2797 "equation.ml" 110 2794 2798
+type(
+  bexpr
+)
+"equation.ml" 110 2794 2809 "equation.ml" 110 2794 2810
+type(
+  var
+)
+ident(
+  int_ref v "equation.ml" 107 2740 2753 "equation.ml" 107 2740 2754
+)
+"equation.ml" 110 2794 2804 "equation.ml" 110 2794 2810
+type(
+  bexpr
+)
+"equation.ml" 108 2757 2758 "equation.ml" 110 2794 2810
+type(
+  bexpr
+)
+"equation.ml" 112 2812 2816 "equation.ml" 112 2812 2821
+type(
+  (var -> sexpr) -> var -> sexpr
+)
+ident(
+  def ssvar "equation.ml" 117 2882 2882 "equation.ml" 1 0 -1
+)
+"equation.ml" 112 2812 2822 "equation.ml" 112 2812 2824
+type(
+  var -> sexpr
+)
+ident(
+  def sv "equation.ml" 112 2812 2825 "equation.ml" 115 2864 2880
+)
+"equation.ml" 112 2812 2825 "equation.ml" 112 2812 2826
+type(
+  var
+)
+ident(
+  def v "equation.ml" 113 2829 2830 "equation.ml" 115 2864 2880
+)
+"equation.ml" 113 2829 2836 "equation.ml" 113 2829 2838
+type(
+  var -> sexpr
+)
+ident(
+  int_ref sv "equation.ml" 112 2812 2822 "equation.ml" 112 2812 2824
+)
+"equation.ml" 113 2829 2839 "equation.ml" 113 2829 2840
+type(
+  var
+)
+ident(
+  int_ref v "equation.ml" 112 2812 2825 "equation.ml" 112 2812 2826
+)
+"equation.ml" 113 2829 2836 "equation.ml" 113 2829 2840
+call(
+  stack
+)
+type(
+  sexpr
+)
+"equation.ml" 114 2846 2853 "equation.ml" 114 2846 2854
+type(
+  Grammar.VTSet.t
+)
+ident(
+  def s "equation.ml" 114 2846 2858 "equation.ml" 114 2846 2863
+)
+"equation.ml" 114 2846 2849 "equation.ml" 114 2846 2854
+type(
+  sexpr
+)
+"equation.ml" 114 2846 2862 "equation.ml" 114 2846 2863
+type(
+  Grammar.VTSet.t
+)
+ident(
+  int_ref s "equation.ml" 114 2846 2853 "equation.ml" 114 2846 2854
+)
+"equation.ml" 114 2846 2858 "equation.ml" 114 2846 2863
+type(
+  sexpr
+)
+"equation.ml" 115 2864 2867 "equation.ml" 115 2864 2868
+type(
+  sexpr
+)
+"equation.ml" 115 2864 2879 "equation.ml" 115 2864 2880
+type(
+  var
+)
+ident(
+  int_ref v "equation.ml" 112 2812 2825 "equation.ml" 112 2812 2826
+)
+"equation.ml" 115 2864 2874 "equation.ml" 115 2864 2880
+type(
+  sexpr
+)
+"equation.ml" 113 2829 2830 "equation.ml" 115 2864 2880
+type(
+  sexpr
+)
+"equation.ml" 117 2882 2890 "equation.ml" 117 2882 2904
+type(
+  (var -> bexpr) -> (var -> sexpr) -> bexpr -> bexpr
+)
+ident(
+  def simplify_bexpr "equation.ml" 117 2882 2882 "equation.ml" 1 0 -1
+)
+"equation.ml" 117 2882 2905 "equation.ml" 117 2882 2909
+type(
+  var -> bexpr
+)
+ident(
+  def bvar "equation.ml" 117 2882 2910 "equation.ml" 126 3351 3372
+)
+"equation.ml" 117 2882 2910 "equation.ml" 117 2882 2914
+type(
+  var -> sexpr
+)
+ident(
+  def svar "equation.ml" 117 2882 2915 "equation.ml" 126 3351 3372
+)
+"equation.ml" 117 2882 2915 "equation.ml" 117 2882 2916
+type(
+  bexpr
+)
+ident(
+  def e "equation.ml" 118 2919 2920 "equation.ml" 126 3351 3372
+)
+"equation.ml" 118 2919 2928 "equation.ml" 118 2919 2946
+type(
+  bexpr -> bexpr
+)
+ident(
+  def simplify_bexpr_rec "equation.ml" 118 2919 2920 "equation.ml" 126 3351 3372
+)
+"equation.ml" 119 2959 2968 "equation.ml" 119 2959 2969
+type(
+  var
+)
+ident(
+  def v "equation.ml" 119 2959 2973 "equation.ml" 119 2959 2985
+)
+"equation.ml" 119 2959 2963 "equation.ml" 119 2959 2969
+type(
+  bexpr
+)
+"equation.ml" 119 2959 2973 "equation.ml" 119 2959 2978
+type(
+  (var -> bexpr) -> var -> bexpr
+)
+ident(
+  int_ref sbvar "equation.ml" 107 2740 2744 "equation.ml" 107 2740 2749
+)
+"equation.ml" 119 2959 2979 "equation.ml" 119 2959 2983
+type(
+  var -> bexpr
+)
+ident(
+  int_ref bvar "equation.ml" 117 2882 2905 "equation.ml" 117 2882 2909
+)
+"equation.ml" 119 2959 2984 "equation.ml" 119 2959 2985
+type(
+  var
+)
+ident(
+  int_ref v "equation.ml" 119 2959 2968 "equation.ml" 119 2959 2969
+)
+"equation.ml" 119 2959 2973 "equation.ml" 119 2959 2985
+call(
+  tail
+)
+type(
+  bexpr
+)
+"equation.ml" 120 2986 2995 "equation.ml" 120 2986 2996
+type(
+  bool
+)
+ident(
+  def b "equation.ml" 120 2986 3000 "equation.ml" 120 2986 3006
+)
+"equation.ml" 120 2986 2990 "equation.ml" 120 2986 2996
+type(
+  bexpr
+)
+"equation.ml" 120 2986 3005 "equation.ml" 120 2986 3006
+type(
+  bool
+)
+ident(
+  int_ref b "equation.ml" 120 2986 2995 "equation.ml" 120 2986 2996
+)
+"equation.ml" 120 2986 3000 "equation.ml" 120 2986 3006
+type(
+  bexpr
+)
+"equation.ml" 121 3007 3015 "equation.ml" 121 3007 3017
+type(
+  bexpr
+)
+ident(
+  def e1 "equation.ml" 121 3007 3025 "equation.ml" 121 3007 3078
+)
+"equation.ml" 121 3007 3018 "equation.ml" 121 3007 3020
+type(
+  bexpr
+)
+ident(
+  def e2 "equation.ml" 121 3007 3025 "equation.ml" 121 3007 3078
+)
+"equation.ml" 121 3007 3011 "equation.ml" 121 3007 3021
+type(
+  bexpr
+)
+"equation.ml" 121 3007 3025 "equation.ml" 121 3007 3030
+type(
+  bexpr -> bexpr -> bexpr
+)
+ident(
+  int_ref mkand "equation.ml" 53 1424 1428 "equation.ml" 53 1424 1433
+)
+"equation.ml" 121 3007 3032 "equation.ml" 121 3007 3050
+type(
+  bexpr -> bexpr
+)
+ident(
+  int_ref simplify_bexpr_rec "equation.ml" 118 2919 2928 "equation.ml" 118 2919 2946
+)
+"equation.ml" 121 3007 3051 "equation.ml" 121 3007 3053
+type(
+  bexpr
+)
+ident(
+  int_ref e1 "equation.ml" 121 3007 3015 "equation.ml" 121 3007 3017
+)
+"equation.ml" 121 3007 3031 "equation.ml" 121 3007 3054
+call(
+  stack
+)
+type(
+  bexpr
+)
+"equation.ml" 121 3007 3056 "equation.ml" 121 3007 3074
+type(
+  bexpr -> bexpr
+)
+ident(
+  int_ref simplify_bexpr_rec "equation.ml" 118 2919 2928 "equation.ml" 118 2919 2946
+)
+"equation.ml" 121 3007 3075 "equation.ml" 121 3007 3077
+type(
+  bexpr
+)
+ident(
+  int_ref e2 "equation.ml" 121 3007 3018 "equation.ml" 121 3007 3020
+)
+"equation.ml" 121 3007 3055 "equation.ml" 121 3007 3078
+call(
+  stack
+)
+type(
+  bexpr
+)
+"equation.ml" 121 3007 3025 "equation.ml" 121 3007 3078
+call(
+  tail
+)
+type(
+  bexpr
+)
+"equation.ml" 122 3079 3086 "equation.ml" 122 3079 3088
+type(
+  bexpr
+)
+ident(
+  def e1 "equation.ml" 122 3079 3096 "equation.ml" 122 3079 3148
+)
+"equation.ml" 122 3079 3089 "equation.ml" 122 3079 3091
+type(
+  bexpr
+)
+ident(
+  def e2 "equation.ml" 122 3079 3096 "equation.ml" 122 3079 3148
+)
+"equation.ml" 122 3079 3083 "equation.ml" 122 3079 3092
+type(
+  bexpr
+)
+"equation.ml" 122 3079 3096 "equation.ml" 122 3079 3100
+type(
+  bexpr -> bexpr -> bexpr
+)
+ident(
+  int_ref mkor "equation.ml" 59 1573 1577 "equation.ml" 59 1573 1581
+)
+"equation.ml" 122 3079 3102 "equation.ml" 122 3079 3120
+type(
+  bexpr -> bexpr
+)
+ident(
+  int_ref simplify_bexpr_rec "equation.ml" 118 2919 2928 "equation.ml" 118 2919 2946
+)
+"equation.ml" 122 3079 3121 "equation.ml" 122 3079 3123
+type(
+  bexpr
+)
+ident(
+  int_ref e1 "equation.ml" 122 3079 3086 "equation.ml" 122 3079 3088
+)
+"equation.ml" 122 3079 3101 "equation.ml" 122 3079 3124
+call(
+  stack
+)
+type(
+  bexpr
+)
+"equation.ml" 122 3079 3126 "equation.ml" 122 3079 3144
+type(
+  bexpr -> bexpr
+)
+ident(
+  int_ref simplify_bexpr_rec "equation.ml" 118 2919 2928 "equation.ml" 118 2919 2946
+)
+"equation.ml" 122 3079 3145 "equation.ml" 122 3079 3147
+type(
+  bexpr
+)
+ident(
+  int_ref e2 "equation.ml" 122 3079 3089 "equation.ml" 122 3079 3091
+)
+"equation.ml" 122 3079 3125 "equation.ml" 122 3079 3148
+call(
+  stack
+)
+type(
+  bexpr
+)
+"equation.ml" 122 3079 3096 "equation.ml" 122 3079 3148
+call(
+  tail
+)
+type(
+  bexpr
+)
+"equation.ml" 123 3151 3163 "equation.ml" 123 3151 3165
+type(
+  bexpr
+)
+ident(
+  def e1 "equation.ml" 123 3151 3173 "equation.ml" 123 3151 3227
+)
+"equation.ml" 123 3151 3166 "equation.ml" 123 3151 3168
+type(
+  bexpr
+)
+ident(
+  def e2 "equation.ml" 123 3151 3173 "equation.ml" 123 3151 3227
+)
+"equation.ml" 123 3151 3155 "equation.ml" 123 3151 3169
+type(
+  bexpr
+)
+"equation.ml" 123 3151 3173 "equation.ml" 123 3151 3179
+type(
+  bexpr -> bexpr -> bexpr
+)
+ident(
+  int_ref mkimpl "equation.ml" 65 1717 1721 "equation.ml" 65 1717 1727
+)
+"equation.ml" 123 3151 3181 "equation.ml" 123 3151 3199
+type(
+  bexpr -> bexpr
+)
+ident(
+  int_ref simplify_bexpr_rec "equation.ml" 118 2919 2928 "equation.ml" 118 2919 2946
+)
+"equation.ml" 123 3151 3200 "equation.ml" 123 3151 3202
+type(
+  bexpr
+)
+ident(
+  int_ref e1 "equation.ml" 123 3151 3163 "equation.ml" 123 3151 3165
+)
+"equation.ml" 123 3151 3180 "equation.ml" 123 3151 3203
+call(
+  stack
+)
+type(
+  bexpr
+)
+"equation.ml" 123 3151 3205 "equation.ml" 123 3151 3223
+type(
+  bexpr -> bexpr
+)
+ident(
+  int_ref simplify_bexpr_rec "equation.ml" 118 2919 2928 "equation.ml" 118 2919 2946
+)
+"equation.ml" 123 3151 3224 "equation.ml" 123 3151 3226
+type(
+  bexpr
+)
+ident(
+  int_ref e2 "equation.ml" 123 3151 3166 "equation.ml" 123 3151 3168
+)
+"equation.ml" 123 3151 3204 "equation.ml" 123 3151 3227
+call(
+  stack
+)
+type(
+  bexpr
+)
+"equation.ml" 123 3151 3173 "equation.ml" 123 3151 3227
+call(
+  tail
+)
+type(
+  bexpr
+)
+"equation.ml" 124 3228 3243 "equation.ml" 124 3228 3244
+type(
+  bexpr list
+)
+ident(
+  def l "equation.ml" 124 3228 3250 "equation.ml" 124 3228 3288
+)
+"equation.ml" 124 3228 3232 "equation.ml" 124 3228 3244
+type(
+  bexpr
+)
+"equation.ml" 124 3228 3250 "equation.ml" 124 3228 3256
+type(
+  bexpr list -> bexpr
+)
+ident(
+  int_ref mkuniq "equation.ml" 71 1829 1833 "equation.ml" 71 1829 1839
+)
+"equation.ml" 124 3228 3258 "equation.ml" 124 3228 3266
+type(
+  (bexpr -> bexpr) -> bexpr list -> bexpr list
+)
+ident(
+  ext_ref List.map
+)
+"equation.ml" 124 3228 3267 "equation.ml" 124 3228 3285
+type(
+  bexpr -> bexpr
+)
+ident(
+  int_ref simplify_bexpr_rec "equation.ml" 118 2919 2928 "equation.ml" 118 2919 2946
+)
+"equation.ml" 124 3228 3286 "equation.ml" 124 3228 3287
+type(
+  bexpr list
+)
+ident(
+  int_ref l "equation.ml" 124 3228 3243 "equation.ml" 124 3228 3244
+)
+"equation.ml" 124 3228 3257 "equation.ml" 124 3228 3288
+call(
+  stack
+)
+type(
+  bexpr list
+)
+"equation.ml" 124 3228 3250 "equation.ml" 124 3228 3288
+call(
+  tail
+)
+type(
+  bexpr
+)
+"equation.ml" 125 3289 3301 "equation.ml" 125 3289 3302
+type(
+  sexpr
+)
+ident(
+  def e "equation.ml" 125 3289 3311 "equation.ml" 125 3289 3347
+)
+"equation.ml" 125 3289 3293 "equation.ml" 125 3289 3302
+type(
+  bexpr
+)
+"equation.ml" 125 3289 3311 "equation.ml" 125 3289 3318
+type(
+  sexpr -> bexpr
+)
+ident(
+  int_ref mkempty "equation.ml" 103 2631 2635 "equation.ml" 103 2631 2642
+)
+"equation.ml" 125 3289 3320 "equation.ml" 125 3289 3334
+type(
+  (var -> bexpr) -> (var -> sexpr) -> sexpr -> sexpr
+)
+ident(
+  int_ref simplify_sexpr "equation.ml" 128 3375 3379 "equation.ml" 128 3375 3393
+)
+"equation.ml" 125 3289 3335 "equation.ml" 125 3289 3339
+type(
+  var -> bexpr
+)
+ident(
+  int_ref bvar "equation.ml" 117 2882 2905 "equation.ml" 117 2882 2909
+)
+"equation.ml" 125 3289 3340 "equation.ml" 125 3289 3344
+type(
+  var -> sexpr
+)
+ident(
+  int_ref svar "equation.ml" 117 2882 2910 "equation.ml" 117 2882 2914
+)
+"equation.ml" 125 3289 3345 "equation.ml" 125 3289 3346
+type(
+  sexpr
+)
+ident(
+  int_ref e "equation.ml" 125 3289 3301 "equation.ml" 125 3289 3302
+)
+"equation.ml" 125 3289 3319 "equation.ml" 125 3289 3347
+call(
+  stack
+)
+type(
+  sexpr
+)
+"equation.ml" 125 3289 3311 "equation.ml" 125 3289 3347
+call(
+  tail
+)
+type(
+  bexpr
+)
+"equation.ml" 118 2919 2950 "equation.ml" 125 3289 3347
+type(
+  bexpr -> bexpr
+)
+"equation.ml" 126 3351 3352 "equation.ml" 126 3351 3370
+type(
+  bexpr -> bexpr
+)
+ident(
+  int_ref simplify_bexpr_rec "equation.ml" 118 2919 2928 "equation.ml" 118 2919 2946
+)
+"equation.ml" 126 3351 3371 "equation.ml" 126 3351 3372
+type(
+  bexpr
+)
+ident(
+  int_ref e "equation.ml" 117 2882 2915 "equation.ml" 117 2882 2916
+)
+"equation.ml" 126 3351 3352 "equation.ml" 126 3351 3372
+call(
+  tail
+)
+type(
+  bexpr
+)
+"equation.ml" 118 2919 2920 "equation.ml" 126 3351 3372
+type(
+  bexpr
+)
+"equation.ml" 128 3375 3379 "equation.ml" 128 3375 3393
+type(
+  (var -> bexpr) -> (var -> sexpr) -> sexpr -> sexpr
+)
+ident(
+  def simplify_sexpr "equation.ml" 117 2882 2882 "equation.ml" 1 0 -1
+)
+"equation.ml" 128 3375 3394 "equation.ml" 128 3375 3398
+type(
+  var -> bexpr
+)
+ident(
+  def bvar "equation.ml" 128 3375 3399 "equation.ml" 135 3719 3740
+)
+"equation.ml" 128 3375 3399 "equation.ml" 128 3375 3403
+type(
+  var -> sexpr
+)
+ident(
+  def svar "equation.ml" 128 3375 3404 "equation.ml" 135 3719 3740
+)
+"equation.ml" 128 3375 3404 "equation.ml" 128 3375 3405
+type(
+  sexpr
+)
+ident(
+  def e "equation.ml" 129 3408 3409 "equation.ml" 135 3719 3740
+)
+"equation.ml" 129 3408 3417 "equation.ml" 129 3408 3435
+type(
+  sexpr -> sexpr
+)
+ident(
+  def simplify_sexpr_rec "equation.ml" 129 3408 3409 "equation.ml" 135 3719 3740
+)
+"equation.ml" 130 3447 3455 "equation.ml" 130 3447 3456
+type(
+  var
+)
+ident(
+  def v "equation.ml" 130 3447 3460 "equation.ml" 130 3447 3472
+)
+"equation.ml" 130 3447 3450 "equation.ml" 130 3447 3456
+type(
+  sexpr
+)
+"equation.ml" 130 3447 3460 "equation.ml" 130 3447 3465
+type(
+  (var -> sexpr) -> var -> sexpr
+)
+ident(
+  int_ref ssvar "equation.ml" 112 2812 2816 "equation.ml" 112 2812 2821
+)
+"equation.ml" 130 3447 3466 "equation.ml" 130 3447 3470
+type(
+  var -> sexpr
+)
+ident(
+  int_ref svar "equation.ml" 128 3375 3399 "equation.ml" 128 3375 3403
+)
+"equation.ml" 130 3447 3471 "equation.ml" 130 3447 3472
+type(
+  var
+)
+ident(
+  int_ref v "equation.ml" 130 3447 3455 "equation.ml" 130 3447 3456
+)
+"equation.ml" 130 3447 3460 "equation.ml" 130 3447 3472
+call(
+  tail
+)
+type(
+  sexpr
+)
+"equation.ml" 131 3473 3480 "equation.ml" 131 3473 3481
+type(
+  Grammar.VTSet.t
+)
+ident(
+  def s "equation.ml" 131 3473 3486 "equation.ml" 131 3473 3491
+)
+"equation.ml" 131 3473 3476 "equation.ml" 131 3473 3481
+type(
+  sexpr
+)
+"equation.ml" 131 3473 3490 "equation.ml" 131 3473 3491
+type(
+  Grammar.VTSet.t
+)
+ident(
+  int_ref s "equation.ml" 131 3473 3480 "equation.ml" 131 3473 3481
+)
+"equation.ml" 131 3473 3486 "equation.ml" 131 3473 3491
+type(
+  sexpr
+)
+"equation.ml" 132 3492 3501 "equation.ml" 132 3492 3503
+type(
+  sexpr
+)
+ident(
+  def e1 "equation.ml" 132 3492 3511 "equation.ml" 132 3492 3565
+)
+"equation.ml" 132 3492 3504 "equation.ml" 132 3492 3506
+type(
+  sexpr
+)
+ident(
+  def e2 "equation.ml" 132 3492 3511 "equation.ml" 132 3492 3565
+)
+"equation.ml" 132 3492 3495 "equation.ml" 132 3492 3507
+type(
+  sexpr
+)
+"equation.ml" 132 3492 3511 "equation.ml" 132 3492 3517
+type(
+  sexpr -> sexpr -> sexpr
+)
+ident(
+  int_ref sunion "equation.ml" 84 2164 2168 "equation.ml" 84 2164 2174
+)
+"equation.ml" 132 3492 3519 "equation.ml" 132 3492 3537
+type(
+  sexpr -> sexpr
+)
+ident(
+  int_ref simplify_sexpr_rec "equation.ml" 129 3408 3417 "equation.ml" 129 3408 3435
+)
+"equation.ml" 132 3492 3538 "equation.ml" 132 3492 3540
+type(
+  sexpr
+)
+ident(
+  int_ref e1 "equation.ml" 132 3492 3501 "equation.ml" 132 3492 3503
+)
+"equation.ml" 132 3492 3518 "equation.ml" 132 3492 3541
+call(
+  stack
+)
+type(
+  sexpr
+)
+"equation.ml" 132 3492 3543 "equation.ml" 132 3492 3561
+type(
+  sexpr -> sexpr
+)
+ident(
+  int_ref simplify_sexpr_rec "equation.ml" 129 3408 3417 "equation.ml" 129 3408 3435
+)
+"equation.ml" 132 3492 3562 "equation.ml" 132 3492 3564
+type(
+  sexpr
+)
+ident(
+  int_ref e2 "equation.ml" 132 3492 3504 "equation.ml" 132 3492 3506
+)
+"equation.ml" 132 3492 3542 "equation.ml" 132 3492 3565
+call(
+  stack
+)
+type(
+  sexpr
+)
+"equation.ml" 132 3492 3511 "equation.ml" 132 3492 3565
+call(
+  tail
+)
+type(
+  sexpr
+)
+"equation.ml" 133 3566 3575 "equation.ml" 133 3566 3577
+type(
+  sexpr
+)
+ident(
+  def e1 "equation.ml" 133 3566 3585 "equation.ml" 133 3566 3639
+)
+"equation.ml" 133 3566 3578 "equation.ml" 133 3566 3580
+type(
+  sexpr
+)
+ident(
+  def e2 "equation.ml" 133 3566 3585 "equation.ml" 133 3566 3639
+)
+"equation.ml" 133 3566 3569 "equation.ml" 133 3566 3581
+type(
+  sexpr
+)
+"equation.ml" 133 3566 3585 "equation.ml" 133 3566 3591
+type(
+  sexpr -> sexpr -> sexpr
+)
+ident(
+  int_ref sinter "equation.ml" 90 2329 2333 "equation.ml" 90 2329 2339
+)
+"equation.ml" 133 3566 3593 "equation.ml" 133 3566 3611
+type(
+  sexpr -> sexpr
+)
+ident(
+  int_ref simplify_sexpr_rec "equation.ml" 129 3408 3417 "equation.ml" 129 3408 3435
+)
+"equation.ml" 133 3566 3612 "equation.ml" 133 3566 3614
+type(
+  sexpr
+)
+ident(
+  int_ref e1 "equation.ml" 133 3566 3575 "equation.ml" 133 3566 3577
+)
+"equation.ml" 133 3566 3592 "equation.ml" 133 3566 3615
+call(
+  stack
+)
+type(
+  sexpr
+)
+"equation.ml" 133 3566 3617 "equation.ml" 133 3566 3635
+type(
+  sexpr -> sexpr
+)
+ident(
+  int_ref simplify_sexpr_rec "equation.ml" 129 3408 3417 "equation.ml" 129 3408 3435
+)
+"equation.ml" 133 3566 3636 "equation.ml" 133 3566 3638
+type(
+  sexpr
+)
+ident(
+  int_ref e2 "equation.ml" 133 3566 3578 "equation.ml" 133 3566 3580
+)
+"equation.ml" 133 3566 3616 "equation.ml" 133 3566 3639
+call(
+  stack
+)
+type(
+  sexpr
+)
+"equation.ml" 133 3566 3585 "equation.ml" 133 3566 3639
+call(
+  tail
+)
+type(
+  sexpr
+)
+"equation.ml" 134 3640 3648 "equation.ml" 134 3640 3649
+type(
+  bexpr
+)
+ident(
+  def b "equation.ml" 134 3640 3657 "equation.ml" 134 3640 3715
+)
+"equation.ml" 134 3640 3650 "equation.ml" 134 3640 3652
+type(
+  sexpr
+)
+ident(
+  def e2 "equation.ml" 134 3640 3657 "equation.ml" 134 3640 3715
+)
+"equation.ml" 134 3640 3643 "equation.ml" 134 3640 3653
+type(
+  sexpr
+)
+"equation.ml" 134 3640 3657 "equation.ml" 134 3640 3662
+type(
+  bexpr -> sexpr -> sexpr
+)
+ident(
+  int_ref scond "equation.ml" 96 2510 2514 "equation.ml" 96 2510 2519
+)
+"equation.ml" 134 3640 3664 "equation.ml" 134 3640 3678
+type(
+  (var -> bexpr) -> (var -> sexpr) -> bexpr -> bexpr
+)
+ident(
+  int_ref simplify_bexpr "equation.ml" 117 2882 2890 "equation.ml" 117 2882 2904
+)
+"equation.ml" 134 3640 3679 "equation.ml" 134 3640 3683
+type(
+  var -> bexpr
+)
+ident(
+  int_ref bvar "equation.ml" 128 3375 3394 "equation.ml" 128 3375 3398
+)
+"equation.ml" 134 3640 3684 "equation.ml" 134 3640 3688
+type(
+  var -> sexpr
+)
+ident(
+  int_ref svar "equation.ml" 128 3375 3399 "equation.ml" 128 3375 3403
+)
+"equation.ml" 134 3640 3689 "equation.ml" 134 3640 3690
+type(
+  bexpr
+)
+ident(
+  int_ref b "equation.ml" 134 3640 3648 "equation.ml" 134 3640 3649
+)
+"equation.ml" 134 3640 3663 "equation.ml" 134 3640 3691
+call(
+  stack
+)
+type(
+  bexpr
+)
+"equation.ml" 134 3640 3693 "equation.ml" 134 3640 3711
+type(
+  sexpr -> sexpr
+)
+ident(
+  int_ref simplify_sexpr_rec "equation.ml" 129 3408 3417 "equation.ml" 129 3408 3435
+)
+"equation.ml" 134 3640 3712 "equation.ml" 134 3640 3714
+type(
+  sexpr
+)
+ident(
+  int_ref e2 "equation.ml" 134 3640 3650 "equation.ml" 134 3640 3652
+)
+"equation.ml" 134 3640 3692 "equation.ml" 134 3640 3715
+call(
+  stack
+)
+type(
+  sexpr
+)
+"equation.ml" 134 3640 3657 "equation.ml" 134 3640 3715
+call(
+  tail
+)
+type(
+  sexpr
+)
+"equation.ml" 129 3408 3438 "equation.ml" 134 3640 3715
+type(
+  sexpr -> sexpr
+)
+"equation.ml" 135 3719 3720 "equation.ml" 135 3719 3738
+type(
+  sexpr -> sexpr
+)
+ident(
+  int_ref simplify_sexpr_rec "equation.ml" 129 3408 3417 "equation.ml" 129 3408 3435
+)
+"equation.ml" 135 3719 3739 "equation.ml" 135 3719 3740
+type(
+  sexpr
+)
+ident(
+  int_ref e "equation.ml" 128 3375 3404 "equation.ml" 128 3375 3405
+)
+"equation.ml" 135 3719 3720 "equation.ml" 135 3719 3740
+call(
+  tail
+)
+type(
+  sexpr
+)
+"equation.ml" 129 3408 3409 "equation.ml" 135 3719 3740
+type(
+  sexpr
+)
+"equation.ml" 137 3742 3750 "equation.ml" 137 3742 3758
+type(
+  bexpr -> bexpr -> bool
+)
+ident(
+  def eq_bexpr "equation.ml" 137 3742 3742 "equation.ml" 1 0 -1
+)
+"equation.ml" 137 3742 3759 "equation.ml" 137 3742 3761
+type(
+  bexpr
+)
+ident(
+  def e1 "equation.ml" 137 3742 3762 "equation.ml" 147 4213 4241
+)
+"equation.ml" 137 3742 3762 "equation.ml" 137 3742 3764
+type(
+  bexpr
+)
+ident(
+  def e2 "equation.ml" 138 3767 3768 "equation.ml" 147 4213 4241
+)
+"equation.ml" 138 3767 3774 "equation.ml" 138 3767 3776
+type(
+  bexpr
+)
+ident(
+  int_ref e1 "equation.ml" 137 3742 3759 "equation.ml" 137 3742 3761
+)
+"equation.ml" 138 3767 3777 "equation.ml" 138 3767 3779
+type(
+  bexpr
+)
+ident(
+  int_ref e2 "equation.ml" 137 3742 3762 "equation.ml" 137 3742 3764
+)
+"equation.ml" 138 3767 3774 "equation.ml" 138 3767 3779
+type(
+  bexpr * bexpr
+)
+"equation.ml" 139 3785 3794 "equation.ml" 139 3785 3795
+type(
+  var
+)
+ident(
+  def v "equation.ml" 139 3785 3826 "equation.ml" 139 3785 3832
+)
+"equation.ml" 139 3785 3789 "equation.ml" 139 3785 3795
+type(
+  bexpr
+)
+"equation.ml" 139 3785 3803 "equation.ml" 139 3785 3805
+type(
+  var
+)
+ident(
+  def v' "equation.ml" 139 3785 3826 "equation.ml" 139 3785 3832
+)
+"equation.ml" 139 3785 3798 "equation.ml" 139 3785 3805
+type(
+  bexpr
+)
+"equation.ml" 139 3785 3789 "equation.ml" 139 3785 3805
+type(
+  bexpr * bexpr
+)
+"equation.ml" 139 3785 3826 "equation.ml" 139 3785 3827
+type(
+  var
+)
+ident(
+  int_ref v "equation.ml" 139 3785 3794 "equation.ml" 139 3785 3795
+)
+"equation.ml" 139 3785 3828 "equation.ml" 139 3785 3829
+type(
+  var -> var -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"equation.ml" 139 3785 3830 "equation.ml" 139 3785 3832
+type(
+  var
+)
+ident(
+  int_ref v' "equation.ml" 139 3785 3803 "equation.ml" 139 3785 3805
+)
+"equation.ml" 139 3785 3826 "equation.ml" 139 3785 3832
+type(
+  bool
+)
+"equation.ml" 140 3833 3842 "equation.ml" 140 3833 3843
+type(
+  bool
+)
+ident(
+  def b "equation.ml" 140 3833 3874 "equation.ml" 140 3833 3880
+)
+"equation.ml" 140 3833 3837 "equation.ml" 140 3833 3843
+type(
+  bexpr
+)
+"equation.ml" 140 3833 3851 "equation.ml" 140 3833 3853
+type(
+  bool
+)
+ident(
+  def b' "equation.ml" 140 3833 3874 "equation.ml" 140 3833 3880
+)
+"equation.ml" 140 3833 3846 "equation.ml" 140 3833 3853
+type(
+  bexpr
+)
+"equation.ml" 140 3833 3837 "equation.ml" 140 3833 3853
+type(
+  bexpr * bexpr
+)
+"equation.ml" 140 3833 3874 "equation.ml" 140 3833 3875
+type(
+  bool
+)
+ident(
+  int_ref b "equation.ml" 140 3833 3842 "equation.ml" 140 3833 3843
+)
+"equation.ml" 140 3833 3876 "equation.ml" 140 3833 3877
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"equation.ml" 140 3833 3878 "equation.ml" 140 3833 3880
+type(
+  bool
+)
+ident(
+  int_ref b' "equation.ml" 140 3833 3851 "equation.ml" 140 3833 3853
+)
+"equation.ml" 140 3833 3874 "equation.ml" 140 3833 3880
+type(
+  bool
+)
+"equation.ml" 141 3881 3889 "equation.ml" 141 3881 3891
+type(
+  bexpr
+)
+ident(
+  def e1 "equation.ml" 142 3910 3951 "equation.ml" 142 3910 3985
+)
+"equation.ml" 141 3881 3892 "equation.ml" 141 3881 3894
+type(
+  bexpr
+)
+ident(
+  def e2 "equation.ml" 142 3910 3951 "equation.ml" 142 3910 3985
+)
+"equation.ml" 141 3881 3885 "equation.ml" 141 3881 3895
+type(
+  bexpr
+)
+"equation.ml" 141 3881 3901 "equation.ml" 141 3881 3904
+type(
+  bexpr
+)
+ident(
+  def e1' "equation.ml" 142 3910 3951 "equation.ml" 142 3910 3985
+)
+"equation.ml" 141 3881 3905 "equation.ml" 141 3881 3908
+type(
+  bexpr
+)
+ident(
+  def e2' "equation.ml" 142 3910 3951 "equation.ml" 142 3910 3985
+)
+"equation.ml" 141 3881 3897 "equation.ml" 141 3881 3909
+type(
+  bexpr
+)
+"equation.ml" 141 3881 3885 "equation.ml" 141 3881 3909
+type(
+  bexpr * bexpr
+)
+"equation.ml" 142 3910 3917 "equation.ml" 142 3910 3919
+type(
+  bexpr
+)
+ident(
+  def e1 "equation.ml" 142 3910 3951 "equation.ml" 142 3910 3985
+)
+"equation.ml" 142 3910 3920 "equation.ml" 142 3910 3922
+type(
+  bexpr
+)
+ident(
+  def e2 "equation.ml" 142 3910 3951 "equation.ml" 142 3910 3985
+)
+"equation.ml" 142 3910 3914 "equation.ml" 142 3910 3923
+type(
+  bexpr
+)
+"equation.ml" 142 3910 3928 "equation.ml" 142 3910 3931
+type(
+  bexpr
+)
+ident(
+  def e1' "equation.ml" 142 3910 3951 "equation.ml" 142 3910 3985
+)
+"equation.ml" 142 3910 3932 "equation.ml" 142 3910 3935
+type(
+  bexpr
+)
+ident(
+  def e2' "equation.ml" 142 3910 3951 "equation.ml" 142 3910 3985
+)
+"equation.ml" 142 3910 3925 "equation.ml" 142 3910 3936
+type(
+  bexpr
+)
+"equation.ml" 142 3910 3914 "equation.ml" 142 3910 3936
+type(
+  bexpr * bexpr
+)
+"equation.ml" 141 3881 3885 "equation.ml" 142 3910 3936
+type(
+  bexpr * bexpr
+)
+"equation.ml" 142 3910 3951 "equation.ml" 142 3910 3959
+type(
+  bexpr -> bexpr -> bool
+)
+ident(
+  int_ref eq_bexpr "equation.ml" 137 3742 3750 "equation.ml" 137 3742 3758
+)
+"equation.ml" 142 3910 3960 "equation.ml" 142 3910 3962
+type(
+  bexpr
+)
+ident(
+  int_ref e1 "equation.ml" 141 3881 3889 "equation.ml" 141 3881 3891
+)
+"equation.ml" 142 3910 3963 "equation.ml" 142 3910 3966
+type(
+  bexpr
+)
+ident(
+  int_ref e1' "equation.ml" 141 3881 3901 "equation.ml" 141 3881 3904
+)
+"equation.ml" 142 3910 3951 "equation.ml" 142 3910 3966
+call(
+  stack
+)
+type(
+  bool
+)
+"equation.ml" 142 3910 3967 "equation.ml" 142 3910 3969
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"equation.ml" 142 3910 3970 "equation.ml" 142 3910 3978
+type(
+  bexpr -> bexpr -> bool
+)
+ident(
+  int_ref eq_bexpr "equation.ml" 137 3742 3750 "equation.ml" 137 3742 3758
+)
+"equation.ml" 142 3910 3979 "equation.ml" 142 3910 3981
+type(
+  bexpr
+)
+ident(
+  int_ref e2 "equation.ml" 141 3881 3892 "equation.ml" 141 3881 3894
+)
+"equation.ml" 142 3910 3982 "equation.ml" 142 3910 3985
+type(
+  bexpr
+)
+ident(
+  int_ref e2' "equation.ml" 141 3881 3905 "equation.ml" 141 3881 3908
+)
+"equation.ml" 142 3910 3970 "equation.ml" 142 3910 3985
+call(
+  tail
+)
+type(
+  bool
+)
+"equation.ml" 142 3910 3951 "equation.ml" 142 3910 3985
+type(
+  bool
+)
+"equation.ml" 143 3986 3998 "equation.ml" 143 3986 4000
+type(
+  bexpr
+)
+ident(
+  def e1 "equation.ml" 143 3986 4027 "equation.ml" 143 3986 4061
+)
+"equation.ml" 143 3986 4001 "equation.ml" 143 3986 4003
+type(
+  bexpr
+)
+ident(
+  def e2 "equation.ml" 143 3986 4027 "equation.ml" 143 3986 4061
+)
+"equation.ml" 143 3986 3990 "equation.ml" 143 3986 4004
+type(
+  bexpr
+)
+"equation.ml" 143 3986 4015 "equation.ml" 143 3986 4018
+type(
+  bexpr
+)
+ident(
+  def e1' "equation.ml" 143 3986 4027 "equation.ml" 143 3986 4061
+)
+"equation.ml" 143 3986 4019 "equation.ml" 143 3986 4022
+type(
+  bexpr
+)
+ident(
+  def e2' "equation.ml" 143 3986 4027 "equation.ml" 143 3986 4061
+)
+"equation.ml" 143 3986 4007 "equation.ml" 143 3986 4023
+type(
+  bexpr
+)
+"equation.ml" 143 3986 3990 "equation.ml" 143 3986 4023
+type(
+  bexpr * bexpr
+)
+"equation.ml" 143 3986 4027 "equation.ml" 143 3986 4035
+type(
+  bexpr -> bexpr -> bool
+)
+ident(
+  int_ref eq_bexpr "equation.ml" 137 3742 3750 "equation.ml" 137 3742 3758
+)
+"equation.ml" 143 3986 4036 "equation.ml" 143 3986 4038
+type(
+  bexpr
+)
+ident(
+  int_ref e1 "equation.ml" 143 3986 3998 "equation.ml" 143 3986 4000
+)
+"equation.ml" 143 3986 4039 "equation.ml" 143 3986 4042
+type(
+  bexpr
+)
+ident(
+  int_ref e1' "equation.ml" 143 3986 4015 "equation.ml" 143 3986 4018
+)
+"equation.ml" 143 3986 4027 "equation.ml" 143 3986 4042
+call(
+  stack
+)
+type(
+  bool
+)
+"equation.ml" 143 3986 4043 "equation.ml" 143 3986 4045
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"equation.ml" 143 3986 4046 "equation.ml" 143 3986 4054
+type(
+  bexpr -> bexpr -> bool
+)
+ident(
+  int_ref eq_bexpr "equation.ml" 137 3742 3750 "equation.ml" 137 3742 3758
+)
+"equation.ml" 143 3986 4055 "equation.ml" 143 3986 4057
+type(
+  bexpr
+)
+ident(
+  int_ref e2 "equation.ml" 143 3986 4001 "equation.ml" 143 3986 4003
+)
+"equation.ml" 143 3986 4058 "equation.ml" 143 3986 4061
+type(
+  bexpr
+)
+ident(
+  int_ref e2' "equation.ml" 143 3986 4019 "equation.ml" 143 3986 4022
+)
+"equation.ml" 143 3986 4046 "equation.ml" 143 3986 4061
+call(
+  tail
+)
+type(
+  bool
+)
+"equation.ml" 143 3986 4027 "equation.ml" 143 3986 4061
+type(
+  bool
+)
+"equation.ml" 144 4062 4077 "equation.ml" 144 4062 4078
+type(
+  bexpr list
+)
+ident(
+  def l "equation.ml" 145 4103 4106 "equation.ml" 145 4103 4163
+)
+"equation.ml" 144 4062 4066 "equation.ml" 144 4062 4078
+type(
+  bexpr
+)
+"equation.ml" 144 4062 4092 "equation.ml" 144 4062 4094
+type(
+  bexpr list
+)
+ident(
+  def l' "equation.ml" 145 4103 4106 "equation.ml" 145 4103 4163
+)
+"equation.ml" 144 4062 4081 "equation.ml" 144 4062 4094
+type(
+  bexpr
+)
+"equation.ml" 144 4062 4066 "equation.ml" 144 4062 4094
+type(
+  bexpr * bexpr
+)
+"equation.ml" 145 4103 4116 "equation.ml" 145 4103 4129
+type(
+  (bexpr -> bexpr -> bool) -> bexpr list -> bexpr list -> bool
+)
+ident(
+  ext_ref List.for_all2
+)
+"equation.ml" 145 4103 4130 "equation.ml" 145 4103 4138
+type(
+  bexpr -> bexpr -> bool
+)
+ident(
+  int_ref eq_bexpr "equation.ml" 137 3742 3750 "equation.ml" 137 3742 3758
+)
+"equation.ml" 145 4103 4139 "equation.ml" 145 4103 4140
+type(
+  bexpr list
+)
+ident(
+  int_ref l "equation.ml" 144 4062 4077 "equation.ml" 144 4062 4078
+)
+"equation.ml" 145 4103 4141 "equation.ml" 145 4103 4143
+type(
+  bexpr list
+)
+ident(
+  int_ref l' "equation.ml" 144 4062 4092 "equation.ml" 144 4062 4094
+)
+"equation.ml" 145 4103 4116 "equation.ml" 145 4103 4143
+call(
+  stack
+)
+type(
+  bool
+)
+"equation.ml" 145 4103 4149 "equation.ml" 145 4103 4150
+type(
+  exn
+)
+"equation.ml" 145 4103 4154 "equation.ml" 145 4103 4159
+type(
+  bool
+)
+"equation.ml" 145 4103 4106 "equation.ml" 145 4103 4163
+type(
+  bool
+)
+"equation.ml" 146 4164 4176 "equation.ml" 146 4164 4177
+type(
+  sexpr
+)
+ident(
+  def e "equation.ml" 146 4164 4199 "equation.ml" 146 4164 4212
+)
+"equation.ml" 146 4164 4168 "equation.ml" 146 4164 4177
+type(
+  bexpr
+)
+"equation.ml" 146 4164 4188 "equation.ml" 146 4164 4190
+type(
+  sexpr
+)
+ident(
+  def e' "equation.ml" 146 4164 4199 "equation.ml" 146 4164 4212
+)
+"equation.ml" 146 4164 4180 "equation.ml" 146 4164 4190
+type(
+  bexpr
+)
+"equation.ml" 146 4164 4168 "equation.ml" 146 4164 4190
+type(
+  bexpr * bexpr
+)
+"equation.ml" 146 4164 4199 "equation.ml" 146 4164 4207
+type(
+  sexpr -> sexpr -> bool
+)
+ident(
+  int_ref eq_sexpr "equation.ml" 148 4242 4246 "equation.ml" 148 4242 4254
+)
+"equation.ml" 146 4164 4208 "equation.ml" 146 4164 4209
+type(
+  sexpr
+)
+ident(
+  int_ref e "equation.ml" 146 4164 4176 "equation.ml" 146 4164 4177
+)
+"equation.ml" 146 4164 4210 "equation.ml" 146 4164 4212
+type(
+  sexpr
+)
+ident(
+  int_ref e' "equation.ml" 146 4164 4188 "equation.ml" 146 4164 4190
+)
+"equation.ml" 146 4164 4199 "equation.ml" 146 4164 4212
+call(
+  tail
+)
+type(
+  bool
+)
+"equation.ml" 147 4213 4219 "equation.ml" 147 4213 4220
+type(
+  bexpr
+)
+"equation.ml" 147 4213 4229 "equation.ml" 147 4213 4230
+type(
+  bexpr
+)
+"equation.ml" 147 4213 4219 "equation.ml" 147 4213 4230
+type(
+  bexpr * bexpr
+)
+"equation.ml" 147 4213 4236 "equation.ml" 147 4213 4241
+type(
+  bool
+)
+"equation.ml" 138 3767 3768 "equation.ml" 147 4213 4241
+type(
+  bool
+)
+"equation.ml" 148 4242 4246 "equation.ml" 148 4242 4254
+type(
+  sexpr -> sexpr -> bool
+)
+ident(
+  def eq_sexpr "equation.ml" 137 3742 3742 "equation.ml" 1 0 -1
+)
+"equation.ml" 148 4242 4255 "equation.ml" 148 4242 4256
+type(
+  sexpr
+)
+ident(
+  def e "equation.ml" 148 4242 4257 "equation.ml" 155 4520 4541
+)
+"equation.ml" 148 4242 4257 "equation.ml" 148 4242 4259
+type(
+  sexpr
+)
+ident(
+  def e' "equation.ml" 149 4261 4262 "equation.ml" 155 4520 4541
+)
+"equation.ml" 149 4261 4268 "equation.ml" 149 4261 4269
+type(
+  sexpr
+)
+ident(
+  int_ref e "equation.ml" 148 4242 4255 "equation.ml" 148 4242 4256
+)
+"equation.ml" 149 4261 4272 "equation.ml" 149 4261 4274
+type(
+  sexpr
+)
+ident(
+  int_ref e' "equation.ml" 148 4242 4257 "equation.ml" 148 4242 4259
+)
+"equation.ml" 149 4261 4268 "equation.ml" 149 4261 4274
+type(
+  sexpr * sexpr
+)
+"equation.ml" 150 4280 4288 "equation.ml" 150 4280 4289
+type(
+  var
+)
+ident(
+  def v "equation.ml" 150 4280 4303 "equation.ml" 150 4280 4309
+)
+"equation.ml" 150 4280 4283 "equation.ml" 150 4280 4289
+type(
+  sexpr
+)
+"equation.ml" 150 4280 4297 "equation.ml" 150 4280 4299
+type(
+  var
+)
+ident(
+  def v' "equation.ml" 150 4280 4303 "equation.ml" 150 4280 4309
+)
+"equation.ml" 150 4280 4292 "equation.ml" 150 4280 4299
+type(
+  sexpr
+)
+"equation.ml" 150 4280 4283 "equation.ml" 150 4280 4299
+type(
+  sexpr * sexpr
+)
+"equation.ml" 150 4280 4303 "equation.ml" 150 4280 4304
+type(
+  var
+)
+ident(
+  int_ref v "equation.ml" 150 4280 4288 "equation.ml" 150 4280 4289
+)
+"equation.ml" 150 4280 4305 "equation.ml" 150 4280 4306
+type(
+  var -> var -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"equation.ml" 150 4280 4307 "equation.ml" 150 4280 4309
+type(
+  var
+)
+ident(
+  int_ref v' "equation.ml" 150 4280 4297 "equation.ml" 150 4280 4299
+)
+"equation.ml" 150 4280 4303 "equation.ml" 150 4280 4309
+type(
+  bool
+)
+"equation.ml" 151 4310 4317 "equation.ml" 151 4310 4318
+type(
+  Grammar.VTSet.t
+)
+ident(
+  def s "equation.ml" 151 4310 4333 "equation.ml" 151 4310 4349
+)
+"equation.ml" 151 4310 4313 "equation.ml" 151 4310 4318
+type(
+  sexpr
+)
+"equation.ml" 151 4310 4326 "equation.ml" 151 4310 4328
+type(
+  Grammar.VTSet.t
+)
+ident(
+  def s' "equation.ml" 151 4310 4333 "equation.ml" 151 4310 4349
+)
+"equation.ml" 151 4310 4322 "equation.ml" 151 4310 4328
+type(
+  sexpr
+)
+"equation.ml" 151 4310 4313 "equation.ml" 151 4310 4328
+type(
+  sexpr * sexpr
+)
+"equation.ml" 151 4310 4333 "equation.ml" 151 4310 4344
+type(
+  Grammar.VTSet.t -> Grammar.VTSet.t -> bool
+)
+ident(
+  ext_ref Grammar.VTSet.equal
+)
+"equation.ml" 151 4310 4345 "equation.ml" 151 4310 4346
+type(
+  Grammar.VTSet.t
+)
+ident(
+  int_ref s "equation.ml" 151 4310 4317 "equation.ml" 151 4310 4318
+)
+"equation.ml" 151 4310 4347 "equation.ml" 151 4310 4349
+type(
+  Grammar.VTSet.t
+)
+ident(
+  int_ref s' "equation.ml" 151 4310 4326 "equation.ml" 151 4310 4328
+)
+"equation.ml" 151 4310 4333 "equation.ml" 151 4310 4349
+call(
+  tail
+)
+type(
+  bool
+)
+"equation.ml" 152 4350 4359 "equation.ml" 152 4350 4361
+type(
+  sexpr
+)
+ident(
+  def e1 "equation.ml" 153 4383 4420 "equation.ml" 153 4383 4454
+)
+"equation.ml" 152 4350 4362 "equation.ml" 152 4350 4364
+type(
+  sexpr
+)
+ident(
+  def e2 "equation.ml" 153 4383 4420 "equation.ml" 153 4383 4454
+)
+"equation.ml" 152 4350 4353 "equation.ml" 152 4350 4365
+type(
+  sexpr
+)
+"equation.ml" 152 4350 4374 "equation.ml" 152 4350 4377
+type(
+  sexpr
+)
+ident(
+  def e1' "equation.ml" 153 4383 4420 "equation.ml" 153 4383 4454
+)
+"equation.ml" 152 4350 4378 "equation.ml" 152 4350 4381
+type(
+  sexpr
+)
+ident(
+  def e2' "equation.ml" 153 4383 4420 "equation.ml" 153 4383 4454
+)
+"equation.ml" 152 4350 4368 "equation.ml" 152 4350 4382
+type(
+  sexpr
+)
+"equation.ml" 152 4350 4353 "equation.ml" 152 4350 4382
+type(
+  sexpr * sexpr
+)
+"equation.ml" 153 4383 4392 "equation.ml" 153 4383 4394
+type(
+  sexpr
+)
+ident(
+  def e1 "equation.ml" 153 4383 4420 "equation.ml" 153 4383 4454
+)
+"equation.ml" 153 4383 4395 "equation.ml" 153 4383 4397
+type(
+  sexpr
+)
+ident(
+  def e2 "equation.ml" 153 4383 4420 "equation.ml" 153 4383 4454
+)
+"equation.ml" 153 4383 4386 "equation.ml" 153 4383 4398
+type(
+  sexpr
+)
+"equation.ml" 153 4383 4407 "equation.ml" 153 4383 4410
+type(
+  sexpr
+)
+ident(
+  def e1' "equation.ml" 153 4383 4420 "equation.ml" 153 4383 4454
+)
+"equation.ml" 153 4383 4411 "equation.ml" 153 4383 4414
+type(
+  sexpr
+)
+ident(
+  def e2' "equation.ml" 153 4383 4420 "equation.ml" 153 4383 4454
+)
+"equation.ml" 153 4383 4401 "equation.ml" 153 4383 4415
+type(
+  sexpr
+)
+"equation.ml" 153 4383 4386 "equation.ml" 153 4383 4415
+type(
+  sexpr * sexpr
+)
+"equation.ml" 152 4350 4353 "equation.ml" 153 4383 4415
+type(
+  sexpr * sexpr
+)
+"equation.ml" 153 4383 4420 "equation.ml" 153 4383 4428
+type(
+  sexpr -> sexpr -> bool
+)
+ident(
+  int_ref eq_sexpr "equation.ml" 148 4242 4246 "equation.ml" 148 4242 4254
+)
+"equation.ml" 153 4383 4429 "equation.ml" 153 4383 4431
+type(
+  sexpr
+)
+ident(
+  int_ref e1 "equation.ml" 152 4350 4359 "equation.ml" 152 4350 4361
+)
+"equation.ml" 153 4383 4432 "equation.ml" 153 4383 4435
+type(
+  sexpr
+)
+ident(
+  int_ref e1' "equation.ml" 152 4350 4374 "equation.ml" 152 4350 4377
+)
+"equation.ml" 153 4383 4420 "equation.ml" 153 4383 4435
+call(
+  stack
+)
+type(
+  bool
+)
+"equation.ml" 153 4383 4436 "equation.ml" 153 4383 4438
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"equation.ml" 153 4383 4439 "equation.ml" 153 4383 4447
+type(
+  sexpr -> sexpr -> bool
+)
+ident(
+  int_ref eq_sexpr "equation.ml" 148 4242 4246 "equation.ml" 148 4242 4254
+)
+"equation.ml" 153 4383 4448 "equation.ml" 153 4383 4450
+type(
+  sexpr
+)
+ident(
+  int_ref e2 "equation.ml" 152 4350 4362 "equation.ml" 152 4350 4364
+)
+"equation.ml" 153 4383 4451 "equation.ml" 153 4383 4454
+type(
+  sexpr
+)
+ident(
+  int_ref e2' "equation.ml" 152 4350 4378 "equation.ml" 152 4350 4381
+)
+"equation.ml" 153 4383 4439 "equation.ml" 153 4383 4454
+call(
+  tail
+)
+type(
+  bool
+)
+"equation.ml" 153 4383 4420 "equation.ml" 153 4383 4454
+type(
+  bool
+)
+"equation.ml" 154 4455 4463 "equation.ml" 154 4455 4464
+type(
+  bexpr
+)
+ident(
+  def b "equation.ml" 154 4455 4487 "equation.ml" 154 4455 4519
+)
+"equation.ml" 154 4455 4465 "equation.ml" 154 4455 4467
+type(
+  sexpr
+)
+ident(
+  def e2 "equation.ml" 154 4455 4487 "equation.ml" 154 4455 4519
+)
+"equation.ml" 154 4455 4458 "equation.ml" 154 4455 4468
+type(
+  sexpr
+)
+"equation.ml" 154 4455 4476 "equation.ml" 154 4455 4478
+type(
+  bexpr
+)
+ident(
+  def b' "equation.ml" 154 4455 4487 "equation.ml" 154 4455 4519
+)
+"equation.ml" 154 4455 4479 "equation.ml" 154 4455 4482
+type(
+  sexpr
+)
+ident(
+  def e2' "equation.ml" 154 4455 4487 "equation.ml" 154 4455 4519
+)
+"equation.ml" 154 4455 4471 "equation.ml" 154 4455 4483
+type(
+  sexpr
+)
+"equation.ml" 154 4455 4458 "equation.ml" 154 4455 4483
+type(
+  sexpr * sexpr
+)
+"equation.ml" 154 4455 4487 "equation.ml" 154 4455 4495
+type(
+  bexpr -> bexpr -> bool
+)
+ident(
+  int_ref eq_bexpr "equation.ml" 137 3742 3750 "equation.ml" 137 3742 3758
+)
+"equation.ml" 154 4455 4496 "equation.ml" 154 4455 4497
+type(
+  bexpr
+)
+ident(
+  int_ref b "equation.ml" 154 4455 4463 "equation.ml" 154 4455 4464
+)
+"equation.ml" 154 4455 4498 "equation.ml" 154 4455 4500
+type(
+  bexpr
+)
+ident(
+  int_ref b' "equation.ml" 154 4455 4476 "equation.ml" 154 4455 4478
+)
+"equation.ml" 154 4455 4487 "equation.ml" 154 4455 4500
+call(
+  stack
+)
+type(
+  bool
+)
+"equation.ml" 154 4455 4501 "equation.ml" 154 4455 4503
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"equation.ml" 154 4455 4504 "equation.ml" 154 4455 4512
+type(
+  sexpr -> sexpr -> bool
+)
+ident(
+  int_ref eq_sexpr "equation.ml" 148 4242 4246 "equation.ml" 148 4242 4254
+)
+"equation.ml" 154 4455 4513 "equation.ml" 154 4455 4515
+type(
+  sexpr
+)
+ident(
+  int_ref e2 "equation.ml" 154 4455 4465 "equation.ml" 154 4455 4467
+)
+"equation.ml" 154 4455 4516 "equation.ml" 154 4455 4519
+type(
+  sexpr
+)
+ident(
+  int_ref e2' "equation.ml" 154 4455 4479 "equation.ml" 154 4455 4482
+)
+"equation.ml" 154 4455 4504 "equation.ml" 154 4455 4519
+call(
+  tail
+)
+type(
+  bool
+)
+"equation.ml" 154 4455 4487 "equation.ml" 154 4455 4519
+type(
+  bool
+)
+"equation.ml" 155 4520 4525 "equation.ml" 155 4520 4526
+type(
+  sexpr
+)
+"equation.ml" 155 4520 4531 "equation.ml" 155 4520 4532
+type(
+  sexpr
+)
+"equation.ml" 155 4520 4525 "equation.ml" 155 4520 4532
+type(
+  sexpr * sexpr
+)
+"equation.ml" 155 4520 4536 "equation.ml" 155 4520 4541
+type(
+  bool
+)
+"equation.ml" 149 4261 4262 "equation.ml" 155 4520 4541
+type(
+  bool
+)
+"equation.ml" 158 4546 4550 "equation.ml" 158 4546 4560
+type(
+  out_channel -> string * Grammar.vn -> unit
+)
+ident(
+  def output_var "equation.ml" 161 4622 4622 "equation.ml" 1 0 -1
+)
+"equation.ml" 158 4546 4561 "equation.ml" 158 4546 4562
+type(
+  out_channel
+)
+ident(
+  def o "equation.ml" 158 4546 4563 "equation.ml" 159 4575 4620
+)
+"equation.ml" 158 4546 4564 "equation.ml" 158 4546 4565
+type(
+  string
+)
+ident(
+  def s "equation.ml" 159 4575 4575 "equation.ml" 159 4575 4620
+)
+"equation.ml" 158 4546 4566 "equation.ml" 158 4546 4568
+type(
+  Grammar.vn
+)
+ident(
+  def vn "equation.ml" 159 4575 4575 "equation.ml" 159 4575 4620
+)
+"equation.ml" 158 4546 4563 "equation.ml" 158 4546 4569
+type(
+  string * Grammar.vn
+)
+"equation.ml" 159 4575 4575 "equation.ml" 159 4575 4589
+type(
+  out_channel ->
+  (string -> string -> unit, out_channel, unit) format ->
+  string -> string -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"equation.ml" 159 4575 4590 "equation.ml" 159 4575 4591
+type(
+  out_channel
+)
+ident(
+  int_ref o "equation.ml" 158 4546 4561 "equation.ml" 158 4546 4562
+)
+"equation.ml" 159 4575 4592 "equation.ml" 159 4575 4600
+type(
+  (string -> string -> unit, out_channel, unit) format
+)
+"equation.ml" 159 4575 4601 "equation.ml" 159 4575 4602
+type(
+  string
+)
+ident(
+  int_ref s "equation.ml" 158 4546 4564 "equation.ml" 158 4546 4565
+)
+"equation.ml" 159 4575 4604 "equation.ml" 159 4575 4616
+type(
+  Grammar.vn -> string
+)
+ident(
+  ext_ref Grammar.vn_to_string
+)
+"equation.ml" 159 4575 4617 "equation.ml" 159 4575 4619
+type(
+  Grammar.vn
+)
+ident(
+  int_ref vn "equation.ml" 158 4546 4566 "equation.ml" 158 4546 4568
+)
+"equation.ml" 159 4575 4603 "equation.ml" 159 4575 4620
+call(
+  stack
+)
+type(
+  string
+)
+"equation.ml" 159 4575 4575 "equation.ml" 159 4575 4620
+call(
+  tail
+)
+type(
+  unit
+)
+"equation.ml" 161 4622 4626 "equation.ml" 161 4622 4639
+type(
+  out_channel -> Grammar.VTSet.t -> unit
+)
+ident(
+  def output_vt_set "equation.ml" 167 4759 4759 "equation.ml" 1 0 -1
+)
+"equation.ml" 161 4622 4640 "equation.ml" 161 4622 4641
+type(
+  out_channel
+)
+ident(
+  def o "equation.ml" 161 4622 4642 "equation.ml" 164 4733 4755
+)
+"equation.ml" 161 4622 4642 "equation.ml" 161 4622 4643
+type(
+  Grammar.VTSet.t
+)
+ident(
+  def s "equation.ml" 162 4647 4648 "equation.ml" 164 4733 4755
+)
+"equation.ml" 162 4647 4648 "equation.ml" 162 4647 4662
+type(
+  out_channel -> (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"equation.ml" 162 4647 4663 "equation.ml" 162 4647 4664
+type(
+  out_channel
+)
+ident(
+  int_ref o "equation.ml" 161 4622 4640 "equation.ml" 161 4622 4641
+)
+"equation.ml" 162 4647 4665 "equation.ml" 162 4647 4668
+type(
+  (unit, out_channel, unit) format
+)
+"equation.ml" 162 4647 4648 "equation.ml" 162 4647 4668
+call(
+  stack
+)
+type(
+  unit
+)
+"equation.ml" 163 4670 4671 "equation.ml" 163 4670 4681
+type(
+  (Grammar.VTSet.elt -> unit) -> Grammar.VTSet.t -> unit
+)
+ident(
+  ext_ref Grammar.VTSet.iter
+)
+"equation.ml" 163 4670 4687 "equation.ml" 163 4670 4689
+type(
+  Grammar.VTSet.elt
+)
+ident(
+  def vt "equation.ml" 163 4670 4693 "equation.ml" 163 4670 4728
+)
+"equation.ml" 163 4670 4693 "equation.ml" 163 4670 4707
+type(
+  out_channel ->
+  ((out_channel -> Grammar.VTSet.elt -> unit) -> Grammar.VTSet.elt -> unit,
+   out_channel, unit)
+  format ->
+  (out_channel -> Grammar.VTSet.elt -> unit) -> Grammar.VTSet.elt -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"equation.ml" 163 4670 4708 "equation.ml" 163 4670 4709
+type(
+  out_channel
+)
+ident(
+  int_ref o "equation.ml" 161 4622 4640 "equation.ml" 161 4622 4641
+)
+"equation.ml" 163 4670 4710 "equation.ml" 163 4670 4715
+type(
+  ((out_channel -> Grammar.VTSet.elt -> unit) -> Grammar.VTSet.elt -> unit,
+   out_channel, unit)
+  format
+)
+"equation.ml" 163 4670 4716 "equation.ml" 163 4670 4725
+type(
+  out_channel -> Grammar.VTSet.elt -> unit
+)
+ident(
+  ext_ref Grammar.output_vt
+)
+"equation.ml" 163 4670 4726 "equation.ml" 163 4670 4728
+type(
+  Grammar.VTSet.elt
+)
+ident(
+  int_ref vt "equation.ml" 163 4670 4687 "equation.ml" 163 4670 4689
+)
+"equation.ml" 163 4670 4693 "equation.ml" 163 4670 4728
+call(
+  tail
+)
+type(
+  unit
+)
+"equation.ml" 163 4670 4682 "equation.ml" 163 4670 4729
+type(
+  Grammar.VTSet.elt -> unit
+)
+"equation.ml" 163 4670 4730 "equation.ml" 163 4670 4731
+type(
+  Grammar.VTSet.t
+)
+ident(
+  int_ref s "equation.ml" 161 4622 4642 "equation.ml" 161 4622 4643
+)
+"equation.ml" 163 4670 4671 "equation.ml" 163 4670 4731
+call(
+  stack
+)
+type(
+  unit
+)
+"equation.ml" 164 4733 4734 "equation.ml" 164 4733 4748
+type(
+  out_channel -> (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"equation.ml" 164 4733 4749 "equation.ml" 164 4733 4750
+type(
+  out_channel
+)
+ident(
+  int_ref o "equation.ml" 161 4622 4640 "equation.ml" 161 4622 4641
+)
+"equation.ml" 164 4733 4751 "equation.ml" 164 4733 4755
+type(
+  (unit, out_channel, unit) format
+)
+"equation.ml" 164 4733 4734 "equation.ml" 164 4733 4755
+call(
+  tail
+)
+type(
+  unit
+)
+"equation.ml" 163 4670 4671 "equation.ml" 164 4733 4755
+type(
+  unit
+)
+"equation.ml" 162 4647 4648 "equation.ml" 164 4733 4755
+type(
+  unit
+)
+"equation.ml" 167 4759 4767 "equation.ml" 167 4759 4779
+type(
+  out_channel -> bexpr -> unit
+)
+ident(
+  def output_bexpr "equation.ml" 167 4759 4759 "equation.ml" 1 0 -1
+)
+"equation.ml" 167 4759 4780 "equation.ml" 167 4759 4781
+type(
+  out_channel
+)
+ident(
+  def o "equation.ml" 167 4759 4784 "equation.ml" 177 5302 5351
+)
+"equation.ml" 168 4793 4801 "equation.ml" 168 4793 4802
+type(
+  var
+)
+ident(
+  def v "equation.ml" 168 4793 4813 "equation.ml" 168 4793 4827
+)
+"equation.ml" 168 4793 4796 "equation.ml" 168 4793 4802
+type(
+  bexpr
+)
+"equation.ml" 168 4793 4813 "equation.ml" 168 4793 4823
+type(
+  out_channel -> var -> unit
+)
+ident(
+  int_ref output_var "equation.ml" 158 4546 4550 "equation.ml" 158 4546 4560
+)
+"equation.ml" 168 4793 4824 "equation.ml" 168 4793 4825
+type(
+  out_channel
+)
+ident(
+  int_ref o "equation.ml" 167 4759 4780 "equation.ml" 167 4759 4781
+)
+"equation.ml" 168 4793 4826 "equation.ml" 168 4793 4827
+type(
+  var
+)
+ident(
+  int_ref v "equation.ml" 168 4793 4801 "equation.ml" 168 4793 4802
+)
+"equation.ml" 168 4793 4813 "equation.ml" 168 4793 4827
+call(
+  tail
+)
+type(
+  unit
+)
+"equation.ml" 169 4828 4836 "equation.ml" 169 4828 4837
+type(
+  bool
+)
+ident(
+  def b "equation.ml" 169 4828 4848 "equation.ml" 169 4828 4871
+)
+"equation.ml" 169 4828 4831 "equation.ml" 169 4828 4837
+type(
+  bexpr
+)
+"equation.ml" 169 4828 4848 "equation.ml" 169 4828 4862
+type(
+  out_channel -> (bool -> unit, out_channel, unit) format -> bool -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"equation.ml" 169 4828 4863 "equation.ml" 169 4828 4864
+type(
+  out_channel
+)
+ident(
+  int_ref o "equation.ml" 167 4759 4780 "equation.ml" 167 4759 4781
+)
+"equation.ml" 169 4828 4865 "equation.ml" 169 4828 4869
+type(
+  (bool -> unit, out_channel, unit) format
+)
+"equation.ml" 169 4828 4870 "equation.ml" 169 4828 4871
+type(
+  bool
+)
+ident(
+  int_ref b "equation.ml" 169 4828 4836 "equation.ml" 169 4828 4837
+)
+"equation.ml" 169 4828 4848 "equation.ml" 169 4828 4871
+call(
+  tail
+)
+type(
+  unit
+)
+"equation.ml" 170 4872 4879 "equation.ml" 170 4872 4880
+type(
+  bexpr
+)
+ident(
+  def e "equation.ml" 170 4872 4892 "equation.ml" 170 4872 4955
+)
+"equation.ml" 170 4872 4881 "equation.ml" 170 4872 4883
+type(
+  bexpr
+)
+ident(
+  def e' "equation.ml" 170 4872 4892 "equation.ml" 170 4872 4955
+)
+"equation.ml" 170 4872 4875 "equation.ml" 170 4872 4884
+type(
+  bexpr
+)
+"equation.ml" 170 4872 4892 "equation.ml" 170 4872 4906
+type(
+  out_channel ->
+  ((out_channel -> bexpr -> unit) ->
+   bexpr -> (out_channel -> bexpr -> unit) -> bexpr -> unit, out_channel,
+   unit)
+  format ->
+  (out_channel -> bexpr -> unit) ->
+  bexpr -> (out_channel -> bexpr -> unit) -> bexpr -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"equation.ml" 170 4872 4907 "equation.ml" 170 4872 4908
+type(
+  out_channel
+)
+ident(
+  int_ref o "equation.ml" 167 4759 4780 "equation.ml" 167 4759 4781
+)
+"equation.ml" 170 4872 4909 "equation.ml" 170 4872 4924
+type(
+  ((out_channel -> bexpr -> unit) ->
+   bexpr -> (out_channel -> bexpr -> unit) -> bexpr -> unit, out_channel,
+   unit)
+  format
+)
+"equation.ml" 170 4872 4925 "equation.ml" 170 4872 4937
+type(
+  out_channel -> bexpr -> unit
+)
+ident(
+  int_ref output_bexpr "equation.ml" 167 4759 4767 "equation.ml" 167 4759 4779
+)
+"equation.ml" 170 4872 4938 "equation.ml" 170 4872 4939
+type(
+  bexpr
+)
+ident(
+  int_ref e "equation.ml" 170 4872 4879 "equation.ml" 170 4872 4880
+)
+"equation.ml" 170 4872 4940 "equation.ml" 170 4872 4952
+type(
+  out_channel -> bexpr -> unit
+)
+ident(
+  int_ref output_bexpr "equation.ml" 167 4759 4767 "equation.ml" 167 4759 4779
+)
+"equation.ml" 170 4872 4953 "equation.ml" 170 4872 4955
+type(
+  bexpr
+)
+ident(
+  int_ref e' "equation.ml" 170 4872 4881 "equation.ml" 170 4872 4883
+)
+"equation.ml" 170 4872 4892 "equation.ml" 170 4872 4955
+call(
+  tail
+)
+type(
+  unit
+)
+"equation.ml" 171 4956 4962 "equation.ml" 171 4956 4963
+type(
+  bexpr
+)
+ident(
+  def e "equation.ml" 171 4956 4976 "equation.ml" 171 4956 5039
+)
+"equation.ml" 171 4956 4964 "equation.ml" 171 4956 4966
+type(
+  bexpr
+)
+ident(
+  def e' "equation.ml" 171 4956 4976 "equation.ml" 171 4956 5039
+)
+"equation.ml" 171 4956 4959 "equation.ml" 171 4956 4967
+type(
+  bexpr
+)
+"equation.ml" 171 4956 4976 "equation.ml" 171 4956 4990
+type(
+  out_channel ->
+  ((out_channel -> bexpr -> unit) ->
+   bexpr -> (out_channel -> bexpr -> unit) -> bexpr -> unit, out_channel,
+   unit)
+  format ->
+  (out_channel -> bexpr -> unit) ->
+  bexpr -> (out_channel -> bexpr -> unit) -> bexpr -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"equation.ml" 171 4956 4991 "equation.ml" 171 4956 4992
+type(
+  out_channel
+)
+ident(
+  int_ref o "equation.ml" 167 4759 4780 "equation.ml" 167 4759 4781
+)
+"equation.ml" 171 4956 4993 "equation.ml" 171 4956 5008
+type(
+  ((out_channel -> bexpr -> unit) ->
+   bexpr -> (out_channel -> bexpr -> unit) -> bexpr -> unit, out_channel,
+   unit)
+  format
+)
+"equation.ml" 171 4956 5009 "equation.ml" 171 4956 5021
+type(
+  out_channel -> bexpr -> unit
+)
+ident(
+  int_ref output_bexpr "equation.ml" 167 4759 4767 "equation.ml" 167 4759 4779
+)
+"equation.ml" 171 4956 5022 "equation.ml" 171 4956 5023
+type(
+  bexpr
+)
+ident(
+  int_ref e "equation.ml" 171 4956 4962 "equation.ml" 171 4956 4963
+)
+"equation.ml" 171 4956 5024 "equation.ml" 171 4956 5036
+type(
+  out_channel -> bexpr -> unit
+)
+ident(
+  int_ref output_bexpr "equation.ml" 167 4759 4767 "equation.ml" 167 4759 4779
+)
+"equation.ml" 171 4956 5037 "equation.ml" 171 4956 5039
+type(
+  bexpr
+)
+ident(
+  int_ref e' "equation.ml" 171 4956 4964 "equation.ml" 171 4956 4966
+)
+"equation.ml" 171 4956 4976 "equation.ml" 171 4956 5039
+call(
+  tail
+)
+type(
+  unit
+)
+"equation.ml" 172 5040 5051 "equation.ml" 172 5040 5052
+type(
+  bexpr
+)
+ident(
+  def e "equation.ml" 172 5040 5060 "equation.ml" 172 5040 5122
+)
+"equation.ml" 172 5040 5053 "equation.ml" 172 5040 5055
+type(
+  bexpr
+)
+ident(
+  def e' "equation.ml" 172 5040 5060 "equation.ml" 172 5040 5122
+)
+"equation.ml" 172 5040 5043 "equation.ml" 172 5040 5056
+type(
+  bexpr
+)
+"equation.ml" 172 5040 5060 "equation.ml" 172 5040 5074
+type(
+  out_channel ->
+  ((out_channel -> bexpr -> unit) ->
+   bexpr -> (out_channel -> bexpr -> unit) -> bexpr -> unit, out_channel,
+   unit)
+  format ->
+  (out_channel -> bexpr -> unit) ->
+  bexpr -> (out_channel -> bexpr -> unit) -> bexpr -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"equation.ml" 172 5040 5075 "equation.ml" 172 5040 5076
+type(
+  out_channel
+)
+ident(
+  int_ref o "equation.ml" 167 4759 4780 "equation.ml" 167 4759 4781
+)
+"equation.ml" 172 5040 5077 "equation.ml" 172 5040 5091
+type(
+  ((out_channel -> bexpr -> unit) ->
+   bexpr -> (out_channel -> bexpr -> unit) -> bexpr -> unit, out_channel,
+   unit)
+  format
+)
+"equation.ml" 172 5040 5092 "equation.ml" 172 5040 5104
+type(
+  out_channel -> bexpr -> unit
+)
+ident(
+  int_ref output_bexpr "equation.ml" 167 4759 4767 "equation.ml" 167 4759 4779
+)
+"equation.ml" 172 5040 5105 "equation.ml" 172 5040 5106
+type(
+  bexpr
+)
+ident(
+  int_ref e "equation.ml" 172 5040 5051 "equation.ml" 172 5040 5052
+)
+"equation.ml" 172 5040 5107 "equation.ml" 172 5040 5119
+type(
+  out_channel -> bexpr -> unit
+)
+ident(
+  int_ref output_bexpr "equation.ml" 167 4759 4767 "equation.ml" 167 4759 4779
+)
+"equation.ml" 172 5040 5120 "equation.ml" 172 5040 5122
+type(
+  bexpr
+)
+ident(
+  int_ref e' "equation.ml" 172 5040 5053 "equation.ml" 172 5040 5055
+)
+"equation.ml" 172 5040 5060 "equation.ml" 172 5040 5122
+call(
+  tail
+)
+type(
+  unit
+)
+"equation.ml" 173 5123 5134 "equation.ml" 173 5123 5135
+ident(
+  def s "equation.ml" 173 5123 5143 "equation.ml" 173 5123 5188
+)
+"equation.ml" 173 5123 5133 "equation.ml" 173 5123 5136
+type(
+  sexpr
+)
+"equation.ml" 173 5123 5126 "equation.ml" 173 5123 5136
+type(
+  bexpr
+)
+"equation.ml" 173 5123 5143 "equation.ml" 173 5123 5157
+type(
+  out_channel ->
+  ((out_channel -> sexpr -> unit) -> sexpr -> unit, out_channel, unit) format ->
+  (out_channel -> sexpr -> unit) -> sexpr -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"equation.ml" 173 5123 5158 "equation.ml" 173 5123 5159
+type(
+  out_channel
+)
+ident(
+  int_ref o "equation.ml" 167 4759 4780 "equation.ml" 167 4759 4781
+)
+"equation.ml" 173 5123 5160 "equation.ml" 173 5123 5173
+type(
+  ((out_channel -> sexpr -> unit) -> sexpr -> unit, out_channel, unit) format
+)
+"equation.ml" 173 5123 5174 "equation.ml" 173 5123 5186
+type(
+  out_channel -> sexpr -> unit
+)
+ident(
+  int_ref output_sexpr "equation.ml" 178 5353 5358 "equation.ml" 178 5353 5370
+)
+"equation.ml" 173 5123 5187 "equation.ml" 173 5123 5188
+type(
+  sexpr
+)
+ident(
+  int_ref s "equation.ml" 173 5123 5133 "equation.ml" 173 5123 5136
+)
+"equation.ml" 173 5123 5143 "equation.ml" 173 5123 5188
+call(
+  tail
+)
+type(
+  unit
+)
+"equation.ml" 174 5189 5203 "equation.ml" 174 5189 5204
+type(
+  bexpr list
+)
+ident(
+  def l "equation.ml" 175 5209 5211 "equation.ml" 177 5302 5351
+)
+"equation.ml" 174 5189 5192 "equation.ml" 174 5189 5204
+type(
+  bexpr
+)
+"equation.ml" 175 5209 5215 "equation.ml" 175 5209 5226
+type(
+  out_channel -> bexpr list -> unit
+)
+ident(
+  def output_list "equation.ml" 177 5302 5304 "equation.ml" 177 5302 5351
+)
+"equation.ml" 175 5209 5227 "equation.ml" 175 5209 5228
+type(
+  out_channel
+)
+ident(
+  def o "equation.ml" 175 5209 5229 "equation.ml" 176 5233 5297
+)
+"equation.ml" 175 5209 5229 "equation.ml" 175 5209 5230
+type(
+  bexpr list
+)
+ident(
+  def l "equation.ml" 176 5233 5236 "equation.ml" 176 5233 5297
+)
+"equation.ml" 176 5233 5236 "equation.ml" 176 5233 5245
+type(
+  (bexpr -> unit) -> bexpr list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"equation.ml" 176 5233 5251 "equation.ml" 176 5233 5252
+type(
+  bexpr
+)
+ident(
+  def x "equation.ml" 176 5233 5256 "equation.ml" 176 5233 5294
+)
+"equation.ml" 176 5233 5256 "equation.ml" 176 5233 5270
+type(
+  out_channel ->
+  ((out_channel -> bexpr -> unit) -> bexpr -> unit, out_channel, unit) format ->
+  (out_channel -> bexpr -> unit) -> bexpr -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"equation.ml" 176 5233 5271 "equation.ml" 176 5233 5272
+type(
+  out_channel
+)
+ident(
+  int_ref o "equation.ml" 175 5209 5227 "equation.ml" 175 5209 5228
+)
+"equation.ml" 176 5233 5273 "equation.ml" 176 5233 5278
+type(
+  ((out_channel -> bexpr -> unit) -> bexpr -> unit, out_channel, unit) format
+)
+"equation.ml" 176 5233 5279 "equation.ml" 176 5233 5291
+type(
+  out_channel -> bexpr -> unit
+)
+ident(
+  int_ref output_bexpr "equation.ml" 167 4759 4767 "equation.ml" 167 4759 4779
+)
+"equation.ml" 176 5233 5293 "equation.ml" 176 5233 5294
+type(
+  bexpr
+)
+ident(
+  int_ref x "equation.ml" 176 5233 5251 "equation.ml" 176 5233 5252
+)
+"equation.ml" 176 5233 5256 "equation.ml" 176 5233 5294
+call(
+  tail
+)
+type(
+  unit
+)
+"equation.ml" 176 5233 5246 "equation.ml" 176 5233 5295
+type(
+  bexpr -> unit
+)
+"equation.ml" 176 5233 5296 "equation.ml" 176 5233 5297
+type(
+  bexpr list
+)
+ident(
+  int_ref l "equation.ml" 175 5209 5229 "equation.ml" 175 5209 5230
+)
+"equation.ml" 176 5233 5236 "equation.ml" 176 5233 5297
+call(
+  tail
+)
+type(
+  unit
+)
+"equation.ml" 177 5302 5304 "equation.ml" 177 5302 5318
+type(
+  out_channel ->
+  ((out_channel -> bexpr list -> unit) -> bexpr list -> unit, out_channel,
+   unit)
+  format -> (out_channel -> bexpr list -> unit) -> bexpr list -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"equation.ml" 177 5302 5319 "equation.ml" 177 5302 5320
+type(
+  out_channel
+)
+ident(
+  int_ref o "equation.ml" 167 4759 4780 "equation.ml" 167 4759 4781
+)
+"equation.ml" 177 5302 5321 "equation.ml" 177 5302 5337
+type(
+  ((out_channel -> bexpr list -> unit) -> bexpr list -> unit, out_channel,
+   unit)
+  format
+)
+"equation.ml" 177 5302 5338 "equation.ml" 177 5302 5349
+type(
+  out_channel -> bexpr list -> unit
+)
+ident(
+  int_ref output_list "equation.ml" 175 5209 5215 "equation.ml" 175 5209 5226
+)
+"equation.ml" 177 5302 5350 "equation.ml" 177 5302 5351
+type(
+  bexpr list
+)
+ident(
+  int_ref l "equation.ml" 174 5189 5203 "equation.ml" 174 5189 5204
+)
+"equation.ml" 177 5302 5304 "equation.ml" 177 5302 5351
+call(
+  tail
+)
+type(
+  unit
+)
+"equation.ml" 175 5209 5211 "equation.ml" 177 5302 5351
+type(
+  unit
+)
+"equation.ml" 167 4759 4784 "equation.ml" 177 5302 5351
+type(
+  bexpr -> unit
+)
+"equation.ml" 178 5353 5358 "equation.ml" 178 5353 5370
+type(
+  out_channel -> sexpr -> unit
+)
+ident(
+  def output_sexpr "equation.ml" 167 4759 4759 "equation.ml" 1 0 -1
+)
+"equation.ml" 178 5353 5371 "equation.ml" 178 5353 5372
+type(
+  out_channel
+)
+ident(
+  def o "equation.ml" 178 5353 5375 "equation.ml" 183 5611 5691
+)
+"equation.ml" 179 5384 5392 "equation.ml" 179 5384 5393
+type(
+  var
+)
+ident(
+  def v "equation.ml" 179 5384 5397 "equation.ml" 179 5384 5411
+)
+"equation.ml" 179 5384 5387 "equation.ml" 179 5384 5393
+type(
+  sexpr
+)
+"equation.ml" 179 5384 5397 "equation.ml" 179 5384 5407
+type(
+  out_channel -> var -> unit
+)
+ident(
+  int_ref output_var "equation.ml" 158 4546 4550 "equation.ml" 158 4546 4560
+)
+"equation.ml" 179 5384 5408 "equation.ml" 179 5384 5409
+type(
+  out_channel
+)
+ident(
+  int_ref o "equation.ml" 178 5353 5371 "equation.ml" 178 5353 5372
+)
+"equation.ml" 179 5384 5410 "equation.ml" 179 5384 5411
+type(
+  var
+)
+ident(
+  int_ref v "equation.ml" 179 5384 5392 "equation.ml" 179 5384 5393
+)
+"equation.ml" 179 5384 5397 "equation.ml" 179 5384 5411
+call(
+  tail
+)
+type(
+  unit
+)
+"equation.ml" 180 5412 5419 "equation.ml" 180 5412 5420
+type(
+  Grammar.VTSet.t
+)
+ident(
+  def s "equation.ml" 180 5412 5425 "equation.ml" 180 5412 5442
+)
+"equation.ml" 180 5412 5415 "equation.ml" 180 5412 5420
+type(
+  sexpr
+)
+"equation.ml" 180 5412 5425 "equation.ml" 180 5412 5438
+type(
+  out_channel -> Grammar.VTSet.t -> unit
+)
+ident(
+  int_ref output_vt_set "equation.ml" 161 4622 4626 "equation.ml" 161 4622 4639
+)
+"equation.ml" 180 5412 5439 "equation.ml" 180 5412 5440
+type(
+  out_channel
+)
+ident(
+  int_ref o "equation.ml" 178 5353 5371 "equation.ml" 178 5353 5372
+)
+"equation.ml" 180 5412 5441 "equation.ml" 180 5412 5442
+type(
+  Grammar.VTSet.t
+)
+ident(
+  int_ref s "equation.ml" 180 5412 5419 "equation.ml" 180 5412 5420
+)
+"equation.ml" 180 5412 5425 "equation.ml" 180 5412 5442
+call(
+  tail
+)
+type(
+  unit
+)
+"equation.ml" 181 5443 5452 "equation.ml" 181 5443 5454
+type(
+  sexpr
+)
+ident(
+  def e1 "equation.ml" 181 5443 5462 "equation.ml" 181 5443 5526
+)
+"equation.ml" 181 5443 5455 "equation.ml" 181 5443 5457
+type(
+  sexpr
+)
+ident(
+  def e2 "equation.ml" 181 5443 5462 "equation.ml" 181 5443 5526
+)
+"equation.ml" 181 5443 5446 "equation.ml" 181 5443 5458
+type(
+  sexpr
+)
+"equation.ml" 181 5443 5462 "equation.ml" 181 5443 5476
+type(
+  out_channel ->
+  ((out_channel -> sexpr -> unit) ->
+   sexpr -> (out_channel -> sexpr -> unit) -> sexpr -> unit, out_channel,
+   unit)
+  format ->
+  (out_channel -> sexpr -> unit) ->
+  sexpr -> (out_channel -> sexpr -> unit) -> sexpr -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"equation.ml" 181 5443 5477 "equation.ml" 181 5443 5478
+type(
+  out_channel
+)
+ident(
+  int_ref o "equation.ml" 178 5353 5371 "equation.ml" 178 5353 5372
+)
+"equation.ml" 181 5443 5479 "equation.ml" 181 5443 5494
+type(
+  ((out_channel -> sexpr -> unit) ->
+   sexpr -> (out_channel -> sexpr -> unit) -> sexpr -> unit, out_channel,
+   unit)
+  format
+)
+"equation.ml" 181 5443 5495 "equation.ml" 181 5443 5507
+type(
+  out_channel -> sexpr -> unit
+)
+ident(
+  int_ref output_sexpr "equation.ml" 178 5353 5358 "equation.ml" 178 5353 5370
+)
+"equation.ml" 181 5443 5508 "equation.ml" 181 5443 5510
+type(
+  sexpr
+)
+ident(
+  int_ref e1 "equation.ml" 181 5443 5452 "equation.ml" 181 5443 5454
+)
+"equation.ml" 181 5443 5511 "equation.ml" 181 5443 5523
+type(
+  out_channel -> sexpr -> unit
+)
+ident(
+  int_ref output_sexpr "equation.ml" 178 5353 5358 "equation.ml" 178 5353 5370
+)
+"equation.ml" 181 5443 5524 "equation.ml" 181 5443 5526
+type(
+  sexpr
+)
+ident(
+  int_ref e2 "equation.ml" 181 5443 5455 "equation.ml" 181 5443 5457
+)
+"equation.ml" 181 5443 5462 "equation.ml" 181 5443 5526
+call(
+  tail
+)
+type(
+  unit
+)
+"equation.ml" 182 5527 5536 "equation.ml" 182 5527 5538
+type(
+  sexpr
+)
+ident(
+  def e1 "equation.ml" 182 5527 5546 "equation.ml" 182 5527 5610
+)
+"equation.ml" 182 5527 5539 "equation.ml" 182 5527 5541
+type(
+  sexpr
+)
+ident(
+  def e2 "equation.ml" 182 5527 5546 "equation.ml" 182 5527 5610
+)
+"equation.ml" 182 5527 5530 "equation.ml" 182 5527 5542
+type(
+  sexpr
+)
+"equation.ml" 182 5527 5546 "equation.ml" 182 5527 5560
+type(
+  out_channel ->
+  ((out_channel -> sexpr -> unit) ->
+   sexpr -> (out_channel -> sexpr -> unit) -> sexpr -> unit, out_channel,
+   unit)
+  format ->
+  (out_channel -> sexpr -> unit) ->
+  sexpr -> (out_channel -> sexpr -> unit) -> sexpr -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"equation.ml" 182 5527 5561 "equation.ml" 182 5527 5562
+type(
+  out_channel
+)
+ident(
+  int_ref o "equation.ml" 178 5353 5371 "equation.ml" 178 5353 5372
+)
+"equation.ml" 182 5527 5563 "equation.ml" 182 5527 5578
+type(
+  ((out_channel -> sexpr -> unit) ->
+   sexpr -> (out_channel -> sexpr -> unit) -> sexpr -> unit, out_channel,
+   unit)
+  format
+)
+"equation.ml" 182 5527 5579 "equation.ml" 182 5527 5591
+type(
+  out_channel -> sexpr -> unit
+)
+ident(
+  int_ref output_sexpr "equation.ml" 178 5353 5358 "equation.ml" 178 5353 5370
+)
+"equation.ml" 182 5527 5592 "equation.ml" 182 5527 5594
+type(
+  sexpr
+)
+ident(
+  int_ref e1 "equation.ml" 182 5527 5536 "equation.ml" 182 5527 5538
+)
+"equation.ml" 182 5527 5595 "equation.ml" 182 5527 5607
+type(
+  out_channel -> sexpr -> unit
+)
+ident(
+  int_ref output_sexpr "equation.ml" 178 5353 5358 "equation.ml" 178 5353 5370
+)
+"equation.ml" 182 5527 5608 "equation.ml" 182 5527 5610
+type(
+  sexpr
+)
+ident(
+  int_ref e2 "equation.ml" 182 5527 5539 "equation.ml" 182 5527 5541
+)
+"equation.ml" 182 5527 5546 "equation.ml" 182 5527 5610
+call(
+  tail
+)
+type(
+  unit
+)
+"equation.ml" 183 5611 5619 "equation.ml" 183 5611 5620
+type(
+  bexpr
+)
+ident(
+  def c "equation.ml" 183 5611 5630 "equation.ml" 183 5611 5691
+)
+"equation.ml" 183 5611 5621 "equation.ml" 183 5611 5622
+type(
+  sexpr
+)
+ident(
+  def e "equation.ml" 183 5611 5630 "equation.ml" 183 5611 5691
+)
+"equation.ml" 183 5611 5614 "equation.ml" 183 5611 5623
+type(
+  sexpr
+)
+"equation.ml" 183 5611 5630 "equation.ml" 183 5611 5644
+type(
+  out_channel ->
+  ((out_channel -> bexpr -> unit) ->
+   bexpr -> (out_channel -> sexpr -> unit) -> sexpr -> unit, out_channel,
+   unit)
+  format ->
+  (out_channel -> bexpr -> unit) ->
+  bexpr -> (out_channel -> sexpr -> unit) -> sexpr -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"equation.ml" 183 5611 5645 "equation.ml" 183 5611 5646
+type(
+  out_channel
+)
+ident(
+  int_ref o "equation.ml" 178 5353 5371 "equation.ml" 178 5353 5372
+)
+"equation.ml" 183 5611 5647 "equation.ml" 183 5611 5661
+type(
+  ((out_channel -> bexpr -> unit) ->
+   bexpr -> (out_channel -> sexpr -> unit) -> sexpr -> unit, out_channel,
+   unit)
+  format
+)
+"equation.ml" 183 5611 5662 "equation.ml" 183 5611 5674
+type(
+  out_channel -> bexpr -> unit
+)
+ident(
+  int_ref output_bexpr "equation.ml" 167 4759 4767 "equation.ml" 167 4759 4779
+)
+"equation.ml" 183 5611 5675 "equation.ml" 183 5611 5676
+type(
+  bexpr
+)
+ident(
+  int_ref c "equation.ml" 183 5611 5619 "equation.ml" 183 5611 5620
+)
+"equation.ml" 183 5611 5677 "equation.ml" 183 5611 5689
+type(
+  out_channel -> sexpr -> unit
+)
+ident(
+  int_ref output_sexpr "equation.ml" 178 5353 5358 "equation.ml" 178 5353 5370
+)
+"equation.ml" 183 5611 5690 "equation.ml" 183 5611 5691
+type(
+  sexpr
+)
+ident(
+  int_ref e "equation.ml" 183 5611 5621 "equation.ml" 183 5611 5622
+)
+"equation.ml" 183 5611 5630 "equation.ml" 183 5611 5691
+call(
+  tail
+)
+type(
+  unit
+)
+"equation.ml" 178 5353 5375 "equation.ml" 183 5611 5691
+type(
+  sexpr -> unit
+)
+"equation.ml" 187 5701 5705 "equation.ml" 187 5701 5720
+type(
+  equation -> var
+)
+ident(
+  def var_of_equation "equation.ml" 190 5761 5761 "equation.ml" 1 0 -1
+)
+"equation.ml" 188 5732 5739 "equation.ml" 188 5732 5740
+type(
+  var
+)
+ident(
+  def v "equation.ml" 188 5732 5758 "equation.ml" 188 5732 5759
+)
+"equation.ml" 188 5732 5741 "equation.ml" 188 5732 5742
+type(
+  bexpr
+)
+"equation.ml" 188 5732 5735 "equation.ml" 188 5732 5743
+type(
+  equation
+)
+"equation.ml" 188 5732 5750 "equation.ml" 188 5732 5751
+type(
+  var
+)
+ident(
+  def v "equation.ml" 188 5732 5758 "equation.ml" 188 5732 5759
+)
+"equation.ml" 188 5732 5752 "equation.ml" 188 5732 5753
+type(
+  sexpr
+)
+"equation.ml" 188 5732 5746 "equation.ml" 188 5732 5754
+type(
+  equation
+)
+"equation.ml" 188 5732 5735 "equation.ml" 188 5732 5754
+type(
+  equation
+)
+"equation.ml" 188 5732 5758 "equation.ml" 188 5732 5759
+type(
+  var
+)
+ident(
+  int_ref v "equation.ml" 188 5732 5739 "equation.ml" 188 5732 5740
+)
+"equation.ml" 187 5701 5723 "equation.ml" 188 5732 5759
+type(
+  equation -> var
+)
+"equation.ml" 190 5761 5765 "equation.ml" 190 5761 5777
+type(
+  equation list -> unit
+)
+ident(
+  def check_system "equation.ml" 199 6006 6006 "equation.ml" 1 0 -1
+)
+"equation.ml" 190 5761 5778 "equation.ml" 190 5761 5779
+type(
+  equation list
+)
+ident(
+  def l "equation.ml" 191 5782 5784 "equation.ml" 196 5952 6003
+)
+"equation.ml" 191 5782 5784 "equation.ml" 191 5782 5790
+type(
+  VarSet.t -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"equation.ml" 191 5782 5792 "equation.ml" 191 5782 5806
+type(
+  (VarSet.t -> equation -> VarSet.t) -> VarSet.t -> equation list -> VarSet.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"equation.ml" 192 5807 5823 "equation.ml" 192 5807 5825
+type(
+  VarSet.t
+)
+ident(
+  def vs "equation.ml" 192 5807 5826 "equation.ml" 196 5952 5986
+)
+"equation.ml" 192 5807 5826 "equation.ml" 192 5807 5828
+type(
+  equation
+)
+ident(
+  def eq "equation.ml" 193 5832 5844 "equation.ml" 196 5952 5986
+)
+"equation.ml" 193 5832 5848 "equation.ml" 193 5832 5849
+type(
+  var
+)
+ident(
+  def v "equation.ml" 194 5874 5886 "equation.ml" 196 5952 5986
+)
+"equation.ml" 193 5832 5852 "equation.ml" 193 5832 5867
+type(
+  equation -> var
+)
+ident(
+  int_ref var_of_equation "equation.ml" 187 5701 5705 "equation.ml" 187 5701 5720
+)
+"equation.ml" 193 5832 5868 "equation.ml" 193 5832 5870
+type(
+  equation
+)
+ident(
+  int_ref eq "equation.ml" 192 5807 5826 "equation.ml" 192 5807 5828
+)
+"equation.ml" 193 5832 5852 "equation.ml" 193 5832 5870
+call(
+  stack
+)
+type(
+  var
+)
+"equation.ml" 194 5874 5889 "equation.ml" 194 5874 5899
+type(
+  VarSet.elt -> VarSet.t -> bool
+)
+ident(
+  ext_ref VarSet.mem
+)
+"equation.ml" 194 5874 5900 "equation.ml" 194 5874 5901
+type(
+  var
+)
+ident(
+  int_ref v "equation.ml" 193 5832 5848 "equation.ml" 193 5832 5849
+)
+"equation.ml" 194 5874 5902 "equation.ml" 194 5874 5904
+type(
+  VarSet.t
+)
+ident(
+  int_ref vs "equation.ml" 192 5807 5823 "equation.ml" 192 5807 5825
+)
+"equation.ml" 194 5874 5889 "equation.ml" 194 5874 5904
+call(
+  stack
+)
+type(
+  bool
+)
+"equation.ml" 195 5906 5923 "equation.ml" 195 5906 5928
+type(
+  exn -> VarSet.t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"equation.ml" 195 5906 5949 "equation.ml" 195 5906 5950
+type(
+  var
+)
+ident(
+  int_ref v "equation.ml" 193 5832 5848 "equation.ml" 193 5832 5849
+)
+"equation.ml" 195 5906 5929 "equation.ml" 195 5906 5951
+type(
+  exn
+)
+"equation.ml" 195 5906 5923 "equation.ml" 195 5906 5951
+type(
+  VarSet.t
+)
+"equation.ml" 196 5952 5970 "equation.ml" 196 5952 5980
+type(
+  VarSet.elt -> VarSet.t -> VarSet.t
+)
+ident(
+  ext_ref VarSet.add
+)
+"equation.ml" 196 5952 5981 "equation.ml" 196 5952 5982
+type(
+  var
+)
+ident(
+  int_ref v "equation.ml" 193 5832 5848 "equation.ml" 193 5832 5849
+)
+"equation.ml" 196 5952 5983 "equation.ml" 196 5952 5985
+type(
+  VarSet.t
+)
+ident(
+  int_ref vs "equation.ml" 192 5807 5823 "equation.ml" 192 5807 5825
+)
+"equation.ml" 196 5952 5969 "equation.ml" 196 5952 5986
+call(
+  tail
+)
+type(
+  VarSet.t
+)
+"equation.ml" 194 5874 5886 "equation.ml" 196 5952 5986
+type(
+  VarSet.t
+)
+"equation.ml" 193 5832 5844 "equation.ml" 196 5952 5986
+type(
+  VarSet.t
+)
+"equation.ml" 192 5807 5818 "equation.ml" 196 5952 5987
+type(
+  VarSet.t -> equation -> VarSet.t
+)
+"equation.ml" 196 5952 5988 "equation.ml" 196 5952 6000
+type(
+  VarSet.t
+)
+ident(
+  ext_ref VarSet.empty
+)
+"equation.ml" 196 5952 6001 "equation.ml" 196 5952 6002
+type(
+  equation list
+)
+ident(
+  int_ref l "equation.ml" 190 5761 5778 "equation.ml" 190 5761 5779
+)
+"equation.ml" 191 5782 5791 "equation.ml" 196 5952 6003
+call(
+  stack
+)
+type(
+  VarSet.t
+)
+"equation.ml" 191 5782 5784 "equation.ml" 196 5952 6003
+type(
+  unit
+)
+"equation.ml" 199 6006 6010 "equation.ml" 199 6006 6015
+type(
+  'a VarMap.t -> VarMap.key -> 'a
+)
+ident(
+  def findb "equation.ml" 203 6083 6083 "equation.ml" 1 0 -1
+)
+"equation.ml" 199 6006 6016 "equation.ml" 199 6006 6017
+type(
+  'a VarMap.t
+)
+ident(
+  def m "equation.ml" 199 6006 6018 "equation.ml" 201 6043 6081
+)
+"equation.ml" 199 6006 6018 "equation.ml" 199 6006 6019
+type(
+  VarMap.key
+)
+ident(
+  def x "equation.ml" 200 6022 6023 "equation.ml" 201 6043 6081
+)
+"equation.ml" 200 6022 6027 "equation.ml" 200 6022 6038
+type(
+  VarMap.key -> 'a VarMap.t -> 'a
+)
+ident(
+  ext_ref VarMap.find
+)
+"equation.ml" 200 6022 6039 "equation.ml" 200 6022 6040
+type(
+  VarMap.key
+)
+ident(
+  int_ref x "equation.ml" 199 6006 6018 "equation.ml" 199 6006 6019
+)
+"equation.ml" 200 6022 6041 "equation.ml" 200 6022 6042
+type(
+  'a VarMap.t
+)
+ident(
+  int_ref m "equation.ml" 199 6006 6016 "equation.ml" 199 6006 6017
+)
+"equation.ml" 200 6022 6027 "equation.ml" 200 6022 6042
+call(
+  stack
+)
+type(
+  'a
+)
+"equation.ml" 201 6043 6049 "equation.ml" 201 6043 6058
+type(
+  exn
+)
+"equation.ml" 201 6043 6062 "equation.ml" 201 6043 6067
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"equation.ml" 201 6043 6079 "equation.ml" 201 6043 6080
+type(
+  VarMap.key
+)
+ident(
+  int_ref x "equation.ml" 199 6006 6018 "equation.ml" 199 6006 6019
+)
+"equation.ml" 201 6043 6068 "equation.ml" 201 6043 6081
+type(
+  exn
+)
+"equation.ml" 201 6043 6062 "equation.ml" 201 6043 6081
+type(
+  'a
+)
+"equation.ml" 200 6022 6023 "equation.ml" 201 6043 6081
+type(
+  'a
+)
+"equation.ml" 203 6083 6087 "equation.ml" 203 6083 6092
+type(
+  'a VarMap.t -> VarMap.key -> 'a
+)
+ident(
+  def finds "equation.ml" 209 6165 6165 "equation.ml" 1 0 -1
+)
+"equation.ml" 203 6083 6093 "equation.ml" 203 6083 6094
+type(
+  'a VarMap.t
+)
+ident(
+  def m "equation.ml" 203 6083 6095 "equation.ml" 205 6120 6158
+)
+"equation.ml" 203 6083 6095 "equation.ml" 203 6083 6096
+type(
+  VarMap.key
+)
+ident(
+  def x "equation.ml" 204 6099 6100 "equation.ml" 205 6120 6158
+)
+"equation.ml" 204 6099 6104 "equation.ml" 204 6099 6115
+type(
+  VarMap.key -> 'a VarMap.t -> 'a
+)
+ident(
+  ext_ref VarMap.find
+)
+"equation.ml" 204 6099 6116 "equation.ml" 204 6099 6117
+type(
+  VarMap.key
+)
+ident(
+  int_ref x "equation.ml" 203 6083 6095 "equation.ml" 203 6083 6096
+)
+"equation.ml" 204 6099 6118 "equation.ml" 204 6099 6119
+type(
+  'a VarMap.t
+)
+ident(
+  int_ref m "equation.ml" 203 6083 6093 "equation.ml" 203 6083 6094
+)
+"equation.ml" 204 6099 6104 "equation.ml" 204 6099 6119
+call(
+  stack
+)
+type(
+  'a
+)
+"equation.ml" 205 6120 6126 "equation.ml" 205 6120 6135
+type(
+  exn
+)
+"equation.ml" 205 6120 6139 "equation.ml" 205 6120 6144
+type(
+  exn -> 'a
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"equation.ml" 205 6120 6156 "equation.ml" 205 6120 6157
+type(
+  VarMap.key
+)
+ident(
+  int_ref x "equation.ml" 203 6083 6095 "equation.ml" 203 6083 6096
+)
+"equation.ml" 205 6120 6145 "equation.ml" 205 6120 6158
+type(
+  exn
+)
+"equation.ml" 205 6120 6139 "equation.ml" 205 6120 6158
+type(
+  'a
+)
+"equation.ml" 204 6099 6100 "equation.ml" 205 6120 6158
+type(
+  'a
+)
+"equation.ml" 209 6165 6169 "equation.ml" 209 6165 6175
+type(
+  bool VarMap.t ->
+  Grammar.VTSet.t VarMap.t ->
+  equation -> bool VarMap.t * Grammar.VTSet.t VarMap.t
+)
+ident(
+  def update "equation.ml" 217 6420 6420 "equation.ml" 1 0 -1
+)
+"equation.ml" 209 6165 6176 "equation.ml" 209 6165 6178
+type(
+  bool VarMap.t
+)
+ident(
+  def mb "equation.ml" 209 6165 6179 "equation.ml" 215 6362 6415
+)
+"equation.ml" 209 6165 6179 "equation.ml" 209 6165 6181
+type(
+  Grammar.VTSet.t VarMap.t
+)
+ident(
+  def ms "equation.ml" 209 6165 6182 "equation.ml" 215 6362 6415
+)
+"equation.ml" 209 6165 6182 "equation.ml" 209 6165 6183
+type(
+  equation
+)
+ident(
+  def e "equation.ml" 210 6186 6187 "equation.ml" 215 6362 6415
+)
+"equation.ml" 210 6186 6191 "equation.ml" 210 6186 6201
+type(
+  bexpr -> bool
+)
+ident(
+  def eval_bexpr "equation.ml" 211 6240 6241 "equation.ml" 215 6362 6415
+)
+"equation.ml" 210 6186 6204 "equation.ml" 210 6186 6214
+type(
+  (var -> bool) -> (var -> Grammar.VTSet.t) -> bexpr -> bool
+)
+ident(
+  int_ref eval_bexpr "equation.ml" 32 613 621 "equation.ml" 32 613 631
+)
+"equation.ml" 210 6186 6216 "equation.ml" 210 6186 6221
+type(
+  bool VarMap.t -> var -> bool
+)
+ident(
+  int_ref findb "equation.ml" 199 6006 6010 "equation.ml" 199 6006 6015
+)
+"equation.ml" 210 6186 6222 "equation.ml" 210 6186 6224
+type(
+  bool VarMap.t
+)
+ident(
+  int_ref mb "equation.ml" 209 6165 6176 "equation.ml" 209 6165 6178
+)
+"equation.ml" 210 6186 6215 "equation.ml" 210 6186 6225
+call(
+  stack
+)
+type(
+  var -> bool
+)
+"equation.ml" 210 6186 6227 "equation.ml" 210 6186 6232
+type(
+  Grammar.VTSet.t VarMap.t -> var -> Grammar.VTSet.t
+)
+ident(
+  int_ref finds "equation.ml" 203 6083 6087 "equation.ml" 203 6083 6092
+)
+"equation.ml" 210 6186 6233 "equation.ml" 210 6186 6235
+type(
+  Grammar.VTSet.t VarMap.t
+)
+ident(
+  int_ref ms "equation.ml" 209 6165 6179 "equation.ml" 209 6165 6181
+)
+"equation.ml" 210 6186 6226 "equation.ml" 210 6186 6236
+call(
+  stack
+)
+type(
+  var -> Grammar.VTSet.t
+)
+"equation.ml" 210 6186 6204 "equation.ml" 210 6186 6236
+call(
+  stack
+)
+type(
+  bexpr -> bool
+)
+"equation.ml" 211 6240 6245 "equation.ml" 211 6240 6255
+type(
+  sexpr -> Grammar.VTSet.t
+)
+ident(
+  def eval_sexpr "equation.ml" 213 6295 6296 "equation.ml" 215 6362 6415
+)
+"equation.ml" 211 6240 6258 "equation.ml" 211 6240 6268
+type(
+  (var -> bool) -> (var -> Grammar.VTSet.t) -> sexpr -> Grammar.VTSet.t
+)
+ident(
+  int_ref eval_sexpr "equation.ml" 44 1060 1065 "equation.ml" 44 1060 1075
+)
+"equation.ml" 211 6240 6270 "equation.ml" 211 6240 6275
+type(
+  bool VarMap.t -> var -> bool
+)
+ident(
+  int_ref findb "equation.ml" 199 6006 6010 "equation.ml" 199 6006 6015
+)
+"equation.ml" 211 6240 6276 "equation.ml" 211 6240 6278
+type(
+  bool VarMap.t
+)
+ident(
+  int_ref mb "equation.ml" 209 6165 6176 "equation.ml" 209 6165 6178
+)
+"equation.ml" 211 6240 6269 "equation.ml" 211 6240 6279
+call(
+  stack
+)
+type(
+  var -> bool
+)
+"equation.ml" 211 6240 6281 "equation.ml" 211 6240 6286
+type(
+  Grammar.VTSet.t VarMap.t -> var -> Grammar.VTSet.t
+)
+ident(
+  int_ref finds "equation.ml" 203 6083 6087 "equation.ml" 203 6083 6092
+)
+"equation.ml" 211 6240 6287 "equation.ml" 211 6240 6289
+type(
+  Grammar.VTSet.t VarMap.t
+)
+ident(
+  int_ref ms "equation.ml" 209 6165 6179 "equation.ml" 209 6165 6181
+)
+"equation.ml" 211 6240 6280 "equation.ml" 211 6240 6290
+call(
+  stack
+)
+type(
+  var -> Grammar.VTSet.t
+)
+"equation.ml" 211 6240 6258 "equation.ml" 211 6240 6290
+call(
+  stack
+)
+type(
+  sexpr -> Grammar.VTSet.t
+)
+"equation.ml" 213 6295 6302 "equation.ml" 213 6295 6303
+type(
+  equation
+)
+ident(
+  int_ref e "equation.ml" 209 6165 6182 "equation.ml" 209 6165 6183
+)
+"equation.ml" 214 6309 6316 "equation.ml" 214 6309 6317
+type(
+  var
+)
+ident(
+  def v "equation.ml" 214 6309 6325 "equation.ml" 214 6309 6361
+)
+"equation.ml" 214 6309 6318 "equation.ml" 214 6309 6320
+type(
+  bexpr
+)
+ident(
+  def be "equation.ml" 214 6309 6325 "equation.ml" 214 6309 6361
+)
+"equation.ml" 214 6309 6312 "equation.ml" 214 6309 6321
+type(
+  equation
+)
+"equation.ml" 214 6309 6326 "equation.ml" 214 6309 6336
+type(
+  VarMap.key -> bool -> bool VarMap.t -> bool VarMap.t
+)
+ident(
+  ext_ref VarMap.add
+)
+"equation.ml" 214 6309 6337 "equation.ml" 214 6309 6338
+type(
+  var
+)
+ident(
+  int_ref v "equation.ml" 214 6309 6316 "equation.ml" 214 6309 6317
+)
+"equation.ml" 214 6309 6340 "equation.ml" 214 6309 6350
+type(
+  bexpr -> bool
+)
+ident(
+  int_ref eval_bexpr "equation.ml" 210 6186 6191 "equation.ml" 210 6186 6201
+)
+"equation.ml" 214 6309 6351 "equation.ml" 214 6309 6353
+type(
+  bexpr
+)
+ident(
+  int_ref be "equation.ml" 214 6309 6318 "equation.ml" 214 6309 6320
+)
+"equation.ml" 214 6309 6339 "equation.ml" 214 6309 6354
+call(
+  stack
+)
+type(
+  bool
+)
+"equation.ml" 214 6309 6355 "equation.ml" 214 6309 6357
+type(
+  bool VarMap.t
+)
+ident(
+  int_ref mb "equation.ml" 209 6165 6176 "equation.ml" 209 6165 6178
+)
+"equation.ml" 214 6309 6326 "equation.ml" 214 6309 6357
+call(
+  stack
+)
+type(
+  bool VarMap.t
+)
+"equation.ml" 214 6309 6358 "equation.ml" 214 6309 6360
+type(
+  Grammar.VTSet.t VarMap.t
+)
+ident(
+  int_ref ms "equation.ml" 209 6165 6179 "equation.ml" 209 6165 6181
+)
+"equation.ml" 214 6309 6325 "equation.ml" 214 6309 6361
+type(
+  bool VarMap.t * Grammar.VTSet.t VarMap.t
+)
+"equation.ml" 215 6362 6369 "equation.ml" 215 6362 6370
+type(
+  var
+)
+ident(
+  def v "equation.ml" 215 6362 6378 "equation.ml" 215 6362 6415
+)
+"equation.ml" 215 6362 6371 "equation.ml" 215 6362 6373
+type(
+  sexpr
+)
+ident(
+  def se "equation.ml" 215 6362 6378 "equation.ml" 215 6362 6415
+)
+"equation.ml" 215 6362 6365 "equation.ml" 215 6362 6374
+type(
+  equation
+)
+"equation.ml" 215 6362 6379 "equation.ml" 215 6362 6381
+type(
+  bool VarMap.t
+)
+ident(
+  int_ref mb "equation.ml" 209 6165 6176 "equation.ml" 209 6165 6178
+)
+"equation.ml" 215 6362 6383 "equation.ml" 215 6362 6393
+type(
+  VarMap.key ->
+  Grammar.VTSet.t -> Grammar.VTSet.t VarMap.t -> Grammar.VTSet.t VarMap.t
+)
+ident(
+  ext_ref VarMap.add
+)
+"equation.ml" 215 6362 6394 "equation.ml" 215 6362 6395
+type(
+  var
+)
+ident(
+  int_ref v "equation.ml" 215 6362 6369 "equation.ml" 215 6362 6370
+)
+"equation.ml" 215 6362 6397 "equation.ml" 215 6362 6407
+type(
+  sexpr -> Grammar.VTSet.t
+)
+ident(
+  int_ref eval_sexpr "equation.ml" 211 6240 6245 "equation.ml" 211 6240 6255
+)
+"equation.ml" 215 6362 6408 "equation.ml" 215 6362 6410
+type(
+  sexpr
+)
+ident(
+  int_ref se "equation.ml" 215 6362 6371 "equation.ml" 215 6362 6373
+)
+"equation.ml" 215 6362 6396 "equation.ml" 215 6362 6411
+call(
+  stack
+)
+type(
+  Grammar.VTSet.t
+)
+"equation.ml" 215 6362 6412 "equation.ml" 215 6362 6414
+type(
+  Grammar.VTSet.t VarMap.t
+)
+ident(
+  int_ref ms "equation.ml" 209 6165 6179 "equation.ml" 209 6165 6181
+)
+"equation.ml" 215 6362 6383 "equation.ml" 215 6362 6414
+call(
+  stack
+)
+type(
+  Grammar.VTSet.t VarMap.t
+)
+"equation.ml" 215 6362 6378 "equation.ml" 215 6362 6415
+type(
+  bool VarMap.t * Grammar.VTSet.t VarMap.t
+)
+"equation.ml" 213 6295 6296 "equation.ml" 215 6362 6415
+type(
+  bool VarMap.t * Grammar.VTSet.t VarMap.t
+)
+"equation.ml" 211 6240 6241 "equation.ml" 215 6362 6415
+type(
+  bool VarMap.t * Grammar.VTSet.t VarMap.t
+)
+"equation.ml" 210 6186 6187 "equation.ml" 215 6362 6415
+type(
+  bool VarMap.t * Grammar.VTSet.t VarMap.t
+)
+"equation.ml" 217 6420 6424 "equation.ml" 217 6420 6428
+type(
+  bool VarMap.t * Grammar.VTSet.t VarMap.t ->
+  equation -> bool VarMap.t * Grammar.VTSet.t VarMap.t
+)
+ident(
+  def init "equation.ml" 222 6548 6548 "equation.ml" 1 0 -1
+)
+"equation.ml" 217 6420 6430 "equation.ml" 217 6420 6432
+type(
+  bool VarMap.t
+)
+ident(
+  def mb "equation.ml" 217 6420 6437 "equation.ml" 220 6498 6546
+)
+"equation.ml" 217 6420 6433 "equation.ml" 217 6420 6435
+type(
+  Grammar.VTSet.t VarMap.t
+)
+ident(
+  def ms "equation.ml" 217 6420 6437 "equation.ml" 220 6498 6546
+)
+"equation.ml" 217 6420 6429 "equation.ml" 217 6420 6436
+type(
+  bool VarMap.t * Grammar.VTSet.t VarMap.t
+)
+"equation.ml" 217 6420 6437 "equation.ml" 217 6420 6438
+type(
+  equation
+)
+ident(
+  def e "equation.ml" 218 6442 6443 "equation.ml" 220 6498 6546
+)
+"equation.ml" 218 6442 6449 "equation.ml" 218 6442 6450
+type(
+  equation
+)
+ident(
+  int_ref e "equation.ml" 217 6420 6437 "equation.ml" 217 6420 6438
+)
+"equation.ml" 219 6456 6463 "equation.ml" 219 6456 6464
+type(
+  var
+)
+ident(
+  def v "equation.ml" 219 6456 6471 "equation.ml" 219 6456 6497
+)
+"equation.ml" 219 6456 6465 "equation.ml" 219 6456 6466
+type(
+  bexpr
+)
+"equation.ml" 219 6456 6459 "equation.ml" 219 6456 6467
+type(
+  equation
+)
+"equation.ml" 219 6456 6472 "equation.ml" 219 6456 6482
+type(
+  VarMap.key -> bool -> bool VarMap.t -> bool VarMap.t
+)
+ident(
+  ext_ref VarMap.add
+)
+"equation.ml" 219 6456 6483 "equation.ml" 219 6456 6484
+type(
+  var
+)
+ident(
+  int_ref v "equation.ml" 219 6456 6463 "equation.ml" 219 6456 6464
+)
+"equation.ml" 219 6456 6485 "equation.ml" 219 6456 6490
+type(
+  bool
+)
+"equation.ml" 219 6456 6491 "equation.ml" 219 6456 6493
+type(
+  bool VarMap.t
+)
+ident(
+  int_ref mb "equation.ml" 217 6420 6430 "equation.ml" 217 6420 6432
+)
+"equation.ml" 219 6456 6472 "equation.ml" 219 6456 6493
+call(
+  stack
+)
+type(
+  bool VarMap.t
+)
+"equation.ml" 219 6456 6494 "equation.ml" 219 6456 6496
+type(
+  Grammar.VTSet.t VarMap.t
+)
+ident(
+  int_ref ms "equation.ml" 217 6420 6433 "equation.ml" 217 6420 6435
+)
+"equation.ml" 219 6456 6471 "equation.ml" 219 6456 6497
+type(
+  bool VarMap.t * Grammar.VTSet.t VarMap.t
+)
+"equation.ml" 220 6498 6505 "equation.ml" 220 6498 6506
+type(
+  var
+)
+ident(
+  def v "equation.ml" 220 6498 6513 "equation.ml" 220 6498 6546
+)
+"equation.ml" 220 6498 6507 "equation.ml" 220 6498 6508
+type(
+  sexpr
+)
+"equation.ml" 220 6498 6501 "equation.ml" 220 6498 6509
+type(
+  equation
+)
+"equation.ml" 220 6498 6514 "equation.ml" 220 6498 6516
+type(
+  bool VarMap.t
+)
+ident(
+  int_ref mb "equation.ml" 217 6420 6430 "equation.ml" 217 6420 6432
+)
+"equation.ml" 220 6498 6518 "equation.ml" 220 6498 6528
+type(
+  VarMap.key ->
+  Grammar.VTSet.t -> Grammar.VTSet.t VarMap.t -> Grammar.VTSet.t VarMap.t
+)
+ident(
+  ext_ref VarMap.add
+)
+"equation.ml" 220 6498 6529 "equation.ml" 220 6498 6530
+type(
+  var
+)
+ident(
+  int_ref v "equation.ml" 220 6498 6505 "equation.ml" 220 6498 6506
+)
+"equation.ml" 220 6498 6531 "equation.ml" 220 6498 6542
+type(
+  Grammar.VTSet.t
+)
+ident(
+  ext_ref Grammar.VTSet.empty
+)
+"equation.ml" 220 6498 6543 "equation.ml" 220 6498 6545
+type(
+  Grammar.VTSet.t VarMap.t
+)
+ident(
+  int_ref ms "equation.ml" 217 6420 6433 "equation.ml" 217 6420 6435
+)
+"equation.ml" 220 6498 6518 "equation.ml" 220 6498 6545
+call(
+  stack
+)
+type(
+  Grammar.VTSet.t VarMap.t
+)
+"equation.ml" 220 6498 6513 "equation.ml" 220 6498 6546
+type(
+  bool VarMap.t * Grammar.VTSet.t VarMap.t
+)
+"equation.ml" 218 6442 6443 "equation.ml" 220 6498 6546
+type(
+  bool VarMap.t * Grammar.VTSet.t VarMap.t
+)
+"equation.ml" 224 6598 6602 "equation.ml" 224 6598 6607
+type(
+  equation list -> (VarMap.key -> bool) * (VarMap.key -> Grammar.VTSet.t)
+)
+ident(
+  def solve "equation.ml" 238 7017 7017 "equation.ml" 1 0 -1
+)
+"equation.ml" 224 6598 6608 "equation.ml" 224 6598 6609
+type(
+  equation list
+)
+ident(
+  def l "equation.ml" 225 6612 6613 "equation.ml" 235 6997 7012
+)
+"equation.ml" 225 6612 6613 "equation.ml" 225 6612 6625
+type(
+  equation list -> unit
+)
+ident(
+  int_ref check_system "equation.ml" 190 5761 5765 "equation.ml" 190 5761 5777
+)
+"equation.ml" 225 6612 6626 "equation.ml" 225 6612 6627
+type(
+  equation list
+)
+ident(
+  int_ref l "equation.ml" 224 6598 6608 "equation.ml" 224 6598 6609
+)
+"equation.ml" 225 6612 6613 "equation.ml" 225 6612 6627
+call(
+  stack
+)
+type(
+  unit
+)
+"equation.ml" 227 6632 6641 "equation.ml" 227 6632 6650
+type(
+  bool VarMap.t * Grammar.VTSet.t VarMap.t ->
+  (VarMap.key -> bool) * (VarMap.key -> Grammar.VTSet.t)
+)
+ident(
+  def rec_solve "equation.ml" 227 6632 6633 "equation.ml" 235 6997 7012
+)
+"equation.ml" 227 6632 6652 "equation.ml" 227 6632 6654
+type(
+  bool VarMap.t
+)
+ident(
+  def mb "equation.ml" 228 6661 6663 "equation.ml" 231 6873 6899
+)
+"equation.ml" 227 6632 6655 "equation.ml" 227 6632 6657
+type(
+  Grammar.VTSet.t VarMap.t
+)
+ident(
+  def ms "equation.ml" 228 6661 6663 "equation.ml" 231 6873 6899
+)
+"equation.ml" 227 6632 6651 "equation.ml" 227 6632 6658
+type(
+  bool VarMap.t * Grammar.VTSet.t VarMap.t
+)
+"equation.ml" 228 6661 6668 "equation.ml" 228 6661 6671
+type(
+  bool VarMap.t
+)
+ident(
+  def mb' "equation.ml" 229 6743 6745 "equation.ml" 231 6873 6899
+)
+"equation.ml" 228 6661 6672 "equation.ml" 228 6661 6675
+type(
+  Grammar.VTSet.t VarMap.t
+)
+ident(
+  def ms' "equation.ml" 229 6743 6745 "equation.ml" 231 6873 6899
+)
+"equation.ml" 228 6661 6667 "equation.ml" 228 6661 6676
+type(
+  bool VarMap.t * Grammar.VTSet.t VarMap.t
+)
+"equation.ml" 228 6661 6679 "equation.ml" 228 6661 6693
+type(
+  (bool VarMap.t * Grammar.VTSet.t VarMap.t ->
+   equation -> bool VarMap.t * Grammar.VTSet.t VarMap.t) ->
+  bool VarMap.t * Grammar.VTSet.t VarMap.t ->
+  equation list -> bool VarMap.t * Grammar.VTSet.t VarMap.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"equation.ml" 228 6661 6700 "equation.ml" 228 6661 6702
+type(
+  bool VarMap.t
+)
+ident(
+  def mb "equation.ml" 228 6661 6707 "equation.ml" 228 6661 6728
+)
+"equation.ml" 228 6661 6703 "equation.ml" 228 6661 6705
+type(
+  Grammar.VTSet.t VarMap.t
+)
+ident(
+  def ms "equation.ml" 228 6661 6707 "equation.ml" 228 6661 6728
+)
+"equation.ml" 228 6661 6699 "equation.ml" 228 6661 6706
+type(
+  bool VarMap.t * Grammar.VTSet.t VarMap.t
+)
+"equation.ml" 228 6661 6707 "equation.ml" 228 6661 6709
+type(
+  equation
+)
+ident(
+  def eq "equation.ml" 228 6661 6713 "equation.ml" 228 6661 6728
+)
+"equation.ml" 228 6661 6713 "equation.ml" 228 6661 6719
+type(
+  bool VarMap.t ->
+  Grammar.VTSet.t VarMap.t ->
+  equation -> bool VarMap.t * Grammar.VTSet.t VarMap.t
+)
+ident(
+  int_ref update "equation.ml" 209 6165 6169 "equation.ml" 209 6165 6175
+)
+"equation.ml" 228 6661 6720 "equation.ml" 228 6661 6722
+type(
+  bool VarMap.t
+)
+ident(
+  int_ref mb "equation.ml" 228 6661 6700 "equation.ml" 228 6661 6702
+)
+"equation.ml" 228 6661 6723 "equation.ml" 228 6661 6725
+type(
+  Grammar.VTSet.t VarMap.t
+)
+ident(
+  int_ref ms "equation.ml" 228 6661 6703 "equation.ml" 228 6661 6705
+)
+"equation.ml" 228 6661 6726 "equation.ml" 228 6661 6728
+type(
+  equation
+)
+ident(
+  int_ref eq "equation.ml" 228 6661 6707 "equation.ml" 228 6661 6709
+)
+"equation.ml" 228 6661 6713 "equation.ml" 228 6661 6728
+call(
+  tail
+)
+type(
+  bool VarMap.t * Grammar.VTSet.t VarMap.t
+)
+"equation.ml" 228 6661 6694 "equation.ml" 228 6661 6729
+type(
+  bool VarMap.t * Grammar.VTSet.t VarMap.t ->
+  equation -> bool VarMap.t * Grammar.VTSet.t VarMap.t
+)
+"equation.ml" 228 6661 6731 "equation.ml" 228 6661 6733
+type(
+  bool VarMap.t
+)
+ident(
+  int_ref mb "equation.ml" 227 6632 6652 "equation.ml" 227 6632 6654
+)
+"equation.ml" 228 6661 6734 "equation.ml" 228 6661 6736
+type(
+  Grammar.VTSet.t VarMap.t
+)
+ident(
+  int_ref ms "equation.ml" 227 6632 6655 "equation.ml" 227 6632 6657
+)
+"equation.ml" 228 6661 6730 "equation.ml" 228 6661 6737
+type(
+  bool VarMap.t * Grammar.VTSet.t VarMap.t
+)
+"equation.ml" 228 6661 6738 "equation.ml" 228 6661 6739
+type(
+  equation list
+)
+ident(
+  int_ref l "equation.ml" 224 6598 6608 "equation.ml" 224 6598 6609
+)
+"equation.ml" 228 6661 6679 "equation.ml" 228 6661 6739
+call(
+  stack
+)
+type(
+  bool VarMap.t * Grammar.VTSet.t VarMap.t
+)
+"equation.ml" 229 6743 6748 "equation.ml" 229 6743 6760
+type(
+  (bool -> bool -> bool) -> bool VarMap.t -> bool VarMap.t -> bool
+)
+ident(
+  ext_ref VarMap.equal
+)
+"equation.ml" 229 6743 6761 "equation.ml" 229 6743 6764
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"equation.ml" 229 6743 6765 "equation.ml" 229 6743 6767
+type(
+  bool VarMap.t
+)
+ident(
+  int_ref mb "equation.ml" 227 6632 6652 "equation.ml" 227 6632 6654
+)
+"equation.ml" 229 6743 6768 "equation.ml" 229 6743 6771
+type(
+  bool VarMap.t
+)
+ident(
+  int_ref mb' "equation.ml" 228 6661 6668 "equation.ml" 228 6661 6671
+)
+"equation.ml" 229 6743 6748 "equation.ml" 229 6743 6771
+call(
+  stack
+)
+type(
+  bool
+)
+"equation.ml" 229 6743 6772 "equation.ml" 229 6743 6774
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"equation.ml" 229 6743 6775 "equation.ml" 229 6743 6787
+type(
+  (Grammar.VTSet.t -> Grammar.VTSet.t -> bool) ->
+  Grammar.VTSet.t VarMap.t -> Grammar.VTSet.t VarMap.t -> bool
+)
+ident(
+  ext_ref VarMap.equal
+)
+"equation.ml" 229 6743 6788 "equation.ml" 229 6743 6799
+type(
+  Grammar.VTSet.t -> Grammar.VTSet.t -> bool
+)
+ident(
+  ext_ref Grammar.VTSet.equal
+)
+"equation.ml" 229 6743 6800 "equation.ml" 229 6743 6802
+type(
+  Grammar.VTSet.t VarMap.t
+)
+ident(
+  int_ref ms "equation.ml" 227 6632 6655 "equation.ml" 227 6632 6657
+)
+"equation.ml" 229 6743 6803 "equation.ml" 229 6743 6806
+type(
+  Grammar.VTSet.t VarMap.t
+)
+ident(
+  int_ref ms' "equation.ml" 228 6661 6672 "equation.ml" 228 6661 6675
+)
+"equation.ml" 229 6743 6775 "equation.ml" 229 6743 6806
+call(
+  stack
+)
+type(
+  bool
+)
+"equation.ml" 229 6743 6748 "equation.ml" 229 6743 6806
+type(
+  bool
+)
+"equation.ml" 230 6807 6820 "equation.ml" 230 6807 6821
+type(
+  VarMap.key
+)
+ident(
+  def v "equation.ml" 230 6807 6825 "equation.ml" 230 6807 6842
+)
+"equation.ml" 230 6807 6825 "equation.ml" 230 6807 6836
+type(
+  VarMap.key -> bool VarMap.t -> bool
+)
+ident(
+  ext_ref VarMap.find
+)
+"equation.ml" 230 6807 6837 "equation.ml" 230 6807 6838
+type(
+  VarMap.key
+)
+ident(
+  int_ref v "equation.ml" 230 6807 6820 "equation.ml" 230 6807 6821
+)
+"equation.ml" 230 6807 6839 "equation.ml" 230 6807 6842
+type(
+  bool VarMap.t
+)
+ident(
+  int_ref mb' "equation.ml" 228 6661 6668 "equation.ml" 228 6661 6671
+)
+"equation.ml" 230 6807 6825 "equation.ml" 230 6807 6842
+call(
+  tail
+)
+type(
+  bool
+)
+"equation.ml" 230 6807 6815 "equation.ml" 230 6807 6843
+type(
+  VarMap.key -> bool
+)
+"equation.ml" 230 6807 6849 "equation.ml" 230 6807 6850
+type(
+  VarMap.key
+)
+ident(
+  def v "equation.ml" 230 6807 6853 "equation.ml" 230 6807 6870
+)
+"equation.ml" 230 6807 6853 "equation.ml" 230 6807 6864
+type(
+  VarMap.key -> Grammar.VTSet.t VarMap.t -> Grammar.VTSet.t
+)
+ident(
+  ext_ref VarMap.find
+)
+"equation.ml" 230 6807 6865 "equation.ml" 230 6807 6866
+type(
+  VarMap.key
+)
+ident(
+  int_ref v "equation.ml" 230 6807 6849 "equation.ml" 230 6807 6850
+)
+"equation.ml" 230 6807 6867 "equation.ml" 230 6807 6870
+type(
+  Grammar.VTSet.t VarMap.t
+)
+ident(
+  int_ref ms' "equation.ml" 228 6661 6672 "equation.ml" 228 6661 6675
+)
+"equation.ml" 230 6807 6853 "equation.ml" 230 6807 6870
+call(
+  tail
+)
+type(
+  Grammar.VTSet.t
+)
+"equation.ml" 230 6807 6844 "equation.ml" 230 6807 6871
+type(
+  VarMap.key -> Grammar.VTSet.t
+)
+"equation.ml" 230 6807 6814 "equation.ml" 230 6807 6872
+type(
+  (VarMap.key -> bool) * (VarMap.key -> Grammar.VTSet.t)
+)
+"equation.ml" 231 6873 6880 "equation.ml" 231 6873 6889
+type(
+  bool VarMap.t * Grammar.VTSet.t VarMap.t ->
+  (VarMap.key -> bool) * (VarMap.key -> Grammar.VTSet.t)
+)
+ident(
+  int_ref rec_solve "equation.ml" 227 6632 6641 "equation.ml" 227 6632 6650
+)
+"equation.ml" 231 6873 6891 "equation.ml" 231 6873 6894
+type(
+  bool VarMap.t
+)
+ident(
+  int_ref mb' "equation.ml" 228 6661 6668 "equation.ml" 228 6661 6671
+)
+"equation.ml" 231 6873 6895 "equation.ml" 231 6873 6898
+type(
+  Grammar.VTSet.t VarMap.t
+)
+ident(
+  int_ref ms' "equation.ml" 228 6661 6672 "equation.ml" 228 6661 6675
+)
+"equation.ml" 231 6873 6890 "equation.ml" 231 6873 6899
+type(
+  bool VarMap.t * Grammar.VTSet.t VarMap.t
+)
+"equation.ml" 231 6873 6880 "equation.ml" 231 6873 6899
+call(
+  tail
+)
+type(
+  (VarMap.key -> bool) * (VarMap.key -> Grammar.VTSet.t)
+)
+"equation.ml" 229 6743 6745 "equation.ml" 231 6873 6899
+type(
+  (VarMap.key -> bool) * (VarMap.key -> Grammar.VTSet.t)
+)
+"equation.ml" 228 6661 6663 "equation.ml" 231 6873 6899
+type(
+  (VarMap.key -> bool) * (VarMap.key -> Grammar.VTSet.t)
+)
+"equation.ml" 233 6905 6910 "equation.ml" 233 6905 6914
+type(
+  bool VarMap.t * Grammar.VTSet.t VarMap.t
+)
+ident(
+  def init "equation.ml" 235 6997 6998 "equation.ml" 235 6997 7012
+)
+"equation.ml" 233 6905 6918 "equation.ml" 233 6905 6932
+type(
+  (bool VarMap.t * Grammar.VTSet.t VarMap.t ->
+   equation -> bool VarMap.t * Grammar.VTSet.t VarMap.t) ->
+  bool VarMap.t * Grammar.VTSet.t VarMap.t ->
+  equation list -> bool VarMap.t * Grammar.VTSet.t VarMap.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"equation.ml" 233 6905 6938 "equation.ml" 233 6905 6941
+type(
+  bool VarMap.t * Grammar.VTSet.t VarMap.t
+)
+ident(
+  def acc "equation.ml" 233 6905 6942 "equation.ml" 233 6905 6959
+)
+"equation.ml" 233 6905 6942 "equation.ml" 233 6905 6944
+type(
+  equation
+)
+ident(
+  def eq "equation.ml" 233 6905 6948 "equation.ml" 233 6905 6959
+)
+"equation.ml" 233 6905 6948 "equation.ml" 233 6905 6952
+type(
+  bool VarMap.t * Grammar.VTSet.t VarMap.t ->
+  equation -> bool VarMap.t * Grammar.VTSet.t VarMap.t
+)
+ident(
+  int_ref init "equation.ml" 217 6420 6424 "equation.ml" 217 6420 6428
+)
+"equation.ml" 233 6905 6953 "equation.ml" 233 6905 6956
+type(
+  bool VarMap.t * Grammar.VTSet.t VarMap.t
+)
+ident(
+  int_ref acc "equation.ml" 233 6905 6938 "equation.ml" 233 6905 6941
+)
+"equation.ml" 233 6905 6957 "equation.ml" 233 6905 6959
+type(
+  equation
+)
+ident(
+  int_ref eq "equation.ml" 233 6905 6942 "equation.ml" 233 6905 6944
+)
+"equation.ml" 233 6905 6948 "equation.ml" 233 6905 6959
+call(
+  tail
+)
+type(
+  bool VarMap.t * Grammar.VTSet.t VarMap.t
+)
+"equation.ml" 233 6905 6933 "equation.ml" 233 6905 6960
+type(
+  bool VarMap.t * Grammar.VTSet.t VarMap.t ->
+  equation -> bool VarMap.t * Grammar.VTSet.t VarMap.t
+)
+"equation.ml" 233 6905 6962 "equation.ml" 233 6905 6974
+type(
+  bool VarMap.t
+)
+ident(
+  ext_ref VarMap.empty
+)
+"equation.ml" 233 6905 6975 "equation.ml" 233 6905 6987
+type(
+  Grammar.VTSet.t VarMap.t
+)
+ident(
+  ext_ref VarMap.empty
+)
+"equation.ml" 233 6905 6961 "equation.ml" 233 6905 6988
+type(
+  bool VarMap.t * Grammar.VTSet.t VarMap.t
+)
+"equation.ml" 233 6905 6989 "equation.ml" 233 6905 6990
+type(
+  equation list
+)
+ident(
+  int_ref l "equation.ml" 224 6598 6608 "equation.ml" 224 6598 6609
+)
+"equation.ml" 233 6905 6917 "equation.ml" 233 6905 6991
+call(
+  stack
+)
+type(
+  bool VarMap.t * Grammar.VTSet.t VarMap.t
+)
+"equation.ml" 235 6997 6998 "equation.ml" 235 6997 7007
+type(
+  bool VarMap.t * Grammar.VTSet.t VarMap.t ->
+  (VarMap.key -> bool) * (VarMap.key -> Grammar.VTSet.t)
+)
+ident(
+  int_ref rec_solve "equation.ml" 227 6632 6641 "equation.ml" 227 6632 6650
+)
+"equation.ml" 235 6997 7008 "equation.ml" 235 6997 7012
+type(
+  bool VarMap.t * Grammar.VTSet.t VarMap.t
+)
+ident(
+  int_ref init "equation.ml" 233 6905 6910 "equation.ml" 233 6905 6914
+)
+"equation.ml" 235 6997 6998 "equation.ml" 235 6997 7012
+call(
+  tail
+)
+type(
+  (VarMap.key -> bool) * (VarMap.key -> Grammar.VTSet.t)
+)
+"equation.ml" 233 6905 6906 "equation.ml" 235 6997 7012
+type(
+  (VarMap.key -> bool) * (VarMap.key -> Grammar.VTSet.t)
+)
+"equation.ml" 227 6632 6633 "equation.ml" 235 6997 7012
+type(
+  (VarMap.key -> bool) * (VarMap.key -> Grammar.VTSet.t)
+)
+"equation.ml" 225 6612 6613 "equation.ml" 235 6997 7012
+type(
+  (VarMap.key -> bool) * (VarMap.key -> Grammar.VTSet.t)
+)
+"equation.ml" 238 7017 7021 "equation.ml" 238 7017 7033
+type(
+  VarMap.key -> 'a VarMap.t * 'b -> 'a
+)
+ident(
+  def get_bool_var "equation.ml" 240 7063 7063 "equation.ml" 1 0 -1
+)
+"equation.ml" 238 7017 7034 "equation.ml" 238 7017 7035
+type(
+  VarMap.key
+)
+ident(
+  def v "equation.ml" 238 7017 7036 "equation.ml" 238 7017 7061
+)
+"equation.ml" 238 7017 7037 "equation.ml" 238 7017 7039
+type(
+  'a VarMap.t
+)
+ident(
+  def mb "equation.ml" 238 7017 7045 "equation.ml" 238 7017 7061
+)
+"equation.ml" 238 7017 7040 "equation.ml" 238 7017 7041
+type(
+  'b
+)
+"equation.ml" 238 7017 7036 "equation.ml" 238 7017 7042
+type(
+  'a VarMap.t * 'b
+)
+"equation.ml" 238 7017 7045 "equation.ml" 238 7017 7056
+type(
+  VarMap.key -> 'a VarMap.t -> 'a
+)
+ident(
+  ext_ref VarMap.find
+)
+"equation.ml" 238 7017 7057 "equation.ml" 238 7017 7058
+type(
+  VarMap.key
+)
+ident(
+  int_ref v "equation.ml" 238 7017 7034 "equation.ml" 238 7017 7035
+)
+"equation.ml" 238 7017 7059 "equation.ml" 238 7017 7061
+type(
+  'a VarMap.t
+)
+ident(
+  int_ref mb "equation.ml" 238 7017 7037 "equation.ml" 238 7017 7039
+)
+"equation.ml" 238 7017 7045 "equation.ml" 238 7017 7061
+call(
+  tail
+)
+type(
+  'a
+)
+"equation.ml" 240 7063 7067 "equation.ml" 240 7063 7078
+type(
+  VarMap.key -> 'a * 'b VarMap.t -> 'b
+)
+ident(
+  def get_set_var "equation.ml" 242 7109 7109 "equation.ml" 1 0 -1
+)
+"equation.ml" 240 7063 7079 "equation.ml" 240 7063 7080
+type(
+  VarMap.key
+)
+ident(
+  def v "equation.ml" 240 7063 7081 "equation.ml" 240 7063 7106
+)
+"equation.ml" 240 7063 7082 "equation.ml" 240 7063 7083
+type(
+  'a
+)
+"equation.ml" 240 7063 7084 "equation.ml" 240 7063 7086
+type(
+  'b VarMap.t
+)
+ident(
+  def ms "equation.ml" 240 7063 7090 "equation.ml" 240 7063 7106
+)
+"equation.ml" 240 7063 7081 "equation.ml" 240 7063 7087
+type(
+  'a * 'b VarMap.t
+)
+"equation.ml" 240 7063 7090 "equation.ml" 240 7063 7101
+type(
+  VarMap.key -> 'b VarMap.t -> 'b
+)
+ident(
+  ext_ref VarMap.find
+)
+"equation.ml" 240 7063 7102 "equation.ml" 240 7063 7103
+type(
+  VarMap.key
+)
+ident(
+  int_ref v "equation.ml" 240 7063 7079 "equation.ml" 240 7063 7080
+)
+"equation.ml" 240 7063 7104 "equation.ml" 240 7063 7106
+type(
+  'b VarMap.t
+)
+ident(
+  int_ref ms "equation.ml" 240 7063 7084 "equation.ml" 240 7063 7086
+)
+"equation.ml" 240 7063 7090 "equation.ml" 240 7063 7106
+call(
+  tail
+)
+type(
+  'b
+)
+"equation.ml" 242 7109 7113 "equation.ml" 242 7109 7128
+type(
+  out_channel -> equation -> unit
+)
+ident(
+  def output_equation "equation.ml" 246 7285 7285 "equation.ml" 1 0 -1
+)
+"equation.ml" 242 7109 7130 "equation.ml" 242 7109 7131
+type(
+  out_channel
+)
+ident(
+  def o "equation.ml" 242 7109 7134 "equation.ml" 244 7213 7283
+)
+"equation.ml" 243 7143 7150 "equation.ml" 243 7143 7151
+type(
+  var
+)
+ident(
+  def v "equation.ml" 243 7143 7158 "equation.ml" 243 7143 7212
+)
+"equation.ml" 243 7143 7152 "equation.ml" 243 7143 7153
+type(
+  bexpr
+)
+ident(
+  def e "equation.ml" 243 7143 7158 "equation.ml" 243 7143 7212
+)
+"equation.ml" 243 7143 7146 "equation.ml" 243 7143 7154
+type(
+  equation
+)
+"equation.ml" 243 7143 7158 "equation.ml" 243 7143 7172
+type(
+  out_channel ->
+  ((out_channel -> var -> unit) ->
+   var -> (out_channel -> bexpr -> unit) -> bexpr -> unit, out_channel, 
+   unit)
+  format ->
+  (out_channel -> var -> unit) ->
+  var -> (out_channel -> bexpr -> unit) -> bexpr -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"equation.ml" 243 7143 7173 "equation.ml" 243 7143 7174
+type(
+  out_channel
+)
+ident(
+  int_ref o "equation.ml" 242 7109 7130 "equation.ml" 242 7109 7131
+)
+"equation.ml" 243 7143 7175 "equation.ml" 243 7143 7184
+type(
+  ((out_channel -> var -> unit) ->
+   var -> (out_channel -> bexpr -> unit) -> bexpr -> unit, out_channel, 
+   unit)
+  format
+)
+"equation.ml" 243 7143 7185 "equation.ml" 243 7143 7195
+type(
+  out_channel -> var -> unit
+)
+ident(
+  int_ref output_var "equation.ml" 158 4546 4550 "equation.ml" 158 4546 4560
+)
+"equation.ml" 243 7143 7196 "equation.ml" 243 7143 7197
+type(
+  var
+)
+ident(
+  int_ref v "equation.ml" 243 7143 7150 "equation.ml" 243 7143 7151
+)
+"equation.ml" 243 7143 7198 "equation.ml" 243 7143 7210
+type(
+  out_channel -> bexpr -> unit
+)
+ident(
+  int_ref output_bexpr "equation.ml" 167 4759 4767 "equation.ml" 167 4759 4779
+)
+"equation.ml" 243 7143 7211 "equation.ml" 243 7143 7212
+type(
+  bexpr
+)
+ident(
+  int_ref e "equation.ml" 243 7143 7152 "equation.ml" 243 7143 7153
+)
+"equation.ml" 243 7143 7158 "equation.ml" 243 7143 7212
+call(
+  tail
+)
+type(
+  unit
+)
+"equation.ml" 244 7213 7220 "equation.ml" 244 7213 7221
+type(
+  var
+)
+ident(
+  def v "equation.ml" 244 7213 7228 "equation.ml" 244 7213 7283
+)
+"equation.ml" 244 7213 7222 "equation.ml" 244 7213 7223
+type(
+  sexpr
+)
+ident(
+  def e "equation.ml" 244 7213 7228 "equation.ml" 244 7213 7283
+)
+"equation.ml" 244 7213 7216 "equation.ml" 244 7213 7224
+type(
+  equation
+)
+"equation.ml" 244 7213 7228 "equation.ml" 244 7213 7242
+type(
+  out_channel ->
+  ((out_channel -> var -> unit) ->
+   var -> (out_channel -> sexpr -> unit) -> sexpr -> unit, out_channel, 
+   unit)
+  format ->
+  (out_channel -> var -> unit) ->
+  var -> (out_channel -> sexpr -> unit) -> sexpr -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"equation.ml" 244 7213 7243 "equation.ml" 244 7213 7244
+type(
+  out_channel
+)
+ident(
+  int_ref o "equation.ml" 242 7109 7130 "equation.ml" 242 7109 7131
+)
+"equation.ml" 244 7213 7245 "equation.ml" 244 7213 7254
+type(
+  ((out_channel -> var -> unit) ->
+   var -> (out_channel -> sexpr -> unit) -> sexpr -> unit, out_channel, 
+   unit)
+  format
+)
+"equation.ml" 244 7213 7255 "equation.ml" 244 7213 7265
+type(
+  out_channel -> var -> unit
+)
+ident(
+  int_ref output_var "equation.ml" 158 4546 4550 "equation.ml" 158 4546 4560
+)
+"equation.ml" 244 7213 7266 "equation.ml" 244 7213 7267
+type(
+  var
+)
+ident(
+  int_ref v "equation.ml" 244 7213 7220 "equation.ml" 244 7213 7221
+)
+"equation.ml" 244 7213 7268 "equation.ml" 244 7213 7280
+type(
+  out_channel -> sexpr -> unit
+)
+ident(
+  int_ref output_sexpr "equation.ml" 178 5353 5358 "equation.ml" 178 5353 5370
+)
+"equation.ml" 244 7213 7282 "equation.ml" 244 7213 7283
+type(
+  sexpr
+)
+ident(
+  int_ref e "equation.ml" 244 7213 7222 "equation.ml" 244 7213 7223
+)
+"equation.ml" 244 7213 7228 "equation.ml" 244 7213 7283
+call(
+  tail
+)
+type(
+  unit
+)
+"equation.ml" 242 7109 7134 "equation.ml" 244 7213 7283
+type(
+  equation -> unit
+)
+"equation.ml" 246 7285 7289 "equation.ml" 246 7285 7299
+type(
+  out_channel -> equation list -> unit
+)
+ident(
+  def output_sys "equation.ml" 249 7378 7378 "equation.ml" 1 0 -1
+)
+"equation.ml" 246 7285 7300 "equation.ml" 246 7285 7301
+type(
+  out_channel
+)
+ident(
+  def o "equation.ml" 246 7285 7302 "equation.ml" 247 7306 7376
+)
+"equation.ml" 246 7285 7302 "equation.ml" 246 7285 7303
+type(
+  equation list
+)
+ident(
+  def l "equation.ml" 247 7306 7307 "equation.ml" 247 7306 7376
+)
+"equation.ml" 247 7306 7307 "equation.ml" 247 7306 7316
+type(
+  (equation -> unit) -> equation list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"equation.ml" 247 7306 7322 "equation.ml" 247 7306 7324
+type(
+  equation
+)
+ident(
+  def eq "equation.ml" 247 7306 7328 "equation.ml" 247 7306 7373
+)
+"equation.ml" 247 7306 7328 "equation.ml" 247 7306 7342
+type(
+  out_channel ->
+  ((out_channel -> equation -> unit) -> equation -> unit, out_channel, unit)
+  format -> (out_channel -> equation -> unit) -> equation -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"equation.ml" 247 7306 7343 "equation.ml" 247 7306 7344
+type(
+  out_channel
+)
+ident(
+  int_ref o "equation.ml" 246 7285 7300 "equation.ml" 246 7285 7301
+)
+"equation.ml" 247 7306 7345 "equation.ml" 247 7306 7351
+type(
+  ((out_channel -> equation -> unit) -> equation -> unit, out_channel, unit)
+  format
+)
+"equation.ml" 247 7306 7352 "equation.ml" 247 7306 7369
+type(
+  out_channel -> equation -> unit
+)
+ident(
+  int_ref output_equation "equation.ml" 242 7109 7113 "equation.ml" 242 7109 7128
+)
+"equation.ml" 247 7306 7371 "equation.ml" 247 7306 7373
+type(
+  equation
+)
+ident(
+  int_ref eq "equation.ml" 247 7306 7322 "equation.ml" 247 7306 7324
+)
+"equation.ml" 247 7306 7328 "equation.ml" 247 7306 7373
+call(
+  tail
+)
+type(
+  unit
+)
+"equation.ml" 247 7306 7317 "equation.ml" 247 7306 7374
+type(
+  equation -> unit
+)
+"equation.ml" 247 7306 7375 "equation.ml" 247 7306 7376
+type(
+  equation list
+)
+ident(
+  int_ref l "equation.ml" 246 7285 7302 "equation.ml" 246 7285 7303
+)
+"equation.ml" 247 7306 7307 "equation.ml" 247 7306 7376
+call(
+  tail
+)
+type(
+  unit
+)
+"equation.ml" 249 7378 7382 "equation.ml" 249 7378 7399
+type(
+  (var -> bexpr) -> (var -> sexpr) -> equation -> equation
+)
+ident(
+  def simplify_equation "equation.ml" 253 7508 7508 "equation.ml" 1 0 -1
+)
+"equation.ml" 249 7378 7400 "equation.ml" 249 7378 7402
+type(
+  var -> bexpr
+)
+ident(
+  def bv "equation.ml" 249 7378 7403 "equation.ml" 251 7462 7506
+)
+"equation.ml" 249 7378 7403 "equation.ml" 249 7378 7405
+type(
+  var -> sexpr
+)
+ident(
+  def sv "equation.ml" 249 7378 7408 "equation.ml" 251 7462 7506
+)
+"equation.ml" 250 7417 7424 "equation.ml" 250 7417 7425
+type(
+  var
+)
+ident(
+  def v "equation.ml" 250 7417 7432 "equation.ml" 250 7417 7461
+)
+"equation.ml" 250 7417 7426 "equation.ml" 250 7417 7427
+type(
+  bexpr
+)
+ident(
+  def e "equation.ml" 250 7417 7432 "equation.ml" 250 7417 7461
+)
+"equation.ml" 250 7417 7420 "equation.ml" 250 7417 7428
+type(
+  equation
+)
+"equation.ml" 250 7417 7436 "equation.ml" 250 7417 7437
+type(
+  var
+)
+ident(
+  int_ref v "equation.ml" 250 7417 7424 "equation.ml" 250 7417 7425
+)
+"equation.ml" 250 7417 7438 "equation.ml" 250 7417 7452
+type(
+  (var -> bexpr) -> (var -> sexpr) -> bexpr -> bexpr
+)
+ident(
+  int_ref simplify_bexpr "equation.ml" 117 2882 2890 "equation.ml" 117 2882 2904
+)
+"equation.ml" 250 7417 7453 "equation.ml" 250 7417 7455
+type(
+  var -> bexpr
+)
+ident(
+  int_ref bv "equation.ml" 249 7378 7400 "equation.ml" 249 7378 7402
+)
+"equation.ml" 250 7417 7456 "equation.ml" 250 7417 7458
+type(
+  var -> sexpr
+)
+ident(
+  int_ref sv "equation.ml" 249 7378 7403 "equation.ml" 249 7378 7405
+)
+"equation.ml" 250 7417 7459 "equation.ml" 250 7417 7460
+type(
+  bexpr
+)
+ident(
+  int_ref e "equation.ml" 250 7417 7426 "equation.ml" 250 7417 7427
+)
+"equation.ml" 250 7417 7438 "equation.ml" 250 7417 7460
+call(
+  stack
+)
+type(
+  bexpr
+)
+"equation.ml" 250 7417 7432 "equation.ml" 250 7417 7461
+type(
+  equation
+)
+"equation.ml" 251 7462 7469 "equation.ml" 251 7462 7470
+type(
+  var
+)
+ident(
+  def v "equation.ml" 251 7462 7477 "equation.ml" 251 7462 7506
+)
+"equation.ml" 251 7462 7471 "equation.ml" 251 7462 7472
+type(
+  sexpr
+)
+ident(
+  def e "equation.ml" 251 7462 7477 "equation.ml" 251 7462 7506
+)
+"equation.ml" 251 7462 7465 "equation.ml" 251 7462 7473
+type(
+  equation
+)
+"equation.ml" 251 7462 7481 "equation.ml" 251 7462 7482
+type(
+  var
+)
+ident(
+  int_ref v "equation.ml" 251 7462 7469 "equation.ml" 251 7462 7470
+)
+"equation.ml" 251 7462 7483 "equation.ml" 251 7462 7497
+type(
+  (var -> bexpr) -> (var -> sexpr) -> sexpr -> sexpr
+)
+ident(
+  int_ref simplify_sexpr "equation.ml" 128 3375 3379 "equation.ml" 128 3375 3393
+)
+"equation.ml" 251 7462 7498 "equation.ml" 251 7462 7500
+type(
+  var -> bexpr
+)
+ident(
+  int_ref bv "equation.ml" 249 7378 7400 "equation.ml" 249 7378 7402
+)
+"equation.ml" 251 7462 7501 "equation.ml" 251 7462 7503
+type(
+  var -> sexpr
+)
+ident(
+  int_ref sv "equation.ml" 249 7378 7403 "equation.ml" 249 7378 7405
+)
+"equation.ml" 251 7462 7504 "equation.ml" 251 7462 7505
+type(
+  sexpr
+)
+ident(
+  int_ref e "equation.ml" 251 7462 7471 "equation.ml" 251 7462 7472
+)
+"equation.ml" 251 7462 7483 "equation.ml" 251 7462 7505
+call(
+  stack
+)
+type(
+  sexpr
+)
+"equation.ml" 251 7462 7477 "equation.ml" 251 7462 7506
+type(
+  equation
+)
+"equation.ml" 249 7378 7408 "equation.ml" 251 7462 7506
+type(
+  equation -> equation
+)
+"equation.ml" 253 7508 7516 "equation.ml" 253 7508 7528
+type(
+  equation list -> var -> bexpr
+)
+ident(
+  def expr_of_bvar "equation.ml" 253 7508 7508 "equation.ml" 1 0 -1
+)
+"equation.ml" 253 7508 7529 "equation.ml" 253 7508 7530
+type(
+  equation list
+)
+ident(
+  def l "equation.ml" 253 7508 7531 "equation.ml" 257 7601 7628
+)
+"equation.ml" 253 7508 7531 "equation.ml" 253 7508 7532
+type(
+  var
+)
+ident(
+  def v "equation.ml" 254 7536 7537 "equation.ml" 257 7601 7628
+)
+"equation.ml" 254 7536 7543 "equation.ml" 254 7536 7544
+type(
+  equation list
+)
+ident(
+  int_ref l "equation.ml" 253 7508 7529 "equation.ml" 253 7508 7530
+)
+"equation.ml" 255 7550 7553 "equation.ml" 255 7550 7555
+type(
+  equation list
+)
+"equation.ml" 255 7550 7564 "equation.ml" 255 7550 7565
+type(
+  var
+)
+ident(
+  int_ref v "equation.ml" 253 7508 7531 "equation.ml" 253 7508 7532
+)
+"equation.ml" 255 7550 7559 "equation.ml" 255 7550 7565
+type(
+  bexpr
+)
+"equation.ml" 256 7566 7573 "equation.ml" 256 7566 7575
+type(
+  var
+)
+ident(
+  def v' "equation.ml" 256 7566 7582 "equation.ml" 256 7566 7600
+)
+"equation.ml" 256 7566 7576 "equation.ml" 256 7566 7577
+type(
+  bexpr
+)
+ident(
+  def e "equation.ml" 256 7566 7582 "equation.ml" 256 7566 7600
+)
+"equation.ml" 256 7566 7569 "equation.ml" 256 7566 7578
+type(
+  equation
+)
+"equation.ml" 256 7566 7580 "equation.ml" 256 7566 7581
+type(
+  equation list
+)
+ident(
+  def l "equation.ml" 256 7566 7582 "equation.ml" 256 7566 7600
+)
+"equation.ml" 256 7566 7569 "equation.ml" 256 7566 7581
+type(
+  equation list
+)
+"equation.ml" 256 7566 7588 "equation.ml" 256 7566 7589
+type(
+  var
+)
+ident(
+  int_ref v "equation.ml" 253 7508 7531 "equation.ml" 253 7508 7532
+)
+"equation.ml" 256 7566 7590 "equation.ml" 256 7566 7591
+type(
+  var -> var -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"equation.ml" 256 7566 7592 "equation.ml" 256 7566 7594
+type(
+  var
+)
+ident(
+  int_ref v' "equation.ml" 256 7566 7573 "equation.ml" 256 7566 7575
+)
+"equation.ml" 256 7566 7587 "equation.ml" 256 7566 7595
+type(
+  bool
+)
+"equation.ml" 256 7566 7599 "equation.ml" 256 7566 7600
+type(
+  bexpr
+)
+ident(
+  int_ref e "equation.ml" 256 7566 7576 "equation.ml" 256 7566 7577
+)
+"equation.ml" 257 7601 7604 "equation.ml" 257 7601 7605
+type(
+  equation
+)
+"equation.ml" 257 7601 7607 "equation.ml" 257 7601 7608
+type(
+  equation list
+)
+ident(
+  def l "equation.ml" 257 7601 7612 "equation.ml" 257 7601 7628
+)
+"equation.ml" 257 7601 7604 "equation.ml" 257 7601 7608
+type(
+  equation list
+)
+"equation.ml" 257 7601 7612 "equation.ml" 257 7601 7624
+type(
+  equation list -> var -> bexpr
+)
+ident(
+  int_ref expr_of_bvar "equation.ml" 253 7508 7516 "equation.ml" 253 7508 7528
+)
+"equation.ml" 257 7601 7625 "equation.ml" 257 7601 7626
+type(
+  equation list
+)
+ident(
+  int_ref l "equation.ml" 257 7601 7607 "equation.ml" 257 7601 7608
+)
+"equation.ml" 257 7601 7627 "equation.ml" 257 7601 7628
+type(
+  var
+)
+ident(
+  int_ref v "equation.ml" 253 7508 7531 "equation.ml" 253 7508 7532
+)
+"equation.ml" 257 7601 7612 "equation.ml" 257 7601 7628
+call(
+  tail
+)
+type(
+  bexpr
+)
+"equation.ml" 254 7536 7537 "equation.ml" 257 7601 7628
+type(
+  bexpr
+)
+"equation.ml" 259 7630 7638 "equation.ml" 259 7630 7650
+type(
+  equation list -> var -> sexpr
+)
+ident(
+  def expr_of_svar "equation.ml" 259 7630 7630 "equation.ml" 1 0 -1
+)
+"equation.ml" 259 7630 7651 "equation.ml" 259 7630 7652
+type(
+  equation list
+)
+ident(
+  def l "equation.ml" 259 7630 7653 "equation.ml" 263 7722 7749
+)
+"equation.ml" 259 7630 7653 "equation.ml" 259 7630 7654
+type(
+  var
+)
+ident(
+  def v "equation.ml" 260 7657 7658 "equation.ml" 263 7722 7749
+)
+"equation.ml" 260 7657 7664 "equation.ml" 260 7657 7665
+type(
+  equation list
+)
+ident(
+  int_ref l "equation.ml" 259 7630 7651 "equation.ml" 259 7630 7652
+)
+"equation.ml" 261 7671 7674 "equation.ml" 261 7671 7676
+type(
+  equation list
+)
+"equation.ml" 261 7671 7685 "equation.ml" 261 7671 7686
+type(
+  var
+)
+ident(
+  int_ref v "equation.ml" 259 7630 7653 "equation.ml" 259 7630 7654
+)
+"equation.ml" 261 7671 7680 "equation.ml" 261 7671 7686
+type(
+  sexpr
+)
+"equation.ml" 262 7687 7694 "equation.ml" 262 7687 7696
+type(
+  var
+)
+ident(
+  def v' "equation.ml" 262 7687 7703 "equation.ml" 262 7687 7721
+)
+"equation.ml" 262 7687 7697 "equation.ml" 262 7687 7698
+type(
+  sexpr
+)
+ident(
+  def e "equation.ml" 262 7687 7703 "equation.ml" 262 7687 7721
+)
+"equation.ml" 262 7687 7690 "equation.ml" 262 7687 7699
+type(
+  equation
+)
+"equation.ml" 262 7687 7701 "equation.ml" 262 7687 7702
+type(
+  equation list
+)
+ident(
+  def l "equation.ml" 262 7687 7703 "equation.ml" 262 7687 7721
+)
+"equation.ml" 262 7687 7690 "equation.ml" 262 7687 7702
+type(
+  equation list
+)
+"equation.ml" 262 7687 7709 "equation.ml" 262 7687 7710
+type(
+  var
+)
+ident(
+  int_ref v "equation.ml" 259 7630 7653 "equation.ml" 259 7630 7654
+)
+"equation.ml" 262 7687 7711 "equation.ml" 262 7687 7712
+type(
+  var -> var -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"equation.ml" 262 7687 7713 "equation.ml" 262 7687 7715
+type(
+  var
+)
+ident(
+  int_ref v' "equation.ml" 262 7687 7694 "equation.ml" 262 7687 7696
+)
+"equation.ml" 262 7687 7708 "equation.ml" 262 7687 7716
+type(
+  bool
+)
+"equation.ml" 262 7687 7720 "equation.ml" 262 7687 7721
+type(
+  sexpr
+)
+ident(
+  int_ref e "equation.ml" 262 7687 7697 "equation.ml" 262 7687 7698
+)
+"equation.ml" 263 7722 7725 "equation.ml" 263 7722 7726
+type(
+  equation
+)
+"equation.ml" 263 7722 7728 "equation.ml" 263 7722 7729
+type(
+  equation list
+)
+ident(
+  def l "equation.ml" 263 7722 7733 "equation.ml" 263 7722 7749
+)
+"equation.ml" 263 7722 7725 "equation.ml" 263 7722 7729
+type(
+  equation list
+)
+"equation.ml" 263 7722 7733 "equation.ml" 263 7722 7745
+type(
+  equation list -> var -> sexpr
+)
+ident(
+  int_ref expr_of_svar "equation.ml" 259 7630 7638 "equation.ml" 259 7630 7650
+)
+"equation.ml" 263 7722 7746 "equation.ml" 263 7722 7747
+type(
+  equation list
+)
+ident(
+  int_ref l "equation.ml" 263 7722 7728 "equation.ml" 263 7722 7729
+)
+"equation.ml" 263 7722 7748 "equation.ml" 263 7722 7749
+type(
+  var
+)
+ident(
+  int_ref v "equation.ml" 259 7630 7653 "equation.ml" 259 7630 7654
+)
+"equation.ml" 263 7722 7733 "equation.ml" 263 7722 7749
+call(
+  tail
+)
+type(
+  sexpr
+)
+"equation.ml" 260 7657 7658 "equation.ml" 263 7722 7749
+type(
+  sexpr
+)
+"equation.ml" 265 7751 7755 "equation.ml" 265 7751 7766
+type(
+  equation -> equation -> bool
+)
+ident(
+  def eq_equation "equation.ml" 271 7924 7924 "equation.ml" 1 0 -1
+)
+"equation.ml" 265 7751 7767 "equation.ml" 265 7751 7769
+type(
+  equation
+)
+ident(
+  def eq "equation.ml" 265 7751 7770 "equation.ml" 269 7901 7920
+)
+"equation.ml" 265 7751 7770 "equation.ml" 265 7751 7773
+type(
+  equation
+)
+ident(
+  def eq' "equation.ml" 266 7776 7777 "equation.ml" 269 7901 7920
+)
+"equation.ml" 266 7776 7783 "equation.ml" 266 7776 7785
+type(
+  equation
+)
+ident(
+  int_ref eq "equation.ml" 265 7751 7767 "equation.ml" 265 7751 7769
+)
+"equation.ml" 266 7776 7788 "equation.ml" 266 7776 7791
+type(
+  equation
+)
+ident(
+  int_ref eq' "equation.ml" 265 7751 7770 "equation.ml" 265 7751 7773
+)
+"equation.ml" 266 7776 7783 "equation.ml" 266 7776 7791
+type(
+  equation * equation
+)
+"equation.ml" 267 7797 7804 "equation.ml" 267 7797 7805
+type(
+  var
+)
+ident(
+  def v "equation.ml" 267 7797 7825 "equation.ml" 267 7797 7848
+)
+"equation.ml" 267 7797 7806 "equation.ml" 267 7797 7807
+type(
+  bexpr
+)
+ident(
+  def e "equation.ml" 267 7797 7825 "equation.ml" 267 7797 7848
+)
+"equation.ml" 267 7797 7800 "equation.ml" 267 7797 7808
+type(
+  equation
+)
+"equation.ml" 267 7797 7815 "equation.ml" 267 7797 7817
+type(
+  var
+)
+ident(
+  def v' "equation.ml" 267 7797 7825 "equation.ml" 267 7797 7848
+)
+"equation.ml" 267 7797 7818 "equation.ml" 267 7797 7820
+type(
+  bexpr
+)
+ident(
+  def e' "equation.ml" 267 7797 7825 "equation.ml" 267 7797 7848
+)
+"equation.ml" 267 7797 7811 "equation.ml" 267 7797 7821
+type(
+  equation
+)
+"equation.ml" 267 7797 7800 "equation.ml" 267 7797 7821
+type(
+  equation * equation
+)
+"equation.ml" 267 7797 7825 "equation.ml" 267 7797 7826
+type(
+  var
+)
+ident(
+  int_ref v "equation.ml" 267 7797 7804 "equation.ml" 267 7797 7805
+)
+"equation.ml" 267 7797 7827 "equation.ml" 267 7797 7828
+type(
+  var -> var -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"equation.ml" 267 7797 7829 "equation.ml" 267 7797 7831
+type(
+  var
+)
+ident(
+  int_ref v' "equation.ml" 267 7797 7815 "equation.ml" 267 7797 7817
+)
+"equation.ml" 267 7797 7825 "equation.ml" 267 7797 7831
+type(
+  bool
+)
+"equation.ml" 267 7797 7832 "equation.ml" 267 7797 7834
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"equation.ml" 267 7797 7835 "equation.ml" 267 7797 7843
+type(
+  bexpr -> bexpr -> bool
+)
+ident(
+  int_ref eq_bexpr "equation.ml" 137 3742 3750 "equation.ml" 137 3742 3758
+)
+"equation.ml" 267 7797 7844 "equation.ml" 267 7797 7845
+type(
+  bexpr
+)
+ident(
+  int_ref e "equation.ml" 267 7797 7806 "equation.ml" 267 7797 7807
+)
+"equation.ml" 267 7797 7846 "equation.ml" 267 7797 7848
+type(
+  bexpr
+)
+ident(
+  int_ref e' "equation.ml" 267 7797 7818 "equation.ml" 267 7797 7820
+)
+"equation.ml" 267 7797 7835 "equation.ml" 267 7797 7848
+call(
+  tail
+)
+type(
+  bool
+)
+"equation.ml" 267 7797 7825 "equation.ml" 267 7797 7848
+type(
+  bool
+)
+"equation.ml" 268 7849 7856 "equation.ml" 268 7849 7857
+type(
+  var
+)
+ident(
+  def v "equation.ml" 268 7849 7877 "equation.ml" 268 7849 7900
+)
+"equation.ml" 268 7849 7858 "equation.ml" 268 7849 7859
+type(
+  sexpr
+)
+ident(
+  def e "equation.ml" 268 7849 7877 "equation.ml" 268 7849 7900
+)
+"equation.ml" 268 7849 7852 "equation.ml" 268 7849 7860
+type(
+  equation
+)
+"equation.ml" 268 7849 7867 "equation.ml" 268 7849 7869
+type(
+  var
+)
+ident(
+  def v' "equation.ml" 268 7849 7877 "equation.ml" 268 7849 7900
+)
+"equation.ml" 268 7849 7870 "equation.ml" 268 7849 7872
+type(
+  sexpr
+)
+ident(
+  def e' "equation.ml" 268 7849 7877 "equation.ml" 268 7849 7900
+)
+"equation.ml" 268 7849 7863 "equation.ml" 268 7849 7873
+type(
+  equation
+)
+"equation.ml" 268 7849 7852 "equation.ml" 268 7849 7873
+type(
+  equation * equation
+)
+"equation.ml" 268 7849 7877 "equation.ml" 268 7849 7878
+type(
+  var
+)
+ident(
+  int_ref v "equation.ml" 268 7849 7856 "equation.ml" 268 7849 7857
+)
+"equation.ml" 268 7849 7879 "equation.ml" 268 7849 7880
+type(
+  var -> var -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"equation.ml" 268 7849 7881 "equation.ml" 268 7849 7883
+type(
+  var
+)
+ident(
+  int_ref v' "equation.ml" 268 7849 7867 "equation.ml" 268 7849 7869
+)
+"equation.ml" 268 7849 7877 "equation.ml" 268 7849 7883
+type(
+  bool
+)
+"equation.ml" 268 7849 7884 "equation.ml" 268 7849 7886
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"equation.ml" 268 7849 7887 "equation.ml" 268 7849 7895
+type(
+  sexpr -> sexpr -> bool
+)
+ident(
+  int_ref eq_sexpr "equation.ml" 148 4242 4246 "equation.ml" 148 4242 4254
+)
+"equation.ml" 268 7849 7896 "equation.ml" 268 7849 7897
+type(
+  sexpr
+)
+ident(
+  int_ref e "equation.ml" 268 7849 7858 "equation.ml" 268 7849 7859
+)
+"equation.ml" 268 7849 7898 "equation.ml" 268 7849 7900
+type(
+  sexpr
+)
+ident(
+  int_ref e' "equation.ml" 268 7849 7870 "equation.ml" 268 7849 7872
+)
+"equation.ml" 268 7849 7887 "equation.ml" 268 7849 7900
+call(
+  tail
+)
+type(
+  bool
+)
+"equation.ml" 268 7849 7877 "equation.ml" 268 7849 7900
+type(
+  bool
+)
+"equation.ml" 269 7901 7905 "equation.ml" 269 7901 7906
+type(
+  equation
+)
+"equation.ml" 269 7901 7910 "equation.ml" 269 7901 7911
+type(
+  equation
+)
+"equation.ml" 269 7901 7905 "equation.ml" 269 7901 7911
+type(
+  equation * equation
+)
+"equation.ml" 269 7901 7915 "equation.ml" 269 7901 7920
+type(
+  bool
+)
+"equation.ml" 266 7776 7777 "equation.ml" 269 7901 7920
+type(
+  bool
+)
+"equation.ml" 271 7924 7928 "equation.ml" 271 7924 7940
+type(
+  int -> equation list -> equation list
+)
+ident(
+  def simplify_sys "equation.ml" 282 8207 8207 "equation.ml" 1 0 -1
+)
+"equation.ml" 271 7924 7941 "equation.ml" 271 7924 7942
+type(
+  int
+)
+ident(
+  def n "equation.ml" 271 7924 7943 "equation.ml" 280 8187 8203
+)
+"equation.ml" 271 7924 7943 "equation.ml" 271 7924 7946
+type(
+  equation list
+)
+ident(
+  def sys "equation.ml" 272 7949 7950 "equation.ml" 280 8187 8203
+)
+"equation.ml" 272 7949 7958 "equation.ml" 272 7949 7967
+type(
+  int -> equation list -> equation list
+)
+ident(
+  def simpl_rec "equation.ml" 272 7949 7950 "equation.ml" 280 8187 8203
+)
+"equation.ml" 272 7949 7968 "equation.ml" 272 7949 7969
+type(
+  int
+)
+ident(
+  def n "equation.ml" 272 7949 7970 "equation.ml" 279 8150 8183
+)
+"equation.ml" 272 7949 7970 "equation.ml" 272 7949 7971
+type(
+  equation list
+)
+ident(
+  def s "equation.ml" 273 7975 7977 "equation.ml" 279 8150 8183
+)
+"equation.ml" 273 7975 7980 "equation.ml" 273 7975 7981
+type(
+  int
+)
+ident(
+  int_ref n "equation.ml" 272 7949 7968 "equation.ml" 272 7949 7969
+)
+"equation.ml" 273 7975 7982 "equation.ml" 273 7975 7983
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"equation.ml" 273 7975 7984 "equation.ml" 273 7975 7985
+type(
+  int
+)
+"equation.ml" 273 7975 7980 "equation.ml" 273 7975 7985
+type(
+  bool
+)
+"equation.ml" 273 7975 7991 "equation.ml" 273 7975 7992
+type(
+  equation list
+)
+ident(
+  int_ref s "equation.ml" 272 7949 7970 "equation.ml" 272 7949 7971
+)
+"equation.ml" 275 8000 8007 "equation.ml" 275 8000 8009
+type(
+  var -> bexpr
+)
+ident(
+  def fb "equation.ml" 276 8031 8034 "equation.ml" 279 8150 8183
+)
+"equation.ml" 275 8000 8012 "equation.ml" 275 8000 8024
+type(
+  equation list -> var -> bexpr
+)
+ident(
+  int_ref expr_of_bvar "equation.ml" 253 7508 7516 "equation.ml" 253 7508 7528
+)
+"equation.ml" 275 8000 8025 "equation.ml" 275 8000 8026
+type(
+  equation list
+)
+ident(
+  int_ref s "equation.ml" 272 7949 7970 "equation.ml" 272 7949 7971
+)
+"equation.ml" 275 8000 8012 "equation.ml" 275 8000 8026
+call(
+  stack
+)
+type(
+  var -> bexpr
+)
+"equation.ml" 276 8031 8038 "equation.ml" 276 8031 8040
+type(
+  var -> sexpr
+)
+ident(
+  def fs "equation.ml" 277 8061 8064 "equation.ml" 279 8150 8183
+)
+"equation.ml" 276 8031 8043 "equation.ml" 276 8031 8055
+type(
+  equation list -> var -> sexpr
+)
+ident(
+  int_ref expr_of_svar "equation.ml" 259 7630 7638 "equation.ml" 259 7630 7650
+)
+"equation.ml" 276 8031 8056 "equation.ml" 276 8031 8057
+type(
+  equation list
+)
+ident(
+  int_ref s "equation.ml" 272 7949 7970 "equation.ml" 272 7949 7971
+)
+"equation.ml" 276 8031 8043 "equation.ml" 276 8031 8057
+call(
+  stack
+)
+type(
+  var -> sexpr
+)
+"equation.ml" 277 8061 8068 "equation.ml" 277 8061 8070
+type(
+  equation list
+)
+ident(
+  def s' "equation.ml" 278 8113 8116 "equation.ml" 279 8150 8183
+)
+"equation.ml" 277 8061 8073 "equation.ml" 277 8061 8081
+type(
+  (equation -> equation) -> equation list -> equation list
+)
+ident(
+  ext_ref List.map
+)
+"equation.ml" 277 8061 8083 "equation.ml" 277 8061 8100
+type(
+  (var -> bexpr) -> (var -> sexpr) -> equation -> equation
+)
+ident(
+  int_ref simplify_equation "equation.ml" 249 7378 7382 "equation.ml" 249 7378 7399
+)
+"equation.ml" 277 8061 8101 "equation.ml" 277 8061 8103
+type(
+  var -> bexpr
+)
+ident(
+  int_ref fb "equation.ml" 275 8000 8007 "equation.ml" 275 8000 8009
+)
+"equation.ml" 277 8061 8104 "equation.ml" 277 8061 8106
+type(
+  var -> sexpr
+)
+ident(
+  int_ref fs "equation.ml" 276 8031 8038 "equation.ml" 276 8031 8040
+)
+"equation.ml" 277 8061 8082 "equation.ml" 277 8061 8107
+call(
+  stack
+)
+type(
+  equation -> equation
+)
+"equation.ml" 277 8061 8108 "equation.ml" 277 8061 8109
+type(
+  equation list
+)
+ident(
+  int_ref s "equation.ml" 272 7949 7970 "equation.ml" 272 7949 7971
+)
+"equation.ml" 277 8061 8073 "equation.ml" 277 8061 8109
+call(
+  stack
+)
+type(
+  equation list
+)
+"equation.ml" 278 8113 8119 "equation.ml" 278 8113 8132
+type(
+  (equation -> equation -> bool) -> equation list -> equation list -> bool
+)
+ident(
+  ext_ref List.for_all2
+)
+"equation.ml" 278 8113 8133 "equation.ml" 278 8113 8144
+type(
+  equation -> equation -> bool
+)
+ident(
+  int_ref eq_equation "equation.ml" 265 7751 7755 "equation.ml" 265 7751 7766
+)
+"equation.ml" 278 8113 8145 "equation.ml" 278 8113 8146
+type(
+  equation list
+)
+ident(
+  int_ref s "equation.ml" 272 7949 7970 "equation.ml" 272 7949 7971
+)
+"equation.ml" 278 8113 8147 "equation.ml" 278 8113 8149
+type(
+  equation list
+)
+ident(
+  int_ref s' "equation.ml" 277 8061 8068 "equation.ml" 277 8061 8070
+)
+"equation.ml" 278 8113 8119 "equation.ml" 278 8113 8149
+call(
+  stack
+)
+type(
+  bool
+)
+"equation.ml" 279 8150 8158 "equation.ml" 279 8150 8159
+type(
+  equation list
+)
+ident(
+  int_ref s "equation.ml" 272 7949 7970 "equation.ml" 272 7949 7971
+)
+"equation.ml" 279 8150 8165 "equation.ml" 279 8150 8174
+type(
+  int -> equation list -> equation list
+)
+ident(
+  int_ref simpl_rec "equation.ml" 272 7949 7958 "equation.ml" 272 7949 7967
+)
+"equation.ml" 279 8150 8176 "equation.ml" 279 8150 8177
+type(
+  int
+)
+ident(
+  int_ref n "equation.ml" 272 7949 7968 "equation.ml" 272 7949 7969
+)
+"equation.ml" 279 8150 8177 "equation.ml" 279 8150 8178
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"equation.ml" 279 8150 8178 "equation.ml" 279 8150 8179
+type(
+  int
+)
+"equation.ml" 279 8150 8175 "equation.ml" 279 8150 8180
+type(
+  int
+)
+"equation.ml" 279 8150 8181 "equation.ml" 279 8150 8183
+type(
+  equation list
+)
+ident(
+  int_ref s' "equation.ml" 277 8061 8068 "equation.ml" 277 8061 8070
+)
+"equation.ml" 279 8150 8165 "equation.ml" 279 8150 8183
+call(
+  tail
+)
+type(
+  equation list
+)
+"equation.ml" 278 8113 8116 "equation.ml" 279 8150 8183
+type(
+  equation list
+)
+"equation.ml" 277 8061 8064 "equation.ml" 279 8150 8183
+type(
+  equation list
+)
+"equation.ml" 276 8031 8034 "equation.ml" 279 8150 8183
+type(
+  equation list
+)
+"equation.ml" 275 8000 8003 "equation.ml" 279 8150 8183
+type(
+  equation list
+)
+"equation.ml" 273 7975 7977 "equation.ml" 279 8150 8183
+type(
+  equation list
+)
+"equation.ml" 280 8187 8188 "equation.ml" 280 8187 8197
+type(
+  int -> equation list -> equation list
+)
+ident(
+  int_ref simpl_rec "equation.ml" 272 7949 7958 "equation.ml" 272 7949 7967
+)
+"equation.ml" 280 8187 8198 "equation.ml" 280 8187 8199
+type(
+  int
+)
+ident(
+  int_ref n "equation.ml" 271 7924 7941 "equation.ml" 271 7924 7942
+)
+"equation.ml" 280 8187 8200 "equation.ml" 280 8187 8203
+type(
+  equation list
+)
+ident(
+  int_ref sys "equation.ml" 271 7924 7943 "equation.ml" 271 7924 7946
+)
+"equation.ml" 280 8187 8188 "equation.ml" 280 8187 8203
+call(
+  tail
+)
+type(
+  equation list
+)
+"equation.ml" 272 7949 7950 "equation.ml" 280 8187 8203
+type(
+  equation list
+)
+"equation.ml" 282 8207 8211 "equation.ml" 282 8207 8227
+type(
+  Grammar.grammar ->
+  string -> (Grammar.grammar -> Grammar.vn -> bexpr) -> equation list
+)
+ident(
+  def make_bool_system "equation.ml" 286 8389 8389 "equation.ml" 1 0 -1
+)
+"equation.ml" 283 8295 8300 "equation.ml" 283 8295 8301
+type(
+  Grammar.grammar
+)
+ident(
+  def g "equation.ml" 283 8295 8302 "equation.ml" 284 8311 8387
+)
+"equation.ml" 283 8295 8302 "equation.ml" 283 8295 8305
+type(
+  string
+)
+ident(
+  def str "equation.ml" 283 8295 8306 "equation.ml" 284 8311 8387
+)
+"equation.ml" 283 8295 8306 "equation.ml" 283 8295 8307
+type(
+  Grammar.grammar -> Grammar.VNSet.elt -> bexpr
+)
+ident(
+  def f "equation.ml" 284 8311 8313 "equation.ml" 284 8311 8387
+)
+"equation.ml" 284 8311 8313 "equation.ml" 284 8311 8323
+type(
+  (Grammar.VNSet.elt -> equation list -> equation list) ->
+  Grammar.VNSet.t -> equation list -> equation list
+)
+ident(
+  ext_ref Grammar.VNSet.fold
+)
+"equation.ml" 284 8311 8329 "equation.ml" 284 8311 8331
+type(
+  Grammar.VNSet.elt
+)
+ident(
+  def nt "equation.ml" 284 8311 8332 "equation.ml" 284 8311 8368
+)
+"equation.ml" 284 8311 8332 "equation.ml" 284 8311 8335
+type(
+  equation list
+)
+ident(
+  def eqs "equation.ml" 284 8311 8339 "equation.ml" 284 8311 8368
+)
+"equation.ml" 284 8311 8345 "equation.ml" 284 8311 8348
+type(
+  string
+)
+ident(
+  int_ref str "equation.ml" 283 8295 8302 "equation.ml" 283 8295 8305
+)
+"equation.ml" 284 8311 8349 "equation.ml" 284 8311 8351
+type(
+  Grammar.VNSet.elt
+)
+ident(
+  int_ref nt "equation.ml" 284 8311 8329 "equation.ml" 284 8311 8331
+)
+"equation.ml" 284 8311 8344 "equation.ml" 284 8311 8352
+type(
+  var
+)
+"equation.ml" 284 8311 8353 "equation.ml" 284 8311 8354
+type(
+  Grammar.grammar -> Grammar.VNSet.elt -> bexpr
+)
+ident(
+  int_ref f "equation.ml" 283 8295 8306 "equation.ml" 283 8295 8307
+)
+"equation.ml" 284 8311 8355 "equation.ml" 284 8311 8356
+type(
+  Grammar.grammar
+)
+ident(
+  int_ref g "equation.ml" 283 8295 8300 "equation.ml" 283 8295 8301
+)
+"equation.ml" 284 8311 8357 "equation.ml" 284 8311 8359
+type(
+  Grammar.VNSet.elt
+)
+ident(
+  int_ref nt "equation.ml" 284 8311 8329 "equation.ml" 284 8311 8331
+)
+"equation.ml" 284 8311 8353 "equation.ml" 284 8311 8359
+call(
+  stack
+)
+type(
+  bexpr
+)
+"equation.ml" 284 8311 8339 "equation.ml" 284 8311 8361
+type(
+  equation
+)
+"equation.ml" 284 8311 8365 "equation.ml" 284 8311 8368
+type(
+  equation list
+)
+ident(
+  int_ref eqs "equation.ml" 284 8311 8332 "equation.ml" 284 8311 8335
+)
+"equation.ml" 284 8311 8339 "equation.ml" 284 8311 8368
+type(
+  equation list
+)
+"equation.ml" 284 8311 8324 "equation.ml" 284 8311 8369
+type(
+  Grammar.VNSet.elt -> equation list -> equation list
+)
+"equation.ml" 284 8311 8371 "equation.ml" 284 8311 8381
+type(
+  Grammar.grammar -> Grammar.VNSet.t
+)
+ident(
+  ext_ref Grammar.nterminals
+)
+"equation.ml" 284 8311 8382 "equation.ml" 284 8311 8383
+type(
+  Grammar.grammar
+)
+ident(
+  int_ref g "equation.ml" 283 8295 8300 "equation.ml" 283 8295 8301
+)
+"equation.ml" 284 8311 8370 "equation.ml" 284 8311 8384
+call(
+  stack
+)
+type(
+  Grammar.VNSet.t
+)
+"equation.ml" 284 8311 8385 "equation.ml" 284 8311 8387
+type(
+  equation list
+)
+"equation.ml" 284 8311 8313 "equation.ml" 284 8311 8387
+call(
+  tail
+)
+type(
+  equation list
+)
+"equation.ml" 283 8295 8296 "equation.ml" 284 8311 8387
+type(
+  Grammar.grammar ->
+  string -> (Grammar.grammar -> Grammar.vn -> bexpr) -> equation list
+)
+type(
+  Grammar.grammar ->
+  string -> (Grammar.grammar -> Grammar.VNSet.elt -> bexpr) -> equation list
+)
+"equation.ml" 286 8389 8393 "equation.ml" 286 8389 8408
+type(
+  Grammar.grammar ->
+  string -> (Grammar.grammar -> Grammar.vn -> sexpr) -> equation list
+)
+ident(
+  def make_set_system "equation.ml" 290 8570 8570 "equation.ml" 1 0 -1
+)
+"equation.ml" 287 8476 8481 "equation.ml" 287 8476 8482
+type(
+  Grammar.grammar
+)
+ident(
+  def g "equation.ml" 287 8476 8483 "equation.ml" 288 8492 8568
+)
+"equation.ml" 287 8476 8483 "equation.ml" 287 8476 8486
+type(
+  string
+)
+ident(
+  def str "equation.ml" 287 8476 8487 "equation.ml" 288 8492 8568
+)
+"equation.ml" 287 8476 8487 "equation.ml" 287 8476 8488
+type(
+  Grammar.grammar -> Grammar.VNSet.elt -> sexpr
+)
+ident(
+  def f "equation.ml" 288 8492 8494 "equation.ml" 288 8492 8568
+)
+"equation.ml" 288 8492 8494 "equation.ml" 288 8492 8504
+type(
+  (Grammar.VNSet.elt -> equation list -> equation list) ->
+  Grammar.VNSet.t -> equation list -> equation list
+)
+ident(
+  ext_ref Grammar.VNSet.fold
+)
+"equation.ml" 288 8492 8510 "equation.ml" 288 8492 8512
+type(
+  Grammar.VNSet.elt
+)
+ident(
+  def nt "equation.ml" 288 8492 8513 "equation.ml" 288 8492 8549
+)
+"equation.ml" 288 8492 8513 "equation.ml" 288 8492 8516
+type(
+  equation list
+)
+ident(
+  def eqs "equation.ml" 288 8492 8520 "equation.ml" 288 8492 8549
+)
+"equation.ml" 288 8492 8526 "equation.ml" 288 8492 8529
+type(
+  string
+)
+ident(
+  int_ref str "equation.ml" 287 8476 8483 "equation.ml" 287 8476 8486
+)
+"equation.ml" 288 8492 8530 "equation.ml" 288 8492 8532
+type(
+  Grammar.VNSet.elt
+)
+ident(
+  int_ref nt "equation.ml" 288 8492 8510 "equation.ml" 288 8492 8512
+)
+"equation.ml" 288 8492 8525 "equation.ml" 288 8492 8533
+type(
+  var
+)
+"equation.ml" 288 8492 8534 "equation.ml" 288 8492 8535
+type(
+  Grammar.grammar -> Grammar.VNSet.elt -> sexpr
+)
+ident(
+  int_ref f "equation.ml" 287 8476 8487 "equation.ml" 287 8476 8488
+)
+"equation.ml" 288 8492 8536 "equation.ml" 288 8492 8537
+type(
+  Grammar.grammar
+)
+ident(
+  int_ref g "equation.ml" 287 8476 8481 "equation.ml" 287 8476 8482
+)
+"equation.ml" 288 8492 8538 "equation.ml" 288 8492 8540
+type(
+  Grammar.VNSet.elt
+)
+ident(
+  int_ref nt "equation.ml" 288 8492 8510 "equation.ml" 288 8492 8512
+)
+"equation.ml" 288 8492 8534 "equation.ml" 288 8492 8540
+call(
+  stack
+)
+type(
+  sexpr
+)
+"equation.ml" 288 8492 8520 "equation.ml" 288 8492 8542
+type(
+  equation
+)
+"equation.ml" 288 8492 8546 "equation.ml" 288 8492 8549
+type(
+  equation list
+)
+ident(
+  int_ref eqs "equation.ml" 288 8492 8513 "equation.ml" 288 8492 8516
+)
+"equation.ml" 288 8492 8520 "equation.ml" 288 8492 8549
+type(
+  equation list
+)
+"equation.ml" 288 8492 8505 "equation.ml" 288 8492 8550
+type(
+  Grammar.VNSet.elt -> equation list -> equation list
+)
+"equation.ml" 288 8492 8552 "equation.ml" 288 8492 8562
+type(
+  Grammar.grammar -> Grammar.VNSet.t
+)
+ident(
+  ext_ref Grammar.nterminals
+)
+"equation.ml" 288 8492 8563 "equation.ml" 288 8492 8564
+type(
+  Grammar.grammar
+)
+ident(
+  int_ref g "equation.ml" 287 8476 8481 "equation.ml" 287 8476 8482
+)
+"equation.ml" 288 8492 8551 "equation.ml" 288 8492 8565
+call(
+  stack
+)
+type(
+  Grammar.VNSet.t
+)
+"equation.ml" 288 8492 8566 "equation.ml" 288 8492 8568
+type(
+  equation list
+)
+"equation.ml" 288 8492 8494 "equation.ml" 288 8492 8568
+call(
+  tail
+)
+type(
+  equation list
+)
+"equation.ml" 287 8476 8477 "equation.ml" 288 8492 8568
+type(
+  Grammar.grammar ->
+  string -> (Grammar.grammar -> Grammar.vn -> sexpr) -> equation list
+)
+type(
+  Grammar.grammar ->
+  string -> (Grammar.grammar -> Grammar.VNSet.elt -> sexpr) -> equation list
+)
+"equation.ml" 290 8570 8578 "equation.ml" 290 8570 8594
+type(
+  solution -> bexpr -> bexpr option
+)
+ident(
+  def verify_assertion "equation.ml" 290 8570 8570 "equation.ml" 1 0 -1
+)
+"equation.ml" 291 8634 8639 "equation.ml" 291 8634 8640
+type(
+  solution
+)
+ident(
+  def s "equation.ml" 291 8634 8641 "equation.ml" 302 8852 8866
+)
+"equation.ml" 291 8634 8641 "equation.ml" 291 8634 8642
+type(
+  bexpr
+)
+ident(
+  def e "equation.ml" 292 8647 8649 "equation.ml" 302 8852 8866
+)
+"equation.ml" 292 8647 8655 "equation.ml" 292 8647 8656
+type(
+  bexpr
+)
+ident(
+  int_ref e "equation.ml" 291 8634 8641 "equation.ml" 291 8634 8642
+)
+"equation.ml" 293 8662 8670 "equation.ml" 293 8662 8672
+type(
+  bexpr
+)
+ident(
+  def e1 "equation.ml" 294 8680 8683 "equation.ml" 298 8785 8791
+)
+"equation.ml" 293 8662 8673 "equation.ml" 293 8662 8675
+type(
+  bexpr
+)
+ident(
+  def e2 "equation.ml" 294 8680 8683 "equation.ml" 298 8785 8791
+)
+"equation.ml" 293 8662 8666 "equation.ml" 293 8662 8676
+type(
+  bexpr
+)
+"equation.ml" 295 8689 8699 "equation.ml" 295 8689 8715
+type(
+  solution -> bexpr -> bexpr option
+)
+ident(
+  int_ref verify_assertion "equation.ml" 290 8570 8578 "equation.ml" 290 8570 8594
+)
+"equation.ml" 295 8689 8716 "equation.ml" 295 8689 8717
+type(
+  solution
+)
+ident(
+  int_ref s "equation.ml" 291 8634 8639 "equation.ml" 291 8634 8640
+)
+"equation.ml" 295 8689 8718 "equation.ml" 295 8689 8720
+type(
+  bexpr
+)
+ident(
+  int_ref e1 "equation.ml" 293 8662 8670 "equation.ml" 293 8662 8672
+)
+"equation.ml" 295 8689 8699 "equation.ml" 295 8689 8720
+call(
+  stack
+)
+type(
+  bexpr option
+)
+"equation.ml" 296 8726 8732 "equation.ml" 296 8726 8736
+type(
+  bexpr option
+)
+"equation.ml" 296 8726 8740 "equation.ml" 296 8726 8756
+type(
+  solution -> bexpr -> bexpr option
+)
+ident(
+  int_ref verify_assertion "equation.ml" 290 8570 8578 "equation.ml" 290 8570 8594
+)
+"equation.ml" 296 8726 8757 "equation.ml" 296 8726 8758
+type(
+  solution
+)
+ident(
+  int_ref s "equation.ml" 291 8634 8639 "equation.ml" 291 8634 8640
+)
+"equation.ml" 296 8726 8759 "equation.ml" 296 8726 8761
+type(
+  bexpr
+)
+ident(
+  int_ref e2 "equation.ml" 293 8662 8673 "equation.ml" 293 8662 8675
+)
+"equation.ml" 296 8726 8740 "equation.ml" 296 8726 8761
+call(
+  tail
+)
+type(
+  bexpr option
+)
+"equation.ml" 297 8762 8773 "equation.ml" 297 8762 8774
+type(
+  bexpr
+)
+ident(
+  def e "equation.ml" 297 8762 8778 "equation.ml" 297 8762 8784
+)
+"equation.ml" 297 8762 8768 "equation.ml" 297 8762 8774
+type(
+  bexpr option
+)
+"equation.ml" 297 8762 8783 "equation.ml" 297 8762 8784
+type(
+  bexpr
+)
+ident(
+  int_ref e "equation.ml" 297 8762 8773 "equation.ml" 297 8762 8774
+)
+"equation.ml" 297 8762 8778 "equation.ml" 297 8762 8784
+type(
+  bexpr option
+)
+"equation.ml" 294 8680 8683 "equation.ml" 298 8785 8791
+type(
+  bexpr option
+)
+"equation.ml" 299 8792 8798 "equation.ml" 299 8792 8799
+type(
+  bexpr
+)
+"equation.ml" 300 8804 8810 "equation.ml" 300 8804 8820
+type(
+  (var -> bool) -> (var -> Grammar.VTSet.t) -> bexpr -> bool
+)
+ident(
+  int_ref eval_bexpr "equation.ml" 32 613 621 "equation.ml" 32 613 631
+)
+"equation.ml" 300 8804 8822 "equation.ml" 300 8804 8825
+type(
+  solution -> var -> bool
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"equation.ml" 300 8804 8826 "equation.ml" 300 8804 8827
+type(
+  solution
+)
+ident(
+  int_ref s "equation.ml" 291 8634 8639 "equation.ml" 291 8634 8640
+)
+"equation.ml" 300 8804 8821 "equation.ml" 300 8804 8828
+type(
+  var -> bool
+)
+"equation.ml" 300 8804 8830 "equation.ml" 300 8804 8833
+type(
+  solution -> var -> Grammar.VTSet.t
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"equation.ml" 300 8804 8834 "equation.ml" 300 8804 8835
+type(
+  solution
+)
+ident(
+  int_ref s "equation.ml" 291 8634 8639 "equation.ml" 291 8634 8640
+)
+"equation.ml" 300 8804 8829 "equation.ml" 300 8804 8836
+type(
+  var -> Grammar.VTSet.t
+)
+"equation.ml" 300 8804 8837 "equation.ml" 300 8804 8838
+type(
+  bexpr
+)
+ident(
+  int_ref e "equation.ml" 291 8634 8641 "equation.ml" 291 8634 8642
+)
+"equation.ml" 300 8804 8810 "equation.ml" 300 8804 8838
+type(
+  bool
+)
+"equation.ml" 301 8839 8847 "equation.ml" 301 8839 8851
+type(
+  bexpr option
+)
+"equation.ml" 302 8852 8865 "equation.ml" 302 8852 8866
+type(
+  bexpr
+)
+ident(
+  int_ref e "equation.ml" 291 8634 8641 "equation.ml" 291 8634 8642
+)
+"equation.ml" 302 8852 8860 "equation.ml" 302 8852 8866
+type(
+  bexpr option
+)
+"equation.ml" 300 8804 8807 "equation.ml" 302 8852 8866
+type(
+  bexpr option
+)
+"equation.ml" 292 8647 8649 "equation.ml" 302 8852 8866
+type(
+  bexpr option
+)
+"equation.ml" 291 8634 8635 "equation.ml" 302 8852 8866
+type(
+  solution -> bexpr -> bexpr option
+)
+type(
+  solution -> bexpr -> bexpr option
+)
+"equation.ml" 304 8868 8872 "equation.ml" 304 8868 8887
+type(
+  out_channel ->
+  (var -> bool) * (var -> Grammar.VTSet.t) -> equation list -> unit
+)
+ident(
+  def output_solution "equation.ml" 309 9084 9112 "equation.ml" 1 0 -1
+)
+"equation.ml" 304 8868 8888 "equation.ml" 304 8868 8889
+type(
+  out_channel
+)
+ident(
+  def o "equation.ml" 304 8868 8890 "equation.ml" 309 9084 9112
+)
+"equation.ml" 304 8868 8890 "equation.ml" 304 8868 8891
+type(
+  (var -> bool) * (var -> Grammar.VTSet.t)
+)
+ident(
+  def s "equation.ml" 304 8868 8892 "equation.ml" 309 9084 9112
+)
+"equation.ml" 304 8868 8892 "equation.ml" 304 8868 8893
+type(
+  equation list
+)
+ident(
+  def l "equation.ml" 306 8900 8901 "equation.ml" 309 9084 9112
+)
+"equation.ml" 306 8900 8905 "equation.ml" 306 8900 8918
+type(
+  equation -> unit
+)
+ident(
+  def output_sol_eq "equation.ml" 309 9084 9085 "equation.ml" 309 9084 9112
+)
+"equation.ml" 307 8931 8939 "equation.ml" 307 8931 8940
+type(
+  var
+)
+ident(
+  def v "equation.ml" 307 8931 8947 "equation.ml" 307 8931 8998
+)
+"equation.ml" 307 8931 8941 "equation.ml" 307 8931 8942
+type(
+  bexpr
+)
+"equation.ml" 307 8931 8935 "equation.ml" 307 8931 8943
+type(
+  equation
+)
+"equation.ml" 307 8931 8947 "equation.ml" 307 8931 8961
+type(
+  out_channel ->
+  ((out_channel -> var -> unit) -> var -> bool -> unit, out_channel, unit)
+  format -> (out_channel -> var -> unit) -> var -> bool -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"equation.ml" 307 8931 8962 "equation.ml" 307 8931 8963
+type(
+  out_channel
+)
+ident(
+  int_ref o "equation.ml" 304 8868 8888 "equation.ml" 304 8868 8889
+)
+"equation.ml" 307 8931 8964 "equation.ml" 307 8931 8975
+type(
+  ((out_channel -> var -> unit) -> var -> bool -> unit, out_channel, unit)
+  format
+)
+"equation.ml" 307 8931 8976 "equation.ml" 307 8931 8986
+type(
+  out_channel -> var -> unit
+)
+ident(
+  int_ref output_var "equation.ml" 158 4546 4550 "equation.ml" 158 4546 4560
+)
+"equation.ml" 307 8931 8987 "equation.ml" 307 8931 8988
+type(
+  var
+)
+ident(
+  int_ref v "equation.ml" 307 8931 8939 "equation.ml" 307 8931 8940
+)
+"equation.ml" 307 8931 8990 "equation.ml" 307 8931 8993
+type(
+  (var -> bool) * (var -> Grammar.VTSet.t) -> var -> bool
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"equation.ml" 307 8931 8994 "equation.ml" 307 8931 8995
+type(
+  (var -> bool) * (var -> Grammar.VTSet.t)
+)
+ident(
+  int_ref s "equation.ml" 304 8868 8890 "equation.ml" 304 8868 8891
+)
+"equation.ml" 307 8931 8996 "equation.ml" 307 8931 8997
+type(
+  var
+)
+ident(
+  int_ref v "equation.ml" 307 8931 8939 "equation.ml" 307 8931 8940
+)
+"equation.ml" 307 8931 8989 "equation.ml" 307 8931 8998
+call(
+  stack
+)
+type(
+  bool
+)
+"equation.ml" 307 8931 8947 "equation.ml" 307 8931 8998
+call(
+  tail
+)
+type(
+  unit
+)
+"equation.ml" 308 8999 9007 "equation.ml" 308 8999 9008
+type(
+  var
+)
+ident(
+  def v "equation.ml" 308 8999 9015 "equation.ml" 308 8999 9080
+)
+"equation.ml" 308 8999 9009 "equation.ml" 308 8999 9010
+type(
+  sexpr
+)
+"equation.ml" 308 8999 9003 "equation.ml" 308 8999 9011
+type(
+  equation
+)
+"equation.ml" 308 8999 9015 "equation.ml" 308 8999 9029
+type(
+  out_channel ->
+  ((out_channel -> var -> unit) ->
+   var -> (out_channel -> Grammar.VTSet.t -> unit) -> Grammar.VTSet.t -> unit,
+   out_channel, unit)
+  format ->
+  (out_channel -> var -> unit) ->
+  var -> (out_channel -> Grammar.VTSet.t -> unit) -> Grammar.VTSet.t -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"equation.ml" 308 8999 9030 "equation.ml" 308 8999 9031
+type(
+  out_channel
+)
+ident(
+  int_ref o "equation.ml" 304 8868 8888 "equation.ml" 304 8868 8889
+)
+"equation.ml" 308 8999 9032 "equation.ml" 308 8999 9043
+type(
+  ((out_channel -> var -> unit) ->
+   var -> (out_channel -> Grammar.VTSet.t -> unit) -> Grammar.VTSet.t -> unit,
+   out_channel, unit)
+  format
+)
+"equation.ml" 308 8999 9044 "equation.ml" 308 8999 9054
+type(
+  out_channel -> var -> unit
+)
+ident(
+  int_ref output_var "equation.ml" 158 4546 4550 "equation.ml" 158 4546 4560
+)
+"equation.ml" 308 8999 9055 "equation.ml" 308 8999 9056
+type(
+  var
+)
+ident(
+  int_ref v "equation.ml" 308 8999 9007 "equation.ml" 308 8999 9008
+)
+"equation.ml" 308 8999 9057 "equation.ml" 308 8999 9070
+type(
+  out_channel -> Grammar.VTSet.t -> unit
+)
+ident(
+  int_ref output_vt_set "equation.ml" 161 4622 4626 "equation.ml" 161 4622 4639
+)
+"equation.ml" 308 8999 9072 "equation.ml" 308 8999 9075
+type(
+  (var -> bool) * (var -> Grammar.VTSet.t) -> var -> Grammar.VTSet.t
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"equation.ml" 308 8999 9076 "equation.ml" 308 8999 9077
+type(
+  (var -> bool) * (var -> Grammar.VTSet.t)
+)
+ident(
+  int_ref s "equation.ml" 304 8868 8890 "equation.ml" 304 8868 8891
+)
+"equation.ml" 308 8999 9078 "equation.ml" 308 8999 9079
+type(
+  var
+)
+ident(
+  int_ref v "equation.ml" 308 8999 9007 "equation.ml" 308 8999 9008
+)
+"equation.ml" 308 8999 9071 "equation.ml" 308 8999 9080
+call(
+  stack
+)
+type(
+  Grammar.VTSet.t
+)
+"equation.ml" 308 8999 9015 "equation.ml" 308 8999 9080
+call(
+  tail
+)
+type(
+  unit
+)
+"equation.ml" 306 8900 8922 "equation.ml" 308 8999 9080
+type(
+  equation -> unit
+)
+"equation.ml" 309 9084 9085 "equation.ml" 309 9084 9094
+type(
+  (equation -> unit) -> equation list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"equation.ml" 309 9084 9095 "equation.ml" 309 9084 9110
+type(
+  equation -> unit
+)
+ident(
+  int_ref output_sol_eq "equation.ml" 306 8900 8905 "equation.ml" 306 8900 8918
+)
+"equation.ml" 309 9084 9111 "equation.ml" 309 9084 9112
+type(
+  equation list
+)
+ident(
+  int_ref l "equation.ml" 304 8868 8892 "equation.ml" 304 8868 8893
+)
+"equation.ml" 309 9084 9085 "equation.ml" 309 9084 9112
+call(
+  tail
+)
+type(
+  unit
+)
+"equation.ml" 306 8900 8901 "equation.ml" 309 9084 9112
+type(
+  unit
+)

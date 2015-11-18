@@ -1,0 +1,113 @@
+### Starting build.
+# Target: main.ml.depends, tags: { extension:ml, file:main.ml, ocaml, ocamldep, quiet }
+/usr/bin/ocamldep -modules main.ml > main.ml.depends # cached
+# Target: lexer.mll, tags: { extension:mll, file:lexer.mll, lexer, ocaml, ocamllex, quiet }
+/usr/bin/ocamllex -q lexer.mll # cached
+# Target: lexer.ml.depends, tags: { extension:ml, file:lexer.ml, ocaml, ocamldep, quiet }
+/usr/bin/ocamldep -modules lexer.ml > lexer.ml.depends # cached
+# Target: parser.mly, tags: { extension:mly, file:parser.mly, ocaml, ocamlyacc, parser, quiet }
+/usr/bin/ocamlyacc parser.mly
+# Target: parser.mli.depends, tags: { extension:mli, file:parser.mli, ocaml, ocamldep, quiet }
+/usr/bin/ocamldep -modules parser.mli > parser.mli.depends # cached
+# Target: abst.ml.depends, tags: { extension:ml, file:abst.ml, ocaml, ocamldep, quiet }
+/usr/bin/ocamldep -modules abst.ml > abst.ml.depends # cached
+# Target: abst.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:abst.cmo, file:abst.ml, implem, ocaml, quiet }
+/usr/bin/ocamlc -c -o abst.cmo abst.ml # cached
+# Target: parser.cmi, tags: { byte, compile, extension:mli, file:parser.mli, interf, ocaml, quiet }
+/usr/bin/ocamlc -c -o parser.cmi parser.mli # cached
+# Target: lexer.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:lexer.cmo, file:lexer.ml, implem, ocaml, quiet }
+/usr/bin/ocamlc -c -o lexer.cmo lexer.ml # cached
+# Target: main.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:main.cmo, file:main.ml, implem, ocaml, quiet }
+/usr/bin/ocamlc -c -o main.cmo main.ml # cached
+# Target: parser.ml.depends, tags: { extension:ml, file:parser.ml, ocaml, ocamldep, quiet }
+/usr/bin/ocamldep -modules parser.ml > parser.ml.depends
+# Target: parser.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:parser.cmo, file:parser.ml, implem, ocaml, quiet }
+/usr/bin/ocamlc -c -o parser.cmo parser.ml
++ /usr/bin/ocamlc -c -o parser.cmo parser.ml
+File "parser.mly", line 22, characters 42-46:
+Warning 40: Bloc was selected from type Abst.bloc.
+It is not visible in the current scope, and will not 
+be selected if the type becomes unknown.
+File "parser.mly", line 26, characters 11-17:
+Warning 40: Sdecl2 was selected from type Abst.sdecl.
+It is not visible in the current scope, and will not 
+be selected if the type becomes unknown.
+File "parser.mly", line 27, characters 21-26:
+Warning 40: Sdecl was selected from type Abst.sdecl.
+It is not visible in the current scope, and will not 
+be selected if the type becomes unknown.
+File "parser.mly", line 30, characters 15-19:
+Warning 40: Decl was selected from type Abst.decl.
+It is not visible in the current scope, and will not 
+be selected if the type becomes unknown.
+File "parser.mly", line 30, characters 25-30:
+Warning 40: Ident was selected from type Abst.ident.
+It is not visible in the current scope, and will not 
+be selected if the type becomes unknown.
+File "parser.mly", line 33, characters 12-15:
+Warning 40: Typ was selected from type Abst.typ.
+It is not visible in the current scope, and will not 
+be selected if the type becomes unknown.
+File "parser.mly", line 34, characters 14-17:
+Warning 40: Typ was selected from type Abst.typ.
+It is not visible in the current scope, and will not 
+be selected if the type becomes unknown.
+File "parser.mly", line 37, characters 11-17:
+Warning 40: Sinst2 was selected from type Abst.sinst.
+It is not visible in the current scope, and will not 
+be selected if the type becomes unknown.
+File "parser.mly", line 38, characters 23-28:
+Warning 40: Sinst was selected from type Abst.sinst.
+It is not visible in the current scope, and will not 
+be selected if the type becomes unknown.
+File "parser.mly", line 41, characters 11-15:
+Warning 40: Inst was selected from type Abst.inst.
+It is not visible in the current scope, and will not 
+be selected if the type becomes unknown.
+File "parser.mly", line 42, characters 22-27:
+Warning 40: Inst2 was selected from type Abst.inst.
+It is not visible in the current scope, and will not 
+be selected if the type becomes unknown.
+File "parser.mly", line 42, characters 28-33:
+Warning 40: Ident was selected from type Abst.ident.
+It is not visible in the current scope, and will not 
+be selected if the type becomes unknown.
+File "parser.mly", line 47, characters 30-34:
+Warning 40: Expr was selected from type Abst.expr.
+It is not visible in the current scope, and will not 
+be selected if the type becomes unknown.
+File "parser.mly", line 47, characters 38-42:
+Warning 40: Plus was selected from type Abst.op.
+It is not visible in the current scope, and will not 
+be selected if the type becomes unknown.
+File "parser.mly", line 48, characters 35-39:
+Warning 40: Expr was selected from type Abst.expr.
+It is not visible in the current scope, and will not 
+be selected if the type becomes unknown.
+File "parser.mly", line 48, characters 43-46:
+Warning 40: Inf was selected from type Abst.op.
+It is not visible in the current scope, and will not 
+be selected if the type becomes unknown.
+File "parser.mly", line 49, characters 38-42:
+Warning 40: Expr was selected from type Abst.expr.
+It is not visible in the current scope, and will not 
+be selected if the type becomes unknown.
+File "parser.mly", line 49, characters 46-49:
+Warning 40: And was selected from type Abst.op.
+It is not visible in the current scope, and will not 
+be selected if the type becomes unknown.
+File "parser.mly", line 50, characters 41-46:
+Warning 40: Expr2 was selected from type Abst.expr.
+It is not visible in the current scope, and will not 
+be selected if the type becomes unknown.
+File "parser.mly", line 51, characters 30-35:
+Warning 40: Expr3 was selected from type Abst.expr.
+It is not visible in the current scope, and will not 
+be selected if the type becomes unknown.
+File "parser.mly", line 51, characters 36-41:
+Warning 40: Ident was selected from type Abst.ident.
+It is not visible in the current scope, and will not 
+be selected if the type becomes unknown.
+# Target: main.byte, tags: { byte, dont_link_with, extension:byte, file:main.byte, link, ocaml, program, quiet }
+/usr/bin/ocamlc abst.cmo parser.cmo lexer.cmo main.cmo -o main.byte
+# Compilation successful.

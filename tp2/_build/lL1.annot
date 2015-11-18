@@ -1,0 +1,3237 @@
+"lL1.ml" 7 103 107 "lL1.ml" 7 103 112
+type(
+  Grammar.vn -> Grammar.v -> bool
+)
+ident(
+  def is_vn "lL1.ml" 14 236 236 "lL1.ml" 1 0 -1
+)
+"lL1.ml" 8 133 138 "lL1.ml" 8 133 140
+type(
+  Grammar.vn
+)
+ident(
+  def vn "lL1.ml" 8 133 141 "lL1.ml" 11 184 211
+)
+"lL1.ml" 8 133 141 "lL1.ml" 8 133 142
+type(
+  Grammar.v
+)
+ident(
+  def v "lL1.ml" 9 147 151 "lL1.ml" 11 184 211
+)
+"lL1.ml" 9 147 157 "lL1.ml" 9 147 158
+type(
+  Grammar.v
+)
+ident(
+  int_ref v "lL1.ml" 8 133 141 "lL1.ml" 8 133 142
+)
+"lL1.ml" 10 164 173 "lL1.ml" 10 164 174
+type(
+  Grammar.vt
+)
+ident(
+  def x "lL1.ml" 10 164 178 "lL1.ml" 10 164 183
+)
+"lL1.ml" 10 164 170 "lL1.ml" 10 164 174
+type(
+  Grammar.v
+)
+"lL1.ml" 10 164 178 "lL1.ml" 10 164 183
+type(
+  bool
+)
+"lL1.ml" 11 184 193 "lL1.ml" 11 184 194
+type(
+  Grammar.vn
+)
+ident(
+  def y "lL1.ml" 11 184 198 "lL1.ml" 11 184 211
+)
+"lL1.ml" 11 184 190 "lL1.ml" 11 184 194
+type(
+  Grammar.v
+)
+"lL1.ml" 11 184 198 "lL1.ml" 11 184 206
+type(
+  Grammar.vn -> Grammar.vn -> bool
+)
+ident(
+  ext_ref Grammar.vn_equal
+)
+"lL1.ml" 11 184 207 "lL1.ml" 11 184 208
+type(
+  Grammar.vn
+)
+ident(
+  int_ref y "lL1.ml" 11 184 193 "lL1.ml" 11 184 194
+)
+"lL1.ml" 11 184 209 "lL1.ml" 11 184 211
+type(
+  Grammar.vn
+)
+ident(
+  int_ref vn "lL1.ml" 8 133 138 "lL1.ml" 8 133 140
+)
+"lL1.ml" 11 184 198 "lL1.ml" 11 184 211
+call(
+  tail
+)
+type(
+  bool
+)
+"lL1.ml" 9 147 151 "lL1.ml" 11 184 211
+type(
+  bool
+)
+"lL1.ml" 8 133 134 "lL1.ml" 11 184 211
+type(
+  Grammar.vn -> Grammar.v -> bool
+)
+type(
+  Grammar.vn -> Grammar.v -> bool
+)
+"lL1.ml" 14 236 240 "lL1.ml" 14 236 244
+type(
+  Grammar.vn -> Equation.var
+)
+ident(
+  def accv "lL1.ml" 17 287 287 "lL1.ml" 1 0 -1
+)
+"lL1.ml" 15 259 264 "lL1.ml" 15 259 266
+type(
+  Grammar.vn
+)
+ident(
+  def vn "lL1.ml" 15 259 270 "lL1.ml" 15 259 280
+)
+"lL1.ml" 15 259 271 "lL1.ml" 15 259 276
+type(
+  string
+)
+"lL1.ml" 15 259 277 "lL1.ml" 15 259 279
+type(
+  Grammar.vn
+)
+ident(
+  int_ref vn "lL1.ml" 15 259 264 "lL1.ml" 15 259 266
+)
+"lL1.ml" 15 259 270 "lL1.ml" 15 259 280
+type(
+  string * Grammar.vn
+)
+"lL1.ml" 15 259 260 "lL1.ml" 15 259 280
+type(
+  Grammar.vn -> Equation.var
+)
+type(
+  Grammar.vn -> Equation.var
+)
+"lL1.ml" 17 287 291 "lL1.ml" 17 287 297
+type(
+  Grammar.grammar -> Grammar.vn -> Equation.bexpr
+)
+ident(
+  def acc_vn "lL1.ml" 25 505 505 "lL1.ml" 1 0 -1
+)
+"lL1.ml" 18 327 332 "lL1.ml" 18 327 333
+type(
+  Grammar.grammar
+)
+ident(
+  def g "lL1.ml" 18 327 334 "lL1.ml" 23 433 503
+)
+"lL1.ml" 18 327 334 "lL1.ml" 18 327 336
+type(
+  Grammar.vn
+)
+ident(
+  def vn "lL1.ml" 19 342 344 "lL1.ml" 23 433 503
+)
+"lL1.ml" 19 342 348 "lL1.ml" 19 342 349
+type(
+  Grammar.sprod list
+)
+ident(
+  def l "lL1.ml" 20 382 384 "lL1.ml" 23 433 503
+)
+"lL1.ml" 19 342 352 "lL1.ml" 19 342 373
+type(
+  Grammar.grammar -> Grammar.vn -> Grammar.sprod list
+)
+ident(
+  ext_ref Grammar.gather_sprod_using_vn
+)
+"lL1.ml" 19 342 374 "lL1.ml" 19 342 375
+type(
+  Grammar.grammar
+)
+ident(
+  int_ref g "lL1.ml" 18 327 332 "lL1.ml" 18 327 333
+)
+"lL1.ml" 19 342 376 "lL1.ml" 19 342 378
+type(
+  Grammar.vn
+)
+ident(
+  int_ref vn "lL1.ml" 18 327 334 "lL1.ml" 18 327 336
+)
+"lL1.ml" 19 342 352 "lL1.ml" 19 342 378
+call(
+  stack
+)
+type(
+  Grammar.sprod list
+)
+"lL1.ml" 20 382 387 "lL1.ml" 20 382 395
+type(
+  Grammar.vn -> Grammar.vn -> bool
+)
+ident(
+  ext_ref Grammar.vn_equal
+)
+"lL1.ml" 20 382 396 "lL1.ml" 20 382 398
+type(
+  Grammar.vn
+)
+ident(
+  int_ref vn "lL1.ml" 18 327 334 "lL1.ml" 18 327 336
+)
+"lL1.ml" 20 382 400 "lL1.ml" 20 382 405
+type(
+  Grammar.grammar -> Grammar.vn
+)
+ident(
+  ext_ref Grammar.axiom
+)
+"lL1.ml" 20 382 406 "lL1.ml" 20 382 407
+type(
+  Grammar.grammar
+)
+ident(
+  int_ref g "lL1.ml" 18 327 332 "lL1.ml" 18 327 333
+)
+"lL1.ml" 20 382 399 "lL1.ml" 20 382 408
+call(
+  stack
+)
+type(
+  Grammar.vn
+)
+"lL1.ml" 20 382 387 "lL1.ml" 20 382 408
+call(
+  stack
+)
+type(
+  bool
+)
+"lL1.ml" 21 409 421 "lL1.ml" 21 409 425
+type(
+  bool
+)
+"lL1.ml" 21 409 416 "lL1.ml" 21 409 425
+type(
+  Equation.bexpr
+)
+"lL1.ml" 23 433 436 "lL1.ml" 23 433 450
+type(
+  (Equation.bexpr -> Grammar.sprod -> Equation.bexpr) ->
+  Equation.bexpr -> Grammar.sprod list -> Equation.bexpr
+)
+ident(
+  ext_ref List.fold_left
+)
+"lL1.ml" 23 433 456 "lL1.ml" 23 433 457
+type(
+  Equation.bexpr
+)
+ident(
+  def e "lL1.ml" 23 433 458 "lL1.ml" 23 433 487
+)
+"lL1.ml" 23 433 458 "lL1.ml" 23 433 460
+type(
+  Grammar.sprod
+)
+ident(
+  def sp "lL1.ml" 23 433 464 "lL1.ml" 23 433 487
+)
+"lL1.ml" 23 433 472 "lL1.ml" 23 433 476
+type(
+  Grammar.vn -> Equation.var
+)
+ident(
+  int_ref accv "lL1.ml" 14 236 240 "lL1.ml" 14 236 244
+)
+"lL1.ml" 23 433 477 "lL1.ml" 23 433 479
+type(
+  Grammar.sprod
+)
+ident(
+  int_ref sp "lL1.ml" 23 433 458 "lL1.ml" 23 433 460
+)
+"lL1.ml" 23 433 477 "lL1.ml" 23 433 483
+type(
+  Grammar.vn
+)
+"lL1.ml" 23 433 471 "lL1.ml" 23 433 484
+call(
+  stack
+)
+type(
+  Equation.var
+)
+"lL1.ml" 23 433 467 "lL1.ml" 23 433 484
+type(
+  Equation.bexpr
+)
+"lL1.ml" 23 433 485 "lL1.ml" 23 433 486
+type(
+  Equation.bexpr
+)
+ident(
+  int_ref e "lL1.ml" 23 433 456 "lL1.ml" 23 433 457
+)
+"lL1.ml" 23 433 464 "lL1.ml" 23 433 487
+type(
+  Equation.bexpr
+)
+"lL1.ml" 23 433 451 "lL1.ml" 23 433 488
+type(
+  Equation.bexpr -> Grammar.sprod -> Equation.bexpr
+)
+"lL1.ml" 23 433 495 "lL1.ml" 23 433 500
+type(
+  bool
+)
+"lL1.ml" 23 433 489 "lL1.ml" 23 433 501
+type(
+  Equation.bexpr
+)
+"lL1.ml" 23 433 502 "lL1.ml" 23 433 503
+type(
+  Grammar.sprod list
+)
+ident(
+  int_ref l "lL1.ml" 19 342 348 "lL1.ml" 19 342 349
+)
+"lL1.ml" 23 433 436 "lL1.ml" 23 433 503
+call(
+  tail
+)
+type(
+  Equation.bexpr
+)
+"lL1.ml" 20 382 384 "lL1.ml" 23 433 503
+type(
+  Equation.bexpr
+)
+"lL1.ml" 19 342 344 "lL1.ml" 23 433 503
+type(
+  Equation.bexpr
+)
+"lL1.ml" 18 327 328 "lL1.ml" 23 433 503
+type(
+  Grammar.grammar -> Grammar.vn -> Equation.bexpr
+)
+type(
+  Grammar.grammar -> Grammar.vn -> Equation.bexpr
+)
+"lL1.ml" 25 505 509 "lL1.ml" 25 505 516
+type(
+  Grammar.grammar -> Equation.equation list
+)
+ident(
+  def acc_sys "lL1.ml" 28 589 589 "lL1.ml" 1 0 -1
+)
+"lL1.ml" 26 546 551 "lL1.ml" 26 546 552
+type(
+  Grammar.grammar
+)
+ident(
+  def g "lL1.ml" 26 546 556 "lL1.ml" 26 546 587
+)
+"lL1.ml" 26 546 556 "lL1.ml" 26 546 572
+type(
+  Grammar.grammar ->
+  string ->
+  (Grammar.grammar -> Grammar.vn -> Equation.bexpr) -> Equation.equation list
+)
+ident(
+  ext_ref Equation.make_bool_system
+)
+"lL1.ml" 26 546 573 "lL1.ml" 26 546 574
+type(
+  Grammar.grammar
+)
+ident(
+  int_ref g "lL1.ml" 26 546 551 "lL1.ml" 26 546 552
+)
+"lL1.ml" 26 546 575 "lL1.ml" 26 546 580
+type(
+  string
+)
+"lL1.ml" 26 546 581 "lL1.ml" 26 546 587
+type(
+  Grammar.grammar -> Grammar.vn -> Equation.bexpr
+)
+ident(
+  int_ref acc_vn "lL1.ml" 17 287 291 "lL1.ml" 17 287 297
+)
+"lL1.ml" 26 546 556 "lL1.ml" 26 546 587
+call(
+  tail
+)
+type(
+  Equation.equation list
+)
+"lL1.ml" 26 546 547 "lL1.ml" 26 546 587
+type(
+  Grammar.grammar -> Equation.equation list
+)
+type(
+  Grammar.grammar -> Equation.equation list
+)
+"lL1.ml" 28 589 593 "lL1.ml" 28 589 596
+type(
+  Grammar.grammar -> Grammar.vn -> bool
+)
+ident(
+  def acc "lL1.ml" 33 698 698 "lL1.ml" 1 0 -1
+)
+"lL1.ml" 29 623 628 "lL1.ml" 29 623 629
+type(
+  Grammar.grammar
+)
+ident(
+  def g "lL1.ml" 30 633 635 "lL1.ml" 31 666 696
+)
+"lL1.ml" 30 633 639 "lL1.ml" 30 633 642
+type(
+  Equation.solution
+)
+ident(
+  def sol "lL1.ml" 31 666 668 "lL1.ml" 31 666 696
+)
+"lL1.ml" 30 633 645 "lL1.ml" 30 633 650
+type(
+  Equation.equation list -> Equation.solution
+)
+ident(
+  ext_ref Equation.solve
+)
+"lL1.ml" 30 633 652 "lL1.ml" 30 633 659
+type(
+  Grammar.grammar -> Equation.equation list
+)
+ident(
+  int_ref acc_sys "lL1.ml" 25 505 509 "lL1.ml" 25 505 516
+)
+"lL1.ml" 30 633 660 "lL1.ml" 30 633 661
+type(
+  Grammar.grammar
+)
+ident(
+  int_ref g "lL1.ml" 29 623 628 "lL1.ml" 29 623 629
+)
+"lL1.ml" 30 633 651 "lL1.ml" 30 633 662
+call(
+  stack
+)
+type(
+  Equation.equation list
+)
+"lL1.ml" 30 633 645 "lL1.ml" 30 633 662
+call(
+  stack
+)
+type(
+  Equation.solution
+)
+"lL1.ml" 31 666 672 "lL1.ml" 31 666 674
+type(
+  Grammar.vn
+)
+ident(
+  def vn "lL1.ml" 31 666 678 "lL1.ml" 31 666 696
+)
+"lL1.ml" 31 666 678 "lL1.ml" 31 666 681
+type(
+  Equation.solution -> Equation.var -> bool
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"lL1.ml" 31 666 682 "lL1.ml" 31 666 685
+type(
+  Equation.solution
+)
+ident(
+  int_ref sol "lL1.ml" 30 633 639 "lL1.ml" 30 633 642
+)
+"lL1.ml" 31 666 687 "lL1.ml" 31 666 692
+type(
+  string
+)
+"lL1.ml" 31 666 693 "lL1.ml" 31 666 695
+type(
+  Grammar.vn
+)
+ident(
+  int_ref vn "lL1.ml" 31 666 672 "lL1.ml" 31 666 674
+)
+"lL1.ml" 31 666 686 "lL1.ml" 31 666 696
+type(
+  string * Grammar.vn
+)
+"lL1.ml" 31 666 678 "lL1.ml" 31 666 696
+call(
+  tail
+)
+type(
+  bool
+)
+"lL1.ml" 31 666 668 "lL1.ml" 31 666 696
+type(
+  Grammar.vn -> bool
+)
+"lL1.ml" 30 633 635 "lL1.ml" 31 666 696
+type(
+  Grammar.vn -> bool
+)
+"lL1.ml" 29 623 624 "lL1.ml" 31 666 696
+type(
+  Grammar.grammar -> Grammar.vn -> bool
+)
+type(
+  Grammar.grammar -> Grammar.vn -> bool
+)
+"lL1.ml" 33 698 702 "lL1.ml" 33 698 711
+type(
+  Grammar.grammar -> Equation.bexpr
+)
+ident(
+  def check_acc "lL1.ml" 37 838 838 "lL1.ml" 1 0 -1
+)
+"lL1.ml" 34 733 737 "lL1.ml" 34 733 738
+type(
+  Grammar.grammar
+)
+ident(
+  def g "lL1.ml" 34 733 743 "lL1.ml" 34 733 815
+)
+"lL1.ml" 34 733 743 "lL1.ml" 34 733 753
+type(
+  (Grammar.VNSet.elt -> Equation.bexpr -> Equation.bexpr) ->
+  Grammar.VNSet.t -> Equation.bexpr -> Equation.bexpr
+)
+ident(
+  ext_ref Grammar.VNSet.fold
+)
+"lL1.ml" 34 733 759 "lL1.ml" 34 733 761
+type(
+  Grammar.VNSet.elt
+)
+ident(
+  def vn "lL1.ml" 34 733 762 "lL1.ml" 34 733 787
+)
+"lL1.ml" 34 733 762 "lL1.ml" 34 733 763
+type(
+  Equation.bexpr
+)
+ident(
+  def c "lL1.ml" 34 733 767 "lL1.ml" 34 733 787
+)
+"lL1.ml" 34 733 776 "lL1.ml" 34 733 780
+type(
+  Grammar.VNSet.elt -> Equation.var
+)
+ident(
+  int_ref accv "lL1.ml" 14 236 240 "lL1.ml" 14 236 244
+)
+"lL1.ml" 34 733 781 "lL1.ml" 34 733 783
+type(
+  Grammar.VNSet.elt
+)
+ident(
+  int_ref vn "lL1.ml" 34 733 759 "lL1.ml" 34 733 761
+)
+"lL1.ml" 34 733 775 "lL1.ml" 34 733 784
+call(
+  stack
+)
+type(
+  Equation.var
+)
+"lL1.ml" 34 733 771 "lL1.ml" 34 733 784
+type(
+  Equation.bexpr
+)
+"lL1.ml" 34 733 785 "lL1.ml" 34 733 786
+type(
+  Equation.bexpr
+)
+ident(
+  int_ref c "lL1.ml" 34 733 762 "lL1.ml" 34 733 763
+)
+"lL1.ml" 34 733 767 "lL1.ml" 34 733 787
+type(
+  Equation.bexpr
+)
+"lL1.ml" 34 733 754 "lL1.ml" 34 733 788
+type(
+  Grammar.VNSet.elt -> Equation.bexpr -> Equation.bexpr
+)
+"lL1.ml" 34 733 790 "lL1.ml" 34 733 800
+type(
+  Grammar.grammar -> Grammar.VNSet.t
+)
+ident(
+  ext_ref Grammar.nterminals
+)
+"lL1.ml" 34 733 801 "lL1.ml" 34 733 802
+type(
+  Grammar.grammar
+)
+ident(
+  int_ref g "lL1.ml" 34 733 737 "lL1.ml" 34 733 738
+)
+"lL1.ml" 34 733 789 "lL1.ml" 34 733 803
+call(
+  stack
+)
+type(
+  Grammar.VNSet.t
+)
+"lL1.ml" 34 733 810 "lL1.ml" 34 733 814
+type(
+  bool
+)
+"lL1.ml" 34 733 804 "lL1.ml" 34 733 815
+type(
+  Equation.bexpr
+)
+"lL1.ml" 34 733 743 "lL1.ml" 34 733 815
+call(
+  tail
+)
+type(
+  Equation.bexpr
+)
+"lL1.ml" 34 733 733 "lL1.ml" 34 733 815
+type(
+  Grammar.grammar -> Equation.bexpr
+)
+type(
+  Grammar.grammar -> Equation.bexpr
+)
+"lL1.ml" 37 838 842 "lL1.ml" 37 838 846
+type(
+  Grammar.vn -> Equation.var
+)
+ident(
+  def genv "lL1.ml" 40 886 886 "lL1.ml" 1 0 -1
+)
+"lL1.ml" 38 861 866 "lL1.ml" 38 861 868
+type(
+  Grammar.vn
+)
+ident(
+  def vn "lL1.ml" 38 861 872 "lL1.ml" 38 861 882
+)
+"lL1.ml" 38 861 873 "lL1.ml" 38 861 878
+type(
+  string
+)
+"lL1.ml" 38 861 879 "lL1.ml" 38 861 881
+type(
+  Grammar.vn
+)
+ident(
+  int_ref vn "lL1.ml" 38 861 866 "lL1.ml" 38 861 868
+)
+"lL1.ml" 38 861 872 "lL1.ml" 38 861 882
+type(
+  string * Grammar.vn
+)
+"lL1.ml" 38 861 862 "lL1.ml" 38 861 882
+type(
+  Grammar.vn -> Equation.var
+)
+type(
+  Grammar.vn -> Equation.var
+)
+"lL1.ml" 40 886 894 "lL1.ml" 40 886 902
+type(
+  Grammar.v list -> Equation.bexpr
+)
+ident(
+  def gen_prod "lL1.ml" 40 886 886 "lL1.ml" 1 0 -1
+)
+"lL1.ml" 41 924 929 "lL1.ml" 41 924 930
+type(
+  Grammar.v list
+)
+ident(
+  def l "lL1.ml" 42 934 936 "lL1.ml" 45 1003 1050
+)
+"lL1.ml" 42 934 942 "lL1.ml" 42 934 943
+type(
+  Grammar.v list
+)
+ident(
+  int_ref l "lL1.ml" 41 924 929 "lL1.ml" 41 924 930
+)
+"lL1.ml" 43 950 958 "lL1.ml" 43 950 960
+type(
+  Grammar.v list
+)
+"lL1.ml" 43 950 969 "lL1.ml" 43 950 973
+type(
+  bool
+)
+"lL1.ml" 43 950 964 "lL1.ml" 43 950 973
+type(
+  Equation.bexpr
+)
+"lL1.ml" 44 974 982 "lL1.ml" 44 974 983
+type(
+  Grammar.vt
+)
+"lL1.ml" 44 974 979 "lL1.ml" 44 974 983
+type(
+  Grammar.v
+)
+"lL1.ml" 44 974 987 "lL1.ml" 44 974 988
+type(
+  Grammar.v list
+)
+ident(
+  def l "lL1.ml" 44 974 992 "lL1.ml" 44 974 1002
+)
+"lL1.ml" 44 974 979 "lL1.ml" 44 974 988
+type(
+  Grammar.v list
+)
+"lL1.ml" 44 974 992 "lL1.ml" 44 974 1000
+type(
+  Grammar.v list -> Equation.bexpr
+)
+ident(
+  int_ref gen_prod "lL1.ml" 40 886 894 "lL1.ml" 40 886 902
+)
+"lL1.ml" 44 974 1001 "lL1.ml" 44 974 1002
+type(
+  Grammar.v list
+)
+ident(
+  int_ref l "lL1.ml" 44 974 987 "lL1.ml" 44 974 988
+)
+"lL1.ml" 44 974 992 "lL1.ml" 44 974 1002
+call(
+  tail
+)
+type(
+  Equation.bexpr
+)
+"lL1.ml" 45 1003 1011 "lL1.ml" 45 1003 1012
+type(
+  Grammar.vn
+)
+ident(
+  def v "lL1.ml" 45 1003 1021 "lL1.ml" 45 1003 1050
+)
+"lL1.ml" 45 1003 1008 "lL1.ml" 45 1003 1012
+type(
+  Grammar.v
+)
+"lL1.ml" 45 1003 1016 "lL1.ml" 45 1003 1017
+type(
+  Grammar.v list
+)
+ident(
+  def l "lL1.ml" 45 1003 1021 "lL1.ml" 45 1003 1050
+)
+"lL1.ml" 45 1003 1008 "lL1.ml" 45 1003 1017
+type(
+  Grammar.v list
+)
+"lL1.ml" 45 1003 1031 "lL1.ml" 45 1003 1035
+type(
+  Grammar.vn -> Equation.var
+)
+ident(
+  int_ref genv "lL1.ml" 37 838 842 "lL1.ml" 37 838 846
+)
+"lL1.ml" 45 1003 1036 "lL1.ml" 45 1003 1037
+type(
+  Grammar.vn
+)
+ident(
+  int_ref v "lL1.ml" 45 1003 1011 "lL1.ml" 45 1003 1012
+)
+"lL1.ml" 45 1003 1030 "lL1.ml" 45 1003 1038
+call(
+  stack
+)
+type(
+  Equation.var
+)
+"lL1.ml" 45 1003 1025 "lL1.ml" 45 1003 1038
+type(
+  Equation.bexpr
+)
+"lL1.ml" 45 1003 1039 "lL1.ml" 45 1003 1047
+type(
+  Grammar.v list -> Equation.bexpr
+)
+ident(
+  int_ref gen_prod "lL1.ml" 40 886 894 "lL1.ml" 40 886 902
+)
+"lL1.ml" 45 1003 1048 "lL1.ml" 45 1003 1049
+type(
+  Grammar.v list
+)
+ident(
+  int_ref l "lL1.ml" 45 1003 1016 "lL1.ml" 45 1003 1017
+)
+"lL1.ml" 45 1003 1039 "lL1.ml" 45 1003 1049
+call(
+  stack
+)
+type(
+  Equation.bexpr
+)
+"lL1.ml" 45 1003 1021 "lL1.ml" 45 1003 1050
+type(
+  Equation.bexpr
+)
+"lL1.ml" 42 934 936 "lL1.ml" 45 1003 1050
+type(
+  Equation.bexpr
+)
+"lL1.ml" 41 924 925 "lL1.ml" 45 1003 1050
+type(
+  Grammar.v list -> Equation.bexpr
+)
+type(
+  Grammar.v list -> Equation.bexpr
+)
+"lL1.ml" 47 1052 1056 "lL1.ml" 47 1052 1062
+type(
+  Grammar.grammar -> Grammar.vn -> Equation.bexpr
+)
+ident(
+  def gen_vn "lL1.ml" 52 1203 1203 "lL1.ml" 1 0 -1
+)
+"lL1.ml" 48 1091 1096 "lL1.ml" 48 1091 1097
+type(
+  Grammar.grammar
+)
+ident(
+  def g "lL1.ml" 48 1091 1098 "lL1.ml" 50 1134 1201
+)
+"lL1.ml" 48 1091 1098 "lL1.ml" 48 1091 1100
+type(
+  Grammar.vn
+)
+ident(
+  def vn "lL1.ml" 49 1105 1106 "lL1.ml" 50 1134 1201
+)
+"lL1.ml" 49 1105 1110 "lL1.ml" 49 1105 1112
+type(
+  Grammar.v list list
+)
+ident(
+  def ls "lL1.ml" 50 1134 1135 "lL1.ml" 50 1134 1201
+)
+"lL1.ml" 49 1105 1115 "lL1.ml" 49 1105 1125
+type(
+  Grammar.grammar -> Grammar.vn -> Grammar.v list list
+)
+ident(
+  ext_ref Grammar.production
+)
+"lL1.ml" 49 1105 1126 "lL1.ml" 49 1105 1127
+type(
+  Grammar.grammar
+)
+ident(
+  int_ref g "lL1.ml" 48 1091 1096 "lL1.ml" 48 1091 1097
+)
+"lL1.ml" 49 1105 1128 "lL1.ml" 49 1105 1130
+type(
+  Grammar.vn
+)
+ident(
+  int_ref vn "lL1.ml" 48 1091 1098 "lL1.ml" 48 1091 1100
+)
+"lL1.ml" 49 1105 1115 "lL1.ml" 49 1105 1130
+call(
+  stack
+)
+type(
+  Grammar.v list list
+)
+"lL1.ml" 50 1134 1135 "lL1.ml" 50 1134 1149
+type(
+  (Equation.bexpr -> Grammar.v list -> Equation.bexpr) ->
+  Equation.bexpr -> Grammar.v list list -> Equation.bexpr
+)
+ident(
+  ext_ref List.fold_left
+)
+"lL1.ml" 50 1134 1155 "lL1.ml" 50 1134 1158
+type(
+  Equation.bexpr
+)
+ident(
+  def acc "lL1.ml" 50 1134 1159 "lL1.ml" 50 1134 1184
+)
+"lL1.ml" 50 1134 1159 "lL1.ml" 50 1134 1161
+type(
+  Grammar.v list
+)
+ident(
+  def vs "lL1.ml" 50 1134 1165 "lL1.ml" 50 1134 1184
+)
+"lL1.ml" 50 1134 1168 "lL1.ml" 50 1134 1171
+type(
+  Equation.bexpr
+)
+ident(
+  int_ref acc "lL1.ml" 50 1134 1155 "lL1.ml" 50 1134 1158
+)
+"lL1.ml" 50 1134 1172 "lL1.ml" 50 1134 1180
+type(
+  Grammar.v list -> Equation.bexpr
+)
+ident(
+  int_ref gen_prod "lL1.ml" 40 886 894 "lL1.ml" 40 886 902
+)
+"lL1.ml" 50 1134 1181 "lL1.ml" 50 1134 1183
+type(
+  Grammar.v list
+)
+ident(
+  int_ref vs "lL1.ml" 50 1134 1159 "lL1.ml" 50 1134 1161
+)
+"lL1.ml" 50 1134 1172 "lL1.ml" 50 1134 1183
+call(
+  stack
+)
+type(
+  Equation.bexpr
+)
+"lL1.ml" 50 1134 1165 "lL1.ml" 50 1134 1184
+type(
+  Equation.bexpr
+)
+"lL1.ml" 50 1134 1150 "lL1.ml" 50 1134 1185
+type(
+  Equation.bexpr -> Grammar.v list -> Equation.bexpr
+)
+"lL1.ml" 50 1134 1192 "lL1.ml" 50 1134 1197
+type(
+  bool
+)
+"lL1.ml" 50 1134 1186 "lL1.ml" 50 1134 1198
+type(
+  Equation.bexpr
+)
+"lL1.ml" 50 1134 1199 "lL1.ml" 50 1134 1201
+type(
+  Grammar.v list list
+)
+ident(
+  int_ref ls "lL1.ml" 49 1105 1110 "lL1.ml" 49 1105 1112
+)
+"lL1.ml" 50 1134 1135 "lL1.ml" 50 1134 1201
+call(
+  tail
+)
+type(
+  Equation.bexpr
+)
+"lL1.ml" 49 1105 1106 "lL1.ml" 50 1134 1201
+type(
+  Equation.bexpr
+)
+"lL1.ml" 48 1091 1092 "lL1.ml" 50 1134 1201
+type(
+  Grammar.grammar -> Grammar.vn -> Equation.bexpr
+)
+type(
+  Grammar.grammar -> Grammar.vn -> Equation.bexpr
+)
+"lL1.ml" 52 1203 1207 "lL1.ml" 52 1203 1214
+type(
+  Grammar.grammar -> Equation.equation list
+)
+ident(
+  def gen_sys "lL1.ml" 55 1287 1287 "lL1.ml" 1 0 -1
+)
+"lL1.ml" 53 1244 1249 "lL1.ml" 53 1244 1250
+type(
+  Grammar.grammar
+)
+ident(
+  def g "lL1.ml" 53 1244 1254 "lL1.ml" 53 1244 1285
+)
+"lL1.ml" 53 1244 1254 "lL1.ml" 53 1244 1270
+type(
+  Grammar.grammar ->
+  string ->
+  (Grammar.grammar -> Grammar.vn -> Equation.bexpr) -> Equation.equation list
+)
+ident(
+  ext_ref Equation.make_bool_system
+)
+"lL1.ml" 53 1244 1271 "lL1.ml" 53 1244 1272
+type(
+  Grammar.grammar
+)
+ident(
+  int_ref g "lL1.ml" 53 1244 1249 "lL1.ml" 53 1244 1250
+)
+"lL1.ml" 53 1244 1273 "lL1.ml" 53 1244 1278
+type(
+  string
+)
+"lL1.ml" 53 1244 1279 "lL1.ml" 53 1244 1285
+type(
+  Grammar.grammar -> Grammar.vn -> Equation.bexpr
+)
+ident(
+  int_ref gen_vn "lL1.ml" 47 1052 1056 "lL1.ml" 47 1052 1062
+)
+"lL1.ml" 53 1244 1254 "lL1.ml" 53 1244 1285
+call(
+  tail
+)
+type(
+  Equation.equation list
+)
+"lL1.ml" 53 1244 1245 "lL1.ml" 53 1244 1285
+type(
+  Grammar.grammar -> Equation.equation list
+)
+type(
+  Grammar.grammar -> Equation.equation list
+)
+"lL1.ml" 55 1287 1291 "lL1.ml" 55 1287 1294
+type(
+  Grammar.grammar -> Grammar.vn -> bool
+)
+ident(
+  def gen "lL1.ml" 60 1399 1399 "lL1.ml" 1 0 -1
+)
+"lL1.ml" 56 1321 1326 "lL1.ml" 56 1321 1327
+type(
+  Grammar.grammar
+)
+ident(
+  def g "lL1.ml" 57 1332 1334 "lL1.ml" 58 1366 1396
+)
+"lL1.ml" 57 1332 1338 "lL1.ml" 57 1332 1341
+type(
+  Equation.solution
+)
+ident(
+  def sol "lL1.ml" 58 1366 1368 "lL1.ml" 58 1366 1396
+)
+"lL1.ml" 57 1332 1344 "lL1.ml" 57 1332 1349
+type(
+  Equation.equation list -> Equation.solution
+)
+ident(
+  ext_ref Equation.solve
+)
+"lL1.ml" 57 1332 1351 "lL1.ml" 57 1332 1358
+type(
+  Grammar.grammar -> Equation.equation list
+)
+ident(
+  int_ref gen_sys "lL1.ml" 52 1203 1207 "lL1.ml" 52 1203 1214
+)
+"lL1.ml" 57 1332 1359 "lL1.ml" 57 1332 1360
+type(
+  Grammar.grammar
+)
+ident(
+  int_ref g "lL1.ml" 56 1321 1326 "lL1.ml" 56 1321 1327
+)
+"lL1.ml" 57 1332 1350 "lL1.ml" 57 1332 1361
+call(
+  stack
+)
+type(
+  Equation.equation list
+)
+"lL1.ml" 57 1332 1344 "lL1.ml" 57 1332 1361
+call(
+  stack
+)
+type(
+  Equation.solution
+)
+"lL1.ml" 58 1366 1372 "lL1.ml" 58 1366 1374
+type(
+  Grammar.vn
+)
+ident(
+  def vn "lL1.ml" 58 1366 1378 "lL1.ml" 58 1366 1396
+)
+"lL1.ml" 58 1366 1378 "lL1.ml" 58 1366 1381
+type(
+  Equation.solution -> Equation.var -> bool
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"lL1.ml" 58 1366 1382 "lL1.ml" 58 1366 1385
+type(
+  Equation.solution
+)
+ident(
+  int_ref sol "lL1.ml" 57 1332 1338 "lL1.ml" 57 1332 1341
+)
+"lL1.ml" 58 1366 1387 "lL1.ml" 58 1366 1392
+type(
+  string
+)
+"lL1.ml" 58 1366 1393 "lL1.ml" 58 1366 1395
+type(
+  Grammar.vn
+)
+ident(
+  int_ref vn "lL1.ml" 58 1366 1372 "lL1.ml" 58 1366 1374
+)
+"lL1.ml" 58 1366 1386 "lL1.ml" 58 1366 1396
+type(
+  string * Grammar.vn
+)
+"lL1.ml" 58 1366 1378 "lL1.ml" 58 1366 1396
+call(
+  tail
+)
+type(
+  bool
+)
+"lL1.ml" 58 1366 1368 "lL1.ml" 58 1366 1396
+type(
+  Grammar.vn -> bool
+)
+"lL1.ml" 57 1332 1334 "lL1.ml" 58 1366 1396
+type(
+  Grammar.vn -> bool
+)
+"lL1.ml" 56 1321 1322 "lL1.ml" 58 1366 1396
+type(
+  Grammar.grammar -> Grammar.vn -> bool
+)
+type(
+  Grammar.grammar -> Grammar.vn -> bool
+)
+"lL1.ml" 60 1399 1403 "lL1.ml" 60 1399 1412
+type(
+  Grammar.grammar -> Equation.bexpr
+)
+ident(
+  def check_gen "lL1.ml" 65 1532 1532 "lL1.ml" 1 0 -1
+)
+"lL1.ml" 61 1434 1439 "lL1.ml" 61 1434 1440
+type(
+  Grammar.grammar
+)
+ident(
+  def g "lL1.ml" 61 1434 1444 "lL1.ml" 61 1434 1517
+)
+"lL1.ml" 61 1434 1444 "lL1.ml" 61 1434 1454
+type(
+  (Grammar.VNSet.elt -> Equation.bexpr -> Equation.bexpr) ->
+  Grammar.VNSet.t -> Equation.bexpr -> Equation.bexpr
+)
+ident(
+  ext_ref Grammar.VNSet.fold
+)
+"lL1.ml" 61 1434 1460 "lL1.ml" 61 1434 1462
+type(
+  Grammar.VNSet.elt
+)
+ident(
+  def vn "lL1.ml" 61 1434 1463 "lL1.ml" 61 1434 1489
+)
+"lL1.ml" 61 1434 1463 "lL1.ml" 61 1434 1464
+type(
+  Equation.bexpr
+)
+ident(
+  def c "lL1.ml" 61 1434 1468 "lL1.ml" 61 1434 1489
+)
+"lL1.ml" 61 1434 1478 "lL1.ml" 61 1434 1482
+type(
+  Grammar.VNSet.elt -> Equation.var
+)
+ident(
+  int_ref genv "lL1.ml" 37 838 842 "lL1.ml" 37 838 846
+)
+"lL1.ml" 61 1434 1483 "lL1.ml" 61 1434 1485
+type(
+  Grammar.VNSet.elt
+)
+ident(
+  int_ref vn "lL1.ml" 61 1434 1460 "lL1.ml" 61 1434 1462
+)
+"lL1.ml" 61 1434 1477 "lL1.ml" 61 1434 1486
+call(
+  stack
+)
+type(
+  Equation.var
+)
+"lL1.ml" 61 1434 1472 "lL1.ml" 61 1434 1486
+type(
+  Equation.bexpr
+)
+"lL1.ml" 61 1434 1487 "lL1.ml" 61 1434 1488
+type(
+  Equation.bexpr
+)
+ident(
+  int_ref c "lL1.ml" 61 1434 1463 "lL1.ml" 61 1434 1464
+)
+"lL1.ml" 61 1434 1468 "lL1.ml" 61 1434 1489
+type(
+  Equation.bexpr
+)
+"lL1.ml" 61 1434 1455 "lL1.ml" 61 1434 1490
+type(
+  Grammar.VNSet.elt -> Equation.bexpr -> Equation.bexpr
+)
+"lL1.ml" 61 1434 1492 "lL1.ml" 61 1434 1502
+type(
+  Grammar.grammar -> Grammar.VNSet.t
+)
+ident(
+  ext_ref Grammar.nterminals
+)
+"lL1.ml" 61 1434 1503 "lL1.ml" 61 1434 1504
+type(
+  Grammar.grammar
+)
+ident(
+  int_ref g "lL1.ml" 61 1434 1439 "lL1.ml" 61 1434 1440
+)
+"lL1.ml" 61 1434 1491 "lL1.ml" 61 1434 1505
+call(
+  stack
+)
+type(
+  Grammar.VNSet.t
+)
+"lL1.ml" 61 1434 1512 "lL1.ml" 61 1434 1516
+type(
+  bool
+)
+"lL1.ml" 61 1434 1506 "lL1.ml" 61 1434 1517
+type(
+  Equation.bexpr
+)
+"lL1.ml" 61 1434 1444 "lL1.ml" 61 1434 1517
+call(
+  tail
+)
+type(
+  Equation.bexpr
+)
+"lL1.ml" 61 1434 1435 "lL1.ml" 61 1434 1517
+type(
+  Grammar.grammar -> Equation.bexpr
+)
+type(
+  Grammar.grammar -> Equation.bexpr
+)
+"lL1.ml" 65 1532 1536 "lL1.ml" 65 1532 1541
+type(
+  Grammar.vn -> Equation.var
+)
+ident(
+  def nullv "lL1.ml" 68 1581 1581 "lL1.ml" 1 0 -1
+)
+"lL1.ml" 66 1557 1562 "lL1.ml" 66 1557 1564
+type(
+  Grammar.vn
+)
+ident(
+  def vn "lL1.ml" 66 1557 1568 "lL1.ml" 66 1557 1579
+)
+"lL1.ml" 66 1557 1569 "lL1.ml" 66 1557 1575
+type(
+  string
+)
+"lL1.ml" 66 1557 1576 "lL1.ml" 66 1557 1578
+type(
+  Grammar.vn
+)
+ident(
+  int_ref vn "lL1.ml" 66 1557 1562 "lL1.ml" 66 1557 1564
+)
+"lL1.ml" 66 1557 1568 "lL1.ml" 66 1557 1579
+type(
+  string * Grammar.vn
+)
+"lL1.ml" 66 1557 1558 "lL1.ml" 66 1557 1579
+type(
+  Grammar.vn -> Equation.var
+)
+type(
+  Grammar.vn -> Equation.var
+)
+"lL1.ml" 68 1581 1589 "lL1.ml" 68 1581 1598
+type(
+  Grammar.v list -> Equation.bexpr
+)
+ident(
+  def null_prod "lL1.ml" 68 1581 1581 "lL1.ml" 1 0 -1
+)
+"lL1.ml" 70 1634 1639 "lL1.ml" 70 1634 1640
+type(
+  Grammar.v list
+)
+ident(
+  def l "lL1.ml" 70 1634 1644 "lL1.ml" 73 1706 1755
+)
+"lL1.ml" 70 1634 1650 "lL1.ml" 70 1634 1651
+type(
+  Grammar.v list
+)
+ident(
+  int_ref l "lL1.ml" 70 1634 1639 "lL1.ml" 70 1634 1640
+)
+"lL1.ml" 71 1658 1662 "lL1.ml" 71 1658 1664
+type(
+  Grammar.v list
+)
+"lL1.ml" 71 1658 1673 "lL1.ml" 71 1658 1677
+type(
+  bool
+)
+"lL1.ml" 71 1658 1668 "lL1.ml" 71 1658 1677
+type(
+  Equation.bexpr
+)
+"lL1.ml" 72 1678 1685 "lL1.ml" 72 1678 1686
+type(
+  Grammar.vt
+)
+"lL1.ml" 72 1678 1682 "lL1.ml" 72 1678 1686
+type(
+  Grammar.v
+)
+"lL1.ml" 72 1678 1690 "lL1.ml" 72 1678 1691
+type(
+  Grammar.v list
+)
+ident(
+  def l "lL1.ml" 72 1678 1695 "lL1.ml" 72 1678 1705
+)
+"lL1.ml" 72 1678 1682 "lL1.ml" 72 1678 1691
+type(
+  Grammar.v list
+)
+"lL1.ml" 72 1678 1700 "lL1.ml" 72 1678 1705
+type(
+  bool
+)
+"lL1.ml" 72 1678 1695 "lL1.ml" 72 1678 1705
+type(
+  Equation.bexpr
+)
+"lL1.ml" 73 1706 1713 "lL1.ml" 73 1706 1714
+type(
+  Grammar.vn
+)
+ident(
+  def v "lL1.ml" 73 1706 1723 "lL1.ml" 73 1706 1755
+)
+"lL1.ml" 73 1706 1710 "lL1.ml" 73 1706 1714
+type(
+  Grammar.v
+)
+"lL1.ml" 73 1706 1718 "lL1.ml" 73 1706 1719
+type(
+  Grammar.v list
+)
+ident(
+  def l "lL1.ml" 73 1706 1723 "lL1.ml" 73 1706 1755
+)
+"lL1.ml" 73 1706 1710 "lL1.ml" 73 1706 1719
+type(
+  Grammar.v list
+)
+"lL1.ml" 73 1706 1733 "lL1.ml" 73 1706 1738
+type(
+  Grammar.vn -> Equation.var
+)
+ident(
+  int_ref nullv "lL1.ml" 65 1532 1536 "lL1.ml" 65 1532 1541
+)
+"lL1.ml" 73 1706 1739 "lL1.ml" 73 1706 1740
+type(
+  Grammar.vn
+)
+ident(
+  int_ref v "lL1.ml" 73 1706 1713 "lL1.ml" 73 1706 1714
+)
+"lL1.ml" 73 1706 1732 "lL1.ml" 73 1706 1741
+call(
+  stack
+)
+type(
+  Equation.var
+)
+"lL1.ml" 73 1706 1727 "lL1.ml" 73 1706 1741
+type(
+  Equation.bexpr
+)
+"lL1.ml" 73 1706 1743 "lL1.ml" 73 1706 1752
+type(
+  Grammar.v list -> Equation.bexpr
+)
+ident(
+  int_ref null_prod "lL1.ml" 68 1581 1589 "lL1.ml" 68 1581 1598
+)
+"lL1.ml" 73 1706 1753 "lL1.ml" 73 1706 1754
+type(
+  Grammar.v list
+)
+ident(
+  int_ref l "lL1.ml" 73 1706 1718 "lL1.ml" 73 1706 1719
+)
+"lL1.ml" 73 1706 1743 "lL1.ml" 73 1706 1754
+call(
+  stack
+)
+type(
+  Equation.bexpr
+)
+"lL1.ml" 73 1706 1723 "lL1.ml" 73 1706 1755
+type(
+  Equation.bexpr
+)
+"lL1.ml" 70 1634 1644 "lL1.ml" 73 1706 1755
+type(
+  Equation.bexpr
+)
+"lL1.ml" 70 1634 1635 "lL1.ml" 73 1706 1755
+type(
+  Grammar.v list -> Equation.bexpr
+)
+type(
+  Grammar.v list -> Equation.bexpr
+)
+"lL1.ml" 75 1757 1761 "lL1.ml" 75 1757 1768
+type(
+  Grammar.grammar -> Grammar.vn -> Equation.bexpr
+)
+ident(
+  def null_vn "lL1.ml" 81 1929 1929 "lL1.ml" 1 0 -1
+)
+"lL1.ml" 77 1813 1819 "lL1.ml" 77 1813 1820
+type(
+  Grammar.grammar
+)
+ident(
+  def g "lL1.ml" 77 1813 1821 "lL1.ml" 79 1858 1927
+)
+"lL1.ml" 77 1813 1821 "lL1.ml" 77 1813 1823
+type(
+  Grammar.vn
+)
+ident(
+  def vn "lL1.ml" 78 1828 1830 "lL1.ml" 79 1858 1927
+)
+"lL1.ml" 78 1828 1834 "lL1.ml" 78 1828 1836
+type(
+  Grammar.v list list
+)
+ident(
+  def ls "lL1.ml" 79 1858 1860 "lL1.ml" 79 1858 1927
+)
+"lL1.ml" 78 1828 1839 "lL1.ml" 78 1828 1849
+type(
+  Grammar.grammar -> Grammar.vn -> Grammar.v list list
+)
+ident(
+  ext_ref Grammar.production
+)
+"lL1.ml" 78 1828 1850 "lL1.ml" 78 1828 1851
+type(
+  Grammar.grammar
+)
+ident(
+  int_ref g "lL1.ml" 77 1813 1819 "lL1.ml" 77 1813 1820
+)
+"lL1.ml" 78 1828 1852 "lL1.ml" 78 1828 1854
+type(
+  Grammar.vn
+)
+ident(
+  int_ref vn "lL1.ml" 77 1813 1821 "lL1.ml" 77 1813 1823
+)
+"lL1.ml" 78 1828 1839 "lL1.ml" 78 1828 1854
+call(
+  stack
+)
+type(
+  Grammar.v list list
+)
+"lL1.ml" 79 1858 1860 "lL1.ml" 79 1858 1874
+type(
+  (Equation.bexpr -> Grammar.v list -> Equation.bexpr) ->
+  Equation.bexpr -> Grammar.v list list -> Equation.bexpr
+)
+ident(
+  ext_ref List.fold_left
+)
+"lL1.ml" 79 1858 1880 "lL1.ml" 79 1858 1883
+type(
+  Equation.bexpr
+)
+ident(
+  def acc "lL1.ml" 79 1858 1884 "lL1.ml" 79 1858 1910
+)
+"lL1.ml" 79 1858 1884 "lL1.ml" 79 1858 1886
+type(
+  Grammar.v list
+)
+ident(
+  def vs "lL1.ml" 79 1858 1890 "lL1.ml" 79 1858 1910
+)
+"lL1.ml" 79 1858 1893 "lL1.ml" 79 1858 1896
+type(
+  Equation.bexpr
+)
+ident(
+  int_ref acc "lL1.ml" 79 1858 1880 "lL1.ml" 79 1858 1883
+)
+"lL1.ml" 79 1858 1897 "lL1.ml" 79 1858 1906
+type(
+  Grammar.v list -> Equation.bexpr
+)
+ident(
+  int_ref null_prod "lL1.ml" 68 1581 1589 "lL1.ml" 68 1581 1598
+)
+"lL1.ml" 79 1858 1907 "lL1.ml" 79 1858 1909
+type(
+  Grammar.v list
+)
+ident(
+  int_ref vs "lL1.ml" 79 1858 1884 "lL1.ml" 79 1858 1886
+)
+"lL1.ml" 79 1858 1897 "lL1.ml" 79 1858 1909
+call(
+  stack
+)
+type(
+  Equation.bexpr
+)
+"lL1.ml" 79 1858 1890 "lL1.ml" 79 1858 1910
+type(
+  Equation.bexpr
+)
+"lL1.ml" 79 1858 1875 "lL1.ml" 79 1858 1911
+type(
+  Equation.bexpr -> Grammar.v list -> Equation.bexpr
+)
+"lL1.ml" 79 1858 1918 "lL1.ml" 79 1858 1923
+type(
+  bool
+)
+"lL1.ml" 79 1858 1912 "lL1.ml" 79 1858 1924
+type(
+  Equation.bexpr
+)
+"lL1.ml" 79 1858 1925 "lL1.ml" 79 1858 1927
+type(
+  Grammar.v list list
+)
+ident(
+  int_ref ls "lL1.ml" 78 1828 1834 "lL1.ml" 78 1828 1836
+)
+"lL1.ml" 79 1858 1860 "lL1.ml" 79 1858 1927
+call(
+  tail
+)
+type(
+  Equation.bexpr
+)
+"lL1.ml" 78 1828 1830 "lL1.ml" 79 1858 1927
+type(
+  Equation.bexpr
+)
+"lL1.ml" 77 1813 1815 "lL1.ml" 79 1858 1927
+type(
+  Grammar.grammar -> Grammar.vn -> Equation.bexpr
+)
+type(
+  Grammar.grammar -> Grammar.vn -> Equation.bexpr
+)
+"lL1.ml" 81 1929 1933 "lL1.ml" 81 1929 1941
+type(
+  Grammar.grammar -> Equation.equation list
+)
+ident(
+  def null_sys "lL1.ml" 84 2017 2017 "lL1.ml" 1 0 -1
+)
+"lL1.ml" 82 1972 1977 "lL1.ml" 82 1972 1978
+type(
+  Grammar.grammar
+)
+ident(
+  def g "lL1.ml" 82 1972 1982 "lL1.ml" 82 1972 2015
+)
+"lL1.ml" 82 1972 1982 "lL1.ml" 82 1972 1998
+type(
+  Grammar.grammar ->
+  string ->
+  (Grammar.grammar -> Grammar.vn -> Equation.bexpr) -> Equation.equation list
+)
+ident(
+  ext_ref Equation.make_bool_system
+)
+"lL1.ml" 82 1972 1999 "lL1.ml" 82 1972 2000
+type(
+  Grammar.grammar
+)
+ident(
+  int_ref g "lL1.ml" 82 1972 1977 "lL1.ml" 82 1972 1978
+)
+"lL1.ml" 82 1972 2001 "lL1.ml" 82 1972 2007
+type(
+  string
+)
+"lL1.ml" 82 1972 2008 "lL1.ml" 82 1972 2015
+type(
+  Grammar.grammar -> Grammar.vn -> Equation.bexpr
+)
+ident(
+  int_ref null_vn "lL1.ml" 75 1757 1761 "lL1.ml" 75 1757 1768
+)
+"lL1.ml" 82 1972 1982 "lL1.ml" 82 1972 2015
+call(
+  tail
+)
+type(
+  Equation.equation list
+)
+"lL1.ml" 82 1972 1973 "lL1.ml" 82 1972 2015
+type(
+  Grammar.grammar -> Equation.equation list
+)
+type(
+  Grammar.grammar -> Equation.equation list
+)
+"lL1.ml" 84 2017 2021 "lL1.ml" 84 2017 2025
+type(
+  Grammar.grammar -> Grammar.vn -> bool
+)
+ident(
+  def null "lL1.ml" 90 2143 2143 "lL1.ml" 1 0 -1
+)
+"lL1.ml" 85 2052 2057 "lL1.ml" 85 2052 2058
+type(
+  Grammar.grammar
+)
+ident(
+  def g "lL1.ml" 86 2063 2065 "lL1.ml" 87 2097 2128
+)
+"lL1.ml" 86 2063 2069 "lL1.ml" 86 2063 2072
+type(
+  Equation.solution
+)
+ident(
+  def sol "lL1.ml" 87 2097 2099 "lL1.ml" 87 2097 2128
+)
+"lL1.ml" 86 2063 2075 "lL1.ml" 86 2063 2080
+type(
+  Equation.equation list -> Equation.solution
+)
+ident(
+  ext_ref Equation.solve
+)
+"lL1.ml" 86 2063 2082 "lL1.ml" 86 2063 2090
+type(
+  Grammar.grammar -> Equation.equation list
+)
+ident(
+  int_ref null_sys "lL1.ml" 81 1929 1933 "lL1.ml" 81 1929 1941
+)
+"lL1.ml" 86 2063 2091 "lL1.ml" 86 2063 2092
+type(
+  Grammar.grammar
+)
+ident(
+  int_ref g "lL1.ml" 85 2052 2057 "lL1.ml" 85 2052 2058
+)
+"lL1.ml" 86 2063 2081 "lL1.ml" 86 2063 2093
+call(
+  stack
+)
+type(
+  Equation.equation list
+)
+"lL1.ml" 86 2063 2075 "lL1.ml" 86 2063 2093
+call(
+  stack
+)
+type(
+  Equation.solution
+)
+"lL1.ml" 87 2097 2103 "lL1.ml" 87 2097 2105
+type(
+  Grammar.vn
+)
+ident(
+  def vn "lL1.ml" 87 2097 2109 "lL1.ml" 87 2097 2128
+)
+"lL1.ml" 87 2097 2109 "lL1.ml" 87 2097 2112
+type(
+  Equation.solution -> Equation.var -> bool
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"lL1.ml" 87 2097 2113 "lL1.ml" 87 2097 2116
+type(
+  Equation.solution
+)
+ident(
+  int_ref sol "lL1.ml" 86 2063 2069 "lL1.ml" 86 2063 2072
+)
+"lL1.ml" 87 2097 2119 "lL1.ml" 87 2097 2124
+type(
+  Grammar.vn -> Equation.var
+)
+ident(
+  int_ref nullv "lL1.ml" 65 1532 1536 "lL1.ml" 65 1532 1541
+)
+"lL1.ml" 87 2097 2125 "lL1.ml" 87 2097 2127
+type(
+  Grammar.vn
+)
+ident(
+  int_ref vn "lL1.ml" 87 2097 2103 "lL1.ml" 87 2097 2105
+)
+"lL1.ml" 87 2097 2118 "lL1.ml" 87 2097 2128
+call(
+  stack
+)
+type(
+  Equation.var
+)
+"lL1.ml" 87 2097 2109 "lL1.ml" 87 2097 2128
+call(
+  tail
+)
+type(
+  bool
+)
+"lL1.ml" 87 2097 2099 "lL1.ml" 87 2097 2128
+type(
+  Grammar.vn -> bool
+)
+"lL1.ml" 86 2063 2065 "lL1.ml" 87 2097 2128
+type(
+  Grammar.vn -> bool
+)
+"lL1.ml" 85 2052 2053 "lL1.ml" 87 2097 2128
+type(
+  Grammar.grammar -> Grammar.vn -> bool
+)
+type(
+  Grammar.grammar -> Grammar.vn -> bool
+)
+"lL1.ml" 90 2143 2147 "lL1.ml" 90 2143 2153
+type(
+  Grammar.vn -> Equation.var
+)
+ident(
+  def firstv "lL1.ml" 93 2193 2193 "lL1.ml" 1 0 -1
+)
+"lL1.ml" 91 2168 2173 "lL1.ml" 91 2168 2175
+type(
+  Grammar.vn
+)
+ident(
+  def vn "lL1.ml" 91 2168 2179 "lL1.ml" 91 2168 2191
+)
+"lL1.ml" 91 2168 2180 "lL1.ml" 91 2168 2187
+type(
+  string
+)
+"lL1.ml" 91 2168 2188 "lL1.ml" 91 2168 2190
+type(
+  Grammar.vn
+)
+ident(
+  int_ref vn "lL1.ml" 91 2168 2173 "lL1.ml" 91 2168 2175
+)
+"lL1.ml" 91 2168 2179 "lL1.ml" 91 2168 2191
+type(
+  string * Grammar.vn
+)
+"lL1.ml" 91 2168 2169 "lL1.ml" 91 2168 2191
+type(
+  Grammar.vn -> Equation.var
+)
+type(
+  Grammar.vn -> Equation.var
+)
+"lL1.ml" 93 2193 2201 "lL1.ml" 93 2193 2211
+type(
+  Grammar.v list -> Equation.sexpr
+)
+ident(
+  def first_prod "lL1.ml" 93 2193 2193 "lL1.ml" 1 0 -1
+)
+"lL1.ml" 95 2245 2251 "lL1.ml" 95 2245 2252
+type(
+  Grammar.v list
+)
+ident(
+  def l "lL1.ml" 96 2256 2258 "lL1.ml" 99 2341 2419
+)
+"lL1.ml" 96 2256 2264 "lL1.ml" 96 2256 2265
+type(
+  Grammar.v list
+)
+ident(
+  int_ref l "lL1.ml" 95 2245 2251 "lL1.ml" 95 2245 2252
+)
+"lL1.ml" 97 2272 2278 "lL1.ml" 97 2272 2280
+type(
+  Grammar.v list
+)
+"lL1.ml" 97 2272 2288 "lL1.ml" 97 2272 2299
+type(
+  Grammar.VTSet.t
+)
+ident(
+  ext_ref Grammar.VTSet.empty
+)
+"lL1.ml" 97 2272 2284 "lL1.ml" 97 2272 2299
+type(
+  Equation.sexpr
+)
+"lL1.ml" 98 2300 2309 "lL1.ml" 98 2300 2310
+type(
+  Grammar.vt
+)
+ident(
+  def a "lL1.ml" 98 2300 2317 "lL1.ml" 98 2300 2340
+)
+"lL1.ml" 98 2300 2306 "lL1.ml" 98 2300 2310
+type(
+  Grammar.v
+)
+"lL1.ml" 98 2300 2312 "lL1.ml" 98 2300 2313
+type(
+  Grammar.v list
+)
+ident(
+  def w "lL1.ml" 98 2300 2317 "lL1.ml" 98 2300 2340
+)
+"lL1.ml" 98 2300 2306 "lL1.ml" 98 2300 2313
+type(
+  Grammar.v list
+)
+"lL1.ml" 98 2300 2322 "lL1.ml" 98 2300 2337
+type(
+  Grammar.VTSet.elt -> Grammar.VTSet.t
+)
+ident(
+  ext_ref Grammar.VTSet.singleton
+)
+"lL1.ml" 98 2300 2338 "lL1.ml" 98 2300 2339
+type(
+  Grammar.VTSet.elt
+)
+ident(
+  int_ref a "lL1.ml" 98 2300 2309 "lL1.ml" 98 2300 2310
+)
+"lL1.ml" 98 2300 2321 "lL1.ml" 98 2300 2340
+call(
+  stack
+)
+type(
+  Grammar.VTSet.t
+)
+"lL1.ml" 98 2300 2317 "lL1.ml" 98 2300 2340
+type(
+  Equation.sexpr
+)
+"lL1.ml" 99 2341 2350 "lL1.ml" 99 2341 2351
+type(
+  Grammar.vn
+)
+ident(
+  def a "lL1.ml" 99 2341 2358 "lL1.ml" 99 2341 2419
+)
+"lL1.ml" 99 2341 2347 "lL1.ml" 99 2341 2351
+type(
+  Grammar.v
+)
+"lL1.ml" 99 2341 2353 "lL1.ml" 99 2341 2354
+type(
+  Grammar.v list
+)
+ident(
+  def w "lL1.ml" 99 2341 2358 "lL1.ml" 99 2341 2419
+)
+"lL1.ml" 99 2341 2347 "lL1.ml" 99 2341 2354
+type(
+  Grammar.v list
+)
+"lL1.ml" 99 2341 2371 "lL1.ml" 99 2341 2377
+type(
+  Grammar.vn -> Equation.var
+)
+ident(
+  int_ref firstv "lL1.ml" 90 2143 2147 "lL1.ml" 90 2143 2153
+)
+"lL1.ml" 99 2341 2378 "lL1.ml" 99 2341 2379
+type(
+  Grammar.vn
+)
+ident(
+  int_ref a "lL1.ml" 99 2341 2350 "lL1.ml" 99 2341 2351
+)
+"lL1.ml" 99 2341 2370 "lL1.ml" 99 2341 2380
+call(
+  stack
+)
+type(
+  Equation.var
+)
+"lL1.ml" 99 2341 2365 "lL1.ml" 99 2341 2380
+type(
+  Equation.sexpr
+)
+"lL1.ml" 99 2341 2394 "lL1.ml" 99 2341 2399
+type(
+  Grammar.vn -> Equation.var
+)
+ident(
+  int_ref nullv "lL1.ml" 65 1532 1536 "lL1.ml" 65 1532 1541
+)
+"lL1.ml" 99 2341 2400 "lL1.ml" 99 2341 2401
+type(
+  Grammar.vn
+)
+ident(
+  int_ref a "lL1.ml" 99 2341 2350 "lL1.ml" 99 2341 2351
+)
+"lL1.ml" 99 2341 2393 "lL1.ml" 99 2341 2402
+call(
+  stack
+)
+type(
+  Equation.var
+)
+"lL1.ml" 99 2341 2388 "lL1.ml" 99 2341 2402
+type(
+  Equation.bexpr
+)
+"lL1.ml" 99 2341 2404 "lL1.ml" 99 2341 2414
+type(
+  Grammar.v list -> Equation.sexpr
+)
+ident(
+  int_ref first_prod "lL1.ml" 93 2193 2201 "lL1.ml" 93 2193 2211
+)
+"lL1.ml" 99 2341 2415 "lL1.ml" 99 2341 2416
+type(
+  Grammar.v list
+)
+ident(
+  int_ref w "lL1.ml" 99 2341 2353 "lL1.ml" 99 2341 2354
+)
+"lL1.ml" 99 2341 2404 "lL1.ml" 99 2341 2416
+call(
+  stack
+)
+type(
+  Equation.sexpr
+)
+"lL1.ml" 99 2341 2381 "lL1.ml" 99 2341 2418
+type(
+  Equation.sexpr
+)
+"lL1.ml" 99 2341 2358 "lL1.ml" 99 2341 2419
+type(
+  Equation.sexpr
+)
+"lL1.ml" 96 2256 2258 "lL1.ml" 99 2341 2419
+type(
+  Equation.sexpr
+)
+"lL1.ml" 95 2245 2247 "lL1.ml" 99 2341 2419
+type(
+  Grammar.v list -> Equation.sexpr
+)
+type(
+  Grammar.v list -> Equation.sexpr
+)
+"lL1.ml" 101 2421 2425 "lL1.ml" 101 2421 2433
+type(
+  Grammar.grammar -> Grammar.vn -> Equation.sexpr
+)
+ident(
+  def first_vn "lL1.ml" 107 2603 2603 "lL1.ml" 1 0 -1
+)
+"lL1.ml" 103 2477 2483 "lL1.ml" 103 2477 2484
+type(
+  Grammar.grammar
+)
+ident(
+  def g "lL1.ml" 103 2477 2485 "lL1.ml" 105 2522 2600
+)
+"lL1.ml" 103 2477 2485 "lL1.ml" 103 2477 2487
+type(
+  Grammar.vn
+)
+ident(
+  def vn "lL1.ml" 104 2492 2494 "lL1.ml" 105 2522 2600
+)
+"lL1.ml" 104 2492 2498 "lL1.ml" 104 2492 2500
+type(
+  Grammar.v list list
+)
+ident(
+  def ls "lL1.ml" 105 2522 2524 "lL1.ml" 105 2522 2600
+)
+"lL1.ml" 104 2492 2503 "lL1.ml" 104 2492 2513
+type(
+  Grammar.grammar -> Grammar.vn -> Grammar.v list list
+)
+ident(
+  ext_ref Grammar.production
+)
+"lL1.ml" 104 2492 2514 "lL1.ml" 104 2492 2515
+type(
+  Grammar.grammar
+)
+ident(
+  int_ref g "lL1.ml" 103 2477 2483 "lL1.ml" 103 2477 2484
+)
+"lL1.ml" 104 2492 2516 "lL1.ml" 104 2492 2518
+type(
+  Grammar.vn
+)
+ident(
+  int_ref vn "lL1.ml" 103 2477 2485 "lL1.ml" 103 2477 2487
+)
+"lL1.ml" 104 2492 2503 "lL1.ml" 104 2492 2518
+call(
+  stack
+)
+type(
+  Grammar.v list list
+)
+"lL1.ml" 105 2522 2524 "lL1.ml" 105 2522 2538
+type(
+  (Equation.sexpr -> Grammar.v list -> Equation.sexpr) ->
+  Equation.sexpr -> Grammar.v list list -> Equation.sexpr
+)
+ident(
+  ext_ref List.fold_left
+)
+"lL1.ml" 105 2522 2544 "lL1.ml" 105 2522 2547
+type(
+  Equation.sexpr
+)
+ident(
+  def acc "lL1.ml" 105 2522 2548 "lL1.ml" 105 2522 2578
+)
+"lL1.ml" 105 2522 2548 "lL1.ml" 105 2522 2550
+type(
+  Grammar.v list
+)
+ident(
+  def vs "lL1.ml" 105 2522 2554 "lL1.ml" 105 2522 2578
+)
+"lL1.ml" 105 2522 2560 "lL1.ml" 105 2522 2563
+type(
+  Equation.sexpr
+)
+ident(
+  int_ref acc "lL1.ml" 105 2522 2544 "lL1.ml" 105 2522 2547
+)
+"lL1.ml" 105 2522 2564 "lL1.ml" 105 2522 2574
+type(
+  Grammar.v list -> Equation.sexpr
+)
+ident(
+  int_ref first_prod "lL1.ml" 93 2193 2201 "lL1.ml" 93 2193 2211
+)
+"lL1.ml" 105 2522 2575 "lL1.ml" 105 2522 2577
+type(
+  Grammar.v list
+)
+ident(
+  int_ref vs "lL1.ml" 105 2522 2548 "lL1.ml" 105 2522 2550
+)
+"lL1.ml" 105 2522 2564 "lL1.ml" 105 2522 2577
+call(
+  stack
+)
+type(
+  Equation.sexpr
+)
+"lL1.ml" 105 2522 2554 "lL1.ml" 105 2522 2578
+type(
+  Equation.sexpr
+)
+"lL1.ml" 105 2522 2539 "lL1.ml" 105 2522 2579
+type(
+  Equation.sexpr -> Grammar.v list -> Equation.sexpr
+)
+"lL1.ml" 105 2522 2585 "lL1.ml" 105 2522 2596
+type(
+  Grammar.VTSet.t
+)
+ident(
+  ext_ref Grammar.VTSet.empty
+)
+"lL1.ml" 105 2522 2580 "lL1.ml" 105 2522 2597
+type(
+  Equation.sexpr
+)
+"lL1.ml" 105 2522 2598 "lL1.ml" 105 2522 2600
+type(
+  Grammar.v list list
+)
+ident(
+  int_ref ls "lL1.ml" 104 2492 2498 "lL1.ml" 104 2492 2500
+)
+"lL1.ml" 105 2522 2524 "lL1.ml" 105 2522 2600
+call(
+  tail
+)
+type(
+  Equation.sexpr
+)
+"lL1.ml" 104 2492 2494 "lL1.ml" 105 2522 2600
+type(
+  Equation.sexpr
+)
+"lL1.ml" 103 2477 2479 "lL1.ml" 105 2522 2600
+type(
+  Grammar.grammar -> Grammar.vn -> Equation.sexpr
+)
+type(
+  Grammar.grammar -> Grammar.vn -> Equation.sexpr
+)
+"lL1.ml" 107 2603 2607 "lL1.ml" 107 2603 2616
+type(
+  Grammar.grammar -> Equation.equation list
+)
+ident(
+  def first_sys "lL1.ml" 110 2694 2694 "lL1.ml" 1 0 -1
+)
+"lL1.ml" 108 2647 2652 "lL1.ml" 108 2647 2653
+type(
+  Grammar.grammar
+)
+ident(
+  def g "lL1.ml" 108 2647 2657 "lL1.ml" 108 2647 2692
+)
+"lL1.ml" 108 2647 2657 "lL1.ml" 108 2647 2672
+type(
+  Grammar.grammar ->
+  string ->
+  (Grammar.grammar -> Grammar.vn -> Equation.sexpr) -> Equation.equation list
+)
+ident(
+  ext_ref Equation.make_set_system
+)
+"lL1.ml" 108 2647 2673 "lL1.ml" 108 2647 2674
+type(
+  Grammar.grammar
+)
+ident(
+  int_ref g "lL1.ml" 108 2647 2652 "lL1.ml" 108 2647 2653
+)
+"lL1.ml" 108 2647 2675 "lL1.ml" 108 2647 2682
+type(
+  string
+)
+"lL1.ml" 108 2647 2684 "lL1.ml" 108 2647 2692
+type(
+  Grammar.grammar -> Grammar.vn -> Equation.sexpr
+)
+ident(
+  int_ref first_vn "lL1.ml" 101 2421 2425 "lL1.ml" 101 2421 2433
+)
+"lL1.ml" 108 2647 2657 "lL1.ml" 108 2647 2692
+call(
+  tail
+)
+type(
+  Equation.equation list
+)
+"lL1.ml" 108 2647 2648 "lL1.ml" 108 2647 2692
+type(
+  Grammar.grammar -> Equation.equation list
+)
+type(
+  Grammar.grammar -> Equation.equation list
+)
+"lL1.ml" 110 2694 2698 "lL1.ml" 110 2694 2703
+type(
+  Grammar.grammar -> Grammar.vn -> Grammar.VTSet.t
+)
+ident(
+  def first "lL1.ml" 116 2846 2846 "lL1.ml" 1 0 -1
+)
+"lL1.ml" 111 2734 2739 "lL1.ml" 111 2734 2740
+type(
+  Grammar.grammar
+)
+ident(
+  def g "lL1.ml" 112 2745 2747 "lL1.ml" 113 2796 2829
+)
+"lL1.ml" 112 2745 2751 "lL1.ml" 112 2745 2754
+type(
+  Equation.solution
+)
+ident(
+  def sol "lL1.ml" 113 2796 2798 "lL1.ml" 113 2796 2829
+)
+"lL1.ml" 112 2745 2757 "lL1.ml" 112 2745 2762
+type(
+  Equation.equation list -> Equation.solution
+)
+ident(
+  ext_ref Equation.solve
+)
+"lL1.ml" 112 2745 2765 "lL1.ml" 112 2745 2773
+type(
+  Grammar.grammar -> Equation.equation list
+)
+ident(
+  int_ref null_sys "lL1.ml" 81 1929 1933 "lL1.ml" 81 1929 1941
+)
+"lL1.ml" 112 2745 2774 "lL1.ml" 112 2745 2775
+type(
+  Grammar.grammar
+)
+ident(
+  int_ref g "lL1.ml" 111 2734 2739 "lL1.ml" 111 2734 2740
+)
+"lL1.ml" 112 2745 2764 "lL1.ml" 112 2745 2776
+call(
+  stack
+)
+type(
+  Equation.equation list
+)
+"lL1.ml" 112 2745 2777 "lL1.ml" 112 2745 2778
+type(
+  Equation.equation list -> Equation.equation list -> Equation.equation list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"lL1.ml" 112 2745 2779 "lL1.ml" 112 2745 2788
+type(
+  Grammar.grammar -> Equation.equation list
+)
+ident(
+  int_ref first_sys "lL1.ml" 107 2603 2607 "lL1.ml" 107 2603 2616
+)
+"lL1.ml" 112 2745 2789 "lL1.ml" 112 2745 2790
+type(
+  Grammar.grammar
+)
+ident(
+  int_ref g "lL1.ml" 111 2734 2739 "lL1.ml" 111 2734 2740
+)
+"lL1.ml" 112 2745 2778 "lL1.ml" 112 2745 2791
+call(
+  stack
+)
+type(
+  Equation.equation list
+)
+"lL1.ml" 112 2745 2763 "lL1.ml" 112 2745 2792
+call(
+  stack
+)
+type(
+  Equation.equation list
+)
+"lL1.ml" 112 2745 2757 "lL1.ml" 112 2745 2792
+call(
+  stack
+)
+type(
+  Equation.solution
+)
+"lL1.ml" 113 2796 2802 "lL1.ml" 113 2796 2804
+type(
+  Grammar.vn
+)
+ident(
+  def vn "lL1.ml" 113 2796 2808 "lL1.ml" 113 2796 2829
+)
+"lL1.ml" 113 2796 2808 "lL1.ml" 113 2796 2811
+type(
+  Equation.solution -> Equation.var -> Grammar.VTSet.t
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"lL1.ml" 113 2796 2812 "lL1.ml" 113 2796 2815
+type(
+  Equation.solution
+)
+ident(
+  int_ref sol "lL1.ml" 112 2745 2751 "lL1.ml" 112 2745 2754
+)
+"lL1.ml" 113 2796 2818 "lL1.ml" 113 2796 2825
+type(
+  string
+)
+"lL1.ml" 113 2796 2826 "lL1.ml" 113 2796 2828
+type(
+  Grammar.vn
+)
+ident(
+  int_ref vn "lL1.ml" 113 2796 2802 "lL1.ml" 113 2796 2804
+)
+"lL1.ml" 113 2796 2817 "lL1.ml" 113 2796 2829
+type(
+  string * Grammar.vn
+)
+"lL1.ml" 113 2796 2808 "lL1.ml" 113 2796 2829
+call(
+  tail
+)
+type(
+  Grammar.VTSet.t
+)
+"lL1.ml" 113 2796 2798 "lL1.ml" 113 2796 2829
+type(
+  Grammar.vn -> Grammar.VTSet.t
+)
+"lL1.ml" 112 2745 2747 "lL1.ml" 113 2796 2829
+type(
+  Grammar.vn -> Grammar.VTSet.t
+)
+"lL1.ml" 111 2734 2735 "lL1.ml" 113 2796 2829
+type(
+  Grammar.grammar -> Grammar.vn -> Grammar.VTSet.t
+)
+type(
+  Grammar.grammar -> Grammar.vn -> Grammar.VTSet.t
+)
+"lL1.ml" 116 2846 2850 "lL1.ml" 116 2846 2857
+type(
+  Grammar.vn -> Equation.var
+)
+ident(
+  def followv "lL1.ml" 119 2899 2899 "lL1.ml" 1 0 -1
+)
+"lL1.ml" 117 2872 2877 "lL1.ml" 117 2872 2879
+type(
+  Grammar.vn
+)
+ident(
+  def vn "lL1.ml" 117 2872 2884 "lL1.ml" 117 2872 2897
+)
+"lL1.ml" 117 2872 2885 "lL1.ml" 117 2872 2893
+type(
+  string
+)
+"lL1.ml" 117 2872 2894 "lL1.ml" 117 2872 2896
+type(
+  Grammar.vn
+)
+ident(
+  int_ref vn "lL1.ml" 117 2872 2877 "lL1.ml" 117 2872 2879
+)
+"lL1.ml" 117 2872 2884 "lL1.ml" 117 2872 2897
+type(
+  string * Grammar.vn
+)
+"lL1.ml" 117 2872 2873 "lL1.ml" 117 2872 2897
+type(
+  Grammar.vn -> Equation.var
+)
+type(
+  Grammar.vn -> Equation.var
+)
+"lL1.ml" 119 2899 2903 "lL1.ml" 119 2899 2912
+type(
+  Grammar.grammar -> Grammar.vn -> Equation.sexpr
+)
+ident(
+  def follow_vn "lL1.ml" 122 2982 2982 "lL1.ml" 1 0 -1
+)
+"lL1.ml" 120 2941 2957 "lL1.ml" 120 2941 2958
+type(
+  Grammar.grammar
+)
+ident(
+  def g "lL1.ml" 120 2941 2959 "lL1.ml" 120 2941 2980
+)
+"lL1.ml" 120 2941 2959 "lL1.ml" 120 2941 2961
+type(
+  Grammar.vn
+)
+ident(
+  def vn "lL1.ml" 120 2941 2965 "lL1.ml" 120 2941 2980
+)
+"lL1.ml" 120 2941 2969 "lL1.ml" 120 2941 2980
+type(
+  Grammar.VTSet.t
+)
+ident(
+  ext_ref Grammar.VTSet.empty
+)
+"lL1.ml" 120 2941 2965 "lL1.ml" 120 2941 2980
+type(
+  Equation.sexpr
+)
+"lL1.ml" 120 2941 2953 "lL1.ml" 120 2941 2980
+type(
+  Grammar.grammar -> Grammar.vn -> Equation.sexpr
+)
+type(
+  Grammar.grammar -> Grammar.vn -> Equation.sexpr
+)
+"lL1.ml" 122 2982 2986 "lL1.ml" 122 2982 2996
+type(
+  Grammar.grammar -> Equation.equation list
+)
+ident(
+  def follow_sys "lL1.ml" 125 3074 3074 "lL1.ml" 1 0 -1
+)
+"lL1.ml" 123 3026 3031 "lL1.ml" 123 3026 3032
+type(
+  Grammar.grammar
+)
+ident(
+  def g "lL1.ml" 123 3026 3036 "lL1.ml" 123 3026 3072
+)
+"lL1.ml" 123 3026 3036 "lL1.ml" 123 3026 3051
+type(
+  Grammar.grammar ->
+  string ->
+  (Grammar.grammar -> Grammar.vn -> Equation.sexpr) -> Equation.equation list
+)
+ident(
+  ext_ref Equation.make_set_system
+)
+"lL1.ml" 123 3026 3052 "lL1.ml" 123 3026 3053
+type(
+  Grammar.grammar
+)
+ident(
+  int_ref g "lL1.ml" 123 3026 3031 "lL1.ml" 123 3026 3032
+)
+"lL1.ml" 123 3026 3054 "lL1.ml" 123 3026 3062
+type(
+  string
+)
+"lL1.ml" 123 3026 3063 "lL1.ml" 123 3026 3072
+type(
+  Grammar.grammar -> Grammar.vn -> Equation.sexpr
+)
+ident(
+  int_ref follow_vn "lL1.ml" 119 2899 2903 "lL1.ml" 119 2899 2912
+)
+"lL1.ml" 123 3026 3036 "lL1.ml" 123 3026 3072
+call(
+  tail
+)
+type(
+  Equation.equation list
+)
+"lL1.ml" 123 3026 3027 "lL1.ml" 123 3026 3072
+type(
+  Grammar.grammar -> Equation.equation list
+)
+type(
+  Grammar.grammar -> Equation.equation list
+)
+"lL1.ml" 125 3074 3078 "lL1.ml" 125 3074 3084
+type(
+  Grammar.grammar -> Grammar.vn -> Grammar.VTSet.t
+)
+ident(
+  def follow "lL1.ml" 132 3249 3249 "lL1.ml" 1 0 -1
+)
+"lL1.ml" 126 3114 3119 "lL1.ml" 126 3114 3120
+type(
+  Grammar.grammar
+)
+ident(
+  def g "lL1.ml" 127 3124 3126 "lL1.ml" 128 3192 3225
+)
+"lL1.ml" 127 3124 3130 "lL1.ml" 127 3124 3133
+type(
+  Equation.solution
+)
+ident(
+  def sol "lL1.ml" 128 3192 3194 "lL1.ml" 128 3192 3225
+)
+"lL1.ml" 127 3124 3136 "lL1.ml" 127 3124 3141
+type(
+  Equation.equation list -> Equation.solution
+)
+ident(
+  ext_ref Equation.solve
+)
+"lL1.ml" 127 3124 3144 "lL1.ml" 127 3124 3152
+type(
+  Grammar.grammar -> Equation.equation list
+)
+ident(
+  int_ref null_sys "lL1.ml" 81 1929 1933 "lL1.ml" 81 1929 1941
+)
+"lL1.ml" 127 3124 3153 "lL1.ml" 127 3124 3154
+type(
+  Grammar.grammar
+)
+ident(
+  int_ref g "lL1.ml" 126 3114 3119 "lL1.ml" 126 3114 3120
+)
+"lL1.ml" 127 3124 3143 "lL1.ml" 127 3124 3155
+call(
+  stack
+)
+type(
+  Equation.equation list
+)
+"lL1.ml" 127 3124 3156 "lL1.ml" 127 3124 3157
+type(
+  Equation.equation list -> Equation.equation list -> Equation.equation list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"lL1.ml" 127 3124 3158 "lL1.ml" 127 3124 3167
+type(
+  Grammar.grammar -> Equation.equation list
+)
+ident(
+  int_ref first_sys "lL1.ml" 107 2603 2607 "lL1.ml" 107 2603 2616
+)
+"lL1.ml" 127 3124 3168 "lL1.ml" 127 3124 3169
+type(
+  Grammar.grammar
+)
+ident(
+  int_ref g "lL1.ml" 126 3114 3119 "lL1.ml" 126 3114 3120
+)
+"lL1.ml" 127 3124 3157 "lL1.ml" 127 3124 3170
+call(
+  stack
+)
+type(
+  Equation.equation list
+)
+"lL1.ml" 127 3124 3170 "lL1.ml" 127 3124 3171
+type(
+  Equation.equation list -> Equation.equation list -> Equation.equation list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"lL1.ml" 127 3124 3172 "lL1.ml" 127 3124 3182
+type(
+  Grammar.grammar -> Equation.equation list
+)
+ident(
+  int_ref follow_sys "lL1.ml" 122 2982 2986 "lL1.ml" 122 2982 2996
+)
+"lL1.ml" 127 3124 3183 "lL1.ml" 127 3124 3184
+type(
+  Grammar.grammar
+)
+ident(
+  int_ref g "lL1.ml" 126 3114 3119 "lL1.ml" 126 3114 3120
+)
+"lL1.ml" 127 3124 3171 "lL1.ml" 127 3124 3185
+call(
+  stack
+)
+type(
+  Equation.equation list
+)
+"lL1.ml" 127 3124 3157 "lL1.ml" 127 3124 3185
+call(
+  stack
+)
+type(
+  Equation.equation list
+)
+"lL1.ml" 127 3124 3142 "lL1.ml" 127 3124 3186
+call(
+  stack
+)
+type(
+  Equation.equation list
+)
+"lL1.ml" 127 3124 3136 "lL1.ml" 127 3124 3186
+call(
+  stack
+)
+type(
+  Equation.solution
+)
+"lL1.ml" 128 3192 3198 "lL1.ml" 128 3192 3200
+type(
+  Grammar.vn
+)
+ident(
+  def vn "lL1.ml" 128 3192 3204 "lL1.ml" 128 3192 3225
+)
+"lL1.ml" 128 3192 3204 "lL1.ml" 128 3192 3207
+type(
+  Equation.solution -> Equation.var -> Grammar.VTSet.t
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"lL1.ml" 128 3192 3208 "lL1.ml" 128 3192 3211
+type(
+  Equation.solution
+)
+ident(
+  int_ref sol "lL1.ml" 127 3124 3130 "lL1.ml" 127 3124 3133
+)
+"lL1.ml" 128 3192 3213 "lL1.ml" 128 3192 3221
+type(
+  string
+)
+"lL1.ml" 128 3192 3222 "lL1.ml" 128 3192 3224
+type(
+  Grammar.vn
+)
+ident(
+  int_ref vn "lL1.ml" 128 3192 3198 "lL1.ml" 128 3192 3200
+)
+"lL1.ml" 128 3192 3212 "lL1.ml" 128 3192 3225
+type(
+  string * Grammar.vn
+)
+"lL1.ml" 128 3192 3204 "lL1.ml" 128 3192 3225
+call(
+  tail
+)
+type(
+  Grammar.VTSet.t
+)
+"lL1.ml" 128 3192 3194 "lL1.ml" 128 3192 3225
+type(
+  Grammar.vn -> Grammar.VTSet.t
+)
+"lL1.ml" 127 3124 3126 "lL1.ml" 128 3192 3225
+type(
+  Grammar.vn -> Grammar.VTSet.t
+)
+"lL1.ml" 126 3114 3115 "lL1.ml" 128 3192 3225
+type(
+  Grammar.grammar -> Grammar.vn -> Grammar.VTSet.t
+)
+type(
+  Grammar.grammar -> Grammar.vn -> Grammar.VTSet.t
+)
+"lL1.ml" 132 3249 3253 "lL1.ml" 132 3249 3259
+type(
+  Grammar.grammar -> Grammar.vn -> Equation.bexpr
+)
+ident(
+  def ll1_vn "lL1.ml" 135 3321 3321 "lL1.ml" 1 0 -1
+)
+"lL1.ml" 133 3287 3301 "lL1.ml" 133 3287 3302
+type(
+  Grammar.grammar
+)
+ident(
+  def g "lL1.ml" 133 3287 3303 "lL1.ml" 133 3287 3319
+)
+"lL1.ml" 133 3287 3303 "lL1.ml" 133 3287 3305
+type(
+  Grammar.vn
+)
+ident(
+  def vn "lL1.ml" 133 3287 3309 "lL1.ml" 133 3287 3319
+)
+"lL1.ml" 133 3287 3314 "lL1.ml" 133 3287 3319
+type(
+  bool
+)
+"lL1.ml" 133 3287 3309 "lL1.ml" 133 3287 3319
+type(
+  Equation.bexpr
+)
+"lL1.ml" 133 3287 3297 "lL1.ml" 133 3287 3319
+type(
+  Grammar.grammar -> Grammar.vn -> Equation.bexpr
+)
+type(
+  Grammar.grammar -> Grammar.vn -> Equation.bexpr
+)
+"lL1.ml" 135 3321 3325 "lL1.ml" 135 3321 3331
+type(
+  Grammar.grammar -> Equation.bexpr
+)
+ident(
+  def is_ll1 "lL1.ml" 143 3478 3478 "lL1.ml" 1 0 -1
+)
+"lL1.ml" 136 3354 3359 "lL1.ml" 136 3354 3360
+type(
+  Grammar.grammar
+)
+ident(
+  def g "lL1.ml" 137 3365 3367 "lL1.ml" 138 3394 3456
+)
+"lL1.ml" 137 3365 3371 "lL1.ml" 137 3365 3374
+type(
+  Grammar.VNSet.t
+)
+ident(
+  def vns "lL1.ml" 138 3394 3396 "lL1.ml" 138 3394 3456
+)
+"lL1.ml" 137 3365 3377 "lL1.ml" 137 3365 3387
+type(
+  Grammar.grammar -> Grammar.VNSet.t
+)
+ident(
+  ext_ref Grammar.nterminals
+)
+"lL1.ml" 137 3365 3389 "lL1.ml" 137 3365 3390
+type(
+  Grammar.grammar
+)
+ident(
+  int_ref g "lL1.ml" 136 3354 3359 "lL1.ml" 136 3354 3360
+)
+"lL1.ml" 137 3365 3377 "lL1.ml" 137 3365 3390
+call(
+  stack
+)
+type(
+  Grammar.VNSet.t
+)
+"lL1.ml" 138 3394 3396 "lL1.ml" 138 3394 3406
+type(
+  (Grammar.VNSet.elt -> Equation.bexpr -> Equation.bexpr) ->
+  Grammar.VNSet.t -> Equation.bexpr -> Equation.bexpr
+)
+ident(
+  ext_ref Grammar.VNSet.fold
+)
+"lL1.ml" 138 3394 3412 "lL1.ml" 138 3394 3414
+type(
+  Grammar.VNSet.elt
+)
+ident(
+  def vn "lL1.ml" 138 3394 3415 "lL1.ml" 138 3394 3438
+)
+"lL1.ml" 138 3394 3415 "lL1.ml" 138 3394 3416
+type(
+  Equation.bexpr
+)
+ident(
+  def e "lL1.ml" 138 3394 3420 "lL1.ml" 138 3394 3438
+)
+"lL1.ml" 138 3394 3424 "lL1.ml" 138 3394 3430
+type(
+  Grammar.grammar -> Grammar.VNSet.elt -> Equation.bexpr
+)
+ident(
+  int_ref ll1_vn "lL1.ml" 132 3249 3253 "lL1.ml" 132 3249 3259
+)
+"lL1.ml" 138 3394 3431 "lL1.ml" 138 3394 3432
+type(
+  Grammar.grammar
+)
+ident(
+  int_ref g "lL1.ml" 136 3354 3359 "lL1.ml" 136 3354 3360
+)
+"lL1.ml" 138 3394 3433 "lL1.ml" 138 3394 3435
+type(
+  Grammar.VNSet.elt
+)
+ident(
+  int_ref vn "lL1.ml" 138 3394 3412 "lL1.ml" 138 3394 3414
+)
+"lL1.ml" 138 3394 3424 "lL1.ml" 138 3394 3435
+call(
+  stack
+)
+type(
+  Equation.bexpr
+)
+"lL1.ml" 138 3394 3436 "lL1.ml" 138 3394 3437
+type(
+  Equation.bexpr
+)
+ident(
+  int_ref e "lL1.ml" 138 3394 3415 "lL1.ml" 138 3394 3416
+)
+"lL1.ml" 138 3394 3420 "lL1.ml" 138 3394 3438
+type(
+  Equation.bexpr
+)
+"lL1.ml" 138 3394 3407 "lL1.ml" 138 3394 3439
+type(
+  Grammar.VNSet.elt -> Equation.bexpr -> Equation.bexpr
+)
+"lL1.ml" 138 3394 3441 "lL1.ml" 138 3394 3444
+type(
+  Grammar.VNSet.t
+)
+ident(
+  int_ref vns "lL1.ml" 137 3365 3371 "lL1.ml" 137 3365 3374
+)
+"lL1.ml" 138 3394 3451 "lL1.ml" 138 3394 3455
+type(
+  bool
+)
+"lL1.ml" 138 3394 3445 "lL1.ml" 138 3394 3456
+type(
+  Equation.bexpr
+)
+"lL1.ml" 138 3394 3396 "lL1.ml" 138 3394 3456
+call(
+  tail
+)
+type(
+  Equation.bexpr
+)
+"lL1.ml" 137 3365 3367 "lL1.ml" 138 3394 3456
+type(
+  Equation.bexpr
+)
+"lL1.ml" 136 3354 3355 "lL1.ml" 138 3394 3456
+type(
+  Grammar.grammar -> Equation.bexpr
+)
+type(
+  Grammar.grammar -> Equation.bexpr
+)
+"lL1.ml" 143 3478 3482 "lL1.ml" 143 3478 3490
+type(
+  Equation.solution -> Grammar.vn -> Grammar.VTSet.t
+)
+ident(
+  def is_first "lL1.ml" 146 3555 3555 "lL1.ml" 1 0 -1
+)
+"lL1.ml" 144 3521 3526 "lL1.ml" 144 3521 3529
+type(
+  Equation.solution
+)
+ident(
+  def sol "lL1.ml" 144 3521 3530 "lL1.ml" 144 3521 3553
+)
+"lL1.ml" 144 3521 3530 "lL1.ml" 144 3521 3531
+type(
+  Grammar.vn
+)
+ident(
+  def v "lL1.ml" 144 3521 3535 "lL1.ml" 144 3521 3553
+)
+"lL1.ml" 144 3521 3535 "lL1.ml" 144 3521 3538
+type(
+  Equation.solution -> Equation.var -> Grammar.VTSet.t
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"lL1.ml" 144 3521 3539 "lL1.ml" 144 3521 3542
+type(
+  Equation.solution
+)
+ident(
+  int_ref sol "lL1.ml" 144 3521 3526 "lL1.ml" 144 3521 3529
+)
+"lL1.ml" 144 3521 3544 "lL1.ml" 144 3521 3550
+type(
+  Grammar.vn -> Equation.var
+)
+ident(
+  int_ref firstv "lL1.ml" 90 2143 2147 "lL1.ml" 90 2143 2153
+)
+"lL1.ml" 144 3521 3551 "lL1.ml" 144 3521 3552
+type(
+  Grammar.vn
+)
+ident(
+  int_ref v "lL1.ml" 144 3521 3530 "lL1.ml" 144 3521 3531
+)
+"lL1.ml" 144 3521 3543 "lL1.ml" 144 3521 3553
+call(
+  stack
+)
+type(
+  Equation.var
+)
+"lL1.ml" 144 3521 3535 "lL1.ml" 144 3521 3553
+call(
+  tail
+)
+type(
+  Grammar.VTSet.t
+)
+"lL1.ml" 144 3521 3522 "lL1.ml" 144 3521 3553
+type(
+  Equation.solution -> Grammar.vn -> Grammar.VTSet.t
+)
+type(
+  Equation.solution -> Grammar.vn -> Grammar.VTSet.t
+)
+"lL1.ml" 146 3555 3559 "lL1.ml" 146 3555 3566
+type(
+  Equation.solution -> Grammar.vn -> bool
+)
+ident(
+  def is_null "lL1.ml" 149 3627 3627 "lL1.ml" 1 0 -1
+)
+"lL1.ml" 147 3594 3599 "lL1.ml" 147 3594 3602
+type(
+  Equation.solution
+)
+ident(
+  def sol "lL1.ml" 147 3594 3603 "lL1.ml" 147 3594 3625
+)
+"lL1.ml" 147 3594 3603 "lL1.ml" 147 3594 3604
+type(
+  Grammar.vn
+)
+ident(
+  def v "lL1.ml" 147 3594 3608 "lL1.ml" 147 3594 3625
+)
+"lL1.ml" 147 3594 3608 "lL1.ml" 147 3594 3611
+type(
+  Equation.solution -> Equation.var -> bool
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"lL1.ml" 147 3594 3612 "lL1.ml" 147 3594 3615
+type(
+  Equation.solution
+)
+ident(
+  int_ref sol "lL1.ml" 147 3594 3599 "lL1.ml" 147 3594 3602
+)
+"lL1.ml" 147 3594 3617 "lL1.ml" 147 3594 3622
+type(
+  Grammar.vn -> Equation.var
+)
+ident(
+  int_ref nullv "lL1.ml" 65 1532 1536 "lL1.ml" 65 1532 1541
+)
+"lL1.ml" 147 3594 3623 "lL1.ml" 147 3594 3624
+type(
+  Grammar.vn
+)
+ident(
+  int_ref v "lL1.ml" 147 3594 3603 "lL1.ml" 147 3594 3604
+)
+"lL1.ml" 147 3594 3616 "lL1.ml" 147 3594 3625
+call(
+  stack
+)
+type(
+  Equation.var
+)
+"lL1.ml" 147 3594 3608 "lL1.ml" 147 3594 3625
+call(
+  tail
+)
+type(
+  bool
+)
+"lL1.ml" 147 3594 3595 "lL1.ml" 147 3594 3625
+type(
+  Equation.solution -> Grammar.vn -> bool
+)
+type(
+  Equation.solution -> Grammar.vn -> bool
+)
+"lL1.ml" 149 3627 3631 "lL1.ml" 149 3627 3640
+type(
+  Equation.solution -> Grammar.vn -> Grammar.VTSet.t
+)
+ident(
+  def is_follow "lL1.ml" 152 3706 3706 "lL1.ml" 1 0 -1
+)
+"lL1.ml" 150 3671 3676 "lL1.ml" 150 3671 3679
+type(
+  Equation.solution
+)
+ident(
+  def sol "lL1.ml" 150 3671 3680 "lL1.ml" 150 3671 3704
+)
+"lL1.ml" 150 3671 3680 "lL1.ml" 150 3671 3681
+type(
+  Grammar.vn
+)
+ident(
+  def v "lL1.ml" 150 3671 3685 "lL1.ml" 150 3671 3704
+)
+"lL1.ml" 150 3671 3685 "lL1.ml" 150 3671 3688
+type(
+  Equation.solution -> Equation.var -> Grammar.VTSet.t
+)
+ident(
+  ext_ref Pervasives.snd
+)
+"lL1.ml" 150 3671 3689 "lL1.ml" 150 3671 3692
+type(
+  Equation.solution
+)
+ident(
+  int_ref sol "lL1.ml" 150 3671 3676 "lL1.ml" 150 3671 3679
+)
+"lL1.ml" 150 3671 3694 "lL1.ml" 150 3671 3701
+type(
+  Grammar.vn -> Equation.var
+)
+ident(
+  int_ref followv "lL1.ml" 116 2846 2850 "lL1.ml" 116 2846 2857
+)
+"lL1.ml" 150 3671 3702 "lL1.ml" 150 3671 3703
+type(
+  Grammar.vn
+)
+ident(
+  int_ref v "lL1.ml" 150 3671 3680 "lL1.ml" 150 3671 3681
+)
+"lL1.ml" 150 3671 3693 "lL1.ml" 150 3671 3704
+call(
+  stack
+)
+type(
+  Equation.var
+)
+"lL1.ml" 150 3671 3685 "lL1.ml" 150 3671 3704
+call(
+  tail
+)
+type(
+  Grammar.VTSet.t
+)
+"lL1.ml" 150 3671 3672 "lL1.ml" 150 3671 3704
+type(
+  Equation.solution -> Grammar.vn -> Grammar.VTSet.t
+)
+type(
+  Equation.solution -> Grammar.vn -> Grammar.VTSet.t
+)
+"lL1.ml" 152 3706 3710 "lL1.ml" 152 3706 3715
+type(
+  Grammar.grammar -> Grammar.vn -> Grammar.vt -> Grammar.v list option
+)
+ident(
+  def deriv "lL1.ml" 157 3890 3908 "lL1.ml" 1 0 -1
+)
+"lL1.ml" 153 3759 3765 "lL1.ml" 153 3759 3766
+type(
+  Grammar.grammar
+)
+ident(
+  def g "lL1.ml" 154 3770 3773 "lL1.ml" 157 3890 3908
+)
+"lL1.ml" 154 3770 3777 "lL1.ml" 154 3770 3780
+type(
+  Equation.solution
+)
+ident(
+  def sol "lL1.ml" 155 3839 3842 "lL1.ml" 157 3890 3908
+)
+"lL1.ml" 154 3770 3783 "lL1.ml" 154 3770 3788
+type(
+  Equation.equation list -> Equation.solution
+)
+ident(
+  ext_ref Equation.solve
+)
+"lL1.ml" 154 3770 3791 "lL1.ml" 154 3770 3799
+type(
+  Grammar.grammar -> Equation.equation list
+)
+ident(
+  int_ref null_sys "lL1.ml" 81 1929 1933 "lL1.ml" 81 1929 1941
+)
+"lL1.ml" 154 3770 3800 "lL1.ml" 154 3770 3801
+type(
+  Grammar.grammar
+)
+ident(
+  int_ref g "lL1.ml" 153 3759 3765 "lL1.ml" 153 3759 3766
+)
+"lL1.ml" 154 3770 3790 "lL1.ml" 154 3770 3802
+call(
+  stack
+)
+type(
+  Equation.equation list
+)
+"lL1.ml" 154 3770 3803 "lL1.ml" 154 3770 3804
+type(
+  Equation.equation list -> Equation.equation list -> Equation.equation list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"lL1.ml" 154 3770 3805 "lL1.ml" 154 3770 3814
+type(
+  Grammar.grammar -> Equation.equation list
+)
+ident(
+  int_ref first_sys "lL1.ml" 107 2603 2607 "lL1.ml" 107 2603 2616
+)
+"lL1.ml" 154 3770 3815 "lL1.ml" 154 3770 3816
+type(
+  Grammar.grammar
+)
+ident(
+  int_ref g "lL1.ml" 153 3759 3765 "lL1.ml" 153 3759 3766
+)
+"lL1.ml" 154 3770 3804 "lL1.ml" 154 3770 3817
+call(
+  stack
+)
+type(
+  Equation.equation list
+)
+"lL1.ml" 154 3770 3817 "lL1.ml" 154 3770 3818
+type(
+  Equation.equation list -> Equation.equation list -> Equation.equation list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"lL1.ml" 154 3770 3819 "lL1.ml" 154 3770 3829
+type(
+  Grammar.grammar -> Equation.equation list
+)
+ident(
+  int_ref follow_sys "lL1.ml" 122 2982 2986 "lL1.ml" 122 2982 2996
+)
+"lL1.ml" 154 3770 3830 "lL1.ml" 154 3770 3831
+type(
+  Grammar.grammar
+)
+ident(
+  int_ref g "lL1.ml" 153 3759 3765 "lL1.ml" 153 3759 3766
+)
+"lL1.ml" 154 3770 3818 "lL1.ml" 154 3770 3832
+call(
+  stack
+)
+type(
+  Equation.equation list
+)
+"lL1.ml" 154 3770 3804 "lL1.ml" 154 3770 3832
+call(
+  stack
+)
+type(
+  Equation.equation list
+)
+"lL1.ml" 154 3770 3789 "lL1.ml" 154 3770 3833
+call(
+  stack
+)
+type(
+  Equation.equation list
+)
+"lL1.ml" 154 3770 3783 "lL1.ml" 154 3770 3833
+call(
+  stack
+)
+type(
+  Equation.solution
+)
+"lL1.ml" 155 3839 3846 "lL1.ml" 155 3839 3848
+type(
+  Grammar.vn
+)
+ident(
+  def vn "lL1.ml" 155 3839 3849 "lL1.ml" 157 3890 3908
+)
+"lL1.ml" 155 3839 3849 "lL1.ml" 155 3839 3851
+type(
+  Grammar.vt
+)
+ident(
+  def vt "lL1.ml" 156 3856 3859 "lL1.ml" 157 3890 3908
+)
+"lL1.ml" 156 3856 3863 "lL1.ml" 156 3856 3868
+type(
+  Grammar.v list list
+)
+ident(
+  def prods "lL1.ml" 157 3890 3904 "lL1.ml" 157 3890 3908
+)
+"lL1.ml" 156 3856 3871 "lL1.ml" 156 3856 3881
+type(
+  Grammar.grammar -> Grammar.vn -> Grammar.v list list
+)
+ident(
+  ext_ref Grammar.production
+)
+"lL1.ml" 156 3856 3882 "lL1.ml" 156 3856 3883
+type(
+  Grammar.grammar
+)
+ident(
+  int_ref g "lL1.ml" 153 3759 3765 "lL1.ml" 153 3759 3766
+)
+"lL1.ml" 156 3856 3884 "lL1.ml" 156 3856 3886
+type(
+  Grammar.vn
+)
+ident(
+  int_ref vn "lL1.ml" 155 3839 3846 "lL1.ml" 155 3839 3848
+)
+"lL1.ml" 156 3856 3871 "lL1.ml" 156 3856 3886
+call(
+  stack
+)
+type(
+  Grammar.v list list
+)
+"lL1.ml" 157 3890 3904 "lL1.ml" 157 3890 3908
+type(
+  Grammar.v list option
+)
+"lL1.ml" 156 3856 3859 "lL1.ml" 157 3890 3908
+type(
+  Grammar.v list option
+)
+"lL1.ml" 155 3839 3842 "lL1.ml" 157 3890 3908
+type(
+  Grammar.vn -> Grammar.vt -> Grammar.v list option
+)
+"lL1.ml" 154 3770 3773 "lL1.ml" 157 3890 3908
+type(
+  Grammar.vn -> Grammar.vt -> Grammar.v list option
+)
+"lL1.ml" 153 3759 3761 "lL1.ml" 157 3890 3908
+type(
+  Grammar.grammar -> Grammar.vn -> Grammar.vt -> Grammar.v list option
+)
+type(
+  Grammar.grammar -> Grammar.vn -> Grammar.vt -> Grammar.v list option
+)

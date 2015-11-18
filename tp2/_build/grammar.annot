@@ -1,0 +1,2789 @@
+"grammar.ml" 5 118 122 "grammar.ml" 5 118 131
+type(
+  out_channel -> string -> unit
+)
+ident(
+  def output_vt "grammar.ml" 6 148 148 "grammar.ml" 1 0 -1
+)
+"grammar.ml" 5 118 134 "grammar.ml" 5 118 147
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"grammar.ml" 6 148 152 "grammar.ml" 6 148 161
+type(
+  out_channel -> string -> unit
+)
+ident(
+  def output_vn "grammar.ml" 8 179 179 "grammar.ml" 1 0 -1
+)
+"grammar.ml" 6 148 164 "grammar.ml" 6 148 177
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"grammar.ml" 15 247 294 "grammar.ml" 15 247 301
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "grammar.ml" 15 247 322 "grammar.ml" 15 247 326
+)
+"grammar.ml" 15 247 304 "grammar.ml" 15 247 322
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"grammar.ml" 15 247 262 "grammar.ml" 15 247 327
+call(
+  stack
+)
+"grammar.ml" 18 410 457 "grammar.ml" 18 410 464
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "grammar.ml" 18 410 485 "grammar.ml" 18 410 489
+)
+"grammar.ml" 18 410 467 "grammar.ml" 18 410 485
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"grammar.ml" 18 410 425 "grammar.ml" 18 410 490
+call(
+  stack
+)
+"grammar.ml" 21 513 566 "grammar.ml" 21 513 573
+type(
+  'a -> 'a -> int
+)
+ident(
+  def compare "grammar.ml" 21 513 594 "grammar.ml" 21 513 598
+)
+"grammar.ml" 21 513 576 "grammar.ml" 21 513 594
+type(
+  'a -> 'a -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"grammar.ml" 21 513 530 "grammar.ml" 21 513 599
+call(
+  stack
+)
+"grammar.ml" 30 730 734 "grammar.ml" 30 730 742
+type(
+  string -> string -> bool
+)
+ident(
+  def vt_equal "grammar.ml" 31 776 776 "grammar.ml" 1 0 -1
+)
+"grammar.ml" 30 730 772 "grammar.ml" 30 730 775
+type(
+  string -> string -> bool
+)
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"grammar.ml" 31 776 780 "grammar.ml" 31 776 788
+type(
+  string -> string -> bool
+)
+ident(
+  def vn_equal "grammar.ml" 33 823 823 "grammar.ml" 1 0 -1
+)
+"grammar.ml" 31 776 818 "grammar.ml" 31 776 821
+type(
+  string -> string -> bool
+)
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"grammar.ml" 33 823 827 "grammar.ml" 33 823 839
+type(
+  'a -> 'a
+)
+ident(
+  def string_to_vt "grammar.ml" 35 848 848 "grammar.ml" 1 0 -1
+)
+"grammar.ml" 33 823 840 "grammar.ml" 33 823 841
+type(
+  'a
+)
+ident(
+  def s "grammar.ml" 33 823 844 "grammar.ml" 33 823 845
+)
+"grammar.ml" 33 823 844 "grammar.ml" 33 823 845
+type(
+  'a
+)
+ident(
+  int_ref s "grammar.ml" 33 823 840 "grammar.ml" 33 823 841
+)
+"grammar.ml" 35 848 852 "grammar.ml" 35 848 864
+type(
+  'a -> 'a
+)
+ident(
+  def vt_to_string "grammar.ml" 37 872 872 "grammar.ml" 1 0 -1
+)
+"grammar.ml" 35 848 865 "grammar.ml" 35 848 866
+type(
+  'a
+)
+ident(
+  def s "grammar.ml" 35 848 869 "grammar.ml" 35 848 870
+)
+"grammar.ml" 35 848 869 "grammar.ml" 35 848 870
+type(
+  'a
+)
+ident(
+  int_ref s "grammar.ml" 35 848 865 "grammar.ml" 35 848 866
+)
+"grammar.ml" 37 872 876 "grammar.ml" 37 872 888
+type(
+  'a -> 'a
+)
+ident(
+  def vn_to_string "grammar.ml" 39 896 896 "grammar.ml" 1 0 -1
+)
+"grammar.ml" 37 872 889 "grammar.ml" 37 872 890
+type(
+  'a
+)
+ident(
+  def s "grammar.ml" 37 872 893 "grammar.ml" 37 872 894
+)
+"grammar.ml" 37 872 893 "grammar.ml" 37 872 894
+type(
+  'a
+)
+ident(
+  int_ref s "grammar.ml" 37 872 889 "grammar.ml" 37 872 890
+)
+"grammar.ml" 39 896 900 "grammar.ml" 39 896 905
+type(
+  grammar -> vn
+)
+ident(
+  def axiom "grammar.ml" 41 919 919 "grammar.ml" 1 0 -1
+)
+"grammar.ml" 39 896 906 "grammar.ml" 39 896 907
+type(
+  grammar
+)
+ident(
+  def g "grammar.ml" 39 896 910 "grammar.ml" 39 896 917
+)
+"grammar.ml" 39 896 910 "grammar.ml" 39 896 911
+type(
+  grammar
+)
+ident(
+  int_ref g "grammar.ml" 39 896 906 "grammar.ml" 39 896 907
+)
+"grammar.ml" 39 896 910 "grammar.ml" 39 896 917
+type(
+  vn
+)
+"grammar.ml" 41 919 923 "grammar.ml" 41 919 936
+type(
+  'a -> string
+)
+ident(
+  def end_of_stream "grammar.ml" 43 946 946 "grammar.ml" 1 0 -1
+)
+"grammar.ml" 41 919 937 "grammar.ml" 41 919 938
+type(
+  'a
+)
+ident(
+  def g "grammar.ml" 41 919 941 "grammar.ml" 41 919 944
+)
+"grammar.ml" 41 919 941 "grammar.ml" 41 919 944
+type(
+  string
+)
+"grammar.ml" 43 946 950 "grammar.ml" 43 946 959
+type(
+  grammar -> VTSet.t
+)
+ident(
+  def terminals "grammar.ml" 45 977 977 "grammar.ml" 1 0 -1
+)
+"grammar.ml" 43 946 960 "grammar.ml" 43 946 961
+type(
+  grammar
+)
+ident(
+  def g "grammar.ml" 43 946 964 "grammar.ml" 43 946 975
+)
+"grammar.ml" 43 946 964 "grammar.ml" 43 946 965
+type(
+  grammar
+)
+ident(
+  int_ref g "grammar.ml" 43 946 960 "grammar.ml" 43 946 961
+)
+"grammar.ml" 43 946 964 "grammar.ml" 43 946 975
+type(
+  VTSet.t
+)
+"grammar.ml" 45 977 981 "grammar.ml" 45 977 991
+type(
+  grammar -> VNSet.t
+)
+ident(
+  def nterminals "grammar.ml" 47 1013 1013 "grammar.ml" 1 0 -1
+)
+"grammar.ml" 45 977 992 "grammar.ml" 45 977 993
+type(
+  grammar
+)
+ident(
+  def g "grammar.ml" 45 977 996 "grammar.ml" 45 977 1011
+)
+"grammar.ml" 45 977 996 "grammar.ml" 45 977 997
+type(
+  grammar
+)
+ident(
+  int_ref g "grammar.ml" 45 977 992 "grammar.ml" 45 977 993
+)
+"grammar.ml" 45 977 996 "grammar.ml" 45 977 1011
+type(
+  VNSet.t
+)
+"grammar.ml" 47 1013 1017 "grammar.ml" 47 1013 1027
+type(
+  grammar -> VNMap.key -> ProdSet.elt list
+)
+ident(
+  def production "grammar.ml" 53 1160 1160 "grammar.ml" 1 0 -1
+)
+"grammar.ml" 47 1013 1028 "grammar.ml" 47 1013 1029
+type(
+  grammar
+)
+ident(
+  def g "grammar.ml" 47 1013 1030 "grammar.ml" 51 1098 1116
+)
+"grammar.ml" 47 1013 1030 "grammar.ml" 47 1013 1032
+type(
+  VNMap.key
+)
+ident(
+  def vn "grammar.ml" 48 1036 1037 "grammar.ml" 51 1098 1116
+)
+"grammar.ml" 49 1042 1045 "grammar.ml" 49 1042 1061
+type(
+  ProdSet.t -> ProdSet.elt list
+)
+ident(
+  ext_ref ProdSet.elements
+)
+"grammar.ml" 49 1042 1063 "grammar.ml" 49 1042 1073
+type(
+  VNMap.key -> ProdSet.t VNMap.t -> ProdSet.t
+)
+ident(
+  ext_ref VNMap.find
+)
+"grammar.ml" 49 1042 1074 "grammar.ml" 49 1042 1076
+type(
+  VNMap.key
+)
+ident(
+  int_ref vn "grammar.ml" 47 1013 1030 "grammar.ml" 47 1013 1032
+)
+"grammar.ml" 49 1042 1077 "grammar.ml" 49 1042 1078
+type(
+  grammar
+)
+ident(
+  int_ref g "grammar.ml" 47 1013 1028 "grammar.ml" 47 1013 1029
+)
+"grammar.ml" 49 1042 1077 "grammar.ml" 49 1042 1090
+type(
+  ProdSet.t VNMap.t
+)
+"grammar.ml" 49 1042 1062 "grammar.ml" 49 1042 1091
+call(
+  stack
+)
+type(
+  ProdSet.t
+)
+"grammar.ml" 49 1042 1045 "grammar.ml" 49 1042 1091
+call(
+  stack
+)
+type(
+  ProdSet.elt list
+)
+"grammar.ml" 51 1098 1101 "grammar.ml" 51 1098 1110
+type(
+  exn
+)
+"grammar.ml" 51 1098 1114 "grammar.ml" 51 1098 1116
+type(
+  ProdSet.elt list
+)
+"grammar.ml" 48 1036 1037 "grammar.ml" 51 1098 1116
+type(
+  ProdSet.elt list
+)
+"grammar.ml" 53 1160 1164 "grammar.ml" 53 1160 1169
+type(
+  vn -> v -> bool
+)
+ident(
+  def is_vn "grammar.ml" 60 1270 1270 "grammar.ml" 1 0 -1
+)
+"grammar.ml" 54 1191 1196 "grammar.ml" 54 1191 1198
+type(
+  vn
+)
+ident(
+  def vn "grammar.ml" 54 1191 1199 "grammar.ml" 57 1238 1267
+)
+"grammar.ml" 54 1191 1199 "grammar.ml" 54 1191 1200
+type(
+  v
+)
+ident(
+  def v "grammar.ml" 55 1205 1207 "grammar.ml" 57 1238 1267
+)
+"grammar.ml" 55 1205 1213 "grammar.ml" 55 1205 1214
+type(
+  v
+)
+ident(
+  int_ref v "grammar.ml" 54 1191 1199 "grammar.ml" 54 1191 1200
+)
+"grammar.ml" 56 1220 1227 "grammar.ml" 56 1220 1228
+type(
+  vt
+)
+"grammar.ml" 56 1220 1224 "grammar.ml" 56 1220 1228
+type(
+  v
+)
+"grammar.ml" 56 1220 1232 "grammar.ml" 56 1220 1237
+type(
+  bool
+)
+"grammar.ml" 57 1238 1245 "grammar.ml" 57 1238 1248
+type(
+  vn
+)
+ident(
+  def vn' "grammar.ml" 57 1238 1252 "grammar.ml" 57 1238 1267
+)
+"grammar.ml" 57 1238 1242 "grammar.ml" 57 1238 1248
+type(
+  v
+)
+"grammar.ml" 57 1238 1252 "grammar.ml" 57 1238 1260
+type(
+  vn -> vn -> bool
+)
+ident(
+  int_ref vn_equal "grammar.ml" 31 776 780 "grammar.ml" 31 776 788
+)
+"grammar.ml" 57 1238 1261 "grammar.ml" 57 1238 1263
+type(
+  vn
+)
+ident(
+  int_ref vn "grammar.ml" 54 1191 1196 "grammar.ml" 54 1191 1198
+)
+"grammar.ml" 57 1238 1264 "grammar.ml" 57 1238 1267
+type(
+  vn
+)
+ident(
+  int_ref vn' "grammar.ml" 57 1238 1245 "grammar.ml" 57 1238 1248
+)
+"grammar.ml" 57 1238 1252 "grammar.ml" 57 1238 1267
+call(
+  tail
+)
+type(
+  bool
+)
+"grammar.ml" 55 1205 1207 "grammar.ml" 57 1238 1267
+type(
+  bool
+)
+"grammar.ml" 54 1191 1192 "grammar.ml" 57 1238 1267
+type(
+  vn -> v -> bool
+)
+type(
+  vn -> v -> bool
+)
+"grammar.ml" 60 1270 1274 "grammar.ml" 60 1270 1290
+type(
+  VTSet.t -> VTSet.t -> VTSet.elt * VTSet.elt list -> unit
+)
+ident(
+  def check_production "grammar.ml" 69 1579 1579 "grammar.ml" 1 0 -1
+)
+"grammar.ml" 60 1270 1291 "grammar.ml" 60 1270 1294
+type(
+  VTSet.t
+)
+ident(
+  def vnt "grammar.ml" 60 1270 1295 "grammar.ml" 67 1556 1577
+)
+"grammar.ml" 60 1270 1295 "grammar.ml" 60 1270 1296
+type(
+  VTSet.t
+)
+ident(
+  def v "grammar.ml" 60 1270 1297 "grammar.ml" 67 1556 1577
+)
+"grammar.ml" 60 1270 1298 "grammar.ml" 60 1270 1300
+type(
+  VTSet.elt
+)
+ident(
+  def vn "grammar.ml" 61 1306 1307 "grammar.ml" 67 1556 1577
+)
+"grammar.ml" 60 1270 1301 "grammar.ml" 60 1270 1302
+type(
+  VTSet.elt list
+)
+ident(
+  def l "grammar.ml" 61 1306 1307 "grammar.ml" 67 1556 1577
+)
+"grammar.ml" 60 1270 1297 "grammar.ml" 60 1270 1303
+type(
+  VTSet.elt * VTSet.elt list
+)
+"grammar.ml" 61 1306 1311 "grammar.ml" 61 1306 1314
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"grammar.ml" 61 1306 1316 "grammar.ml" 61 1306 1325
+type(
+  VTSet.elt -> VTSet.t -> bool
+)
+ident(
+  ext_ref VTSet.mem
+)
+"grammar.ml" 61 1306 1326 "grammar.ml" 61 1306 1328
+type(
+  VTSet.elt
+)
+ident(
+  int_ref vn "grammar.ml" 60 1270 1298 "grammar.ml" 60 1270 1300
+)
+"grammar.ml" 61 1306 1329 "grammar.ml" 61 1306 1332
+type(
+  VTSet.t
+)
+ident(
+  int_ref vnt "grammar.ml" 60 1270 1291 "grammar.ml" 60 1270 1294
+)
+"grammar.ml" 61 1306 1315 "grammar.ml" 61 1306 1333
+call(
+  stack
+)
+type(
+  bool
+)
+"grammar.ml" 61 1306 1311 "grammar.ml" 61 1306 1333
+type(
+  bool
+)
+"grammar.ml" 62 1334 1341 "grammar.ml" 62 1334 1349
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"grammar.ml" 62 1334 1351 "grammar.ml" 62 1334 1365
+type(
+  (VTSet.elt -> VTSet.elt -> string, unit, string) format ->
+  VTSet.elt -> VTSet.elt -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"grammar.ml" 62 1334 1366 "grammar.ml" 62 1334 1407
+type(
+  (VTSet.elt -> VTSet.elt -> string, unit, string) format
+)
+"grammar.ml" 62 1334 1408 "grammar.ml" 62 1334 1410
+type(
+  VTSet.elt
+)
+ident(
+  int_ref vn "grammar.ml" 60 1270 1298 "grammar.ml" 60 1270 1300
+)
+"grammar.ml" 62 1334 1411 "grammar.ml" 62 1334 1413
+type(
+  VTSet.elt
+)
+ident(
+  int_ref vn "grammar.ml" 60 1270 1298 "grammar.ml" 60 1270 1300
+)
+"grammar.ml" 62 1334 1350 "grammar.ml" 62 1334 1414
+call(
+  stack
+)
+type(
+  string
+)
+"grammar.ml" 62 1334 1341 "grammar.ml" 62 1334 1414
+call(
+  stack
+)
+type(
+  unit
+)
+"grammar.ml" 61 1306 1307 "grammar.ml" 63 1415 1417
+type(
+  unit
+)
+"grammar.ml" 65 1424 1430 "grammar.ml" 65 1424 1431
+type(
+  VTSet.elt
+)
+ident(
+  def v "grammar.ml" 66 1480 1482 "grammar.ml" 66 1480 1555
+)
+"grammar.ml" 65 1424 1434 "grammar.ml" 65 1424 1443
+type(
+  (VTSet.elt -> bool) -> VTSet.elt list -> VTSet.elt
+)
+ident(
+  ext_ref List.find
+)
+"grammar.ml" 65 1424 1449 "grammar.ml" 65 1424 1450
+type(
+  VTSet.elt
+)
+ident(
+  def s "grammar.ml" 65 1424 1454 "grammar.ml" 65 1424 1473
+)
+"grammar.ml" 65 1424 1454 "grammar.ml" 65 1424 1457
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"grammar.ml" 65 1424 1459 "grammar.ml" 65 1424 1468
+type(
+  VTSet.elt -> VTSet.t -> bool
+)
+ident(
+  ext_ref VTSet.mem
+)
+"grammar.ml" 65 1424 1469 "grammar.ml" 65 1424 1470
+type(
+  VTSet.elt
+)
+ident(
+  int_ref s "grammar.ml" 65 1424 1449 "grammar.ml" 65 1424 1450
+)
+"grammar.ml" 65 1424 1471 "grammar.ml" 65 1424 1472
+type(
+  VTSet.t
+)
+ident(
+  int_ref v "grammar.ml" 60 1270 1295 "grammar.ml" 60 1270 1296
+)
+"grammar.ml" 65 1424 1458 "grammar.ml" 65 1424 1473
+call(
+  stack
+)
+type(
+  bool
+)
+"grammar.ml" 65 1424 1454 "grammar.ml" 65 1424 1473
+type(
+  bool
+)
+"grammar.ml" 65 1424 1444 "grammar.ml" 65 1424 1474
+type(
+  VTSet.elt -> bool
+)
+"grammar.ml" 65 1424 1475 "grammar.ml" 65 1424 1476
+type(
+  VTSet.elt list
+)
+ident(
+  int_ref l "grammar.ml" 60 1270 1301 "grammar.ml" 60 1270 1302
+)
+"grammar.ml" 65 1424 1434 "grammar.ml" 65 1424 1476
+call(
+  stack
+)
+type(
+  VTSet.elt
+)
+"grammar.ml" 66 1480 1482 "grammar.ml" 66 1480 1490
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"grammar.ml" 66 1480 1492 "grammar.ml" 66 1480 1506
+type(
+  (VTSet.elt -> VTSet.elt -> VTSet.elt -> string, unit, string) format ->
+  VTSet.elt -> VTSet.elt -> VTSet.elt -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"grammar.ml" 66 1480 1507 "grammar.ml" 66 1480 1547
+type(
+  (VTSet.elt -> VTSet.elt -> VTSet.elt -> string, unit, string) format
+)
+"grammar.ml" 66 1480 1548 "grammar.ml" 66 1480 1550
+type(
+  VTSet.elt
+)
+ident(
+  int_ref vn "grammar.ml" 60 1270 1298 "grammar.ml" 60 1270 1300
+)
+"grammar.ml" 66 1480 1551 "grammar.ml" 66 1480 1552
+type(
+  VTSet.elt
+)
+ident(
+  int_ref v "grammar.ml" 65 1424 1430 "grammar.ml" 65 1424 1431
+)
+"grammar.ml" 66 1480 1553 "grammar.ml" 66 1480 1554
+type(
+  VTSet.elt
+)
+ident(
+  int_ref v "grammar.ml" 65 1424 1430 "grammar.ml" 65 1424 1431
+)
+"grammar.ml" 66 1480 1491 "grammar.ml" 66 1480 1555
+call(
+  stack
+)
+type(
+  string
+)
+"grammar.ml" 66 1480 1482 "grammar.ml" 66 1480 1555
+call(
+  stack
+)
+type(
+  unit
+)
+"grammar.ml" 65 1424 1426 "grammar.ml" 66 1480 1555
+type(
+  unit
+)
+"grammar.ml" 67 1556 1562 "grammar.ml" 67 1556 1571
+type(
+  exn
+)
+"grammar.ml" 67 1556 1575 "grammar.ml" 67 1556 1577
+type(
+  unit
+)
+"grammar.ml" 64 1419 1420 "grammar.ml" 67 1556 1577
+type(
+  unit
+)
+"grammar.ml" 61 1306 1307 "grammar.ml" 67 1556 1577
+type(
+  unit
+)
+"grammar.ml" 69 1579 1583 "grammar.ml" 69 1579 1594
+type(
+  Lexing.lexbuf -> grammar
+)
+ident(
+  def from_lexbuf "grammar.ml" 101 2715 2715 "grammar.ml" 1 0 -1
+)
+"grammar.ml" 69 1579 1595 "grammar.ml" 69 1579 1601
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "grammar.ml" 70 1605 1606 "grammar.ml" 99 2711 2713
+)
+"grammar.ml" 70 1605 1611 "grammar.ml" 70 1605 1613
+type(
+  string list
+)
+ident(
+  def vt "grammar.ml" 71 1678 1679 "grammar.ml" 99 2711 2713
+)
+"grammar.ml" 70 1605 1614 "grammar.ml" 70 1605 1616
+type(
+  string list
+)
+ident(
+  def vn "grammar.ml" 71 1678 1679 "grammar.ml" 99 2711 2713
+)
+"grammar.ml" 70 1605 1617 "grammar.ml" 70 1605 1619
+type(
+  string
+)
+ident(
+  def ax "grammar.ml" 71 1678 1679 "grammar.ml" 99 2711 2713
+)
+"grammar.ml" 70 1605 1620 "grammar.ml" 70 1605 1624
+type(
+  (string * string list) list
+)
+ident(
+  def prod "grammar.ml" 71 1678 1679 "grammar.ml" 99 2711 2713
+)
+"grammar.ml" 70 1605 1610 "grammar.ml" 70 1605 1625
+type(
+  string list * string list * string * (string * string list) list
+)
+"grammar.ml" 70 1605 1629 "grammar.ml" 70 1605 1647
+type(
+  (Lexing.lexbuf -> GrammarParser.token) ->
+  Lexing.lexbuf ->
+  string list * string list * string * (string * string list) list
+)
+ident(
+  ext_ref GrammarParser.main
+)
+"grammar.ml" 70 1605 1648 "grammar.ml" 70 1605 1666
+type(
+  Lexing.lexbuf -> GrammarParser.token
+)
+ident(
+  ext_ref GrammarLexer.token
+)
+"grammar.ml" 70 1605 1667 "grammar.ml" 70 1605 1673
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "grammar.ml" 69 1579 1595 "grammar.ml" 69 1579 1601
+)
+"grammar.ml" 70 1605 1629 "grammar.ml" 70 1605 1673
+call(
+  stack
+)
+type(
+  string list * string list * string * (string * string list) list
+)
+"grammar.ml" 71 1678 1683 "grammar.ml" 71 1678 1688
+type(
+  VTSet.t
+)
+ident(
+  def terms "grammar.ml" 72 1756 1757 "grammar.ml" 99 2711 2713
+)
+"grammar.ml" 71 1678 1691 "grammar.ml" 71 1678 1705
+type(
+  (VTSet.t -> VTSet.elt -> VTSet.t) -> VTSet.t -> VTSet.elt list -> VTSet.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"grammar.ml" 71 1678 1711 "grammar.ml" 71 1678 1714
+type(
+  VTSet.t
+)
+ident(
+  def acc "grammar.ml" 71 1678 1715 "grammar.ml" 71 1678 1735
+)
+"grammar.ml" 71 1678 1715 "grammar.ml" 71 1678 1716
+type(
+  VTSet.elt
+)
+ident(
+  def e "grammar.ml" 71 1678 1720 "grammar.ml" 71 1678 1735
+)
+"grammar.ml" 71 1678 1720 "grammar.ml" 71 1678 1729
+type(
+  VTSet.elt -> VTSet.t -> VTSet.t
+)
+ident(
+  ext_ref VTSet.add
+)
+"grammar.ml" 71 1678 1730 "grammar.ml" 71 1678 1731
+type(
+  VTSet.elt
+)
+ident(
+  int_ref e "grammar.ml" 71 1678 1715 "grammar.ml" 71 1678 1716
+)
+"grammar.ml" 71 1678 1732 "grammar.ml" 71 1678 1735
+type(
+  VTSet.t
+)
+ident(
+  int_ref acc "grammar.ml" 71 1678 1711 "grammar.ml" 71 1678 1714
+)
+"grammar.ml" 71 1678 1720 "grammar.ml" 71 1678 1735
+call(
+  tail
+)
+type(
+  VTSet.t
+)
+"grammar.ml" 71 1678 1706 "grammar.ml" 71 1678 1736
+type(
+  VTSet.t -> VTSet.elt -> VTSet.t
+)
+"grammar.ml" 71 1678 1737 "grammar.ml" 71 1678 1748
+type(
+  VTSet.t
+)
+ident(
+  ext_ref VTSet.empty
+)
+"grammar.ml" 71 1678 1749 "grammar.ml" 71 1678 1751
+type(
+  VTSet.elt list
+)
+ident(
+  int_ref vt "grammar.ml" 70 1605 1611 "grammar.ml" 70 1605 1613
+)
+"grammar.ml" 71 1678 1691 "grammar.ml" 71 1678 1751
+call(
+  stack
+)
+type(
+  VTSet.t
+)
+"grammar.ml" 72 1756 1761 "grammar.ml" 72 1756 1767
+type(
+  VNSet.t
+)
+ident(
+  def nterms "grammar.ml" 73 1835 1836 "grammar.ml" 99 2711 2713
+)
+"grammar.ml" 72 1756 1770 "grammar.ml" 72 1756 1784
+type(
+  (VNSet.t -> VNSet.elt -> VNSet.t) -> VNSet.t -> VNSet.elt list -> VNSet.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"grammar.ml" 72 1756 1790 "grammar.ml" 72 1756 1793
+type(
+  VNSet.t
+)
+ident(
+  def acc "grammar.ml" 72 1756 1794 "grammar.ml" 72 1756 1814
+)
+"grammar.ml" 72 1756 1794 "grammar.ml" 72 1756 1795
+type(
+  VNSet.elt
+)
+ident(
+  def e "grammar.ml" 72 1756 1799 "grammar.ml" 72 1756 1814
+)
+"grammar.ml" 72 1756 1799 "grammar.ml" 72 1756 1808
+type(
+  VNSet.elt -> VNSet.t -> VNSet.t
+)
+ident(
+  ext_ref VNSet.add
+)
+"grammar.ml" 72 1756 1809 "grammar.ml" 72 1756 1810
+type(
+  VNSet.elt
+)
+ident(
+  int_ref e "grammar.ml" 72 1756 1794 "grammar.ml" 72 1756 1795
+)
+"grammar.ml" 72 1756 1811 "grammar.ml" 72 1756 1814
+type(
+  VNSet.t
+)
+ident(
+  int_ref acc "grammar.ml" 72 1756 1790 "grammar.ml" 72 1756 1793
+)
+"grammar.ml" 72 1756 1799 "grammar.ml" 72 1756 1814
+call(
+  tail
+)
+type(
+  VNSet.t
+)
+"grammar.ml" 72 1756 1785 "grammar.ml" 72 1756 1815
+type(
+  VNSet.t -> VNSet.elt -> VNSet.t
+)
+"grammar.ml" 72 1756 1816 "grammar.ml" 72 1756 1827
+type(
+  VNSet.t
+)
+ident(
+  ext_ref VNSet.empty
+)
+"grammar.ml" 72 1756 1828 "grammar.ml" 72 1756 1830
+type(
+  VNSet.elt list
+)
+ident(
+  int_ref vn "grammar.ml" 70 1605 1614 "grammar.ml" 70 1605 1616
+)
+"grammar.ml" 72 1756 1770 "grammar.ml" 72 1756 1830
+call(
+  stack
+)
+type(
+  VNSet.t
+)
+"grammar.ml" 73 1835 1840 "grammar.ml" 73 1835 1846
+type(
+  VTSet.t
+)
+ident(
+  def idents "grammar.ml" 75 1878 1879 "grammar.ml" 99 2711 2713
+)
+"grammar.ml" 73 1835 1849 "grammar.ml" 73 1835 1860
+type(
+  VTSet.t -> VNSet.t -> VTSet.t
+)
+ident(
+  ext_ref VTSet.union
+)
+"grammar.ml" 73 1835 1861 "grammar.ml" 73 1835 1866
+type(
+  VTSet.t
+)
+ident(
+  int_ref terms "grammar.ml" 71 1678 1683 "grammar.ml" 71 1678 1688
+)
+"grammar.ml" 73 1835 1867 "grammar.ml" 73 1835 1873
+type(
+  VNSet.t
+)
+ident(
+  int_ref nterms "grammar.ml" 72 1756 1761 "grammar.ml" 72 1756 1767
+)
+"grammar.ml" 73 1835 1849 "grammar.ml" 73 1835 1873
+call(
+  stack
+)
+type(
+  VTSet.t
+)
+"grammar.ml" 75 1878 1883 "grammar.ml" 75 1878 1891
+type(
+  ProdSet.t VNMap.t -> VTSet.elt * VNSet.elt list -> ProdSet.t VNMap.t
+)
+ident(
+  def add_prod "grammar.ml" 82 2208 2209 "grammar.ml" 99 2711 2713
+)
+"grammar.ml" 75 1878 1892 "grammar.ml" 75 1878 1897
+type(
+  ProdSet.t VNMap.t
+)
+ident(
+  def prods "grammar.ml" 75 1878 1898 "grammar.ml" 79 2097 2136
+)
+"grammar.ml" 75 1878 1899 "grammar.ml" 75 1878 1901
+type(
+  VTSet.elt
+)
+ident(
+  def vn "grammar.ml" 76 1907 1909 "grammar.ml" 79 2097 2136
+)
+"grammar.ml" 75 1878 1902 "grammar.ml" 75 1878 1903
+type(
+  VNSet.elt list
+)
+ident(
+  def l "grammar.ml" 76 1907 1909 "grammar.ml" 79 2097 2136
+)
+"grammar.ml" 75 1878 1898 "grammar.ml" 75 1878 1904
+type(
+  VTSet.elt * VNSet.elt list
+)
+"grammar.ml" 76 1907 1909 "grammar.ml" 76 1907 1925
+type(
+  VNSet.t -> VTSet.t -> VTSet.elt * VNSet.elt list -> unit
+)
+ident(
+  int_ref check_production "grammar.ml" 60 1270 1274 "grammar.ml" 60 1270 1290
+)
+"grammar.ml" 76 1907 1926 "grammar.ml" 76 1907 1932
+type(
+  VNSet.t
+)
+ident(
+  int_ref nterms "grammar.ml" 72 1756 1761 "grammar.ml" 72 1756 1767
+)
+"grammar.ml" 76 1907 1933 "grammar.ml" 76 1907 1939
+type(
+  VTSet.t
+)
+ident(
+  int_ref idents "grammar.ml" 73 1835 1840 "grammar.ml" 73 1835 1846
+)
+"grammar.ml" 76 1907 1941 "grammar.ml" 76 1907 1943
+type(
+  VTSet.elt
+)
+ident(
+  int_ref vn "grammar.ml" 75 1878 1899 "grammar.ml" 75 1878 1901
+)
+"grammar.ml" 76 1907 1944 "grammar.ml" 76 1907 1945
+type(
+  VNSet.elt list
+)
+ident(
+  int_ref l "grammar.ml" 75 1878 1902 "grammar.ml" 75 1878 1903
+)
+"grammar.ml" 76 1907 1940 "grammar.ml" 76 1907 1946
+type(
+  VTSet.elt * VNSet.elt list
+)
+"grammar.ml" 76 1907 1909 "grammar.ml" 76 1907 1946
+call(
+  stack
+)
+type(
+  unit
+)
+"grammar.ml" 77 1948 1954 "grammar.ml" 77 1948 1956
+type(
+  ProdSet.t
+)
+ident(
+  def ps "grammar.ml" 78 2020 2022 "grammar.ml" 79 2097 2136
+)
+"grammar.ml" 77 1948 1963 "grammar.ml" 77 1948 1973
+type(
+  VNMap.key -> ProdSet.t VNMap.t -> ProdSet.t
+)
+ident(
+  ext_ref VNMap.find
+)
+"grammar.ml" 77 1948 1974 "grammar.ml" 77 1948 1976
+type(
+  VTSet.elt
+)
+ident(
+  int_ref vn "grammar.ml" 75 1878 1899 "grammar.ml" 75 1878 1901
+)
+"grammar.ml" 77 1948 1977 "grammar.ml" 77 1948 1982
+type(
+  ProdSet.t VNMap.t
+)
+ident(
+  int_ref prods "grammar.ml" 75 1878 1892 "grammar.ml" 75 1878 1897
+)
+"grammar.ml" 77 1948 1963 "grammar.ml" 77 1948 1982
+call(
+  stack
+)
+type(
+  ProdSet.t
+)
+"grammar.ml" 77 1948 1989 "grammar.ml" 77 1948 1998
+type(
+  exn
+)
+"grammar.ml" 77 1948 2002 "grammar.ml" 77 1948 2015
+type(
+  ProdSet.t
+)
+ident(
+  ext_ref ProdSet.empty
+)
+"grammar.ml" 77 1948 1959 "grammar.ml" 77 1948 2015
+type(
+  ProdSet.t
+)
+"grammar.ml" 78 2020 2026 "grammar.ml" 78 2020 2027
+type(
+  v list
+)
+ident(
+  def l "grammar.ml" 79 2097 2099 "grammar.ml" 79 2097 2136
+)
+"grammar.ml" 78 2020 2031 "grammar.ml" 78 2020 2039
+type(
+  (VNSet.elt -> v) -> VNSet.elt list -> v list
+)
+ident(
+  ext_ref List.map
+)
+"grammar.ml" 78 2020 2045 "grammar.ml" 78 2020 2046
+type(
+  VNSet.elt
+)
+ident(
+  def v "grammar.ml" 78 2020 2050 "grammar.ml" 78 2020 2090
+)
+"grammar.ml" 78 2020 2053 "grammar.ml" 78 2020 2062
+type(
+  VNSet.elt -> VNSet.t -> bool
+)
+ident(
+  ext_ref VNSet.mem
+)
+"grammar.ml" 78 2020 2063 "grammar.ml" 78 2020 2064
+type(
+  VNSet.elt
+)
+ident(
+  int_ref v "grammar.ml" 78 2020 2045 "grammar.ml" 78 2020 2046
+)
+"grammar.ml" 78 2020 2065 "grammar.ml" 78 2020 2070
+type(
+  VNSet.t
+)
+ident(
+  int_ref terms "grammar.ml" 71 1678 1683 "grammar.ml" 71 1678 1688
+)
+"grammar.ml" 78 2020 2053 "grammar.ml" 78 2020 2070
+call(
+  stack
+)
+type(
+  bool
+)
+"grammar.ml" 78 2020 2079 "grammar.ml" 78 2020 2080
+type(
+  VNSet.elt
+)
+ident(
+  int_ref v "grammar.ml" 78 2020 2045 "grammar.ml" 78 2020 2046
+)
+"grammar.ml" 78 2020 2076 "grammar.ml" 78 2020 2080
+type(
+  v
+)
+"grammar.ml" 78 2020 2089 "grammar.ml" 78 2020 2090
+type(
+  VNSet.elt
+)
+ident(
+  int_ref v "grammar.ml" 78 2020 2045 "grammar.ml" 78 2020 2046
+)
+"grammar.ml" 78 2020 2086 "grammar.ml" 78 2020 2090
+type(
+  v
+)
+"grammar.ml" 78 2020 2050 "grammar.ml" 78 2020 2090
+type(
+  v
+)
+"grammar.ml" 78 2020 2040 "grammar.ml" 78 2020 2091
+type(
+  VNSet.elt -> v
+)
+"grammar.ml" 78 2020 2092 "grammar.ml" 78 2020 2093
+type(
+  VNSet.elt list
+)
+ident(
+  int_ref l "grammar.ml" 75 1878 1902 "grammar.ml" 75 1878 1903
+)
+"grammar.ml" 78 2020 2031 "grammar.ml" 78 2020 2093
+call(
+  stack
+)
+type(
+  v list
+)
+"grammar.ml" 79 2097 2099 "grammar.ml" 79 2097 2108
+type(
+  VNMap.key -> ProdSet.t -> ProdSet.t VNMap.t -> ProdSet.t VNMap.t
+)
+ident(
+  ext_ref VNMap.add
+)
+"grammar.ml" 79 2097 2109 "grammar.ml" 79 2097 2111
+type(
+  VTSet.elt
+)
+ident(
+  int_ref vn "grammar.ml" 75 1878 1899 "grammar.ml" 75 1878 1901
+)
+"grammar.ml" 79 2097 2113 "grammar.ml" 79 2097 2124
+type(
+  ProdSet.elt -> ProdSet.t -> ProdSet.t
+)
+ident(
+  ext_ref ProdSet.add
+)
+"grammar.ml" 79 2097 2125 "grammar.ml" 79 2097 2126
+type(
+  ProdSet.elt
+)
+ident(
+  int_ref l "grammar.ml" 78 2020 2026 "grammar.ml" 78 2020 2027
+)
+"grammar.ml" 79 2097 2127 "grammar.ml" 79 2097 2129
+type(
+  ProdSet.t
+)
+ident(
+  int_ref ps "grammar.ml" 77 1948 1954 "grammar.ml" 77 1948 1956
+)
+"grammar.ml" 79 2097 2112 "grammar.ml" 79 2097 2130
+call(
+  stack
+)
+type(
+  ProdSet.t
+)
+"grammar.ml" 79 2097 2131 "grammar.ml" 79 2097 2136
+type(
+  ProdSet.t VNMap.t
+)
+ident(
+  int_ref prods "grammar.ml" 75 1878 1892 "grammar.ml" 75 1878 1897
+)
+"grammar.ml" 79 2097 2099 "grammar.ml" 79 2097 2136
+call(
+  tail
+)
+type(
+  ProdSet.t VNMap.t
+)
+"grammar.ml" 78 2020 2022 "grammar.ml" 79 2097 2136
+type(
+  ProdSet.t VNMap.t
+)
+"grammar.ml" 77 1948 1950 "grammar.ml" 79 2097 2136
+type(
+  ProdSet.t VNMap.t
+)
+"grammar.ml" 76 1907 1909 "grammar.ml" 79 2097 2136
+type(
+  ProdSet.t VNMap.t
+)
+"grammar.ml" 82 2208 2213 "grammar.ml" 82 2208 2218
+type(
+  VTSet.t
+)
+ident(
+  def inter "grammar.ml" 83 2252 2253 "grammar.ml" 99 2711 2713
+)
+"grammar.ml" 82 2208 2223 "grammar.ml" 82 2208 2234
+type(
+  VTSet.t -> VNSet.t -> VTSet.t
+)
+ident(
+  ext_ref VTSet.inter
+)
+"grammar.ml" 82 2208 2235 "grammar.ml" 82 2208 2240
+type(
+  VTSet.t
+)
+ident(
+  int_ref terms "grammar.ml" 71 1678 1683 "grammar.ml" 71 1678 1688
+)
+"grammar.ml" 82 2208 2241 "grammar.ml" 82 2208 2247
+type(
+  VNSet.t
+)
+ident(
+  int_ref nterms "grammar.ml" 72 1756 1761 "grammar.ml" 72 1756 1767
+)
+"grammar.ml" 82 2208 2222 "grammar.ml" 82 2208 2248
+call(
+  stack
+)
+type(
+  VTSet.t
+)
+"grammar.ml" 84 2255 2260 "grammar.ml" 84 2255 2263
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"grammar.ml" 84 2255 2265 "grammar.ml" 84 2255 2279
+type(
+  VTSet.t -> bool
+)
+ident(
+  ext_ref VTSet.is_empty
+)
+"grammar.ml" 84 2255 2280 "grammar.ml" 84 2255 2285
+type(
+  VTSet.t
+)
+ident(
+  int_ref inter "grammar.ml" 82 2208 2213 "grammar.ml" 82 2208 2218
+)
+"grammar.ml" 84 2255 2264 "grammar.ml" 84 2255 2286
+call(
+  stack
+)
+type(
+  bool
+)
+"grammar.ml" 84 2255 2260 "grammar.ml" 84 2255 2286
+type(
+  bool
+)
+"grammar.ml" 85 2287 2294 "grammar.ml" 85 2287 2302
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"grammar.ml" 85 2287 2304 "grammar.ml" 85 2287 2318
+type(
+  (VTSet.elt -> string, unit, string) format -> VTSet.elt -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"grammar.ml" 85 2287 2319 "grammar.ml" 85 2287 2385
+type(
+  (VTSet.elt -> string, unit, string) format
+)
+"grammar.ml" 85 2287 2387 "grammar.ml" 85 2287 2399
+type(
+  VTSet.t -> VTSet.elt
+)
+ident(
+  ext_ref VTSet.choose
+)
+"grammar.ml" 85 2287 2400 "grammar.ml" 85 2287 2405
+type(
+  VTSet.t
+)
+ident(
+  int_ref inter "grammar.ml" 82 2208 2213 "grammar.ml" 82 2208 2218
+)
+"grammar.ml" 85 2287 2386 "grammar.ml" 85 2287 2406
+call(
+  stack
+)
+type(
+  VTSet.elt
+)
+"grammar.ml" 85 2287 2303 "grammar.ml" 85 2287 2407
+call(
+  stack
+)
+type(
+  string
+)
+"grammar.ml" 85 2287 2294 "grammar.ml" 85 2287 2407
+call(
+  stack
+)
+type(
+  unit
+)
+"grammar.ml" 83 2252 2253 "grammar.ml" 86 2408 2410
+type(
+  unit
+)
+"grammar.ml" 89 2450 2454 "grammar.ml" 89 2450 2457
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"grammar.ml" 89 2450 2459 "grammar.ml" 89 2450 2468
+type(
+  VTSet.elt -> VNSet.t -> bool
+)
+ident(
+  ext_ref VTSet.mem
+)
+"grammar.ml" 89 2450 2469 "grammar.ml" 89 2450 2471
+type(
+  VTSet.elt
+)
+ident(
+  int_ref ax "grammar.ml" 70 1605 1617 "grammar.ml" 70 1605 1619
+)
+"grammar.ml" 89 2450 2472 "grammar.ml" 89 2450 2478
+type(
+  VNSet.t
+)
+ident(
+  int_ref nterms "grammar.ml" 72 1756 1761 "grammar.ml" 72 1756 1767
+)
+"grammar.ml" 89 2450 2458 "grammar.ml" 89 2450 2479
+call(
+  stack
+)
+type(
+  bool
+)
+"grammar.ml" 89 2450 2454 "grammar.ml" 89 2450 2479
+type(
+  bool
+)
+"grammar.ml" 90 2480 2486 "grammar.ml" 90 2480 2494
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"grammar.ml" 90 2480 2496 "grammar.ml" 90 2480 2510
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"grammar.ml" 90 2480 2511 "grammar.ml" 90 2480 2550
+type(
+  (string -> string, unit, string) format
+)
+"grammar.ml" 90 2480 2551 "grammar.ml" 90 2480 2553
+type(
+  string
+)
+ident(
+  int_ref ax "grammar.ml" 70 1605 1617 "grammar.ml" 70 1605 1619
+)
+"grammar.ml" 90 2480 2495 "grammar.ml" 90 2480 2554
+call(
+  stack
+)
+type(
+  string
+)
+"grammar.ml" 90 2480 2486 "grammar.ml" 90 2480 2554
+call(
+  stack
+)
+type(
+  unit
+)
+"grammar.ml" 88 2447 2448 "grammar.ml" 91 2555 2557
+type(
+  unit
+)
+"grammar.ml" 93 2561 2566 "grammar.ml" 93 2561 2571
+type(
+  ProdSet.t VNMap.t
+)
+ident(
+  def prods "grammar.ml" 94 2618 2619 "grammar.ml" 99 2711 2713
+)
+"grammar.ml" 93 2561 2574 "grammar.ml" 93 2561 2588
+type(
+  (ProdSet.t VNMap.t -> VTSet.elt * VNSet.elt list -> ProdSet.t VNMap.t) ->
+  ProdSet.t VNMap.t -> (VTSet.elt * VNSet.elt list) list -> ProdSet.t VNMap.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"grammar.ml" 93 2561 2589 "grammar.ml" 93 2561 2597
+type(
+  ProdSet.t VNMap.t -> VTSet.elt * VNSet.elt list -> ProdSet.t VNMap.t
+)
+ident(
+  int_ref add_prod "grammar.ml" 75 1878 1883 "grammar.ml" 75 1878 1891
+)
+"grammar.ml" 93 2561 2598 "grammar.ml" 93 2561 2609
+type(
+  ProdSet.t VNMap.t
+)
+ident(
+  ext_ref VNMap.empty
+)
+"grammar.ml" 93 2561 2610 "grammar.ml" 93 2561 2614
+type(
+  (VTSet.elt * VNSet.elt list) list
+)
+ident(
+  int_ref prod "grammar.ml" 70 1605 1620 "grammar.ml" 70 1605 1624
+)
+"grammar.ml" 93 2561 2574 "grammar.ml" 93 2561 2614
+call(
+  stack
+)
+type(
+  ProdSet.t VNMap.t
+)
+"grammar.ml" 95 2621 2631 "grammar.ml" 95 2621 2633
+type(
+  vn
+)
+ident(
+  int_ref ax "grammar.ml" 70 1605 1617 "grammar.ml" 70 1605 1619
+)
+"grammar.ml" 96 2637 2651 "grammar.ml" 96 2637 2656
+type(
+  VTSet.t
+)
+ident(
+  int_ref terms "grammar.ml" 71 1678 1683 "grammar.ml" 71 1678 1688
+)
+"grammar.ml" 97 2658 2676 "grammar.ml" 97 2658 2682
+type(
+  VNSet.t
+)
+ident(
+  int_ref nterms "grammar.ml" 72 1756 1761 "grammar.ml" 72 1756 1767
+)
+"grammar.ml" 98 2686 2702 "grammar.ml" 98 2686 2707
+type(
+  ProdSet.t VNMap.t
+)
+ident(
+  int_ref prods "grammar.ml" 93 2561 2566 "grammar.ml" 93 2561 2571
+)
+"grammar.ml" 94 2618 2619 "grammar.ml" 99 2711 2713
+type(
+  grammar
+)
+"grammar.ml" 93 2561 2562 "grammar.ml" 99 2711 2713
+type(
+  grammar
+)
+"grammar.ml" 88 2447 2448 "grammar.ml" 99 2711 2713
+type(
+  grammar
+)
+"grammar.ml" 83 2252 2253 "grammar.ml" 99 2711 2713
+type(
+  grammar
+)
+"grammar.ml" 82 2208 2209 "grammar.ml" 99 2711 2713
+type(
+  grammar
+)
+"grammar.ml" 75 1878 1879 "grammar.ml" 99 2711 2713
+type(
+  grammar
+)
+"grammar.ml" 73 1835 1836 "grammar.ml" 99 2711 2713
+type(
+  grammar
+)
+"grammar.ml" 72 1756 1757 "grammar.ml" 99 2711 2713
+type(
+  grammar
+)
+"grammar.ml" 71 1678 1679 "grammar.ml" 99 2711 2713
+type(
+  grammar
+)
+"grammar.ml" 70 1605 1606 "grammar.ml" 99 2711 2713
+type(
+  grammar
+)
+"grammar.ml" 101 2715 2719 "grammar.ml" 101 2715 2728
+type(
+  string -> grammar
+)
+ident(
+  def from_file "grammar.ml" 122 3313 3313 "grammar.ml" 1 0 -1
+)
+"grammar.ml" 101 2715 2729 "grammar.ml" 101 2715 2733
+type(
+  string
+)
+ident(
+  def file "grammar.ml" 102 2737 2738 "grammar.ml" 116 3230 3235
+)
+"grammar.ml" 102 2737 2742 "grammar.ml" 102 2737 2744
+type(
+  in_channel
+)
+ident(
+  def ch "grammar.ml" 103 2763 2764 "grammar.ml" 116 3230 3235
+)
+"grammar.ml" 102 2737 2747 "grammar.ml" 102 2737 2754
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"grammar.ml" 102 2737 2755 "grammar.ml" 102 2737 2759
+type(
+  string
+)
+ident(
+  int_ref file "grammar.ml" 101 2715 2729 "grammar.ml" 101 2715 2733
+)
+"grammar.ml" 102 2737 2747 "grammar.ml" 102 2737 2759
+call(
+  stack
+)
+type(
+  in_channel
+)
+"grammar.ml" 103 2763 2768 "grammar.ml" 103 2763 2774
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "grammar.ml" 104 2803 2805 "grammar.ml" 116 3230 3235
+)
+"grammar.ml" 103 2763 2777 "grammar.ml" 103 2763 2796
+type(
+  in_channel -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_channel
+)
+"grammar.ml" 103 2763 2797 "grammar.ml" 103 2763 2799
+type(
+  in_channel
+)
+ident(
+  int_ref ch "grammar.ml" 102 2737 2742 "grammar.ml" 102 2737 2744
+)
+"grammar.ml" 103 2763 2777 "grammar.ml" 103 2763 2799
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"grammar.ml" 105 2810 2812 "grammar.ml" 105 2810 2823
+type(
+  Lexing.lexbuf -> grammar
+)
+ident(
+  int_ref from_lexbuf "grammar.ml" 69 1579 1583 "grammar.ml" 69 1579 1594
+)
+"grammar.ml" 105 2810 2824 "grammar.ml" 105 2810 2830
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "grammar.ml" 103 2763 2768 "grammar.ml" 103 2763 2774
+)
+"grammar.ml" 105 2810 2812 "grammar.ml" 105 2810 2830
+call(
+  stack
+)
+type(
+  grammar
+)
+"grammar.ml" 106 2831 2837 "grammar.ml" 106 2831 2856
+type(
+  exn
+)
+"grammar.ml" 109 2913 2920 "grammar.ml" 109 2913 2925
+type(
+  Lexing.position
+)
+ident(
+  def pos_s "grammar.ml" 110 2960 2963 "grammar.ml" 115 3202 3229
+)
+"grammar.ml" 109 2913 2928 "grammar.ml" 109 2913 2949
+type(
+  Lexing.lexbuf -> Lexing.position
+)
+ident(
+  ext_ref Lexing.lexeme_start_p
+)
+"grammar.ml" 109 2913 2950 "grammar.ml" 109 2913 2956
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "grammar.ml" 103 2763 2768 "grammar.ml" 103 2763 2774
+)
+"grammar.ml" 109 2913 2928 "grammar.ml" 109 2913 2956
+call(
+  stack
+)
+type(
+  Lexing.position
+)
+"grammar.ml" 110 2960 2967 "grammar.ml" 110 2960 2972
+type(
+  Lexing.position
+)
+ident(
+  def pos_e "grammar.ml" 111 3006 3008 "grammar.ml" 115 3202 3229
+)
+"grammar.ml" 110 2960 2975 "grammar.ml" 110 2960 2994
+type(
+  Lexing.lexbuf -> Lexing.position
+)
+ident(
+  ext_ref Lexing.lexeme_end_p
+)
+"grammar.ml" 110 2960 2995 "grammar.ml" 110 2960 3001
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "grammar.ml" 103 2763 2768 "grammar.ml" 103 2763 2774
+)
+"grammar.ml" 110 2960 2975 "grammar.ml" 110 2960 3001
+call(
+  stack
+)
+type(
+  Lexing.position
+)
+"grammar.ml" 111 3006 3008 "grammar.ml" 111 3006 3021
+type(
+  (string -> int -> int -> int -> unit, out_channel, unit) format ->
+  string -> int -> int -> int -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"grammar.ml" 111 3006 3022 "grammar.ml" 111 3006 3063
+type(
+  (string -> int -> int -> int -> unit, out_channel, unit) format
+)
+"grammar.ml" 111 3006 3064 "grammar.ml" 111 3006 3068
+type(
+  string
+)
+ident(
+  int_ref file "grammar.ml" 101 2715 2729 "grammar.ml" 101 2715 2733
+)
+"grammar.ml" 112 3071 3074 "grammar.ml" 112 3071 3079
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos_s "grammar.ml" 109 2913 2920 "grammar.ml" 109 2913 2925
+)
+"grammar.ml" 112 3071 3074 "grammar.ml" 112 3071 3095
+type(
+  int
+)
+"grammar.ml" 113 3097 3101 "grammar.ml" 113 3097 3106
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos_s "grammar.ml" 109 2913 2920 "grammar.ml" 109 2913 2925
+)
+"grammar.ml" 113 3097 3101 "grammar.ml" 113 3097 3122
+type(
+  int
+)
+"grammar.ml" 113 3097 3123 "grammar.ml" 113 3097 3124
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"grammar.ml" 113 3097 3126 "grammar.ml" 113 3097 3131
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos_s "grammar.ml" 109 2913 2920 "grammar.ml" 109 2913 2925
+)
+"grammar.ml" 113 3097 3126 "grammar.ml" 113 3097 3146
+type(
+  int
+)
+"grammar.ml" 113 3097 3100 "grammar.ml" 113 3097 3147
+type(
+  int
+)
+"grammar.ml" 114 3149 3153 "grammar.ml" 114 3149 3158
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos_e "grammar.ml" 110 2960 2967 "grammar.ml" 110 2960 2972
+)
+"grammar.ml" 114 3149 3153 "grammar.ml" 114 3149 3174
+type(
+  int
+)
+"grammar.ml" 114 3149 3175 "grammar.ml" 114 3149 3176
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"grammar.ml" 114 3149 3178 "grammar.ml" 114 3149 3183
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos_e "grammar.ml" 110 2960 2967 "grammar.ml" 110 2960 2972
+)
+"grammar.ml" 114 3149 3178 "grammar.ml" 114 3149 3198
+type(
+  int
+)
+"grammar.ml" 114 3149 3152 "grammar.ml" 114 3149 3199
+type(
+  int
+)
+"grammar.ml" 111 3006 3008 "grammar.ml" 114 3149 3199
+call(
+  stack
+)
+type(
+  unit
+)
+"grammar.ml" 115 3202 3204 "grammar.ml" 115 3202 3209
+type(
+  exn -> grammar
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"grammar.ml" 115 3202 3210 "grammar.ml" 115 3202 3229
+type(
+  exn
+)
+"grammar.ml" 115 3202 3204 "grammar.ml" 115 3202 3229
+type(
+  grammar
+)
+"grammar.ml" 111 3006 3008 "grammar.ml" 115 3202 3229
+type(
+  grammar
+)
+"grammar.ml" 110 2960 2963 "grammar.ml" 115 3202 3229
+type(
+  grammar
+)
+"grammar.ml" 107 2861 2863 "grammar.ml" 116 3230 3235
+type(
+  grammar
+)
+"grammar.ml" 104 2803 2805 "grammar.ml" 116 3230 3235
+type(
+  grammar
+)
+"grammar.ml" 103 2763 2764 "grammar.ml" 116 3230 3235
+type(
+  grammar
+)
+"grammar.ml" 102 2737 2738 "grammar.ml" 116 3230 3235
+type(
+  grammar
+)
+"grammar.ml" 122 3313 3317 "grammar.ml" 122 3313 3334
+type(
+  grammar -> (production -> 'a option) -> 'a list
+)
+ident(
+  def filter_production "grammar.ml" 133 3607 3607 "grammar.ml" 1 0 -1
+)
+"grammar.ml" 123 3388 3393 "grammar.ml" 123 3388 3394
+type(
+  grammar
+)
+ident(
+  def g "grammar.ml" 123 3388 3395 "grammar.ml" 130 3563 3604
+)
+"grammar.ml" 123 3388 3395 "grammar.ml" 123 3388 3396
+type(
+  production -> 'a option
+)
+ident(
+  def f "grammar.ml" 124 3401 3402 "grammar.ml" 130 3563 3604
+)
+"grammar.ml" 124 3401 3406 "grammar.ml" 124 3401 3408
+type(
+  VNSet.t
+)
+ident(
+  def nt "grammar.ml" 125 3427 3428 "grammar.ml" 130 3563 3604
+)
+"grammar.ml" 124 3401 3411 "grammar.ml" 124 3401 3421
+type(
+  grammar -> VNSet.t
+)
+ident(
+  int_ref nterminals "grammar.ml" 45 977 981 "grammar.ml" 45 977 991
+)
+"grammar.ml" 124 3401 3422 "grammar.ml" 124 3401 3423
+type(
+  grammar
+)
+ident(
+  int_ref g "grammar.ml" 123 3388 3393 "grammar.ml" 123 3388 3394
+)
+"grammar.ml" 124 3401 3411 "grammar.ml" 124 3401 3423
+call(
+  stack
+)
+type(
+  VNSet.t
+)
+"grammar.ml" 125 3427 3428 "grammar.ml" 125 3427 3438
+type(
+  (VNSet.elt -> 'a list -> 'a list) -> VNSet.t -> 'a list -> 'a list
+)
+ident(
+  ext_ref VNSet.fold
+)
+"grammar.ml" 125 3427 3444 "grammar.ml" 125 3427 3446
+type(
+  VNSet.elt
+)
+ident(
+  def nt "grammar.ml" 125 3427 3447 "grammar.ml" 130 3563 3597
+)
+"grammar.ml" 125 3427 3447 "grammar.ml" 125 3427 3450
+type(
+  'a list
+)
+ident(
+  def acc "grammar.ml" 126 3455 3457 "grammar.ml" 130 3563 3597
+)
+"grammar.ml" 126 3455 3461 "grammar.ml" 126 3455 3466
+type(
+  ProdSet.elt list
+)
+ident(
+  def prods "grammar.ml" 127 3489 3491 "grammar.ml" 130 3563 3597
+)
+"grammar.ml" 126 3455 3469 "grammar.ml" 126 3455 3479
+type(
+  grammar -> VNMap.key -> ProdSet.elt list
+)
+ident(
+  int_ref production "grammar.ml" 47 1013 1017 "grammar.ml" 47 1013 1027
+)
+"grammar.ml" 126 3455 3480 "grammar.ml" 126 3455 3481
+type(
+  grammar
+)
+ident(
+  int_ref g "grammar.ml" 123 3388 3393 "grammar.ml" 123 3388 3394
+)
+"grammar.ml" 126 3455 3482 "grammar.ml" 126 3455 3484
+type(
+  VNSet.elt
+)
+ident(
+  int_ref nt "grammar.ml" 125 3427 3444 "grammar.ml" 125 3427 3446
+)
+"grammar.ml" 126 3455 3469 "grammar.ml" 126 3455 3484
+call(
+  stack
+)
+type(
+  ProdSet.elt list
+)
+"grammar.ml" 127 3489 3491 "grammar.ml" 127 3489 3506
+type(
+  (ProdSet.elt -> 'a list -> 'a list) ->
+  ProdSet.elt list -> 'a list -> 'a list
+)
+ident(
+  ext_ref List.fold_right
+)
+"grammar.ml" 127 3489 3512 "grammar.ml" 127 3489 3513
+type(
+  ProdSet.elt
+)
+ident(
+  def l "grammar.ml" 127 3489 3514 "grammar.ml" 130 3563 3586
+)
+"grammar.ml" 127 3489 3514 "grammar.ml" 127 3489 3517
+type(
+  'a list
+)
+ident(
+  def acc "grammar.ml" 128 3522 3525 "grammar.ml" 130 3563 3586
+)
+"grammar.ml" 128 3522 3531 "grammar.ml" 128 3522 3532
+type(
+  production -> 'a option
+)
+ident(
+  int_ref f "grammar.ml" 123 3388 3395 "grammar.ml" 123 3388 3396
+)
+"grammar.ml" 128 3522 3534 "grammar.ml" 128 3522 3536
+type(
+  VNSet.elt
+)
+ident(
+  int_ref nt "grammar.ml" 125 3427 3444 "grammar.ml" 125 3427 3446
+)
+"grammar.ml" 128 3522 3538 "grammar.ml" 128 3522 3539
+type(
+  ProdSet.elt
+)
+ident(
+  int_ref l "grammar.ml" 127 3489 3512 "grammar.ml" 127 3489 3513
+)
+"grammar.ml" 128 3522 3533 "grammar.ml" 128 3522 3540
+type(
+  production
+)
+"grammar.ml" 128 3522 3531 "grammar.ml" 128 3522 3540
+call(
+  stack
+)
+type(
+  'a option
+)
+"grammar.ml" 129 3546 3551 "grammar.ml" 129 3546 3555
+type(
+  'a option
+)
+"grammar.ml" 129 3546 3559 "grammar.ml" 129 3546 3562
+type(
+  'a list
+)
+ident(
+  int_ref acc "grammar.ml" 127 3489 3514 "grammar.ml" 127 3489 3517
+)
+"grammar.ml" 130 3563 3573 "grammar.ml" 130 3563 3575
+type(
+  'a
+)
+ident(
+  def l' "grammar.ml" 130 3563 3579 "grammar.ml" 130 3563 3586
+)
+"grammar.ml" 130 3563 3568 "grammar.ml" 130 3563 3575
+type(
+  'a option
+)
+"grammar.ml" 130 3563 3579 "grammar.ml" 130 3563 3581
+type(
+  'a
+)
+ident(
+  int_ref l' "grammar.ml" 130 3563 3573 "grammar.ml" 130 3563 3575
+)
+"grammar.ml" 130 3563 3583 "grammar.ml" 130 3563 3586
+type(
+  'a list
+)
+ident(
+  int_ref acc "grammar.ml" 127 3489 3514 "grammar.ml" 127 3489 3517
+)
+"grammar.ml" 130 3563 3579 "grammar.ml" 130 3563 3586
+type(
+  'a list
+)
+"grammar.ml" 128 3522 3525 "grammar.ml" 130 3563 3586
+type(
+  'a list
+)
+"grammar.ml" 127 3489 3507 "grammar.ml" 130 3563 3587
+type(
+  ProdSet.elt -> 'a list -> 'a list
+)
+"grammar.ml" 130 3563 3588 "grammar.ml" 130 3563 3593
+type(
+  ProdSet.elt list
+)
+ident(
+  int_ref prods "grammar.ml" 126 3455 3461 "grammar.ml" 126 3455 3466
+)
+"grammar.ml" 130 3563 3594 "grammar.ml" 130 3563 3597
+type(
+  'a list
+)
+ident(
+  int_ref acc "grammar.ml" 125 3427 3447 "grammar.ml" 125 3427 3450
+)
+"grammar.ml" 127 3489 3491 "grammar.ml" 130 3563 3597
+call(
+  tail
+)
+type(
+  'a list
+)
+"grammar.ml" 126 3455 3457 "grammar.ml" 130 3563 3597
+type(
+  'a list
+)
+"grammar.ml" 125 3427 3439 "grammar.ml" 130 3563 3598
+type(
+  VNSet.elt -> 'a list -> 'a list
+)
+"grammar.ml" 130 3563 3599 "grammar.ml" 130 3563 3601
+type(
+  VNSet.t
+)
+ident(
+  int_ref nt "grammar.ml" 124 3401 3406 "grammar.ml" 124 3401 3408
+)
+"grammar.ml" 130 3563 3602 "grammar.ml" 130 3563 3604
+type(
+  'a list
+)
+"grammar.ml" 125 3427 3428 "grammar.ml" 130 3563 3604
+call(
+  tail
+)
+type(
+  'a list
+)
+"grammar.ml" 124 3401 3402 "grammar.ml" 130 3563 3604
+type(
+  'a list
+)
+"grammar.ml" 123 3388 3389 "grammar.ml" 130 3563 3604
+type(
+  grammar -> (production -> 'a option) -> 'a list
+)
+type(
+  grammar -> (production -> 'a option) -> 'a list
+)
+"grammar.ml" 133 3607 3611 "grammar.ml" 133 3607 3629
+type(
+  vn -> v list -> (v list * v list) list
+)
+ident(
+  def split_proto_phrase "grammar.ml" 143 3893 3893 "grammar.ml" 1 0 -1
+)
+"grammar.ml" 134 3672 3677 "grammar.ml" 134 3672 3679
+type(
+  vn
+)
+ident(
+  def vn "grammar.ml" 134 3672 3680 "grammar.ml" 141 3876 3891
+)
+"grammar.ml" 134 3672 3680 "grammar.ml" 134 3672 3681
+type(
+  v list
+)
+ident(
+  def l "grammar.ml" 135 3685 3687 "grammar.ml" 141 3876 3891
+)
+"grammar.ml" 135 3685 3695 "grammar.ml" 135 3685 3700
+type(
+  (v list * v list) list -> v list -> v list -> (v list * v list) list
+)
+ident(
+  def split "grammar.ml" 135 3685 3687 "grammar.ml" 141 3876 3891
+)
+"grammar.ml" 135 3685 3701 "grammar.ml" 135 3685 3704
+type(
+  (v list * v list) list
+)
+ident(
+  def acc "grammar.ml" 135 3685 3705 "grammar.ml" 140 3839 3872
+)
+"grammar.ml" 135 3685 3705 "grammar.ml" 135 3685 3708
+type(
+  v list
+)
+ident(
+  def pre "grammar.ml" 135 3685 3709 "grammar.ml" 140 3839 3872
+)
+"grammar.ml" 135 3685 3709 "grammar.ml" 135 3685 3713
+type(
+  v list
+)
+ident(
+  def post "grammar.ml" 136 3716 3719 "grammar.ml" 140 3839 3872
+)
+"grammar.ml" 136 3716 3725 "grammar.ml" 136 3716 3729
+type(
+  v list
+)
+ident(
+  int_ref post "grammar.ml" 135 3685 3709 "grammar.ml" 135 3685 3713
+)
+"grammar.ml" 137 3735 3740 "grammar.ml" 137 3735 3742
+type(
+  v list
+)
+"grammar.ml" 137 3735 3746 "grammar.ml" 137 3735 3749
+type(
+  (v list * v list) list
+)
+ident(
+  int_ref acc "grammar.ml" 135 3685 3701 "grammar.ml" 135 3685 3704
+)
+"grammar.ml" 138 3750 3755 "grammar.ml" 138 3750 3756
+type(
+  v
+)
+ident(
+  def e "grammar.ml" 138 3750 3767 "grammar.ml" 140 3839 3872
+)
+"grammar.ml" 138 3750 3758 "grammar.ml" 138 3750 3763
+type(
+  v list
+)
+ident(
+  def post' "grammar.ml" 138 3750 3767 "grammar.ml" 140 3839 3872
+)
+"grammar.ml" 138 3750 3755 "grammar.ml" 138 3750 3763
+type(
+  v list
+)
+"grammar.ml" 138 3750 3770 "grammar.ml" 138 3750 3775
+type(
+  vn -> v -> bool
+)
+ident(
+  int_ref is_vn "grammar.ml" 53 1160 1164 "grammar.ml" 53 1160 1169
+)
+"grammar.ml" 138 3750 3776 "grammar.ml" 138 3750 3778
+type(
+  vn
+)
+ident(
+  int_ref vn "grammar.ml" 134 3672 3677 "grammar.ml" 134 3672 3679
+)
+"grammar.ml" 138 3750 3779 "grammar.ml" 138 3750 3780
+type(
+  v
+)
+ident(
+  int_ref e "grammar.ml" 138 3750 3755 "grammar.ml" 138 3750 3756
+)
+"grammar.ml" 138 3750 3770 "grammar.ml" 138 3750 3780
+call(
+  stack
+)
+type(
+  bool
+)
+"grammar.ml" 139 3781 3790 "grammar.ml" 139 3781 3795
+type(
+  (v list * v list) list -> v list -> v list -> (v list * v list) list
+)
+ident(
+  int_ref split "grammar.ml" 135 3685 3695 "grammar.ml" 135 3685 3700
+)
+"grammar.ml" 139 3781 3798 "grammar.ml" 139 3781 3806
+type(
+  v list -> v list
+)
+ident(
+  ext_ref List.rev
+)
+"grammar.ml" 139 3781 3807 "grammar.ml" 139 3781 3810
+type(
+  v list
+)
+ident(
+  int_ref pre "grammar.ml" 135 3685 3705 "grammar.ml" 135 3685 3708
+)
+"grammar.ml" 139 3781 3798 "grammar.ml" 139 3781 3810
+call(
+  stack
+)
+type(
+  v list
+)
+"grammar.ml" 139 3781 3811 "grammar.ml" 139 3781 3816
+type(
+  v list
+)
+ident(
+  int_ref post' "grammar.ml" 138 3750 3758 "grammar.ml" 138 3750 3763
+)
+"grammar.ml" 139 3781 3797 "grammar.ml" 139 3781 3817
+type(
+  v list * v list
+)
+"grammar.ml" 139 3781 3819 "grammar.ml" 139 3781 3822
+type(
+  (v list * v list) list
+)
+ident(
+  int_ref acc "grammar.ml" 135 3685 3701 "grammar.ml" 135 3685 3704
+)
+"grammar.ml" 139 3781 3796 "grammar.ml" 139 3781 3823
+type(
+  (v list * v list) list
+)
+"grammar.ml" 139 3781 3825 "grammar.ml" 139 3781 3826
+type(
+  v
+)
+ident(
+  int_ref e "grammar.ml" 138 3750 3755 "grammar.ml" 138 3750 3756
+)
+"grammar.ml" 139 3781 3828 "grammar.ml" 139 3781 3831
+type(
+  v list
+)
+ident(
+  int_ref pre "grammar.ml" 135 3685 3705 "grammar.ml" 135 3685 3708
+)
+"grammar.ml" 139 3781 3824 "grammar.ml" 139 3781 3832
+type(
+  v list
+)
+"grammar.ml" 139 3781 3833 "grammar.ml" 139 3781 3838
+type(
+  v list
+)
+ident(
+  int_ref post' "grammar.ml" 138 3750 3758 "grammar.ml" 138 3750 3763
+)
+"grammar.ml" 139 3781 3790 "grammar.ml" 139 3781 3838
+call(
+  tail
+)
+type(
+  (v list * v list) list
+)
+"grammar.ml" 140 3839 3848 "grammar.ml" 140 3839 3853
+type(
+  (v list * v list) list -> v list -> v list -> (v list * v list) list
+)
+ident(
+  int_ref split "grammar.ml" 135 3685 3695 "grammar.ml" 135 3685 3700
+)
+"grammar.ml" 140 3839 3854 "grammar.ml" 140 3839 3857
+type(
+  (v list * v list) list
+)
+ident(
+  int_ref acc "grammar.ml" 135 3685 3701 "grammar.ml" 135 3685 3704
+)
+"grammar.ml" 140 3839 3859 "grammar.ml" 140 3839 3860
+type(
+  v
+)
+ident(
+  int_ref e "grammar.ml" 138 3750 3755 "grammar.ml" 138 3750 3756
+)
+"grammar.ml" 140 3839 3862 "grammar.ml" 140 3839 3865
+type(
+  v list
+)
+ident(
+  int_ref pre "grammar.ml" 135 3685 3705 "grammar.ml" 135 3685 3708
+)
+"grammar.ml" 140 3839 3858 "grammar.ml" 140 3839 3866
+type(
+  v list
+)
+"grammar.ml" 140 3839 3867 "grammar.ml" 140 3839 3872
+type(
+  v list
+)
+ident(
+  int_ref post' "grammar.ml" 138 3750 3758 "grammar.ml" 138 3750 3763
+)
+"grammar.ml" 140 3839 3848 "grammar.ml" 140 3839 3872
+call(
+  tail
+)
+type(
+  (v list * v list) list
+)
+"grammar.ml" 138 3750 3767 "grammar.ml" 140 3839 3872
+type(
+  (v list * v list) list
+)
+"grammar.ml" 136 3716 3719 "grammar.ml" 140 3839 3872
+type(
+  (v list * v list) list
+)
+"grammar.ml" 141 3876 3878 "grammar.ml" 141 3876 3883
+type(
+  (v list * v list) list -> v list -> v list -> (v list * v list) list
+)
+ident(
+  int_ref split "grammar.ml" 135 3685 3695 "grammar.ml" 135 3685 3700
+)
+"grammar.ml" 141 3876 3884 "grammar.ml" 141 3876 3886
+type(
+  (v list * v list) list
+)
+"grammar.ml" 141 3876 3887 "grammar.ml" 141 3876 3889
+type(
+  v list
+)
+"grammar.ml" 141 3876 3890 "grammar.ml" 141 3876 3891
+type(
+  v list
+)
+ident(
+  int_ref l "grammar.ml" 134 3672 3680 "grammar.ml" 134 3672 3681
+)
+"grammar.ml" 141 3876 3878 "grammar.ml" 141 3876 3891
+call(
+  tail
+)
+type(
+  (v list * v list) list
+)
+"grammar.ml" 135 3685 3687 "grammar.ml" 141 3876 3891
+type(
+  (v list * v list) list
+)
+"grammar.ml" 134 3672 3673 "grammar.ml" 141 3876 3891
+type(
+  vn -> v list -> (v list * v list) list
+)
+type(
+  vn -> v list -> (v list * v list) list
+)
+"grammar.ml" 153 4283 4287 "grammar.ml" 153 4283 4300
+type(
+  sprod -> production
+)
+ident(
+  def prod_of_sprod "grammar.ml" 156 4393 4393 "grammar.ml" 1 0 -1
+)
+"grammar.ml" 154 4325 4331 "grammar.ml" 154 4325 4334
+type(
+  vn
+)
+ident(
+  def ntl "grammar.ml" 154 4325 4359 "grammar.ml" 154 4325 4388
+)
+"grammar.ml" 154 4325 4337 "grammar.ml" 154 4325 4342
+type(
+  v list
+)
+ident(
+  def wordl "grammar.ml" 154 4325 4359 "grammar.ml" 154 4325 4388
+)
+"grammar.ml" 154 4325 4344 "grammar.ml" 154 4325 4348
+type(
+  vn
+)
+ident(
+  def ntin "grammar.ml" 154 4325 4359 "grammar.ml" 154 4325 4388
+)
+"grammar.ml" 154 4325 4349 "grammar.ml" 154 4325 4354
+type(
+  v list
+)
+ident(
+  def wordr "grammar.ml" 154 4325 4359 "grammar.ml" 154 4325 4388
+)
+"grammar.ml" 154 4325 4330 "grammar.ml" 154 4325 4355
+type(
+  sprod
+)
+"grammar.ml" 154 4325 4360 "grammar.ml" 154 4325 4363
+type(
+  vn
+)
+ident(
+  int_ref ntl "grammar.ml" 154 4325 4331 "grammar.ml" 154 4325 4334
+)
+"grammar.ml" 154 4325 4365 "grammar.ml" 154 4325 4370
+type(
+  v list
+)
+ident(
+  int_ref wordl "grammar.ml" 154 4325 4337 "grammar.ml" 154 4325 4342
+)
+"grammar.ml" 154 4325 4370 "grammar.ml" 154 4325 4371
+type(
+  v list -> v list -> v list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"grammar.ml" 154 4325 4375 "grammar.ml" 154 4325 4379
+type(
+  vn
+)
+ident(
+  int_ref ntin "grammar.ml" 154 4325 4344 "grammar.ml" 154 4325 4348
+)
+"grammar.ml" 154 4325 4371 "grammar.ml" 154 4325 4380
+type(
+  v
+)
+"grammar.ml" 154 4325 4382 "grammar.ml" 154 4325 4387
+type(
+  v list
+)
+ident(
+  int_ref wordr "grammar.ml" 154 4325 4349 "grammar.ml" 154 4325 4354
+)
+"grammar.ml" 154 4325 4371 "grammar.ml" 154 4325 4387
+type(
+  v list
+)
+"grammar.ml" 154 4325 4365 "grammar.ml" 154 4325 4387
+call(
+  stack
+)
+type(
+  v list
+)
+"grammar.ml" 154 4325 4359 "grammar.ml" 154 4325 4388
+type(
+  vn * v list
+)
+"grammar.ml" 154 4325 4326 "grammar.ml" 154 4325 4388
+type(
+  sprod -> production
+)
+type(
+  sprod -> production
+)
+"grammar.ml" 156 4393 4397 "grammar.ml" 156 4393 4407
+type(
+  vn -> production -> sprod list
+)
+ident(
+  def split_prod "grammar.ml" 161 4568 4568 "grammar.ml" 1 0 -1
+)
+"grammar.ml" 157 4443 4448 "grammar.ml" 157 4443 4450
+type(
+  vn
+)
+ident(
+  def vn "grammar.ml" 157 4443 4451 "grammar.ml" 158 4462 4562
+)
+"grammar.ml" 157 4443 4452 "grammar.ml" 157 4443 4455
+type(
+  vn
+)
+ident(
+  def vn' "grammar.ml" 158 4462 4464 "grammar.ml" 158 4462 4562
+)
+"grammar.ml" 157 4443 4456 "grammar.ml" 157 4443 4457
+type(
+  v list
+)
+ident(
+  def l "grammar.ml" 158 4462 4464 "grammar.ml" 158 4462 4562
+)
+"grammar.ml" 157 4443 4451 "grammar.ml" 157 4443 4458
+type(
+  production
+)
+"grammar.ml" 158 4462 4464 "grammar.ml" 158 4462 4472
+type(
+  (v list * v list -> sprod) -> (v list * v list) list -> sprod list
+)
+ident(
+  ext_ref List.map
+)
+"grammar.ml" 158 4462 4479 "grammar.ml" 158 4462 4480
+type(
+  v list
+)
+ident(
+  def w "grammar.ml" 158 4462 4488 "grammar.ml" 158 4462 4535
+)
+"grammar.ml" 158 4462 4481 "grammar.ml" 158 4462 4483
+type(
+  v list
+)
+ident(
+  def w' "grammar.ml" 158 4462 4488 "grammar.ml" 158 4462 4535
+)
+"grammar.ml" 158 4462 4478 "grammar.ml" 158 4462 4484
+type(
+  v list * v list
+)
+"grammar.ml" 158 4462 4495 "grammar.ml" 158 4462 4498
+type(
+  vn
+)
+ident(
+  int_ref vn' "grammar.ml" 157 4443 4452 "grammar.ml" 157 4443 4455
+)
+"grammar.ml" 158 4462 4508 "grammar.ml" 158 4462 4509
+type(
+  v list
+)
+ident(
+  int_ref w "grammar.ml" 158 4462 4479 "grammar.ml" 158 4462 4480
+)
+"grammar.ml" 158 4462 4519 "grammar.ml" 158 4462 4521
+type(
+  vn
+)
+ident(
+  int_ref vn "grammar.ml" 157 4443 4448 "grammar.ml" 157 4443 4450
+)
+"grammar.ml" 158 4462 4532 "grammar.ml" 158 4462 4534
+type(
+  v list
+)
+ident(
+  int_ref w' "grammar.ml" 158 4462 4481 "grammar.ml" 158 4462 4483
+)
+"grammar.ml" 158 4462 4488 "grammar.ml" 158 4462 4535
+type(
+  sprod
+)
+"grammar.ml" 158 4462 4473 "grammar.ml" 158 4462 4536
+type(
+  v list * v list -> sprod
+)
+"grammar.ml" 158 4462 4538 "grammar.ml" 158 4462 4556
+type(
+  vn -> v list -> (v list * v list) list
+)
+ident(
+  int_ref split_proto_phrase "grammar.ml" 133 3607 3611 "grammar.ml" 133 3607 3629
+)
+"grammar.ml" 158 4462 4557 "grammar.ml" 158 4462 4559
+type(
+  vn
+)
+ident(
+  int_ref vn "grammar.ml" 157 4443 4448 "grammar.ml" 157 4443 4450
+)
+"grammar.ml" 158 4462 4560 "grammar.ml" 158 4462 4561
+type(
+  v list
+)
+ident(
+  int_ref l "grammar.ml" 157 4443 4456 "grammar.ml" 157 4443 4457
+)
+"grammar.ml" 158 4462 4537 "grammar.ml" 158 4462 4562
+call(
+  stack
+)
+type(
+  (v list * v list) list
+)
+"grammar.ml" 158 4462 4464 "grammar.ml" 158 4462 4562
+call(
+  tail
+)
+type(
+  sprod list
+)
+"grammar.ml" 157 4443 4444 "grammar.ml" 158 4462 4562
+type(
+  vn -> production -> sprod list
+)
+type(
+  vn -> production -> sprod list
+)
+"grammar.ml" 161 4568 4572 "grammar.ml" 161 4568 4593
+type(
+  grammar -> vn -> sprod list
+)
+ident(
+  def gather_sprod_using_vn "grammar.ml" 163 4640 4708 "grammar.ml" 1 0 -1
+)
+"grammar.ml" 162 4626 4631 "grammar.ml" 162 4626 4632
+type(
+  grammar
+)
+ident(
+  def g "grammar.ml" 162 4626 4633 "grammar.ml" 163 4640 4708
+)
+"grammar.ml" 162 4626 4633 "grammar.ml" 162 4626 4635
+type(
+  vn
+)
+ident(
+  def vn "grammar.ml" 163 4640 4641 "grammar.ml" 163 4640 4708
+)
+"grammar.ml" 163 4640 4641 "grammar.ml" 163 4640 4652
+type(
+  sprod list list -> sprod list
+)
+ident(
+  ext_ref List.concat
+)
+"grammar.ml" 163 4640 4654 "grammar.ml" 163 4640 4671
+type(
+  grammar -> (production -> sprod list option) -> sprod list list
+)
+ident(
+  int_ref filter_production "grammar.ml" 122 3313 3317 "grammar.ml" 122 3313 3334
+)
+"grammar.ml" 163 4640 4672 "grammar.ml" 163 4640 4673
+type(
+  grammar
+)
+ident(
+  int_ref g "grammar.ml" 162 4626 4631 "grammar.ml" 162 4626 4632
+)
+"grammar.ml" 163 4640 4679 "grammar.ml" 163 4640 4680
+type(
+  production
+)
+ident(
+  def p "grammar.ml" 163 4640 4684 "grammar.ml" 163 4640 4706
+)
+"grammar.ml" 163 4640 4690 "grammar.ml" 163 4640 4700
+type(
+  vn -> production -> sprod list
+)
+ident(
+  int_ref split_prod "grammar.ml" 156 4393 4397 "grammar.ml" 156 4393 4407
+)
+"grammar.ml" 163 4640 4701 "grammar.ml" 163 4640 4703
+type(
+  vn
+)
+ident(
+  int_ref vn "grammar.ml" 162 4626 4633 "grammar.ml" 162 4626 4635
+)
+"grammar.ml" 163 4640 4704 "grammar.ml" 163 4640 4705
+type(
+  production
+)
+ident(
+  int_ref p "grammar.ml" 163 4640 4679 "grammar.ml" 163 4640 4680
+)
+"grammar.ml" 163 4640 4689 "grammar.ml" 163 4640 4706
+call(
+  stack
+)
+type(
+  sprod list
+)
+"grammar.ml" 163 4640 4684 "grammar.ml" 163 4640 4706
+type(
+  sprod list option
+)
+"grammar.ml" 163 4640 4674 "grammar.ml" 163 4640 4707
+type(
+  production -> sprod list option
+)
+"grammar.ml" 163 4640 4653 "grammar.ml" 163 4640 4708
+call(
+  stack
+)
+type(
+  sprod list list
+)
+"grammar.ml" 163 4640 4641 "grammar.ml" 163 4640 4708
+call(
+  tail
+)
+type(
+  sprod list
+)
+"grammar.ml" 162 4626 4627 "grammar.ml" 163 4640 4708
+type(
+  grammar -> vn -> sprod list
+)
+type(
+  grammar -> vn -> sprod list
+)
