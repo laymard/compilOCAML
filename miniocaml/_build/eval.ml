@@ -49,7 +49,14 @@ let eval_binop op arg1 arg2 = match op with
 	        end
   | _ -> raise (Error "Type non compatible")
 
-let rec pattern_matching pattern value = raise (Error "not implemented yet!")
+let rec pattern_matching pattern value =
+  match pattern, value with
+    | Ml_pattern_var v, i -> [(v,i)]
+    | Ml_pattern_bool b, Val_bool b1 -> if b1=b then [] else failwith "error"
+    | Ml_pattern_int i, Val_int i1 -> if i1=i then [] else failwith "error"
+    | Ml_pattern_pair (a1,b1), Val_pair(a2,b2) -> (pattern_matching a1 a2)@(pattern_matching b1 b2)
+    | Ml_pattern_nil, Val_nil -> []
+    | Ml_pattern_cons (x1,y1), Val_cons(x2,y2) -> (pattern_matching x1 x2)@(pattern_matching y1 y2)
 
 let rec tryfind f = function
   | [] -> raise Not_found
@@ -58,4 +65,5 @@ let rec tryfind f = function
 let rec eval env = function
   | Ml_int n -> Val_int n
   | Ml_bool b -> Val_bool b
+  | Ml_binop (op,arg1,arg2) -> eval_binop op (eval env arg1) (eval env arg2)
   | _ -> raise (Error "not implemented yet!")

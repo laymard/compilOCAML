@@ -1,0 +1,8 @@
+Bloc
+ (Sdecl (Decl (Typ "bool", Ident "bool1"),
+   Sdecl (Decl (Typ "int", Ident "ent1"),
+    Sdecl2 (Decl (Typ "int", Ident "ent2")))),
+ Sinst2
+  (Inst2 (Ident "bool2",
+    Expr (Expr3 (Ident "ent1"), Inf, Expr3 (Ident "ent2")))))
+

@@ -1,0 +1,1 @@
+begin bool bool1; begin bool bool2; bool2 <- bool2 end; bool1 <- bool1 end

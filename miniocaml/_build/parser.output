@@ -6,20 +6,22 @@
 
    4  expr : simple_expr
    5       | application
+   6       | expr OPBIN expr
 
-   6  simple_expr : INT
-   7              | BOOL
+   7  simple_expr : INT
+   8              | BOOL
+   9              | IDENT
 
-   8  application : simple_expr_or_parenthesized_expr simple_expr_or_parenthesized_expr application_next
+  10  application : simple_expr_or_parenthesized_expr simple_expr_or_parenthesized_expr application_next
 
-   9  simple_expr_or_parenthesized_expr : simple_expr
-  10                                    | LEFT_PAREN expr COMMA expr RIGHT_PAREN
-  11                                    | LEFT_PAREN expr RIGHT_PAREN
+  11  simple_expr_or_parenthesized_expr : simple_expr
+  12                                    | LEFT_PAREN expr COMMA expr RIGHT_PAREN
+  13                                    | LEFT_PAREN expr RIGHT_PAREN
 
-  12  application_next : simple_expr_or_parenthesized_expr application_next
-  13                   |
+  14  application_next : simple_expr_or_parenthesized_expr application_next
+  15                   |
 
-  14  %entry% : '\001' main
+  16  %entry% : '\001' main
 
 state 0
 	$accept : . %entry% $end  (0)
@@ -31,20 +33,21 @@ state 0
 
 
 state 1
-	%entry% : '\001' . main  (14)
+	%entry% : '\001' . main  (16)
 
 	error  shift 3
 	INT  shift 4
 	BOOL  shift 5
 	EOF  shift 6
 	LEFT_PAREN  shift 7
+	IDENT  shift 8
 	.  error
 
-	main  goto 8
-	expr  goto 9
-	simple_expr  goto 10
-	application  goto 11
-	simple_expr_or_parenthesized_expr  goto 12
+	main  goto 9
+	expr  goto 10
+	simple_expr  goto 11
+	application  goto 12
+	simple_expr_or_parenthesized_expr  goto 13
 
 
 state 2
@@ -60,15 +63,15 @@ state 3
 
 
 state 4
-	simple_expr : INT .  (6)
+	simple_expr : INT .  (7)
 
-	.  reduce 6
+	.  reduce 7
 
 
 state 5
-	simple_expr : BOOL .  (7)
+	simple_expr : BOOL .  (8)
 
-	.  reduce 7
+	.  reduce 8
 
 
 state 6
@@ -78,160 +81,210 @@ state 6
 
 
 state 7
-	simple_expr_or_parenthesized_expr : LEFT_PAREN . expr COMMA expr RIGHT_PAREN  (10)
-	simple_expr_or_parenthesized_expr : LEFT_PAREN . expr RIGHT_PAREN  (11)
+	simple_expr_or_parenthesized_expr : LEFT_PAREN . expr COMMA expr RIGHT_PAREN  (12)
+	simple_expr_or_parenthesized_expr : LEFT_PAREN . expr RIGHT_PAREN  (13)
 
 	INT  shift 4
 	BOOL  shift 5
 	LEFT_PAREN  shift 7
+	IDENT  shift 8
 	.  error
 
-	expr  goto 13
-	simple_expr  goto 10
-	application  goto 11
-	simple_expr_or_parenthesized_expr  goto 12
+	expr  goto 14
+	simple_expr  goto 11
+	application  goto 12
+	simple_expr_or_parenthesized_expr  goto 13
 
 
 state 8
-	%entry% : '\001' main .  (14)
+	simple_expr : IDENT .  (9)
 
-	.  reduce 14
+	.  reduce 9
 
 
 state 9
-	main : expr . END_OF_EXPRESSION  (2)
+	%entry% : '\001' main .  (16)
 
-	END_OF_EXPRESSION  shift 14
-	.  error
+	.  reduce 16
 
 
 state 10
-	expr : simple_expr .  (4)
-	simple_expr_or_parenthesized_expr : simple_expr .  (9)
+	main : expr . END_OF_EXPRESSION  (2)
+	expr : expr . OPBIN expr  (6)
 
-	INT  reduce 9
-	BOOL  reduce 9
-	END_OF_EXPRESSION  reduce 4
-	LEFT_PAREN  reduce 9
-	RIGHT_PAREN  reduce 4
-	COMMA  reduce 4
+	END_OF_EXPRESSION  shift 15
+	OPBIN  shift 16
+	.  error
 
 
 state 11
+	expr : simple_expr .  (4)
+	simple_expr_or_parenthesized_expr : simple_expr .  (11)
+
+	INT  reduce 11
+	BOOL  reduce 11
+	END_OF_EXPRESSION  reduce 4
+	LEFT_PAREN  reduce 11
+	RIGHT_PAREN  reduce 4
+	COMMA  reduce 4
+	OPBIN  reduce 4
+	IDENT  reduce 11
+
+
+state 12
 	expr : application .  (5)
 
 	.  reduce 5
 
 
-state 12
-	application : simple_expr_or_parenthesized_expr . simple_expr_or_parenthesized_expr application_next  (8)
+state 13
+	application : simple_expr_or_parenthesized_expr . simple_expr_or_parenthesized_expr application_next  (10)
 
 	INT  shift 4
 	BOOL  shift 5
 	LEFT_PAREN  shift 7
+	IDENT  shift 8
 	.  error
 
-	simple_expr  goto 15
-	simple_expr_or_parenthesized_expr  goto 16
-
-
-state 13
-	simple_expr_or_parenthesized_expr : LEFT_PAREN expr . COMMA expr RIGHT_PAREN  (10)
-	simple_expr_or_parenthesized_expr : LEFT_PAREN expr . RIGHT_PAREN  (11)
-
-	RIGHT_PAREN  shift 17
-	COMMA  shift 18
-	.  error
+	simple_expr  goto 17
+	simple_expr_or_parenthesized_expr  goto 18
 
 
 state 14
+	expr : expr . OPBIN expr  (6)
+	simple_expr_or_parenthesized_expr : LEFT_PAREN expr . COMMA expr RIGHT_PAREN  (12)
+	simple_expr_or_parenthesized_expr : LEFT_PAREN expr . RIGHT_PAREN  (13)
+
+	RIGHT_PAREN  shift 19
+	COMMA  shift 20
+	OPBIN  shift 16
+	.  error
+
+
+state 15
 	main : expr END_OF_EXPRESSION .  (2)
 
 	.  reduce 2
 
 
-state 15
-	simple_expr_or_parenthesized_expr : simple_expr .  (9)
-
-	.  reduce 9
-
-
 state 16
-	application : simple_expr_or_parenthesized_expr simple_expr_or_parenthesized_expr . application_next  (8)
-	application_next : .  (13)
+	expr : expr OPBIN . expr  (6)
 
 	INT  shift 4
 	BOOL  shift 5
 	LEFT_PAREN  shift 7
-	END_OF_EXPRESSION  reduce 13
-	RIGHT_PAREN  reduce 13
-	COMMA  reduce 13
+	IDENT  shift 8
+	.  error
 
-	simple_expr  goto 15
-	simple_expr_or_parenthesized_expr  goto 19
-	application_next  goto 20
+	expr  goto 21
+	simple_expr  goto 11
+	application  goto 12
+	simple_expr_or_parenthesized_expr  goto 13
 
 
 state 17
-	simple_expr_or_parenthesized_expr : LEFT_PAREN expr RIGHT_PAREN .  (11)
+	simple_expr_or_parenthesized_expr : simple_expr .  (11)
 
 	.  reduce 11
 
 
 state 18
-	simple_expr_or_parenthesized_expr : LEFT_PAREN expr COMMA . expr RIGHT_PAREN  (10)
+	application : simple_expr_or_parenthesized_expr simple_expr_or_parenthesized_expr . application_next  (10)
+	application_next : .  (15)
 
 	INT  shift 4
 	BOOL  shift 5
 	LEFT_PAREN  shift 7
-	.  error
+	IDENT  shift 8
+	END_OF_EXPRESSION  reduce 15
+	RIGHT_PAREN  reduce 15
+	COMMA  reduce 15
+	OPBIN  reduce 15
 
-	expr  goto 21
-	simple_expr  goto 10
-	application  goto 11
-	simple_expr_or_parenthesized_expr  goto 12
+	simple_expr  goto 17
+	simple_expr_or_parenthesized_expr  goto 22
+	application_next  goto 23
 
 
 state 19
-	application_next : simple_expr_or_parenthesized_expr . application_next  (12)
-	application_next : .  (13)
+	simple_expr_or_parenthesized_expr : LEFT_PAREN expr RIGHT_PAREN .  (13)
+
+	.  reduce 13
+
+
+state 20
+	simple_expr_or_parenthesized_expr : LEFT_PAREN expr COMMA . expr RIGHT_PAREN  (12)
 
 	INT  shift 4
 	BOOL  shift 5
 	LEFT_PAREN  shift 7
-	END_OF_EXPRESSION  reduce 13
-	RIGHT_PAREN  reduce 13
-	COMMA  reduce 13
-
-	simple_expr  goto 15
-	simple_expr_or_parenthesized_expr  goto 19
-	application_next  goto 22
-
-
-state 20
-	application : simple_expr_or_parenthesized_expr simple_expr_or_parenthesized_expr application_next .  (8)
-
-	.  reduce 8
-
-
-state 21
-	simple_expr_or_parenthesized_expr : LEFT_PAREN expr COMMA expr . RIGHT_PAREN  (10)
-
-	RIGHT_PAREN  shift 23
+	IDENT  shift 8
 	.  error
+
+	expr  goto 24
+	simple_expr  goto 11
+	application  goto 12
+	simple_expr_or_parenthesized_expr  goto 13
+
+
+21: shift/reduce conflict (shift 16, reduce 6) on OPBIN
+state 21
+	expr : expr . OPBIN expr  (6)
+	expr : expr OPBIN expr .  (6)
+
+	OPBIN  shift 16
+	END_OF_EXPRESSION  reduce 6
+	RIGHT_PAREN  reduce 6
+	COMMA  reduce 6
 
 
 state 22
-	application_next : simple_expr_or_parenthesized_expr application_next .  (12)
+	application_next : simple_expr_or_parenthesized_expr . application_next  (14)
+	application_next : .  (15)
 
-	.  reduce 12
+	INT  shift 4
+	BOOL  shift 5
+	LEFT_PAREN  shift 7
+	IDENT  shift 8
+	END_OF_EXPRESSION  reduce 15
+	RIGHT_PAREN  reduce 15
+	COMMA  reduce 15
+	OPBIN  reduce 15
+
+	simple_expr  goto 17
+	simple_expr_or_parenthesized_expr  goto 22
+	application_next  goto 25
 
 
 state 23
-	simple_expr_or_parenthesized_expr : LEFT_PAREN expr COMMA expr RIGHT_PAREN .  (10)
+	application : simple_expr_or_parenthesized_expr simple_expr_or_parenthesized_expr application_next .  (10)
 
 	.  reduce 10
 
 
-11 terminals, 8 nonterminals
-15 grammar rules, 24 states
+state 24
+	expr : expr . OPBIN expr  (6)
+	simple_expr_or_parenthesized_expr : LEFT_PAREN expr COMMA expr . RIGHT_PAREN  (12)
+
+	RIGHT_PAREN  shift 26
+	OPBIN  shift 16
+	.  error
+
+
+state 25
+	application_next : simple_expr_or_parenthesized_expr application_next .  (14)
+
+	.  reduce 14
+
+
+state 26
+	simple_expr_or_parenthesized_expr : LEFT_PAREN expr COMMA expr RIGHT_PAREN .  (12)
+
+	.  reduce 12
+
+
+State 21 contains 1 shift/reduce conflict.
+
+
+19 terminals, 8 nonterminals
+17 grammar rules, 27 states
